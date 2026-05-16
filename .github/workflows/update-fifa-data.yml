@@ -1,0 +1,43 @@
+name: Update FIFA World Cup 2026 Data
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install requirements
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run FIFA parser
+        run: |
+          python parser/parser.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if [[ -n $(git status --porcelain) ]]; then
+            git add data/matches_clean.json data/metadata.json
+            git commit -m "Update FIFA World Cup 2026 data"
+            git push
+          else
+            echo "No changes to commit"
+          fi
