@@ -35,7 +35,7 @@ jobs:
           git config user.email "github-actions@github.com"
 
           if [[ -n $(git status --porcelain) ]]; then
-            git add data/matches_clean.json data/metadata.json
+            git add data
             git commit -m "Update FIFA World Cup 2026 data"
             git push
           else
