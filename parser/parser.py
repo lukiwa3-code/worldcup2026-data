@@ -367,43 +367,66 @@ def save_match_details(raw_matches):
     saved = 0
     skipped = 0
     failed = 0
+    index_entries = []
 
     for index, match in enumerate(raw_matches, start=1):
         id_match = match.get("IdMatch")
         detail_url = build_match_detail_url(match)
 
-        if not id_match or not detail_url:
+        if not id_match:
             skipped += 1
             continue
 
         try:
-            raw_detail = download_json(detail_url)
-            clean_detail = simplify_match_detail(raw_detail)
-
-            clean_detail["source_url"] = detail_url
-            clean_detail["updated_at_utc"] = datetime.now(timezone.utc).isoformat()
-            clean_detail["updated_at_poland"] = datetime.now(POLAND_TZ).isoformat()
-
-            detail_text = json.dumps(clean_detail, ensure_ascii=False, indent=2)
-            detail_path = MATCH_DETAILS_DIR / f"{id_match}.json"
-
-            changed = write_text_if_changed(detail_path, detail_text)
-
-            if changed:
-                saved += 1
-                print(f"[{index}] Saved detail: {id_match}")
+            if detail_url:
+                raw_detail = download_json(detail_url)
+                clean_detail = simplify_match_detail(raw_detail)
+                clean_detail["raw_available"] = True
+                clean_detail["details_error"] = None
+                print(f"[{index}] Downloaded live detail: {id_match}")
             else:
-                skipped += 1
-                print(f"[{index}] No change: {id_match}")
-
-            time.sleep(0.15)
+                raise RuntimeError("Missing detail URL")
 
         except Exception as error:
             failed += 1
-            print(f"[{index}] Failed detail {id_match}: {error}")
+
+            # Fallback: zapisujemy podstawowe dane z terminarza.
+            # Dzięki temu folder match_details pojawi się zawsze,
+            # nawet jeśli FIFA nie udostępnia jeszcze składów.
+            clean_detail = simplify_match_detail(match)
+            clean_detail["raw_available"] = False
+            clean_detail["details_error"] = str(error)
+            print(f"[{index}] Live detail unavailable, saved fallback: {id_match} | {error}")
+
+        clean_detail["source_url"] = detail_url
+        clean_detail["updated_at_utc"] = datetime.now(timezone.utc).isoformat()
+        clean_detail["updated_at_poland"] = datetime.now(POLAND_TZ).isoformat()
+
+        detail_text = json.dumps(clean_detail, ensure_ascii=False, indent=2)
+        detail_path = MATCH_DETAILS_DIR / f"{id_match}.json"
+
+        changed = write_text_if_changed(detail_path, detail_text)
+
+        if changed:
+            saved += 1
+        else:
+            skipped += 1
+
+        index_entries.append({
+            "id_match": id_match,
+            "match_number": match.get("MatchNumber"),
+            "file": f"match_details/{id_match}.json",
+            "source_url": detail_url,
+            "raw_available": clean_detail.get("raw_available"),
+            "details_error": clean_detail.get("details_error")
+        })
+
+        time.sleep(0.15)
+
+    index_text = json.dumps(index_entries, ensure_ascii=False, indent=2)
+    write_text_if_changed(OUTPUT_DIR / "match_details_index.json", index_text)
 
     print(f"Match details summary: saved={saved}, skipped={skipped}, failed={failed}")
-
 
 def main():
     raw_data = download_json(FIFA_MATCHES_URL)
