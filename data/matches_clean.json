@@ -2,6 +2,10 @@
   {
     "match_number": 1,
     "id_match": "400021443",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289275",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -41,11 +45,16 @@
     "winner": null,
     "placeholder_home": "A1",
     "placeholder_away": "A2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021443.json"
   },
   {
     "match_number": 2,
     "id_match": "400021441",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289275",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -85,11 +94,16 @@
     "winner": null,
     "placeholder_home": "A3",
     "placeholder_away": "UEFA PO D",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021441.json"
   },
   {
     "match_number": 3,
     "id_match": "400021449",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289276",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -129,11 +143,16 @@
     "winner": null,
     "placeholder_home": "B1",
     "placeholder_away": "UEFA PO A",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021449.json"
   },
   {
     "match_number": 4,
     "id_match": "400021458",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289278",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -173,11 +192,16 @@
     "winner": null,
     "placeholder_home": "D1",
     "placeholder_away": "D2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021458.json"
   },
   {
     "match_number": 5,
     "id_match": "400021453",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289277",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -217,11 +241,16 @@
     "winner": null,
     "placeholder_home": "C3",
     "placeholder_away": "C4",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021453.json"
   },
   {
     "match_number": 6,
     "id_match": "400021463",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289278",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -261,11 +290,16 @@
     "winner": null,
     "placeholder_home": "D3",
     "placeholder_away": "UEFA PO C",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021463.json"
   },
   {
     "match_number": 7,
     "id_match": "400021456",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289277",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -305,11 +339,16 @@
     "winner": null,
     "placeholder_home": "C1",
     "placeholder_away": "C2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021456.json"
   },
   {
     "match_number": 8,
     "id_match": "400021447",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289276",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -349,11 +388,16 @@
     "winner": null,
     "placeholder_home": "B3",
     "placeholder_away": "B4",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021447.json"
   },
   {
     "match_number": 9,
     "id_match": "400021467",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289279",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -393,11 +437,16 @@
     "winner": null,
     "placeholder_home": "E3",
     "placeholder_away": "E4",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021467.json"
   },
   {
     "match_number": 10,
     "id_match": "400021464",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289279",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -437,11 +486,16 @@
     "winner": null,
     "placeholder_home": "E1",
     "placeholder_away": "E2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021464.json"
   },
   {
     "match_number": 11,
     "id_match": "400021470",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289280",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -481,11 +535,16 @@
     "winner": null,
     "placeholder_home": "F1",
     "placeholder_away": "F2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021470.json"
   },
   {
     "match_number": 12,
     "id_match": "400021474",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289280",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -525,11 +584,16 @@
     "winner": null,
     "placeholder_home": "UEFA PO B",
     "placeholder_away": "F4",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021474.json"
   },
   {
     "match_number": 13,
     "id_match": "400021486",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289282",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -569,11 +633,16 @@
     "winner": null,
     "placeholder_home": "H3",
     "placeholder_away": "H4",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021486.json"
   },
   {
     "match_number": 14,
     "id_match": "400021482",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289282",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -613,11 +682,16 @@
     "winner": null,
     "placeholder_home": "H1",
     "placeholder_away": "H2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021482.json"
   },
   {
     "match_number": 15,
     "id_match": "400021476",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289281",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -657,11 +731,16 @@
     "winner": null,
     "placeholder_home": "G3",
     "placeholder_away": "G4",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021476.json"
   },
   {
     "match_number": 16,
     "id_match": "400021478",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289281",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -701,11 +780,16 @@
     "winner": null,
     "placeholder_home": "G1",
     "placeholder_away": "G2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021478.json"
   },
   {
     "match_number": 17,
     "id_match": "400021490",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289283",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -745,11 +829,16 @@
     "winner": null,
     "placeholder_home": "I1",
     "placeholder_away": "I2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021490.json"
   },
   {
     "match_number": 18,
     "id_match": "400021488",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289283",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -789,11 +878,16 @@
     "winner": null,
     "placeholder_home": "FIFA PO 2",
     "placeholder_away": "I4",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021488.json"
   },
   {
     "match_number": 19,
     "id_match": "400021496",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289284",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -833,11 +927,16 @@
     "winner": null,
     "placeholder_home": "J1",
     "placeholder_away": "J2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021496.json"
   },
   {
     "match_number": 20,
     "id_match": "400021498",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289284",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -877,11 +976,16 @@
     "winner": null,
     "placeholder_home": "J3",
     "placeholder_away": "J4",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021498.json"
   },
   {
     "match_number": 21,
     "id_match": "400021510",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289286",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -921,11 +1025,16 @@
     "winner": null,
     "placeholder_home": "L3",
     "placeholder_away": "L4",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021510.json"
   },
   {
     "match_number": 22,
     "id_match": "400021507",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289286",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -965,11 +1074,16 @@
     "winner": null,
     "placeholder_home": "L1",
     "placeholder_away": "L2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021507.json"
   },
   {
     "match_number": 23,
     "id_match": "400021502",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289285",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1009,11 +1123,16 @@
     "winner": null,
     "placeholder_home": "K1",
     "placeholder_away": "FIFA PO 1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021502.json"
   },
   {
     "match_number": 24,
     "id_match": "400021504",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289285",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1053,11 +1172,16 @@
     "winner": null,
     "placeholder_home": "K3",
     "placeholder_away": "K4",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021504.json"
   },
   {
     "match_number": 25,
     "id_match": "400021440",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289275",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1097,11 +1221,16 @@
     "winner": null,
     "placeholder_home": "UEFA PO D",
     "placeholder_away": "A2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021440.json"
   },
   {
     "match_number": 26,
     "id_match": "400021446",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289276",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1141,11 +1270,16 @@
     "winner": null,
     "placeholder_home": "B4",
     "placeholder_away": "UEFA PO A",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021446.json"
   },
   {
     "match_number": 27,
     "id_match": "400021450",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289276",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1185,11 +1319,16 @@
     "winner": null,
     "placeholder_home": "B1",
     "placeholder_away": "B3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021450.json"
   },
   {
     "match_number": 28,
     "id_match": "400021442",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289275",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1229,11 +1368,16 @@
     "winner": null,
     "placeholder_home": "A1",
     "placeholder_away": "A3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021442.json"
   },
   {
     "match_number": 29,
     "id_match": "400021457",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289277",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1273,11 +1417,16 @@
     "winner": null,
     "placeholder_home": "C1",
     "placeholder_away": "C3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021457.json"
   },
   {
     "match_number": 30,
     "id_match": "400021454",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289277",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1317,11 +1466,16 @@
     "winner": null,
     "placeholder_home": "C4",
     "placeholder_away": "C2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021454.json"
   },
   {
     "match_number": 31,
     "id_match": "400021460",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289278",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1361,11 +1515,16 @@
     "winner": null,
     "placeholder_home": "UEFA PO C",
     "placeholder_away": "D2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021460.json"
   },
   {
     "match_number": 32,
     "id_match": "400021462",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289278",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1405,11 +1564,16 @@
     "winner": null,
     "placeholder_home": "D1",
     "placeholder_away": "D3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021462.json"
   },
   {
     "match_number": 33,
     "id_match": "400021469",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289279",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1449,11 +1613,16 @@
     "winner": null,
     "placeholder_home": "E1",
     "placeholder_away": "E3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021469.json"
   },
   {
     "match_number": 34,
     "id_match": "400021465",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289279",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1493,11 +1662,16 @@
     "winner": null,
     "placeholder_home": "E4",
     "placeholder_away": "E2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021465.json"
   },
   {
     "match_number": 35,
     "id_match": "400021472",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289280",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1537,11 +1711,16 @@
     "winner": null,
     "placeholder_home": "F1",
     "placeholder_away": "UEFA PO B",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021472.json"
   },
   {
     "match_number": 36,
     "id_match": "400021475",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289280",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1581,11 +1760,16 @@
     "winner": null,
     "placeholder_home": "F4",
     "placeholder_away": "F2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021475.json"
   },
   {
     "match_number": 37,
     "id_match": "400021487",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289282",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1625,11 +1809,16 @@
     "winner": null,
     "placeholder_home": "H4",
     "placeholder_away": "H2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021487.json"
   },
   {
     "match_number": 38,
     "id_match": "400021483",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289282",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1669,11 +1858,16 @@
     "winner": null,
     "placeholder_home": "H1",
     "placeholder_away": "H3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021483.json"
   },
   {
     "match_number": 39,
     "id_match": "400021477",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289281",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1713,11 +1907,16 @@
     "winner": null,
     "placeholder_home": "G1",
     "placeholder_away": "G3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021477.json"
   },
   {
     "match_number": 40,
     "id_match": "400021480",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289281",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1757,11 +1956,16 @@
     "winner": null,
     "placeholder_home": "G4",
     "placeholder_away": "G2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021480.json"
   },
   {
     "match_number": 41,
     "id_match": "400021491",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289283",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1801,11 +2005,16 @@
     "winner": null,
     "placeholder_home": "I4",
     "placeholder_away": "I2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021491.json"
   },
   {
     "match_number": 42,
     "id_match": "400021492",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289283",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1845,11 +2054,16 @@
     "winner": null,
     "placeholder_home": "I1",
     "placeholder_away": "FIFA PO 2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021492.json"
   },
   {
     "match_number": 43,
     "id_match": "400021494",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289284",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1889,11 +2103,16 @@
     "winner": null,
     "placeholder_home": "J1",
     "placeholder_away": "J3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021494.json"
   },
   {
     "match_number": 44,
     "id_match": "400021499",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289284",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1933,11 +2152,16 @@
     "winner": null,
     "placeholder_home": "J4",
     "placeholder_away": "J2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021499.json"
   },
   {
     "match_number": 45,
     "id_match": "400021506",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289286",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -1977,11 +2201,16 @@
     "winner": null,
     "placeholder_home": "L1",
     "placeholder_away": "L3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021506.json"
   },
   {
     "match_number": 46,
     "id_match": "400021511",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289286",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2021,11 +2250,16 @@
     "winner": null,
     "placeholder_home": "L4",
     "placeholder_away": "L2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021511.json"
   },
   {
     "match_number": 47,
     "id_match": "400021503",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289285",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2065,11 +2299,16 @@
     "winner": null,
     "placeholder_home": "K1",
     "placeholder_away": "K3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021503.json"
   },
   {
     "match_number": 48,
     "id_match": "400021501",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289285",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2109,11 +2348,16 @@
     "winner": null,
     "placeholder_home": "K4",
     "placeholder_away": "FIFA PO 1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021501.json"
   },
   {
     "match_number": 49,
     "id_match": "400021455",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289277",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2153,11 +2397,16 @@
     "winner": null,
     "placeholder_home": "C4",
     "placeholder_away": "C1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021455.json"
   },
   {
     "match_number": 50,
     "id_match": "400021452",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289277",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2197,11 +2446,16 @@
     "winner": null,
     "placeholder_home": "C2",
     "placeholder_away": "C3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021452.json"
   },
   {
     "match_number": 51,
     "id_match": "400021451",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289276",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2241,11 +2495,16 @@
     "winner": null,
     "placeholder_home": "B4",
     "placeholder_away": "B1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021451.json"
   },
   {
     "match_number": 52,
     "id_match": "400021448",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289276",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2285,11 +2544,16 @@
     "winner": null,
     "placeholder_home": "UEFA PO A",
     "placeholder_away": "B3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021448.json"
   },
   {
     "match_number": 53,
     "id_match": "400021444",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289275",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2329,11 +2593,16 @@
     "winner": null,
     "placeholder_home": "UEFA PO D",
     "placeholder_away": "A1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021444.json"
   },
   {
     "match_number": 54,
     "id_match": "400021445",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289275",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2373,11 +2642,16 @@
     "winner": null,
     "placeholder_home": "A2",
     "placeholder_away": "A3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021445.json"
   },
   {
     "match_number": 55,
     "id_match": "400021468",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289279",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2417,11 +2691,16 @@
     "winner": null,
     "placeholder_home": "E2",
     "placeholder_away": "E3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021468.json"
   },
   {
     "match_number": 56,
     "id_match": "400021466",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289279",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2461,11 +2740,16 @@
     "winner": null,
     "placeholder_home": "E4",
     "placeholder_away": "E1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021466.json"
   },
   {
     "match_number": 57,
     "id_match": "400021471",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289280",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2505,11 +2789,16 @@
     "winner": null,
     "placeholder_home": "F2",
     "placeholder_away": "UEFA PO B",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021471.json"
   },
   {
     "match_number": 58,
     "id_match": "400021473",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289280",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2549,11 +2838,16 @@
     "winner": null,
     "placeholder_home": "F4",
     "placeholder_away": "F1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021473.json"
   },
   {
     "match_number": 59,
     "id_match": "400021459",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289278",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2593,11 +2887,16 @@
     "winner": null,
     "placeholder_home": "UEFA PO C",
     "placeholder_away": "D1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021459.json"
   },
   {
     "match_number": 60,
     "id_match": "400021461",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289278",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2637,11 +2936,16 @@
     "winner": null,
     "placeholder_home": "D2",
     "placeholder_away": "D3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021461.json"
   },
   {
     "match_number": 61,
     "id_match": "400021489",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289283",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2681,11 +2985,16 @@
     "winner": null,
     "placeholder_home": "I4",
     "placeholder_away": "I1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021489.json"
   },
   {
     "match_number": 62,
     "id_match": "400021493",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289283",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2725,11 +3034,16 @@
     "winner": null,
     "placeholder_home": "I2",
     "placeholder_away": "FIFA PO 2",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021493.json"
   },
   {
     "match_number": 63,
     "id_match": "400021479",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289281",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2769,11 +3083,16 @@
     "winner": null,
     "placeholder_home": "G2",
     "placeholder_away": "G3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021479.json"
   },
   {
     "match_number": 64,
     "id_match": "400021481",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289281",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2813,11 +3132,16 @@
     "winner": null,
     "placeholder_home": "G4",
     "placeholder_away": "G1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021481.json"
   },
   {
     "match_number": 65,
     "id_match": "400021485",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289282",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2857,11 +3181,16 @@
     "winner": null,
     "placeholder_home": "H2",
     "placeholder_away": "H3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021485.json"
   },
   {
     "match_number": 66,
     "id_match": "400021484",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289282",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2901,11 +3230,16 @@
     "winner": null,
     "placeholder_home": "H4",
     "placeholder_away": "H1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021484.json"
   },
   {
     "match_number": 67,
     "id_match": "400021508",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289286",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2945,11 +3279,16 @@
     "winner": null,
     "placeholder_home": "L4",
     "placeholder_away": "L1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021508.json"
   },
   {
     "match_number": 68,
     "id_match": "400021509",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289286",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -2989,11 +3328,16 @@
     "winner": null,
     "placeholder_home": "L2",
     "placeholder_away": "L3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021509.json"
   },
   {
     "match_number": 69,
     "id_match": "400021497",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289284",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -3033,11 +3377,16 @@
     "winner": null,
     "placeholder_home": "J2",
     "placeholder_away": "J3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021497.json"
   },
   {
     "match_number": 70,
     "id_match": "400021495",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289284",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -3077,11 +3426,16 @@
     "winner": null,
     "placeholder_home": "J4",
     "placeholder_away": "J1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021495.json"
   },
   {
     "match_number": 71,
     "id_match": "400021505",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289285",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -3121,11 +3475,16 @@
     "winner": null,
     "placeholder_home": "K4",
     "placeholder_away": "K1",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021505.json"
   },
   {
     "match_number": 72,
     "id_match": "400021500",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289273",
+    "id_group": "289285",
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "First Stage",
@@ -3165,11 +3524,16 @@
     "winner": null,
     "placeholder_home": "FIFA PO 1",
     "placeholder_away": "K3",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021500.json"
   },
   {
     "match_number": 73,
     "id_match": "400021518",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3209,11 +3573,16 @@
     "winner": null,
     "placeholder_home": "2A",
     "placeholder_away": "2B",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021518.json"
   },
   {
     "match_number": 74,
     "id_match": "400021513",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3253,11 +3622,16 @@
     "winner": null,
     "placeholder_home": "1E",
     "placeholder_away": "3ABCDF",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021513.json"
   },
   {
     "match_number": 75,
     "id_match": "400021522",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3297,11 +3671,16 @@
     "winner": null,
     "placeholder_home": "1F",
     "placeholder_away": "2C",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021522.json"
   },
   {
     "match_number": 76,
     "id_match": "400021516",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3341,11 +3720,16 @@
     "winner": null,
     "placeholder_home": "1C",
     "placeholder_away": "2F",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021516.json"
   },
   {
     "match_number": 77,
     "id_match": "400021523",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3385,11 +3769,16 @@
     "winner": null,
     "placeholder_home": "1I",
     "placeholder_away": "3CDFGH",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021523.json"
   },
   {
     "match_number": 78,
     "id_match": "400021514",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3429,11 +3818,16 @@
     "winner": null,
     "placeholder_home": "2E",
     "placeholder_away": "2I",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021514.json"
   },
   {
     "match_number": 79,
     "id_match": "400021520",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3473,11 +3867,16 @@
     "winner": null,
     "placeholder_home": "1A",
     "placeholder_away": "3CEFHI",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021520.json"
   },
   {
     "match_number": 80,
     "id_match": "400021512",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3517,11 +3916,16 @@
     "winner": null,
     "placeholder_home": "1L",
     "placeholder_away": "3EHIJK",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021512.json"
   },
   {
     "match_number": 81,
     "id_match": "400021524",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3561,11 +3965,16 @@
     "winner": null,
     "placeholder_home": "1D",
     "placeholder_away": "3BEFIJ",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021524.json"
   },
   {
     "match_number": 82,
     "id_match": "400021525",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3605,11 +4014,16 @@
     "winner": null,
     "placeholder_home": "1G",
     "placeholder_away": "3AEHIJ",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021525.json"
   },
   {
     "match_number": 83,
     "id_match": "400021526",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3649,11 +4063,16 @@
     "winner": null,
     "placeholder_home": "2K",
     "placeholder_away": "2L",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021526.json"
   },
   {
     "match_number": 84,
     "id_match": "400021519",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3693,11 +4112,16 @@
     "winner": null,
     "placeholder_home": "1H",
     "placeholder_away": "2J",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021519.json"
   },
   {
     "match_number": 85,
     "id_match": "400021527",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3737,11 +4161,16 @@
     "winner": null,
     "placeholder_home": "1B",
     "placeholder_away": "3EFGIJ",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021527.json"
   },
   {
     "match_number": 86,
     "id_match": "400021521",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3781,11 +4210,16 @@
     "winner": null,
     "placeholder_home": "1J",
     "placeholder_away": "2H",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021521.json"
   },
   {
     "match_number": 87,
     "id_match": "400021517",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3825,11 +4259,16 @@
     "winner": null,
     "placeholder_home": "1K",
     "placeholder_away": "3DEIJL",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021517.json"
   },
   {
     "match_number": 88,
     "id_match": "400021515",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289287",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 32",
@@ -3869,11 +4308,16 @@
     "winner": null,
     "placeholder_home": "2D",
     "placeholder_away": "2G",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021515.json"
   },
   {
     "match_number": 89,
     "id_match": "400021533",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289288",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 16",
@@ -3913,11 +4357,16 @@
     "winner": null,
     "placeholder_home": "W74",
     "placeholder_away": "W77",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021533.json"
   },
   {
     "match_number": 90,
     "id_match": "400021530",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289288",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 16",
@@ -3957,11 +4406,16 @@
     "winner": null,
     "placeholder_home": "W73",
     "placeholder_away": "W75",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021530.json"
   },
   {
     "match_number": 91,
     "id_match": "400021532",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289288",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 16",
@@ -4001,11 +4455,16 @@
     "winner": null,
     "placeholder_home": "W76",
     "placeholder_away": "W78",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021532.json"
   },
   {
     "match_number": 92,
     "id_match": "400021531",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289288",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 16",
@@ -4045,11 +4504,16 @@
     "winner": null,
     "placeholder_home": "W79",
     "placeholder_away": "W80",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021531.json"
   },
   {
     "match_number": 93,
     "id_match": "400021529",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289288",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 16",
@@ -4089,11 +4553,16 @@
     "winner": null,
     "placeholder_home": "W83",
     "placeholder_away": "W84",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021529.json"
   },
   {
     "match_number": 94,
     "id_match": "400021534",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289288",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 16",
@@ -4133,11 +4602,16 @@
     "winner": null,
     "placeholder_home": "W81",
     "placeholder_away": "W82",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021534.json"
   },
   {
     "match_number": 95,
     "id_match": "400021528",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289288",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 16",
@@ -4177,11 +4651,16 @@
     "winner": null,
     "placeholder_home": "W86",
     "placeholder_away": "W88",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021528.json"
   },
   {
     "match_number": 96,
     "id_match": "400021535",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289288",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Round of 16",
@@ -4221,11 +4700,16 @@
     "winner": null,
     "placeholder_home": "W85",
     "placeholder_away": "W87",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021535.json"
   },
   {
     "match_number": 97,
     "id_match": "400021536",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289289",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Quarter-final",
@@ -4265,11 +4749,16 @@
     "winner": null,
     "placeholder_home": "W89",
     "placeholder_away": "W90",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021536.json"
   },
   {
     "match_number": 98,
     "id_match": "400021538",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289289",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Quarter-final",
@@ -4309,11 +4798,16 @@
     "winner": null,
     "placeholder_home": "W93",
     "placeholder_away": "W94",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021538.json"
   },
   {
     "match_number": 99,
     "id_match": "400021539",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289289",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Quarter-final",
@@ -4353,11 +4847,16 @@
     "winner": null,
     "placeholder_home": "W91",
     "placeholder_away": "W92",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021539.json"
   },
   {
     "match_number": 100,
     "id_match": "400021537",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289289",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Quarter-final",
@@ -4397,11 +4896,16 @@
     "winner": null,
     "placeholder_home": "W95",
     "placeholder_away": "W96",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021537.json"
   },
   {
     "match_number": 101,
     "id_match": "400021541",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289290",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Semi-final",
@@ -4441,11 +4945,16 @@
     "winner": null,
     "placeholder_home": "W97",
     "placeholder_away": "W98",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021541.json"
   },
   {
     "match_number": 102,
     "id_match": "400021540",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289290",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Semi-final",
@@ -4485,11 +4994,16 @@
     "winner": null,
     "placeholder_home": "W99",
     "placeholder_away": "W100",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021540.json"
   },
   {
     "match_number": 103,
     "id_match": "400021542",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289291",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Play-off for third place",
@@ -4529,11 +5043,16 @@
     "winner": null,
     "placeholder_home": "RU101",
     "placeholder_away": "RU102",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021542.json"
   },
   {
     "match_number": 104,
     "id_match": "400021543",
+    "id_competition": "17",
+    "id_season": "285023",
+    "id_stage": "289292",
+    "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
     "stage": "Final",
@@ -4573,6 +5092,7 @@
     "winner": null,
     "placeholder_home": "W101",
     "placeholder_away": "W102",
-    "time_defined": true
+    "time_defined": true,
+    "details_file": "match_details/400021543.json"
   }
 ]
