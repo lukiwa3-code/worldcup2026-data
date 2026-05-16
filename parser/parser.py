@@ -1,5 +1,6 @@
 import json
 import hashlib
+import time
 from pathlib import Path
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
@@ -7,25 +8,17 @@ from zoneinfo import ZoneInfo
 import requests
 
 
-# Public FIFA endpoint found in Chrome DevTools / Network.
-# If FIFA changes the endpoint later, update this URL.
 FIFA_MATCHES_URL = "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023"
 
 OUTPUT_DIR = Path("data")
 MATCHES_FILE = OUTPUT_DIR / "matches_clean.json"
 METADATA_FILE = OUTPUT_DIR / "metadata.json"
+MATCH_DETAILS_DIR = OUTPUT_DIR / "match_details"
 
 POLAND_TZ = ZoneInfo("Europe/Warsaw")
 
 
 def get_description(value):
-    """
-    FIFA often stores names like:
-    [
-      {"Locale": "en-GB", "Description": "Mexico"}
-    ]
-    This function returns only the Description.
-    """
     if isinstance(value, list) and len(value) > 0:
         return value[0].get("Description")
     return None
@@ -50,10 +43,6 @@ def make_flag_url(url):
 
 
 def parse_team(team_data, placeholder):
-    """
-    If a team is known, use team details.
-    If not known yet, for example knockout stage placeholders, use PlaceHolderA / PlaceHolderB.
-    """
     if team_data is None:
         return {
             "id": None,
@@ -94,16 +83,12 @@ def parse_stadium(stadium_data):
 
 
 def get_score(match, side):
-    """
-    Main source: HomeTeamScore / AwayTeamScore.
-    Backup source: Home.Score / Away.Score.
-    """
     if side == "home":
         score = match.get("HomeTeamScore")
-        team = match.get("Home")
+        team = match.get("Home") or match.get("HomeTeam")
     else:
         score = match.get("AwayTeamScore")
-        team = match.get("Away")
+        team = match.get("Away") or match.get("AwayTeam")
 
     if score is not None:
         return score
@@ -121,6 +106,11 @@ def parse_match(match):
     return {
         "match_number": match.get("MatchNumber"),
         "id_match": match.get("IdMatch"),
+
+        "id_competition": match.get("IdCompetition"),
+        "id_season": match.get("IdSeason"),
+        "id_stage": match.get("IdStage"),
+        "id_group": match.get("IdGroup"),
 
         "competition": get_description(match.get("CompetitionName")),
         "season": get_description(match.get("SeasonName")),
@@ -149,7 +139,9 @@ def parse_match(match):
         "placeholder_home": match.get("PlaceHolderA"),
         "placeholder_away": match.get("PlaceHolderB"),
 
-        "time_defined": match.get("TimeDefined")
+        "time_defined": match.get("TimeDefined"),
+
+        "details_file": f"match_details/{match.get('IdMatch')}.json"
     }
 
 
@@ -163,18 +155,43 @@ def load_previous_metadata():
         return {}
 
 
-def save_json_if_changed(clean_matches, source_url):
+def write_text_if_changed(path, text):
+    if path.exists():
+        old_text = path.read_text(encoding="utf-8")
+        if old_text == text:
+            return False
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    return True
+
+
+def download_json(url):
+    headers = {
+        "User-Agent": "Mozilla/5.0 WorldCup2026DataParser/1.0",
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://www.fifa.com/"
+    }
+
+    response = requests.get(url, headers=headers, timeout=40)
+    response.raise_for_status()
+    return response.json()
+
+
+def save_matches(clean_matches, source_url):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    clean_text = json.dumps(clean_matches, ensure_ascii=False, indent=2)
     clean_text_for_hash = json.dumps(clean_matches, ensure_ascii=False, sort_keys=True)
     data_hash = hashlib.sha256(clean_text_for_hash.encode("utf-8")).hexdigest()
 
     previous_metadata = load_previous_metadata()
     previous_hash = previous_metadata.get("data_hash")
 
-    if previous_hash == data_hash and MATCHES_FILE.exists():
-        print("No data changes. Files were not overwritten.")
-        return
+    matches_changed = previous_hash != data_hash or not MATCHES_FILE.exists()
+
+    if matches_changed:
+        MATCHES_FILE.write_text(clean_text, encoding="utf-8")
 
     now_utc = datetime.now(timezone.utc).isoformat()
 
@@ -184,49 +201,228 @@ def save_json_if_changed(clean_matches, source_url):
         "matches_count": len(clean_matches),
         "data_hash": data_hash,
         "source": "FIFA",
-        "source_url": source_url
+        "source_url": source_url,
+        "match_details_folder": "data/match_details"
     }
 
-    MATCHES_FILE.write_text(
-        json.dumps(clean_matches, ensure_ascii=False, indent=2),
-        encoding="utf-8"
+    metadata_text = json.dumps(metadata, ensure_ascii=False, indent=2)
+
+    if matches_changed:
+        METADATA_FILE.write_text(metadata_text, encoding="utf-8")
+        print(f"Saved {len(clean_matches)} matches.")
+        print(f"Data hash: {data_hash}")
+    else:
+        print("No changes in matches_clean.json.")
+
+
+def build_match_detail_url(match):
+    id_competition = match.get("IdCompetition")
+    id_season = match.get("IdSeason")
+    id_stage = match.get("IdStage")
+    id_match = match.get("IdMatch")
+
+    if not id_competition or not id_season or not id_stage or not id_match:
+        return None
+
+    return (
+        f"https://api.fifa.com/api/v3/live/football/"
+        f"{id_competition}/{id_season}/{id_stage}/{id_match}?language=en"
     )
 
-    METADATA_FILE.write_text(
-        json.dumps(metadata, ensure_ascii=False, indent=2),
-        encoding="utf-8"
-    )
 
-    print(f"Saved {len(clean_matches)} matches.")
-    print(f"Data hash: {data_hash}")
+def simplify_player(player):
+    return {
+        "id_player": player.get("IdPlayer"),
+        "id_team": player.get("IdTeam"),
+        "shirt_number": player.get("ShirtNumber"),
+        "status": player.get("Status"),
+        "captain": player.get("Captain"),
+        "name": get_description(player.get("PlayerName")),
+        "short_name": get_description(player.get("ShortName")),
+        "position": player.get("Position"),
+        "field_status": player.get("FieldStatus"),
+        "lineup_x": player.get("LineupX"),
+        "lineup_y": player.get("LineupY")
+    }
+
+
+def simplify_goal(goal):
+    return {
+        "type": goal.get("Type"),
+        "id_player": goal.get("IdPlayer"),
+        "minute": goal.get("Minute"),
+        "id_assist_player": goal.get("IdAssistPlayer"),
+        "period": goal.get("Period"),
+        "id_team": goal.get("IdTeam")
+    }
+
+
+def simplify_booking(booking):
+    return {
+        "card": booking.get("Card"),
+        "period": booking.get("Period"),
+        "id_player": booking.get("IdPlayer"),
+        "id_team": booking.get("IdTeam"),
+        "minute": booking.get("Minute"),
+        "reason": booking.get("Reason")
+    }
+
+
+def simplify_substitution(substitution):
+    return {
+        "period": substitution.get("Period"),
+        "minute": substitution.get("Minute"),
+        "id_team": substitution.get("IdTeam"),
+        "id_player_off": substitution.get("IdPlayerOff"),
+        "id_player_on": substitution.get("IdPlayerOn"),
+        "player_off_name": get_description(substitution.get("PlayerOffName")),
+        "player_on_name": get_description(substitution.get("PlayerOnName"))
+    }
+
+
+def simplify_official(official):
+    return {
+        "id": official.get("OfficialId"),
+        "country": official.get("IdCountry"),
+        "name": get_description(official.get("Name")),
+        "short_name": get_description(official.get("NameShort")),
+        "type": get_description(official.get("TypeLocalized")),
+        "official_type": official.get("OfficialType")
+    }
+
+
+def simplify_team_detail(team):
+    if not isinstance(team, dict):
+        return None
+
+    players = team.get("Players") or []
+    goals = team.get("Goals") or []
+    bookings = team.get("Bookings") or []
+    substitutions = team.get("Substitutions") or []
+
+    return {
+        "id_team": team.get("IdTeam"),
+        "name": get_description(team.get("TeamName")) or team.get("ShortClubName"),
+        "short_name": team.get("ShortClubName"),
+        "abbr": team.get("Abbreviation"),
+        "country": team.get("IdCountry"),
+        "score": team.get("Score"),
+        "tactics": team.get("Tactics"),
+        "flag": make_flag_url(team.get("PictureUrl")),
+        "players": [simplify_player(player) for player in players],
+        "goals": [simplify_goal(goal) for goal in goals],
+        "bookings": [simplify_booking(booking) for booking in bookings],
+        "substitutions": [simplify_substitution(sub) for sub in substitutions]
+    }
+
+
+def simplify_match_detail(raw_detail):
+    return {
+        "id_match": raw_detail.get("IdMatch"),
+        "id_competition": raw_detail.get("IdCompetition"),
+        "id_season": raw_detail.get("IdSeason"),
+        "id_stage": raw_detail.get("IdStage"),
+        "id_group": raw_detail.get("IdGroup"),
+
+        "competition": get_description(raw_detail.get("CompetitionName")),
+        "season": get_description(raw_detail.get("SeasonName")),
+        "stage": get_description(raw_detail.get("StageName")),
+        "group": get_description(raw_detail.get("GroupName")),
+
+        "match_number": raw_detail.get("MatchNumber"),
+        "date_utc": raw_detail.get("Date"),
+        "date_local": raw_detail.get("LocalDate"),
+        "date_poland": convert_utc_to_poland(raw_detail.get("Date")),
+
+        "attendance": raw_detail.get("Attendance"),
+        "match_time": raw_detail.get("MatchTime"),
+        "period": raw_detail.get("Period"),
+        "winner": raw_detail.get("Winner"),
+
+        "home_score": raw_detail.get("HomeTeamScore"),
+        "away_score": raw_detail.get("AwayTeamScore"),
+        "home_penalty_score": raw_detail.get("HomeTeamPenaltyScore"),
+        "away_penalty_score": raw_detail.get("AwayTeamPenaltyScore"),
+
+        "stadium": parse_stadium(raw_detail.get("Stadium")),
+        "weather": raw_detail.get("Weather"),
+
+        "home_team": simplify_team_detail(raw_detail.get("HomeTeam") or raw_detail.get("Home")),
+        "away_team": simplify_team_detail(raw_detail.get("AwayTeam") or raw_detail.get("Away")),
+
+        "officials": [simplify_official(official) for official in (raw_detail.get("Officials") or [])],
+
+        "match_status_code": raw_detail.get("MatchStatus"),
+        "result_type": raw_detail.get("ResultType"),
+        "officiality_status": raw_detail.get("OfficialityStatus"),
+        "time_defined": raw_detail.get("TimeDefined"),
+
+        "raw_available": True
+    }
+
+
+def save_match_details(raw_matches):
+    MATCH_DETAILS_DIR.mkdir(parents=True, exist_ok=True)
+
+    saved = 0
+    skipped = 0
+    failed = 0
+
+    for index, match in enumerate(raw_matches, start=1):
+        id_match = match.get("IdMatch")
+        detail_url = build_match_detail_url(match)
+
+        if not id_match or not detail_url:
+            skipped += 1
+            continue
+
+        try:
+            raw_detail = download_json(detail_url)
+            clean_detail = simplify_match_detail(raw_detail)
+
+            clean_detail["source_url"] = detail_url
+            clean_detail["updated_at_utc"] = datetime.now(timezone.utc).isoformat()
+            clean_detail["updated_at_poland"] = datetime.now(POLAND_TZ).isoformat()
+
+            detail_text = json.dumps(clean_detail, ensure_ascii=False, indent=2)
+            detail_path = MATCH_DETAILS_DIR / f"{id_match}.json"
+
+            changed = write_text_if_changed(detail_path, detail_text)
+
+            if changed:
+                saved += 1
+                print(f"[{index}] Saved detail: {id_match}")
+            else:
+                skipped += 1
+                print(f"[{index}] No change: {id_match}")
+
+            time.sleep(0.15)
+
+        except Exception as error:
+            failed += 1
+            print(f"[{index}] Failed detail {id_match}: {error}")
+
+    print(f"Match details summary: saved={saved}, skipped={skipped}, failed={failed}")
 
 
 def main():
-    headers = {
-        "User-Agent": "Mozilla/5.0 WorldCup2026DataParser/1.0",
-        "Accept": "application/json, text/plain, */*",
-        "Referer": "https://www.fifa.com/"
-    }
-
-    response = requests.get(FIFA_MATCHES_URL, headers=headers, timeout=40)
-    response.raise_for_status()
-
-    raw_data = response.json()
+    raw_data = download_json(FIFA_MATCHES_URL)
 
     if isinstance(raw_data, dict):
-        matches = raw_data.get("Results", [])
+        raw_matches = raw_data.get("Results", [])
     elif isinstance(raw_data, list):
-        matches = raw_data
+        raw_matches = raw_data
     else:
         raise RuntimeError("Unknown FIFA data format.")
 
-    clean_matches = [parse_match(match) for match in matches]
+    clean_matches = [parse_match(match) for match in raw_matches]
 
     clean_matches.sort(
         key=lambda item: item["match_number"] if item["match_number"] is not None else 9999
     )
 
-    save_json_if_changed(clean_matches, FIFA_MATCHES_URL)
+    save_matches(clean_matches, FIFA_MATCHES_URL)
+    save_match_details(raw_matches)
 
 
 if __name__ == "__main__":
