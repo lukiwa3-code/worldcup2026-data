@@ -9,11 +9,13 @@ import requests
 
 
 FIFA_MATCHES_URL = "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023"
+FIFA_STANDINGS_URL = "https://api.fifa.com/api/v3/calendar/17/285023/289273/standing?language=en&count=200"
 
 OUTPUT_DIR = Path("data")
 MATCHES_FILE = OUTPUT_DIR / "matches_clean.json"
 METADATA_FILE = OUTPUT_DIR / "metadata.json"
 MATCH_DETAILS_DIR = OUTPUT_DIR / "match_details"
+STANDINGS_FILE = OUTPUT_DIR / "standings_clean.json"
 
 POLAND_TZ = ZoneInfo("Europe/Warsaw")
 
@@ -428,6 +430,101 @@ def save_match_details(raw_matches):
 
     print(f"Match details summary: saved={saved}, skipped={skipped}, failed={failed}")
 
+def simplify_standing_row(row):
+    team = row.get("Team") or {}
+
+    return {
+        "id_competition": row.get("IdCompetition"),
+        "id_season": row.get("IdSeason"),
+        "id_stage": row.get("IdStage"),
+        "id_group": row.get("IdGroup"),
+        "id_team": row.get("IdTeam"),
+
+        "group": get_description(row.get("Group")),
+        "position": row.get("Position"),
+        "previous_position": row.get("PreviousPosition"),
+
+        "played": row.get("Played"),
+        "won": row.get("Won"),
+        "drawn": row.get("Drawn"),
+        "lost": row.get("Lost"),
+
+        "goals_for": row.get("For"),
+        "goals_against": row.get("Against"),
+        "goal_difference": row.get("GoalsDiference"),
+        "points": row.get("Points"),
+
+        "home_played": row.get("HomePlayed"),
+        "home_won": row.get("HomeWon"),
+        "home_drawn": row.get("HomeDrawn"),
+        "home_lost": row.get("HomeLost"),
+        "home_for": row.get("HomeFor"),
+        "home_against": row.get("HomeAgainst"),
+        "home_points": row.get("HomePoints"),
+
+        "away_played": row.get("AwayPlayed"),
+        "away_won": row.get("AwayWon"),
+        "away_drawn": row.get("AwayDrawn"),
+        "away_lost": row.get("AwayLost"),
+        "away_for": row.get("AwayFor"),
+        "away_against": row.get("AwayAgainst"),
+        "away_points": row.get("AwayPoints"),
+
+        "qualification_status": row.get("QualificationStatus"),
+        "fair_play_coefficient": row.get("FairPlayCoefficient"),
+        "is_live": row.get("IsLive"),
+
+        "team": {
+            "id": team.get("IdTeam"),
+            "name": get_description(team.get("Name")) or team.get("ShortClubName"),
+            "short_name": team.get("ShortClubName"),
+            "abbr": team.get("Abbreviation"),
+            "country": team.get("IdCountry"),
+            "confederation": team.get("IdConfederation"),
+            "flag": make_flag_url(team.get("PictureUrl"))
+        }
+    }
+
+
+def group_sort_key(group_name):
+    if not group_name:
+        return "Z"
+
+    # "Group A" -> "A"
+    parts = group_name.split()
+    if len(parts) >= 2:
+        return parts[-1]
+
+    return group_name
+
+
+def save_standings():
+    raw_data = download_json(FIFA_STANDINGS_URL)
+
+    if isinstance(raw_data, dict):
+        raw_rows = raw_data.get("Results", [])
+    elif isinstance(raw_data, list):
+        raw_rows = raw_data
+    else:
+        raise RuntimeError("Unknown standings data format.")
+
+    standings = [simplify_standing_row(row) for row in raw_rows]
+
+    standings.sort(
+        key=lambda row: (
+            group_sort_key(row.get("group")),
+            row.get("position") if row.get("position") is not None else 999,
+            row.get("team", {}).get("name") or ""
+        )
+    )
+
+    standings_text = json.dumps(standings, ensure_ascii=False, indent=2)
+    changed = write_text_if_changed(STANDINGS_FILE, standings_text)
+
+    if changed:
+        print(f"Saved standings: {len(standings)} rows.")
+    else:
+        print("No changes in standings_clean.json.")
 def main():
     raw_data = download_json(FIFA_MATCHES_URL)
 
@@ -446,6 +543,7 @@ def main():
 
     save_matches(clean_matches, FIFA_MATCHES_URL)
     save_match_details(raw_matches)
+    save_standings()
 
 
 if __name__ == "__main__":
