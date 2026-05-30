@@ -37,6 +37,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021526?language=en",
-  "updated_at_utc": "2026-05-30T09:46:59.503401+00:00",
-  "updated_at_poland": "2026-05-30T11:46:59.503406+02:00"
+  "updated_at_utc": "2026-05-30T11:08:03.821472+00:00",
+  "updated_at_poland": "2026-05-30T13:08:03.821478+02:00"
 }
