@@ -61,8 +61,8 @@
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": false,
-  "details_error": "'NoneType' object has no attribute 'get'",
+  "details_error": "HTTPSConnectionPool(host='api.fifa.com', port=443): Read timed out. (read timeout=40)",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021496?language=en",
-  "updated_at_utc": "2026-05-31T22:06:03.360902+00:00",
-  "updated_at_poland": "2026-06-01T00:06:03.360906+02:00"
+  "updated_at_utc": "2026-05-31T23:17:34.742857+00:00",
+  "updated_at_poland": "2026-06-01T01:17:34.742863+02:00"
 }
