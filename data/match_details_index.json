@@ -117,7 +117,7 @@
     "file": "match_details/400021486.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021486?language=en",
     "raw_available": false,
-    "details_error": "HTTPSConnectionPool(host='api.fifa.com', port=443): Read timed out. (read timeout=40)"
+    "details_error": "'NoneType' object has no attribute 'get'"
   },
   {
     "id_match": "400021476",
@@ -149,7 +149,7 @@
     "file": "match_details/400021496.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021496?language=en",
     "raw_available": false,
-    "details_error": "HTTPSConnectionPool(host='api.fifa.com', port=443): Read timed out. (read timeout=40)"
+    "details_error": "'NoneType' object has no attribute 'get'"
   },
   {
     "id_match": "400021498",
