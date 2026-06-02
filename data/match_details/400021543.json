@@ -23,7 +23,7 @@
   "stadium": {
     "id": "400257536",
     "name": "New York/New Jersey Stadium",
-    "city": "New York",
+    "city": "New Jersey",
     "country": "USA"
   },
   "weather": null,
@@ -37,6 +37,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289292/400021543?language=en",
-  "updated_at_utc": "2026-06-02T20:20:23.842083+00:00",
-  "updated_at_poland": "2026-06-02T22:20:23.842088+02:00"
+  "updated_at_utc": "2026-06-02T22:31:58.576550+00:00",
+  "updated_at_poland": "2026-06-03T00:31:58.576555+02:00"
 }

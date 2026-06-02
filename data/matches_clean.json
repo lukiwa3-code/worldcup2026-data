@@ -93,7 +93,7 @@
     "result_type": 0,
     "winner": null,
     "placeholder_home": "A3",
-    "placeholder_away": "UEFA PO D",
+    "placeholder_away": "A4",
     "time_defined": true,
     "details_file": "match_details/400021441.json"
   },
@@ -142,7 +142,7 @@
     "result_type": 0,
     "winner": null,
     "placeholder_home": "B1",
-    "placeholder_away": "UEFA PO A",
+    "placeholder_away": "B2",
     "time_defined": true,
     "details_file": "match_details/400021449.json"
   },
@@ -289,7 +289,7 @@
     "result_type": 0,
     "winner": null,
     "placeholder_home": "D3",
-    "placeholder_away": "UEFA PO C",
+    "placeholder_away": "D4",
     "time_defined": true,
     "details_file": "match_details/400021463.json"
   },
@@ -331,7 +331,7 @@
     "stadium": {
       "id": "400257536",
       "name": "New York/New Jersey Stadium",
-      "city": "New York",
+      "city": "New Jersey",
       "country": "USA"
     },
     "match_status_code": 1,
@@ -582,7 +582,7 @@
     "match_status_code": 1,
     "result_type": 0,
     "winner": null,
-    "placeholder_home": "UEFA PO B",
+    "placeholder_home": "F3",
     "placeholder_away": "F4",
     "time_defined": true,
     "details_file": "match_details/400021474.json"
@@ -821,7 +821,7 @@
     "stadium": {
       "id": "400257536",
       "name": "New York/New Jersey Stadium",
-      "city": "New York",
+      "city": "New Jersey",
       "country": "USA"
     },
     "match_status_code": 1,
@@ -876,7 +876,7 @@
     "match_status_code": 1,
     "result_type": 0,
     "winner": null,
-    "placeholder_home": "FIFA PO 2",
+    "placeholder_home": "I3",
     "placeholder_away": "I4",
     "time_defined": true,
     "details_file": "match_details/400021488.json"
@@ -1122,7 +1122,7 @@
     "result_type": 0,
     "winner": null,
     "placeholder_home": "K1",
-    "placeholder_away": "FIFA PO 1",
+    "placeholder_away": "K2",
     "time_defined": true,
     "details_file": "match_details/400021502.json"
   },
@@ -1219,7 +1219,7 @@
     "match_status_code": 1,
     "result_type": 0,
     "winner": null,
-    "placeholder_home": "UEFA PO D",
+    "placeholder_home": "A4",
     "placeholder_away": "A2",
     "time_defined": true,
     "details_file": "match_details/400021440.json"
@@ -1269,7 +1269,7 @@
     "result_type": 0,
     "winner": null,
     "placeholder_home": "B4",
-    "placeholder_away": "UEFA PO A",
+    "placeholder_away": "B2",
     "time_defined": true,
     "details_file": "match_details/400021446.json"
   },
@@ -1513,7 +1513,7 @@
     "match_status_code": 1,
     "result_type": 0,
     "winner": null,
-    "placeholder_home": "UEFA PO C",
+    "placeholder_home": "D4",
     "placeholder_away": "D2",
     "time_defined": true,
     "details_file": "match_details/400021460.json"
@@ -1710,7 +1710,7 @@
     "result_type": 0,
     "winner": null,
     "placeholder_home": "F1",
-    "placeholder_away": "UEFA PO B",
+    "placeholder_away": "F3",
     "time_defined": true,
     "details_file": "match_details/400021472.json"
   },
@@ -1997,7 +1997,7 @@
     "stadium": {
       "id": "400257536",
       "name": "New York/New Jersey Stadium",
-      "city": "New York",
+      "city": "New Jersey",
       "country": "USA"
     },
     "match_status_code": 1,
@@ -2053,7 +2053,7 @@
     "result_type": 0,
     "winner": null,
     "placeholder_home": "I1",
-    "placeholder_away": "FIFA PO 2",
+    "placeholder_away": "I3",
     "time_defined": true,
     "details_file": "match_details/400021492.json"
   },
@@ -2347,7 +2347,7 @@
     "result_type": 0,
     "winner": null,
     "placeholder_home": "K4",
-    "placeholder_away": "FIFA PO 1",
+    "placeholder_away": "K2",
     "time_defined": true,
     "details_file": "match_details/400021501.json"
   },
@@ -2542,7 +2542,7 @@
     "match_status_code": 1,
     "result_type": 0,
     "winner": null,
-    "placeholder_home": "UEFA PO A",
+    "placeholder_home": "B2",
     "placeholder_away": "B3",
     "time_defined": true,
     "details_file": "match_details/400021448.json"
@@ -2591,7 +2591,7 @@
     "match_status_code": 1,
     "result_type": 0,
     "winner": null,
-    "placeholder_home": "UEFA PO D",
+    "placeholder_home": "A4",
     "placeholder_away": "A1",
     "time_defined": true,
     "details_file": "match_details/400021444.json"
@@ -2732,7 +2732,7 @@
     "stadium": {
       "id": "400257536",
       "name": "New York/New Jersey Stadium",
-      "city": "New York",
+      "city": "New Jersey",
       "country": "USA"
     },
     "match_status_code": 1,
@@ -2788,7 +2788,7 @@
     "result_type": 0,
     "winner": null,
     "placeholder_home": "F2",
-    "placeholder_away": "UEFA PO B",
+    "placeholder_away": "F3",
     "time_defined": true,
     "details_file": "match_details/400021471.json"
   },
@@ -2885,7 +2885,7 @@
     "match_status_code": 1,
     "result_type": 0,
     "winner": null,
-    "placeholder_home": "UEFA PO C",
+    "placeholder_home": "D4",
     "placeholder_away": "D1",
     "time_defined": true,
     "details_file": "match_details/400021459.json"
@@ -3033,7 +3033,7 @@
     "result_type": 0,
     "winner": null,
     "placeholder_home": "I2",
-    "placeholder_away": "FIFA PO 2",
+    "placeholder_away": "I3",
     "time_defined": true,
     "details_file": "match_details/400021493.json"
   },
@@ -3271,7 +3271,7 @@
     "stadium": {
       "id": "400257536",
       "name": "New York/New Jersey Stadium",
-      "city": "New York",
+      "city": "New Jersey",
       "country": "USA"
     },
     "match_status_code": 1,
@@ -3522,7 +3522,7 @@
     "match_status_code": 1,
     "result_type": 0,
     "winner": null,
-    "placeholder_home": "FIFA PO 1",
+    "placeholder_home": "K2",
     "placeholder_away": "K3",
     "time_defined": true,
     "details_file": "match_details/400021500.json"
@@ -3761,7 +3761,7 @@
     "stadium": {
       "id": "400257536",
       "name": "New York/New Jersey Stadium",
-      "city": "New York",
+      "city": "New Jersey",
       "country": "USA"
     },
     "match_status_code": 1,
@@ -4447,7 +4447,7 @@
     "stadium": {
       "id": "400257536",
       "name": "New York/New Jersey Stadium",
-      "city": "New York",
+      "city": "New Jersey",
       "country": "USA"
     },
     "match_status_code": 1,
@@ -5084,7 +5084,7 @@
     "stadium": {
       "id": "400257536",
       "name": "New York/New Jersey Stadium",
-      "city": "New York",
+      "city": "New Jersey",
       "country": "USA"
     },
     "match_status_code": 1,
