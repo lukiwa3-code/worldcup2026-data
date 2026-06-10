@@ -55,7 +55,48 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "360305",
+      "country": "VEN",
+      "name": "Jesús Valenzuela Sáez",
+      "short_name": "Jesus VALENZUELA",
+      "type": "Referee",
+      "official_type": 1
+    },
+    {
+      "id": "262055",
+      "country": "VEN",
+      "name": "Jorge Urrego Martínez",
+      "short_name": "Jorge URREGO",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "349171",
+      "country": "VEN",
+      "name": "Tulio Moreno",
+      "short_name": "Tulio MORENO",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "416161",
+      "country": "PER",
+      "name": "Kevin Ortega",
+      "short_name": "Kevin ORTEGA",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "374831",
+      "country": "PER",
+      "name": "Michael Orué",
+      "short_name": "Michael ORUE",
+      "type": "Reserve referee",
+      "official_type": 6
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -63,6 +104,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021463?language=en",
-  "updated_at_utc": "2026-06-10T15:26:46.202905+00:00",
-  "updated_at_poland": "2026-06-10T17:26:46.202909+02:00"
+  "updated_at_utc": "2026-06-10T18:13:32.509498+00:00",
+  "updated_at_poland": "2026-06-10T20:13:32.509502+02:00"
 }

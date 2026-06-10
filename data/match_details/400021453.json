@@ -55,7 +55,48 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "375306",
+      "country": "ALG",
+      "name": "Mustapha Ghorbal",
+      "short_name": "Mustapha GHORBAL",
+      "type": "Referee",
+      "official_type": 1
+    },
+    {
+      "id": "375314",
+      "country": "ALG",
+      "name": "Mokrane Gourari",
+      "short_name": "Mokrane GOURARI",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "400115",
+      "country": "ALG",
+      "name": "Abbes Zerhouni",
+      "short_name": "Abbes Akram ZERHOUNI",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "373845",
+      "country": "ESP",
+      "name": "Alejandro José Hernández Hernández",
+      "short_name": "Alejandro HERNANDEZ",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "425311",
+      "country": "ESP",
+      "name": "José Enrique Naranjo Pérez",
+      "short_name": "Jose Enrique NARANJO",
+      "type": "Reserve referee",
+      "official_type": 6
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -63,6 +104,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021453?language=en",
-  "updated_at_utc": "2026-06-10T15:26:45.927523+00:00",
-  "updated_at_poland": "2026-06-10T17:26:45.927529+02:00"
+  "updated_at_utc": "2026-06-10T18:13:32.309951+00:00",
+  "updated_at_poland": "2026-06-10T20:13:32.309955+02:00"
 }
