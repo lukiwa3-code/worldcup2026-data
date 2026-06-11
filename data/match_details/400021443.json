@@ -12,10 +12,10 @@
   "date_utc": "2026-06-11T19:00:00Z",
   "date_local": "2026-06-11T13:00:00Z",
   "date_poland": "2026-06-11T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "19'",
-  "period": 3,
-  "winner": null,
+  "attendance": "80824",
+  "match_time": "98'",
+  "period": 10,
+  "winner": "43911",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Mexico",
     "abbr": "MEX",
     "country": "MEX",
-    "score": 1,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MEX",
     "players": [
@@ -390,10 +390,81 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43911"
+      },
+      {
+        "type": 2,
+        "id_player": "356731",
+        "minute": "67'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43911"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "464533",
+        "id_team": "43911",
+        "minute": "23'",
+        "reason": null
+      },
+      {
+        "card": 2,
+        "period": 5,
+        "id_player": "395516",
+        "id_team": "43911",
+        "minute": "90'+2'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43911",
+        "id_player_off": "464533",
+        "id_player_on": "448051",
+        "player_off_name": "Brian GUTIERREZ",
+        "player_on_name": "Luis CHAVEZ"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43911",
+        "id_player_off": "416576",
+        "id_player_on": "500037",
+        "player_off_name": "Alvaro FIDALGO",
+        "player_on_name": "Gilberto MORA"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43911",
+        "id_player_off": "419518",
+        "id_player_on": "400634",
+        "player_off_name": "Erik LIRA",
+        "player_on_name": "Edson ALVAREZ"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43911",
+        "id_player_off": "356731",
+        "id_player_on": "514336",
+        "player_off_name": "Raul JIMENEZ",
+        "player_on_name": "Armando GONZALEZ"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43911",
+        "id_player_off": "429157",
+        "id_player_on": "430766",
+        "player_off_name": "Julian QUINONES",
+        "player_on_name": "Alexis VEGA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43883",
@@ -753,9 +824,70 @@
         "id_team": "43883",
         "minute": "17'",
         "reason": null
+      },
+      {
+        "card": 2,
+        "period": 5,
+        "id_player": "390475",
+        "id_team": "43883",
+        "minute": "49'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "463221",
+        "id_team": "43883",
+        "minute": "74'",
+        "reason": null
+      },
+      {
+        "card": 2,
+        "period": 5,
+        "id_player": "395984",
+        "id_team": "43883",
+        "minute": "84'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43883",
+        "id_player_off": "419211",
+        "id_player_on": "494248",
+        "player_off_name": "Lyle FOSTER",
+        "player_on_name": "Thalente MBATHA"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43883",
+        "id_player_off": "463236",
+        "id_player_on": "395984",
+        "player_off_name": "Jayden ADAMS",
+        "player_on_name": "Themba ZWANE"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43883",
+        "id_player_off": "481242",
+        "id_player_on": "430917",
+        "player_off_name": "Iqraam RAYNERS",
+        "player_on_name": "Evidence MAKGOPA"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43883",
+        "id_player_off": "395050",
+        "id_player_on": "419223",
+        "player_off_name": "Aubrey MODIBA",
+        "player_on_name": "Oswin APPOLLIS"
+      }
+    ]
   },
   "officials": [
     {
@@ -767,13 +899,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021443?language=en",
-  "updated_at_utc": "2026-06-11T19:25:11.538040+00:00",
-  "updated_at_poland": "2026-06-11T21:25:11.538046+02:00"
+  "updated_at_utc": "2026-06-11T21:33:43.700756+00:00",
+  "updated_at_poland": "2026-06-11T23:33:43.700761+02:00"
 }

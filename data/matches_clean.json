@@ -30,7 +30,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/RSA",
       "is_placeholder": false
     },
-    "home_score": 1,
+    "home_score": 2,
     "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -40,9 +40,9 @@
       "city": "Mexico City",
       "country": "MEX"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43911",
     "placeholder_home": "A1",
     "placeholder_away": "A2",
     "time_defined": true,
