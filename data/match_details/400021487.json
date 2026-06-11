@@ -13,8 +13,8 @@
   "date_local": "2026-06-21T18:00:00Z",
   "date_poland": "2026-06-22T00:00:00+02:00",
   "attendance": null,
-  "match_time": null,
-  "period": null,
+  "match_time": "0'",
+  "period": 0,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -26,7 +26,13 @@
     "city": "Miami",
     "country": "USA"
   },
-  "weather": null,
+  "weather": {
+    "Humidity": null,
+    "Temperature": null,
+    "WindSpeed": null,
+    "Type": null,
+    "TypeLocalized": []
+  },
   "home_team": {
     "id_team": "43930",
     "name": "Uruguay",
@@ -60,9 +66,9 @@
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
-  "raw_available": false,
-  "details_error": "'NoneType' object has no attribute 'get'",
+  "raw_available": true,
+  "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021487?language=en",
-  "updated_at_utc": "2026-06-11T00:00:39.817109+00:00",
-  "updated_at_poland": "2026-06-11T02:00:39.817113+02:00"
+  "updated_at_utc": "2026-06-11T04:51:41.398886+00:00",
+  "updated_at_poland": "2026-06-11T06:51:41.398890+02:00"
 }

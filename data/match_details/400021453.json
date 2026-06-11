@@ -13,8 +13,8 @@
   "date_local": "2026-06-13T21:00:00Z",
   "date_poland": "2026-06-14T03:00:00+02:00",
   "attendance": null,
-  "match_time": null,
-  "period": null,
+  "match_time": "0'",
+  "period": 0,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -26,7 +26,13 @@
     "city": "Boston",
     "country": "USA"
   },
-  "weather": null,
+  "weather": {
+    "Humidity": null,
+    "Temperature": null,
+    "WindSpeed": null,
+    "Type": null,
+    "TypeLocalized": []
+  },
   "home_team": {
     "id_team": "43908",
     "name": "Haiti",
@@ -63,47 +69,15 @@
       "short_name": "Mustapha GHORBAL",
       "type": "Referee",
       "official_type": 1
-    },
-    {
-      "id": "375314",
-      "country": "ALG",
-      "name": "Mokrane Gourari",
-      "short_name": "Mokrane GOURARI",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "400115",
-      "country": "ALG",
-      "name": "Abbes Zerhouni",
-      "short_name": "Abbes Akram ZERHOUNI",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
-      "id": "373845",
-      "country": "ESP",
-      "name": "Alejandro José Hernández Hernández",
-      "short_name": "Alejandro HERNANDEZ",
-      "type": "Fourth official",
-      "official_type": 4
-    },
-    {
-      "id": "425311",
-      "country": "ESP",
-      "name": "José Enrique Naranjo Pérez",
-      "short_name": "Jose Enrique NARANJO",
-      "type": "Reserve referee",
-      "official_type": 6
     }
   ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
-  "raw_available": false,
-  "details_error": "'NoneType' object has no attribute 'get'",
+  "raw_available": true,
+  "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021453?language=en",
-  "updated_at_utc": "2026-06-11T00:00:29.731317+00:00",
-  "updated_at_poland": "2026-06-11T02:00:29.731321+02:00"
+  "updated_at_utc": "2026-06-11T04:51:33.581290+00:00",
+  "updated_at_poland": "2026-06-11T06:51:33.581294+02:00"
 }

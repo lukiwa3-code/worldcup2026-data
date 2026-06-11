@@ -13,8 +13,8 @@
   "date_local": "2026-06-13T21:00:00Z",
   "date_poland": "2026-06-14T06:00:00+02:00",
   "attendance": null,
-  "match_time": null,
-  "period": null,
+  "match_time": "0'",
+  "period": 0,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -26,7 +26,13 @@
     "city": "Vancouver",
     "country": "CAN"
   },
-  "weather": null,
+  "weather": {
+    "Humidity": null,
+    "Temperature": null,
+    "WindSpeed": null,
+    "Type": null,
+    "TypeLocalized": []
+  },
   "home_team": {
     "id_team": "43976",
     "name": "Australia",
@@ -63,47 +69,15 @@
       "short_name": "Jesus VALENZUELA",
       "type": "Referee",
       "official_type": 1
-    },
-    {
-      "id": "262055",
-      "country": "VEN",
-      "name": "Jorge Urrego Martínez",
-      "short_name": "Jorge URREGO",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "349171",
-      "country": "VEN",
-      "name": "Tulio Moreno",
-      "short_name": "Tulio MORENO",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
-      "id": "416161",
-      "country": "PER",
-      "name": "Kevin Ortega",
-      "short_name": "Kevin ORTEGA",
-      "type": "Fourth official",
-      "official_type": 4
-    },
-    {
-      "id": "374831",
-      "country": "PER",
-      "name": "Michael Orué",
-      "short_name": "Michael ORUE",
-      "type": "Reserve referee",
-      "official_type": 6
     }
   ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
-  "raw_available": false,
-  "details_error": "'NoneType' object has no attribute 'get'",
+  "raw_available": true,
+  "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021463?language=en",
-  "updated_at_utc": "2026-06-11T00:00:29.943349+00:00",
-  "updated_at_poland": "2026-06-11T02:00:29.943353+02:00"
+  "updated_at_utc": "2026-06-11T04:51:33.808663+00:00",
+  "updated_at_poland": "2026-06-11T06:51:33.808668+02:00"
 }
