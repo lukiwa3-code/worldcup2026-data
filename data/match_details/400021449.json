@@ -13,8 +13,8 @@
   "date_local": "2026-06-12T15:00:00Z",
   "date_poland": "2026-06-12T21:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "73'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Canada",
     "abbr": "CAN",
     "country": "CAN",
-    "score": null,
+    "score": 0,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
     "players": [
@@ -383,8 +383,53 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "441252",
+        "id_team": "43899",
+        "minute": "11'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "480322",
+        "id_team": "43899",
+        "minute": "53'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43899",
+        "id_player_off": "441257",
+        "id_player_on": "493970",
+        "player_off_name": "Jonathan DAVID",
+        "player_on_name": "Promise DAVID"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43899",
+        "id_player_off": "430138",
+        "id_player_on": "466687",
+        "player_off_name": "Tajon BUCHANAN",
+        "player_on_name": "Ali AHMED"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43899",
+        "id_player_off": "441259",
+        "id_player_on": "448411",
+        "player_off_name": "Liam MILLAR",
+        "player_on_name": "Jacob SHAFFELBURG"
+      }
+    ]
   },
   "away_team": {
     "id_team": "44037",
@@ -392,7 +437,7 @@
     "short_name": "Bosnia and Herzegovina",
     "abbr": "BIH",
     "country": "BIH",
-    "score": null,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BIH",
     "players": [
@@ -735,9 +780,54 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "519954",
+        "minute": "21'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "44037"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "436743",
+        "id_team": "44037",
+        "minute": "44'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "519954",
+        "id_team": "44037",
+        "minute": "45'+1'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "44037",
+        "id_player_off": "482974",
+        "id_player_on": "489523",
+        "player_off_name": "Ivan BASIC",
+        "player_on_name": "Armin GIGOVIC"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "44037",
+        "id_player_off": "519954",
+        "id_player_on": "485063",
+        "player_off_name": "Jovo LUKIC",
+        "player_on_name": "Samed BAZDAR"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +839,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021449?language=en",
-  "updated_at_utc": "2026-06-12T18:27:31.544812+00:00",
-  "updated_at_poland": "2026-06-12T20:27:31.544816+02:00"
+  "updated_at_utc": "2026-06-12T20:34:44.903487+00:00",
+  "updated_at_poland": "2026-06-12T22:34:44.903491+02:00"
 }
