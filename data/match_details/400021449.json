@@ -12,9 +12,9 @@
   "date_utc": "2026-06-12T19:00:00Z",
   "date_local": "2026-06-12T15:00:00Z",
   "date_poland": "2026-06-12T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "73'",
-  "period": 5,
+  "attendance": "43002",
+  "match_time": "97'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Canada",
     "abbr": "CAN",
     "country": "CAN",
-    "score": 0,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
     "players": [
@@ -382,7 +382,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "390670",
+        "minute": "78'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43899"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -428,6 +437,24 @@
         "id_player_on": "448411",
         "player_off_name": "Liam MILLAR",
         "player_on_name": "Jacob SHAFFELBURG"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43899",
+        "id_player_off": "486929",
+        "id_player_on": "390670",
+        "player_off_name": "Tani OLUWASEYI",
+        "player_on_name": "Cyle LARIN"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43899",
+        "id_player_off": "433635",
+        "id_player_on": "370986",
+        "player_off_name": "Stephen EUSTAQUIO",
+        "player_on_name": "Jonathan OSORIO"
       }
     ]
   },
@@ -806,6 +833,14 @@
         "id_team": "44037",
         "minute": "45'+1'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "489520",
+        "id_team": "44037",
+        "minute": "90'+3'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -826,6 +861,33 @@
         "id_player_on": "485063",
         "player_off_name": "Jovo LUKIC",
         "player_on_name": "Samed BAZDAR"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "44037",
+        "id_player_off": "494640",
+        "id_player_on": "504990",
+        "player_off_name": "Amar MEMIC",
+        "player_on_name": "Kerim ALAJBEGOVIC"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "44037",
+        "id_player_off": "464566",
+        "id_player_on": "372436",
+        "player_off_name": "Esmir BAJRAKTAREVIC",
+        "player_on_name": "Ivan SUNJIC"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "44037",
+        "id_player_off": "376230",
+        "id_player_on": "389886",
+        "player_off_name": "Sead KOLASINAC",
+        "player_on_name": "Dzenis BURNIC"
       }
     ]
   },
@@ -839,13 +901,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021449?language=en",
-  "updated_at_utc": "2026-06-12T20:34:44.903487+00:00",
-  "updated_at_poland": "2026-06-12T22:34:44.903491+02:00"
+  "updated_at_utc": "2026-06-12T22:12:06.480367+00:00",
+  "updated_at_poland": "2026-06-13T00:12:06.480371+02:00"
 }
