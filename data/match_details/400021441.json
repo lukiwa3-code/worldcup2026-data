@@ -12,10 +12,10 @@
   "date_utc": "2026-06-12T02:00:00Z",
   "date_local": "2026-06-11T20:00:00Z",
   "date_poland": "2026-06-12T04:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
-  "winner": null,
+  "attendance": "44985",
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43822",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Korea Republic",
     "abbr": "KOR",
     "country": "KOR",
-    "score": null,
+    "score": 2,
     "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/KOR",
     "players": [
@@ -382,9 +382,81 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "395084",
+        "minute": "67'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43822"
+      },
+      {
+        "type": 2,
+        "id_player": "448586",
+        "minute": "80'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43822"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "492315",
+        "id_team": "43822",
+        "minute": "90'+6'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43822",
+        "id_player_off": "390525",
+        "id_player_on": "395083",
+        "player_off_name": "LEE Jaesung",
+        "player_on_name": "HWANG Heechan"
+      },
+      {
+        "period": 5,
+        "minute": "69'",
+        "id_team": "43822",
+        "id_player_off": "307849",
+        "id_player_on": "448586",
+        "player_off_name": "SON Heungmin",
+        "player_on_name": "OH Hyeongyu"
+      },
+      {
+        "period": 5,
+        "minute": "69'",
+        "id_team": "43822",
+        "id_player_off": "423880",
+        "id_player_on": "423855",
+        "player_off_name": "LEE Taeseok",
+        "player_on_name": "EOM Jisung"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43822",
+        "id_player_off": "395084",
+        "id_player_on": "430385",
+        "player_off_name": "HWANG Inbeom",
+        "player_on_name": "KIM Jingyu"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43822",
+        "id_player_off": "402817",
+        "id_player_on": "479316",
+        "player_off_name": "PAIK Seungho",
+        "player_on_name": "PARK Jinseob"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43995",
@@ -392,8 +464,8 @@
     "short_name": "Czechia",
     "abbr": "CZE",
     "country": "CZE",
-    "score": null,
-    "tactics": "3-4-3",
+    "score": 1,
+    "tactics": "5-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CZE",
     "players": [
       {
@@ -735,9 +807,55 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "441170",
+        "minute": "59'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43995"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43995",
+        "id_player_off": "486082",
+        "id_player_on": "433754",
+        "player_off_name": "Pavel SULC",
+        "player_on_name": "Adam HLOZEK"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43995",
+        "id_player_off": "401481",
+        "id_player_on": "483961",
+        "player_off_name": "Patrik Schick",
+        "player_on_name": "Tomas CHORY"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43995",
+        "id_player_off": "484011",
+        "id_player_on": "433668",
+        "player_off_name": "Lukas PROVOD",
+        "player_on_name": "Michal SADILEK"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43995",
+        "id_player_off": "523097",
+        "id_player_on": "484003",
+        "player_off_name": "Alexandr SOJKA",
+        "player_on_name": "Mojmir CHYTIL"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +867,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021441?language=en",
-  "updated_at_utc": "2026-06-12T01:37:54.835892+00:00",
-  "updated_at_poland": "2026-06-12T03:37:54.835898+02:00"
+  "updated_at_utc": "2026-06-12T06:17:17.204783+00:00",
+  "updated_at_poland": "2026-06-12T08:17:17.204788+02:00"
 }

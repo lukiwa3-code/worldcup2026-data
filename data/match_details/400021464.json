@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "416524",
+      "country": "MAR",
+      "name": "Jalal Jayed",
+      "short_name": "Jalal JAYED",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021464?language=en",
-  "updated_at_utc": "2026-06-12T01:37:56.639779+00:00",
-  "updated_at_poland": "2026-06-12T03:37:56.639784+02:00"
+  "updated_at_utc": "2026-06-12T06:17:19.844231+00:00",
+  "updated_at_poland": "2026-06-12T08:17:19.844236+02:00"
 }
