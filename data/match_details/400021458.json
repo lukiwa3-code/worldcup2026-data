@@ -13,8 +13,8 @@
   "date_local": "2026-06-12T18:00:00Z",
   "date_poland": "2026-06-13T03:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "",
+  "period": 4,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "USA",
     "abbr": "USA",
     "country": "USA",
-    "score": null,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/USA",
     "players": [
@@ -382,7 +382,32 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 3,
+        "id_player": "476348",
+        "minute": "7'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43921"
+      },
+      {
+        "type": 2,
+        "id_player": "466624",
+        "minute": "31'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43921"
+      },
+      {
+        "type": 2,
+        "id_player": "466624",
+        "minute": "45'+5'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43921"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -392,7 +417,7 @@
     "short_name": "Paraguay",
     "abbr": "PAR",
     "country": "PAR",
-    "score": null,
+    "score": 0,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/PAR",
     "players": [
@@ -736,7 +761,16 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "479601",
+        "id_team": "43928",
+        "minute": "9'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "officials": [
@@ -749,13 +783,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021458?language=en",
-  "updated_at_utc": "2026-06-12T23:50:44.484044+00:00",
-  "updated_at_poland": "2026-06-13T01:50:44.484049+02:00"
+  "updated_at_utc": "2026-06-13T01:55:53.301233+00:00",
+  "updated_at_poland": "2026-06-13T03:55:53.301238+02:00"
 }
