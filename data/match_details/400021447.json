@@ -12,9 +12,9 @@
   "date_utc": "2026-06-13T19:00:00Z",
   "date_local": "2026-06-13T12:00:00Z",
   "date_poland": "2026-06-13T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "35'",
-  "period": 3,
+  "attendance": "67966",
+  "match_time": "84'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -397,11 +397,48 @@
         "period": 3,
         "id_player": "419473",
         "id_team": "43834",
-        "minute": "22'",
+        "minute": "23'",
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43834",
+        "id_player_off": "510991",
+        "id_player_on": "433394",
+        "player_off_name": "AYOUB ALOUI",
+        "player_on_name": "AHMED FATHY"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43834",
+        "id_player_off": "419473",
+        "id_player_on": "354861",
+        "player_off_name": "JASSEM GABER",
+        "player_on_name": "KARIM BOUDIAF"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43834",
+        "id_player_off": "419463",
+        "id_player_on": "353251",
+        "player_off_name": "YUSUF ABDURISAG",
+        "player_on_name": "AHMED ALAAELDIN"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43834",
+        "id_player_off": "386348",
+        "id_player_on": "498458",
+        "player_off_name": "ASSIM MADIBO",
+        "player_on_name": "MOHAMED MANAI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43971",
@@ -762,8 +799,45 @@
         "id_team": "43971"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "401448",
+        "id_team": "43971",
+        "minute": "42'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43971",
+        "id_player_off": "448114",
+        "id_player_on": "502727",
+        "player_off_name": "Dan NDOYE",
+        "player_on_name": "Johan MANZAMBI"
+      },
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43971",
+        "id_player_off": "433147",
+        "id_player_on": "448103",
+        "player_off_name": "Michel AEBISCHER",
+        "player_on_name": "Fabian RIEDER"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43971",
+        "id_player_off": "448131",
+        "id_player_on": "448112",
+        "player_off_name": "Ruben VARGAS",
+        "player_on_name": "Zeki AMDOUNI"
+      }
+    ]
   },
   "officials": [
     {
@@ -782,6 +856,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021447?language=en",
-  "updated_at_utc": "2026-06-13T19:40:09.852375+00:00",
-  "updated_at_poland": "2026-06-13T21:40:09.852380+02:00"
+  "updated_at_utc": "2026-06-13T20:52:03.402834+00:00",
+  "updated_at_poland": "2026-06-13T22:52:03.402839+02:00"
 }
