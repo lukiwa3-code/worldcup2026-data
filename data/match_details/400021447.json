@@ -13,8 +13,8 @@
   "date_local": "2026-06-13T12:00:00Z",
   "date_poland": "2026-06-13T21:00:00+02:00",
   "attendance": "67966",
-  "match_time": "84'",
-  "period": 5,
+  "match_time": "98'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Qatar",
     "abbr": "QAT",
     "country": "QAT",
-    "score": 0,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/QAT",
     "players": [
@@ -382,7 +382,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 3,
+        "id_player": "493221",
+        "minute": "90'+4'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43834"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -437,6 +446,15 @@
         "id_player_on": "498458",
         "player_off_name": "ASSIM MADIBO",
         "player_on_name": "MOHAMED MANAI"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43834",
+        "id_player_off": "429063",
+        "id_player_on": "284190",
+        "player_off_name": "EDMILSON JUNIOR",
+        "player_on_name": "HASSAN ALHAYDOS"
       }
     ]
   },
@@ -836,6 +854,24 @@
         "id_player_on": "448112",
         "player_off_name": "Ruben VARGAS",
         "player_on_name": "Zeki AMDOUNI"
+      },
+      {
+        "period": 5,
+        "minute": "89'",
+        "id_team": "43971",
+        "id_player_off": "313559",
+        "id_player_on": "493221",
+        "player_off_name": "Ricardo RODRIGUEZ",
+        "player_on_name": "Miro MUHEIM"
+      },
+      {
+        "period": 5,
+        "minute": "89'",
+        "id_team": "43971",
+        "id_player_off": "402021",
+        "id_player_on": "448120",
+        "player_off_name": "Remo FREULER",
+        "player_on_name": "Ardon JASHARI"
       }
     ]
   },
@@ -849,13 +885,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021447?language=en",
-  "updated_at_utc": "2026-06-13T20:52:03.402834+00:00",
-  "updated_at_poland": "2026-06-13T22:52:03.402839+02:00"
+  "updated_at_utc": "2026-06-13T21:54:42.324868+00:00",
+  "updated_at_poland": "2026-06-13T23:54:42.324873+02:00"
 }

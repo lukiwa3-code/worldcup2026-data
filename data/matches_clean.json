@@ -373,7 +373,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
       "is_placeholder": false
     },
-    "home_score": 0,
+    "home_score": 1,
     "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -383,8 +383,8 @@
       "city": "San Francisco Bay Area",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "B3",
     "placeholder_away": "B4",
