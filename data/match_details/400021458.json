@@ -12,10 +12,10 @@
   "date_utc": "2026-06-13T01:00:00Z",
   "date_local": "2026-06-12T18:00:00Z",
   "date_poland": "2026-06-13T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "70492",
+  "match_time": "99'",
+  "period": 10,
+  "winner": "43921",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "USA",
     "abbr": "USA",
     "country": "USA",
-    "score": 3,
+    "score": 4,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/USA",
     "players": [
@@ -406,10 +406,64 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43921"
+      },
+      {
+        "type": 2,
+        "id_player": "419068",
+        "minute": "90'+8'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43921"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "390238",
+        "id_team": "43921",
+        "minute": "59'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43921",
+        "id_player_off": "390267",
+        "id_player_on": "499912",
+        "player_off_name": "Christian PULISIC",
+        "player_on_name": "Sebastian BERHALTER"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43921",
+        "id_player_off": "406280",
+        "id_player_on": "406304",
+        "player_off_name": "Sergino DEST",
+        "player_on_name": "Timothy WEAH"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43921",
+        "id_player_off": "466624",
+        "id_player_on": "419082",
+        "player_off_name": "Folarin BALOGUN",
+        "player_on_name": "Ricardo PEPI"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43921",
+        "id_player_off": "448214",
+        "id_player_on": "419068",
+        "player_off_name": "Malik TILLMAN",
+        "player_on_name": "Giovanni REYNA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43928",
@@ -417,7 +471,7 @@
     "short_name": "Paraguay",
     "abbr": "PAR",
     "country": "PAR",
-    "score": 0,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/PAR",
     "players": [
@@ -760,7 +814,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "495046",
+        "minute": "73'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43928"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -769,9 +832,87 @@
         "id_team": "43928",
         "minute": "9'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "369761",
+        "id_team": "43928",
+        "minute": "53'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "463128",
+        "id_team": "43928",
+        "minute": "79'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "485802",
+        "id_team": "43928",
+        "minute": "88'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "369749",
+        "id_team": "43928",
+        "minute": "90'+3'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43928",
+        "id_player_off": "476348",
+        "id_player_on": "495046",
+        "player_off_name": "Damian BOBADILLA",
+        "player_on_name": "MAURICIO"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43928",
+        "id_player_off": "369768",
+        "id_player_on": "485802",
+        "player_off_name": "Antonio SANABRIA",
+        "player_on_name": "Alex ARCE"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43928",
+        "id_player_off": "369761",
+        "id_player_on": "463125",
+        "player_off_name": "Miguel ALMIRON",
+        "player_on_name": "Ramon SOSA"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43928",
+        "id_player_off": "479601",
+        "id_player_on": "486875",
+        "player_off_name": "Juan Jose CACERES",
+        "player_on_name": "Gustavo VELAZQUEZ"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43928",
+        "id_player_off": "463128",
+        "id_player_on": "386458",
+        "player_off_name": "Diego GOMEZ",
+        "player_on_name": "Alejandro ROMERO GAMARRA"
+      }
+    ]
   },
   "officials": [
     {
@@ -783,13 +924,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021458?language=en",
-  "updated_at_utc": "2026-06-13T01:55:53.301233+00:00",
-  "updated_at_poland": "2026-06-13T03:55:53.301238+02:00"
+  "updated_at_utc": "2026-06-13T06:14:33.116907+00:00",
+  "updated_at_poland": "2026-06-13T08:14:33.116913+02:00"
 }

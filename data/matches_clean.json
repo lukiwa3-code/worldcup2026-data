@@ -177,8 +177,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/PAR",
       "is_placeholder": false
     },
-    "home_score": 3,
-    "away_score": 0,
+    "home_score": 4,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -187,9 +187,9 @@
       "city": "Los Angeles",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43921",
     "placeholder_home": "D1",
     "placeholder_away": "D2",
     "time_defined": true,
