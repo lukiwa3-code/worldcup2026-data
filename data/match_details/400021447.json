@@ -13,8 +13,8 @@
   "date_local": "2026-06-13T12:00:00Z",
   "date_poland": "2026-06-13T21:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "35'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Qatar",
     "abbr": "QAT",
     "country": "QAT",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/QAT",
     "players": [
@@ -383,7 +383,24 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "419459",
+        "id_team": "43834",
+        "minute": "13'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "419473",
+        "id_team": "43834",
+        "minute": "22'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "away_team": {
@@ -392,8 +409,8 @@
     "short_name": "Switzerland",
     "abbr": "SUI",
     "country": "SUI",
-    "score": null,
-    "tactics": "3-4-3",
+    "score": 1,
+    "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
     "players": [
       {
@@ -735,7 +752,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 1,
+        "id_player": "393480",
+        "minute": "17'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43971"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -749,13 +775,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021447?language=en",
-  "updated_at_utc": "2026-06-13T17:57:52.680127+00:00",
-  "updated_at_poland": "2026-06-13T19:57:52.680133+02:00"
+  "updated_at_utc": "2026-06-13T19:40:09.852375+00:00",
+  "updated_at_poland": "2026-06-13T21:40:09.852380+02:00"
 }
