@@ -324,8 +324,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -334,7 +334,7 @@
       "city": "New Jersey",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "C1",

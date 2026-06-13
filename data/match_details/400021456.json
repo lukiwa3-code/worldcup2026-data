@@ -13,8 +13,8 @@
   "date_local": "2026-06-13T18:00:00Z",
   "date_poland": "2026-06-14T00:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "",
+  "period": 4,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Brazil",
     "abbr": "BRA",
     "country": "BRA",
-    "score": null,
-    "tactics": "4-2-3-1",
+    "score": 1,
+    "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA",
     "players": [
       {
@@ -369,8 +369,34 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "405742",
+        "minute": "32'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43924"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "308386",
+        "id_team": "43924",
+        "minute": "37'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "430594",
+        "id_team": "43924",
+        "minute": "43'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "away_team": {
@@ -379,7 +405,7 @@
     "short_name": "Morocco",
     "abbr": "MAR",
     "country": "MAR",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
     "players": [
@@ -722,7 +748,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "448598",
+        "minute": "21'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43872"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -736,13 +771,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021456?language=en",
-  "updated_at_utc": "2026-06-13T21:54:42.515151+00:00",
-  "updated_at_poland": "2026-06-13T23:54:42.515156+02:00"
+  "updated_at_utc": "2026-06-13T22:58:32.444741+00:00",
+  "updated_at_poland": "2026-06-14T00:58:32.444746+02:00"
 }
