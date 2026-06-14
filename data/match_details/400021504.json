@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "360460",
+      "country": "ENG",
+      "name": "Anthony Taylor",
+      "short_name": "Anthony TAYLOR",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021504?language=en",
-  "updated_at_utc": "2026-06-14T22:10:37.563083+00:00",
-  "updated_at_poland": "2026-06-15T00:10:37.563089+02:00"
+  "updated_at_utc": "2026-06-14T23:36:43.469087+00:00",
+  "updated_at_poland": "2026-06-15T01:36:43.469092+02:00"
 }
