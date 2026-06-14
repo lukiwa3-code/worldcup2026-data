@@ -12,9 +12,9 @@
   "date_utc": "2026-06-13T22:00:00Z",
   "date_local": "2026-06-13T18:00:00Z",
   "date_poland": "2026-06-14T00:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
+  "attendance": "80663",
+  "match_time": "101'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -397,7 +397,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43924",
+        "id_player_off": "308386",
+        "id_player_on": "394456",
+        "player_off_name": "CASEMIRO",
+        "player_on_name": "FABINHO"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43924",
+        "id_player_off": "430594",
+        "id_player_on": "335656",
+        "player_off_name": "ROGER IBANEZ",
+        "player_on_name": "DANILO"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43924",
+        "id_player_off": "411726",
+        "id_player_on": "430609",
+        "player_off_name": "LUCAS PAQUETA",
+        "player_on_name": "MATHEUS CUNHA"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43924",
+        "id_player_off": "519836",
+        "id_player_on": "448420",
+        "player_off_name": "IGOR THIAGO",
+        "player_on_name": "LUIZ HENRIQUE"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43924",
+        "id_player_off": "430605",
+        "id_player_on": "429392",
+        "player_off_name": "BRUNO GUIMARAES",
+        "player_on_name": "DANILO SANTOS"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43872",
@@ -759,7 +805,53 @@
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43872",
+        "id_player_off": "430740",
+        "id_player_on": "494293",
+        "player_off_name": "Brahim DIAZ",
+        "player_on_name": "Chemsdine TALBI"
+      },
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43872",
+        "id_player_off": "441307",
+        "id_player_on": "505097",
+        "player_off_name": "Azzedine OUNAHI",
+        "player_on_name": "Samir EL MOURABET"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43872",
+        "id_player_off": "411680",
+        "id_player_on": "424071",
+        "player_off_name": "Noussair MAZRAOUI",
+        "player_on_name": "Anass SALAH EDDINE"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43872",
+        "id_player_off": "448612",
+        "id_player_on": "523288",
+        "player_off_name": "Bilal EL KHANNOUSS",
+        "player_on_name": "Ayoube AMAIMOUNI"
+      },
+      {
+        "period": 5,
+        "minute": "89'",
+        "id_team": "43872",
+        "id_player_off": "448598",
+        "id_player_on": "433426",
+        "player_off_name": "Ismael SAIBARI",
+        "player_on_name": "Soufiane RAHIMI"
+      }
+    ]
   },
   "officials": [
     {
@@ -771,13 +863,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021456?language=en",
-  "updated_at_utc": "2026-06-13T22:58:32.444741+00:00",
-  "updated_at_poland": "2026-06-14T00:58:32.444746+02:00"
+  "updated_at_utc": "2026-06-14T00:12:21.632151+00:00",
+  "updated_at_poland": "2026-06-14T02:12:21.632155+02:00"
 }

@@ -356,7 +356,7 @@
     "id_season": "285023",
     "id_stage": "289273",
     "id_group": "289277",
-    "id_team": "43924",
+    "id_team": "43872",
     "group": "Group C",
     "position": 1,
     "previous_position": null,
@@ -384,15 +384,15 @@
     "away_points": 0,
     "qualification_status": "Undefined",
     "fair_play_coefficient": 0.0,
-    "is_live": true,
+    "is_live": false,
     "team": {
-      "id": "43924",
-      "name": "Brazil",
-      "short_name": "Brazil",
-      "abbr": "BRA",
-      "country": "BRA",
-      "confederation": "CONMEBOL",
-      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA"
+      "id": "43872",
+      "name": "Morocco",
+      "short_name": "Morocco",
+      "abbr": "MAR",
+      "country": "MAR",
+      "confederation": "CAF",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR"
     }
   },
   {
@@ -400,7 +400,7 @@
     "id_season": "285023",
     "id_stage": "289273",
     "id_group": "289277",
-    "id_team": "43872",
+    "id_team": "43924",
     "group": "Group C",
     "position": 2,
     "previous_position": null,
@@ -428,15 +428,15 @@
     "away_points": 0,
     "qualification_status": "Undefined",
     "fair_play_coefficient": 0.0,
-    "is_live": true,
+    "is_live": false,
     "team": {
-      "id": "43872",
-      "name": "Morocco",
-      "short_name": "Morocco",
-      "abbr": "MAR",
-      "country": "MAR",
-      "confederation": "CAF",
-      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR"
+      "id": "43924",
+      "name": "Brazil",
+      "short_name": "Brazil",
+      "abbr": "BRA",
+      "country": "BRA",
+      "confederation": "CONMEBOL",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA"
     }
   },
   {
