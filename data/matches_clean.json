@@ -471,7 +471,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CUW",
       "is_placeholder": false
     },
-    "home_score": 3,
+    "home_score": 7,
     "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -481,9 +481,9 @@
       "city": "Houston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43948",
     "placeholder_home": "E1",
     "placeholder_away": "E2",
     "time_defined": true,
