@@ -12,10 +12,10 @@
   "date_utc": "2026-06-14T01:00:00Z",
   "date_local": "2026-06-13T21:00:00Z",
   "date_poland": "2026-06-14T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
-  "winner": null,
+  "attendance": "64146",
+  "match_time": "99'",
+  "period": 10,
+  "winner": "43967",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Haiti",
     "abbr": "HAI",
     "country": "HAI",
-    "score": null,
+    "score": 0,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/HAI",
     "players": [
@@ -383,8 +383,45 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "430697",
+        "id_team": "43908",
+        "minute": "39'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43908",
+        "id_player_off": "481027",
+        "id_player_on": "510757",
+        "player_off_name": "Louicius DEEDSON",
+        "player_on_name": "Josue CASIMIR"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43908",
+        "id_player_off": "405879",
+        "id_player_on": "485676",
+        "player_off_name": "Wilson Isidor",
+        "player_on_name": "Lenny JOSEPH"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43908",
+        "id_player_off": "485664",
+        "id_player_on": "506483",
+        "player_off_name": "Ruben PROVIDENCE",
+        "player_on_name": "Yassin FORTUNE"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43967",
@@ -392,7 +429,7 @@
     "short_name": "Scotland",
     "abbr": "SCO",
     "country": "SCO",
-    "score": null,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SCO",
     "players": [
@@ -735,9 +772,89 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "401334",
+        "minute": "28'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43967"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "442428",
+        "id_team": "43967",
+        "minute": "46'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "520217",
+        "id_team": "43967",
+        "minute": "90'+1'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "484051",
+        "id_team": "43967",
+        "minute": "90'+5'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43967",
+        "id_player_off": "433191",
+        "id_player_on": "430098",
+        "player_off_name": "Che Adams",
+        "player_on_name": "Lyndon DYKES"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43967",
+        "id_player_off": "485131",
+        "id_player_on": "430097",
+        "player_off_name": "Ben GANNON-DOAK",
+        "player_on_name": "Ryan Christie"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43967",
+        "id_player_off": "442428",
+        "id_player_on": "433694",
+        "player_off_name": "Aaron HICKEY",
+        "player_on_name": "Nathan PATTERSON"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43967",
+        "id_player_off": "401334",
+        "id_player_on": "520217",
+        "player_off_name": "John McGinn",
+        "player_on_name": "Findlay CURTIS"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43967",
+        "id_player_off": "484045",
+        "id_player_on": "484051",
+        "player_off_name": "Lawrence SHANKLAND",
+        "player_on_name": "Kenny McLEAN"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +866,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021453?language=en",
-  "updated_at_utc": "2026-06-14T00:12:21.885640+00:00",
-  "updated_at_poland": "2026-06-14T02:12:21.885644+02:00"
+  "updated_at_utc": "2026-06-14T08:48:06.616952+00:00",
+  "updated_at_poland": "2026-06-14T10:48:06.616958+02:00"
 }

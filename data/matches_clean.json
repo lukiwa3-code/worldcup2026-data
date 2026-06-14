@@ -226,8 +226,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SCO",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -236,9 +236,9 @@
       "city": "Boston",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43967",
     "placeholder_home": "C3",
     "placeholder_away": "C4",
     "time_defined": true,
@@ -275,8 +275,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/TUR",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -285,9 +285,9 @@
       "city": "Vancouver",
       "country": "CAN"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43976",
     "placeholder_home": "D3",
     "placeholder_away": "D4",
     "time_defined": true,
