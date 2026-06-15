@@ -13,8 +13,8 @@
   "date_local": "2026-06-15T18:00:00Z",
   "date_poland": "2026-06-16T00:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "47'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Saudi Arabia",
     "abbr": "KSA",
     "country": "KSA",
-    "score": null,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/KSA",
     "players": [
@@ -382,8 +382,26 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "403312",
+        "minute": "41'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43835"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "403312",
+        "id_team": "43835",
+        "minute": "44'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "away_team": {
@@ -392,8 +410,8 @@
     "short_name": "Uruguay",
     "abbr": "URU",
     "country": "URU",
-    "score": null,
-    "tactics": "4-2-3-1",
+    "score": 0,
+    "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/URU",
     "players": [
       {
@@ -711,7 +729,26 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43930",
+        "id_player_off": "419126",
+        "id_player_on": "402876",
+        "player_off_name": "Darwin NUNEZ",
+        "player_on_name": "Agustin CANOBBIO"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43930",
+        "id_player_off": "402895",
+        "id_player_on": "419134",
+        "player_off_name": "Matias VINA",
+        "player_on_name": "Juan Manuel SANABRIA"
+      }
+    ]
   },
   "officials": [
     {
@@ -723,13 +760,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021486?language=en",
-  "updated_at_utc": "2026-06-15T21:22:03.716551+00:00",
-  "updated_at_poland": "2026-06-15T23:22:03.716555+02:00"
+  "updated_at_utc": "2026-06-15T23:13:38.878225+00:00",
+  "updated_at_poland": "2026-06-16T01:13:38.878230+02:00"
 }
