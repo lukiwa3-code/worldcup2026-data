@@ -12,9 +12,9 @@
   "date_utc": "2026-06-15T19:00:00Z",
   "date_local": "2026-06-15T12:00:00Z",
   "date_poland": "2026-06-15T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "attendance": "66775",
+  "match_time": "96'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Belgium",
     "abbr": "BEL",
     "country": "BEL",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BEL",
     "players": [
@@ -369,9 +369,81 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 3,
+        "id_player": "408950",
+        "minute": "66'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43935"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "411443",
+        "id_team": "43935",
+        "minute": "14'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "448373",
+        "id_team": "43935",
+        "minute": "75'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43935",
+        "id_player_off": "411443",
+        "id_player_on": "495349",
+        "player_off_name": "Timothy CASTAGNE",
+        "player_on_name": "Nicolas RASKIN"
+      },
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43935",
+        "id_player_off": "448364",
+        "id_player_on": "448373",
+        "player_off_name": "Amadou ONANA",
+        "player_on_name": "Maxim DE CUYPER"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43935",
+        "id_player_off": "448362",
+        "id_player_on": "358112",
+        "player_off_name": "Charles DE KETELAERE",
+        "player_on_name": "Romelu LUKAKU"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43935",
+        "id_player_off": "358120",
+        "id_player_on": "448343",
+        "player_off_name": "Kevin DE BRUYNE",
+        "player_on_name": "Hans VANAKEN"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43935",
+        "id_player_off": "448341",
+        "id_player_on": "494025",
+        "player_off_name": "Jeremy DOKU",
+        "player_on_name": "Matias FERNANDEZ-PARDO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43855",
@@ -379,7 +451,7 @@
     "short_name": "Egypt",
     "abbr": "EGY",
     "country": "EGY",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/EGY",
     "players": [
@@ -722,9 +794,81 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "430482",
+        "minute": "19'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43855"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "461788",
+        "id_team": "43855",
+        "minute": "13'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "430477",
+        "id_team": "43855",
+        "minute": "34'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43855",
+        "id_player_off": "430482",
+        "id_player_on": "344661",
+        "player_off_name": "EMAM ASHOUR",
+        "player_on_name": "RAMY RABIA"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43855",
+        "id_player_off": "483161",
+        "id_player_on": "433461",
+        "player_off_name": "MOSTAFA ZICO",
+        "player_on_name": "ZIZO"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43855",
+        "id_player_off": "344654",
+        "id_player_on": "495488",
+        "player_off_name": "MOHAMED SALAH",
+        "player_on_name": "HAMZA ABDELKARIM"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43855",
+        "id_player_off": "430477",
+        "id_player_on": "407022",
+        "player_off_name": "AHMED FATOUH",
+        "player_on_name": "KARIM HAFEZ"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43855",
+        "id_player_off": "429095",
+        "id_player_on": "430465",
+        "player_off_name": "HAMDY FATHY",
+        "player_on_name": "IBRAHIM ADEL"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +880,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021478?language=en",
-  "updated_at_utc": "2026-06-15T18:12:50.166375+00:00",
-  "updated_at_poland": "2026-06-15T20:12:50.166379+02:00"
+  "updated_at_utc": "2026-06-15T21:22:03.476454+00:00",
+  "updated_at_poland": "2026-06-15T23:22:03.476458+02:00"
 }
