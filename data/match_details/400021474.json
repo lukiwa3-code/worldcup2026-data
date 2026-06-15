@@ -12,10 +12,10 @@
   "date_utc": "2026-06-15T02:00:00Z",
   "date_local": "2026-06-14T20:00:00Z",
   "date_poland": "2026-06-15T04:00:00+02:00",
-  "attendance": null,
-  "match_time": "2'",
-  "period": 3,
-  "winner": null,
+  "attendance": "50987",
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43970",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Sweden",
     "abbr": "SWE",
     "country": "SWE",
-    "score": 0,
+    "score": 5,
     "tactics": "3-4-1-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SWE",
     "players": [
@@ -382,9 +382,96 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "489688",
+        "minute": "7'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43970"
+      },
+      {
+        "type": 2,
+        "id_player": "430150",
+        "minute": "30'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43970"
+      },
+      {
+        "type": 2,
+        "id_player": "483327",
+        "minute": "59'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43970"
+      },
+      {
+        "type": 2,
+        "id_player": "433795",
+        "minute": "84'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43970"
+      },
+      {
+        "type": 2,
+        "id_player": "489688",
+        "minute": "90'+6'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43970"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43970",
+        "id_player_off": "502946",
+        "id_player_on": "489689",
+        "player_off_name": "Benjamin NYGREN",
+        "player_on_name": "Lucas BERGVALL"
+      },
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43970",
+        "id_player_off": "483276",
+        "id_player_on": "519958",
+        "player_off_name": "Gabriel GUDMUNDSSON",
+        "player_on_name": "Elliot STROUD"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43970",
+        "id_player_off": "441135",
+        "id_player_on": "433795",
+        "player_off_name": "Jesper KARLSTROM",
+        "player_on_name": "Mattias SVANBERG"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43970",
+        "id_player_off": "430150",
+        "id_player_on": "441137",
+        "player_off_name": "Alexander Isak",
+        "player_on_name": "Anthony ELANGA"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43970",
+        "id_player_off": "502945",
+        "id_player_on": "491255",
+        "player_off_name": "Alexander BERNHARDSSON",
+        "player_on_name": "Daniel SVENSSON"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43888",
@@ -392,8 +479,8 @@
     "short_name": "Tunisia",
     "abbr": "TUN",
     "country": "TUN",
-    "score": 0,
-    "tactics": "4-2-3-1",
+    "score": 1,
+    "tactics": "5-3-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/TUN",
     "players": [
       {
@@ -735,9 +822,73 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "433367",
+        "minute": "43'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43888"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "336459",
+        "id_team": "43888",
+        "minute": "54'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43888",
+        "id_player_off": "411658",
+        "id_player_on": "448662",
+        "player_off_name": "Ellyes SKHIRI",
+        "player_on_name": "Elias ACHOURI"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43888",
+        "id_player_off": "419189",
+        "id_player_on": "479781",
+        "player_off_name": "Yan Valery",
+        "player_on_name": "Mohamed HADJ MAHMOUD"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43888",
+        "id_player_off": "482885",
+        "id_player_on": "504502",
+        "player_off_name": "Elias SAAD",
+        "player_on_name": "Sebastian TOUNEKTI"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43888",
+        "id_player_off": "433361",
+        "id_player_on": "494375",
+        "player_off_name": "Anis SLIMANE",
+        "player_on_name": "Firas CHAOUAT"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43888",
+        "id_player_off": "336459",
+        "id_player_on": "464484",
+        "player_off_name": "Rani Khedira",
+        "player_on_name": "Ismael GHARBI"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +900,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021474?language=en",
-  "updated_at_utc": "2026-06-15T02:03:14.131816+00:00",
-  "updated_at_poland": "2026-06-15T04:03:14.131821+02:00"
+  "updated_at_utc": "2026-06-15T07:32:23.086654+00:00",
+  "updated_at_poland": "2026-06-15T09:32:23.086659+02:00"
 }
