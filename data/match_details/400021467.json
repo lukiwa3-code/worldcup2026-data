@@ -12,10 +12,10 @@
   "date_utc": "2026-06-14T23:00:00Z",
   "date_local": "2026-06-14T19:00:00Z",
   "date_poland": "2026-06-15T01:00:00+02:00",
-  "attendance": null,
-  "match_time": "33'",
-  "period": 3,
-  "winner": null,
+  "attendance": "68274",
+  "match_time": "99'",
+  "period": 10,
+  "winner": "43854",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Côte d'Ivoire",
     "abbr": "CIV",
     "country": "CIV",
-    "score": 0,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CIV",
     "players": [
@@ -382,7 +382,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "430822",
+        "minute": "90'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43854"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -391,9 +400,71 @@
         "id_team": "43854",
         "minute": "28'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "371609",
+        "id_team": "43854",
+        "minute": "38'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "486317",
+        "id_team": "43854",
+        "minute": "40'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43854",
+        "id_player_off": "464133",
+        "id_player_on": "464103",
+        "player_off_name": "Elye WAHI",
+        "player_on_name": "Ange-Yoan BONNY"
+      },
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43854",
+        "id_player_off": "506202",
+        "id_player_on": "430822",
+        "player_off_name": "Bazoumana TOURE",
+        "player_on_name": "Amad DIALLO"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43854",
+        "id_player_off": "405175",
+        "id_player_on": "430831",
+        "player_off_name": "Seko Fofana",
+        "player_on_name": "Ibrahim SANGARE"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43854",
+        "id_player_off": "402261",
+        "id_player_on": "514208",
+        "player_off_name": "Nicolas PEPE",
+        "player_on_name": "Christ Inao OULAI"
+      },
+      {
+        "period": 5,
+        "minute": "89'",
+        "id_team": "43854",
+        "id_player_off": "486317",
+        "id_player_on": "477825",
+        "player_off_name": "Guela DOUE",
+        "player_on_name": "Odilon KOSSOUNOU"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43927",
@@ -745,8 +816,54 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "419003",
+        "id_team": "43927",
+        "minute": "73'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43927",
+        "id_player_off": "463468",
+        "id_player_on": "448312",
+        "player_off_name": "Alan MINDA",
+        "player_on_name": "Nilson ANGULO"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43927",
+        "id_player_off": "405920",
+        "id_player_on": "402974",
+        "player_off_name": "John YEBOAH",
+        "player_on_name": "Angelo PRECIADO"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43927",
+        "id_player_off": "389784",
+        "id_player_on": "419003",
+        "player_off_name": "Alan FRANCO",
+        "player_on_name": "Jackson POROZO"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43927",
+        "id_player_off": "373400",
+        "id_player_on": "448310",
+        "player_off_name": "Enner VALENCIA",
+        "player_on_name": "Kevin RODRIGUEZ"
+      }
+    ]
   },
   "officials": [
     {
@@ -758,13 +875,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021467?language=en",
-  "updated_at_utc": "2026-06-14T23:36:40.709402+00:00",
-  "updated_at_poland": "2026-06-15T01:36:40.709407+02:00"
+  "updated_at_utc": "2026-06-15T02:03:13.929058+00:00",
+  "updated_at_poland": "2026-06-15T04:03:13.929062+02:00"
 }

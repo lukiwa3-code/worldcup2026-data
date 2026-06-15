@@ -422,7 +422,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ECU",
       "is_placeholder": false
     },
-    "home_score": 0,
+    "home_score": 1,
     "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -432,9 +432,9 @@
       "city": "Philadelphia",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43854",
     "placeholder_home": "E3",
     "placeholder_away": "E4",
     "time_defined": true,
@@ -569,8 +569,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/TUN",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -579,7 +579,7 @@
       "city": "Monterrey",
       "country": "MEX"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "F3",
