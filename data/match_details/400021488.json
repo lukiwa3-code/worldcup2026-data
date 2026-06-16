@@ -12,9 +12,9 @@
   "date_utc": "2026-06-16T22:00:00Z",
   "date_local": "2026-06-16T18:00:00Z",
   "date_poland": "2026-06-17T00:00:00+02:00",
-  "attendance": null,
-  "match_time": "25'",
-  "period": 3,
+  "attendance": "63106",
+  "match_time": "90'+2'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Iraq",
     "abbr": "IRQ",
     "country": "IRQ",
-    "score": 0,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/IRQ",
     "players": [
@@ -180,7 +180,7 @@
         "status": 1,
         "captain": false,
         "name": "AYMEN HUSSEIN",
-        "short_name": "Hussain",
+        "short_name": "HUSSEIN",
         "position": 3,
         "field_status": 0,
         "lineup_x": null,
@@ -382,9 +382,73 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "395186",
+        "minute": "39'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43818"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "434025",
+        "id_team": "43818",
+        "minute": "86'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "59'",
+        "id_team": "43818",
+        "id_player_off": "436628",
+        "id_player_on": "484262",
+        "player_off_name": "ALI ALHAMADI",
+        "player_on_name": "MARKO FARJI"
+      },
+      {
+        "period": 5,
+        "minute": "59'",
+        "id_team": "43818",
+        "id_player_off": "484270",
+        "id_player_on": "434026",
+        "player_off_name": "ZAID ISMAEL",
+        "player_on_name": "ZIDANE IQBAL"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43818",
+        "id_player_off": "479553",
+        "id_player_on": "479056",
+        "player_off_name": "Hussein Ali",
+        "player_on_name": "MUSTAFA SAADOON"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43818",
+        "id_player_off": "464457",
+        "id_player_on": "523236",
+        "player_off_name": "ALI JASIM",
+        "player_on_name": "AHMED QASEM"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43818",
+        "id_player_off": "433585",
+        "id_player_on": "422968",
+        "player_off_name": "IBRAHIM BAYESH",
+        "player_on_name": "MOHANAD ALI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43961",
@@ -392,7 +456,7 @@
     "short_name": "Norway",
     "abbr": "NOR",
     "country": "NOR",
-    "score": 0,
+    "score": 3,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
     "players": [
@@ -735,9 +799,80 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "419652",
+        "minute": "29'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43961"
+      },
+      {
+        "type": 2,
+        "id_player": "419652",
+        "minute": "43'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43961"
+      },
+      {
+        "type": 2,
+        "id_player": "419672",
+        "minute": "76'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43961"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43961",
+        "id_player_off": "483505",
+        "id_player_on": "419672",
+        "player_off_name": "David MOLLER WOLFE",
+        "player_on_name": "Leo OSTIGARD"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43961",
+        "id_player_off": "483497",
+        "id_player_on": "419681",
+        "player_off_name": "Fredrik AURSNES",
+        "player_on_name": "Kristian Thorstvedt"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43961",
+        "id_player_off": "483448",
+        "id_player_on": "494626",
+        "player_off_name": "Antonio NUSA",
+        "player_on_name": "Andreas SCHJELDERUP"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43961",
+        "id_player_off": "398588",
+        "id_player_on": "477470",
+        "player_off_name": "Alexander SORLOTH",
+        "player_on_name": "Oscar BOBB"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43961",
+        "id_player_off": "400716",
+        "id_player_on": "483442",
+        "player_off_name": "Martin ODEGAARD",
+        "player_on_name": "Patrick BERG"
+      }
+    ]
   },
   "officials": [
     {
@@ -756,6 +891,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021488?language=en",
-  "updated_at_utc": "2026-06-16T22:27:10.918111+00:00",
-  "updated_at_poland": "2026-06-17T00:27:10.918115+02:00"
+  "updated_at_utc": "2026-06-16T23:55:43.535710+00:00",
+  "updated_at_poland": "2026-06-17T01:55:43.535715+02:00"
 }
