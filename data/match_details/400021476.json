@@ -12,9 +12,9 @@
   "date_utc": "2026-06-16T01:00:00Z",
   "date_local": "2026-06-15T18:00:00Z",
   "date_poland": "2026-06-16T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "44'",
-  "period": 3,
+  "attendance": "70108",
+  "match_time": "96'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "IR Iran",
     "abbr": "IRN",
     "country": "IRN",
-    "score": 1,
+    "score": 2,
     "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/IRN",
     "players": [
@@ -390,10 +390,64 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43817"
+      },
+      {
+        "type": 2,
+        "id_player": "448497",
+        "minute": "64'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43817"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "288961",
+        "id_team": "43817",
+        "minute": "89'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43817",
+        "id_player_off": "481181",
+        "id_player_on": "403236",
+        "player_off_name": "Arya YOUSEFI",
+        "player_on_name": "Mehdi GHAYEDI"
+      },
+      {
+        "period": 5,
+        "minute": "53'",
+        "id_team": "43817",
+        "id_player_off": "481180",
+        "id_player_on": "416989",
+        "player_off_name": "Shahriyar MOGHANLOO",
+        "player_on_name": "Ali Alipour"
+      },
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43817",
+        "id_player_off": "411644",
+        "id_player_on": "288961",
+        "player_off_name": "Saman GHODDOS",
+        "player_on_name": "Ehsan HAJISAFI"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43817",
+        "id_player_off": "388475",
+        "id_player_on": "405639",
+        "player_off_name": "Mehdi TAREMI",
+        "player_on_name": "Amirhossein Hosseinzadeh"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43978",
@@ -401,7 +455,7 @@
     "short_name": "New Zealand",
     "abbr": "NZL",
     "country": "NZL",
-    "score": 1,
+    "score": 2,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NZL",
     "players": [
@@ -739,10 +793,64 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43978"
+      },
+      {
+        "type": 2,
+        "id_player": "405454",
+        "minute": "54'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43978"
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "68'",
+        "id_team": "43978",
+        "id_player_off": "390196",
+        "id_player_on": "336641",
+        "player_off_name": "Callum McCOWATT",
+        "player_on_name": "Ryan THOMAS"
+      },
+      {
+        "period": 5,
+        "minute": "68'",
+        "id_team": "43978",
+        "id_player_off": "405469",
+        "id_player_on": "423575",
+        "player_off_name": "Liberato CACACE",
+        "player_on_name": "Ben OLD"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43978",
+        "id_player_off": "331463",
+        "id_player_on": "419567",
+        "player_off_name": "Tim PAYNE",
+        "player_on_name": "Callan ELLIOT"
+      },
+      {
+        "period": 5,
+        "minute": "90'+2'",
+        "id_team": "43978",
+        "id_player_off": "390209",
+        "id_player_on": "416652",
+        "player_off_name": "Sarpreet SINGH",
+        "player_on_name": "Jesse RANDALL"
+      },
+      {
+        "period": 5,
+        "minute": "90'+2'",
+        "id_team": "43978",
+        "id_player_off": "423595",
+        "id_player_on": "482775",
+        "player_off_name": "Marko STAMENIC",
+        "player_on_name": "Tyler BINDON"
+      }
+    ]
   },
   "officials": [
     {
@@ -754,13 +862,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021476?language=en",
-  "updated_at_utc": "2026-06-16T01:48:00.563617+00:00",
-  "updated_at_poland": "2026-06-16T03:48:00.563622+02:00"
+  "updated_at_utc": "2026-06-16T07:09:43.795089+00:00",
+  "updated_at_poland": "2026-06-16T09:09:43.795094+02:00"
 }

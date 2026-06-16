@@ -716,8 +716,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NZL",
       "is_placeholder": false
     },
-    "home_score": 1,
-    "away_score": 1,
+    "home_score": 2,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -726,8 +726,8 @@
       "city": "Los Angeles",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "G3",
     "placeholder_away": "G4",
