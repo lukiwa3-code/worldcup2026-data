@@ -13,9 +13,9 @@
   "date_local": "2026-06-16T15:00:00Z",
   "date_poland": "2026-06-16T21:00:00+02:00",
   "attendance": "80545",
-  "match_time": "59'",
-  "period": 5,
-  "winner": null,
+  "match_time": "100'",
+  "period": 10,
+  "winner": "43946",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "France",
     "abbr": "FRA",
     "country": "FRA",
-    "score": 0,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
     "players": [
@@ -382,9 +382,53 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "389867",
+        "minute": "66'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "484860",
+        "minute": "82'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "389867",
+        "minute": "90'+6'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43946",
+        "id_player_off": "398680",
+        "id_player_on": "484860",
+        "player_off_name": "Ousmane DEMBELE",
+        "player_on_name": "Bradley BARCOLA"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43946",
+        "id_player_off": "464114",
+        "id_player_on": "431861",
+        "player_off_name": "Desire DOUE",
+        "player_on_name": "Rayan CHERKI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43879",
@@ -392,7 +436,7 @@
     "short_name": "Senegal",
     "abbr": "SEN",
     "country": "SEN",
-    "score": 0,
+    "score": 1,
     "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SEN",
     "players": [
@@ -735,9 +779,64 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "496358",
+        "minute": "90'+5'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43879"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43879",
+        "id_player_off": "401889",
+        "id_player_on": "496358",
+        "player_off_name": "Ismaila SARR",
+        "player_on_name": "Ibrahim MBAYE"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43879",
+        "id_player_off": "464842",
+        "id_player_on": "486130",
+        "player_off_name": "Lamine CAMARA",
+        "player_on_name": "Habib DIARRA"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43879",
+        "id_player_off": "418795",
+        "id_player_on": "418781",
+        "player_off_name": "Nicolas JACKSON",
+        "player_on_name": "Bamba DIENG"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43879",
+        "id_player_off": "431788",
+        "id_player_on": "448815",
+        "player_off_name": "Pape GUEYE",
+        "player_on_name": "Iliman NDIAYE"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43879",
+        "id_player_off": "332314",
+        "id_player_on": "448825",
+        "player_off_name": "Idrissa Gana GUEYE",
+        "player_on_name": "Pathe CISS"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +848,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021490?language=en",
-  "updated_at_utc": "2026-06-16T20:24:01.060571+00:00",
-  "updated_at_poland": "2026-06-16T22:24:01.060575+02:00"
+  "updated_at_utc": "2026-06-16T22:27:10.729774+00:00",
+  "updated_at_poland": "2026-06-17T00:27:10.729779+02:00"
 }
