@@ -12,9 +12,9 @@
   "date_utc": "2026-06-15T22:00:00Z",
   "date_local": "2026-06-15T18:00:00Z",
   "date_poland": "2026-06-16T00:00:00+02:00",
-  "attendance": null,
-  "match_time": "47'",
-  "period": 5,
+  "attendance": "62764",
+  "match_time": "99'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -402,7 +402,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43835",
+        "id_player_off": "436537",
+        "id_player_on": "403319",
+        "player_off_name": "MUSAB ALJUWAYR",
+        "player_on_name": "NASSER ALDAWSARI"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43835",
+        "id_player_off": "512183",
+        "id_player_on": "430518",
+        "player_off_name": "MOHAMMED ABU ALSHAMAT",
+        "player_on_name": "NAWAF BU WASHL"
+      },
+      {
+        "period": 5,
+        "minute": "90'+2'",
+        "id_team": "43835",
+        "id_player_off": "419303",
+        "id_player_on": "419302",
+        "player_off_name": "MOTEB ALHARBI",
+        "player_on_name": "ABDULLAH ALHAMDDAN"
+      },
+      {
+        "period": 5,
+        "minute": "90'+2'",
+        "id_team": "43835",
+        "id_player_off": "419291",
+        "id_player_on": "523333",
+        "player_off_name": "FERAS ALBRIKAN",
+        "player_on_name": "ALA ALHAJJI"
+      },
+      {
+        "period": 5,
+        "minute": "90'+2'",
+        "id_team": "43835",
+        "id_player_off": "419281",
+        "id_player_on": "433439",
+        "player_off_name": "SAUD ABDULHAMID",
+        "player_on_name": "ALI LAJAMI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43930",
@@ -410,7 +456,7 @@
     "short_name": "Uruguay",
     "abbr": "URU",
     "country": "URU",
-    "score": 0,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/URU",
     "players": [
@@ -727,7 +773,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "419100",
+        "minute": "80'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43930"
+      }
+    ],
     "bookings": [],
     "substitutions": [
       {
@@ -747,6 +802,33 @@
         "id_player_on": "419134",
         "player_off_name": "Matias VINA",
         "player_on_name": "Juan Manuel SANABRIA"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43930",
+        "id_player_off": "441623",
+        "id_player_on": "402898",
+        "player_off_name": "Manuel UGARTE",
+        "player_on_name": "Nicolas DE LA CRUZ"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43930",
+        "id_player_off": "419100",
+        "id_player_on": "419132",
+        "player_off_name": "Maxi ARAUJO",
+        "player_on_name": "Brian RODRIGUEZ"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43930",
+        "id_player_off": "477536",
+        "id_player_on": "332897",
+        "player_off_name": "Federico VINAS",
+        "player_on_name": "Rodrigo AGUIRRE"
       }
     ]
   },
@@ -760,13 +842,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021486?language=en",
-  "updated_at_utc": "2026-06-15T23:13:38.878225+00:00",
-  "updated_at_poland": "2026-06-16T01:13:38.878230+02:00"
+  "updated_at_utc": "2026-06-16T01:48:00.224100+00:00",
+  "updated_at_poland": "2026-06-16T03:48:00.224106+02:00"
 }
