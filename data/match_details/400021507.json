@@ -12,10 +12,10 @@
   "date_utc": "2026-06-17T20:00:00Z",
   "date_local": "2026-06-17T15:00:00Z",
   "date_poland": "2026-06-17T22:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "70389",
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43942",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "England",
     "abbr": "ENG",
     "country": "ENG",
-    "score": 2,
+    "score": 4,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
     "players": [
@@ -385,10 +385,72 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43942"
+      },
+      {
+        "type": 2,
+        "id_player": "448202",
+        "minute": "47'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43942"
+      },
+      {
+        "type": 2,
+        "id_player": "401470",
+        "minute": "85'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43942"
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43942",
+        "id_player_off": "433097",
+        "id_player_on": "492716",
+        "player_off_name": "Declan RICE",
+        "player_on_name": "Morgan ROGERS"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43942",
+        "id_player_off": "489732",
+        "id_player_on": "448196",
+        "player_off_name": "Noni MADUEKE",
+        "player_on_name": "Bukayo SAKA"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43942",
+        "id_player_off": "448189",
+        "id_player_on": "401470",
+        "player_off_name": "Anthony GORDON",
+        "player_on_name": "Marcus RASHFORD"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43942",
+        "id_player_off": "448202",
+        "id_player_on": "506329",
+        "player_off_name": "Jude BELLINGHAM",
+        "player_on_name": "Djed SPENCE"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43942",
+        "id_player_off": "369434",
+        "id_player_on": "405841",
+        "player_off_name": "John STONES",
+        "player_on_name": "Marc GUEHI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43938",
@@ -758,7 +820,53 @@
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43938",
+        "id_player_off": "241559",
+        "id_player_on": "339987",
+        "player_off_name": "Luka MODRIC",
+        "player_on_name": "Mateo KOVACIC"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43938",
+        "id_player_off": "389754",
+        "id_player_on": "485068",
+        "player_off_name": "Petar Musa",
+        "player_on_name": "Igor MATANOVIC"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43938",
+        "id_player_off": "499290",
+        "id_player_on": "482931",
+        "player_off_name": "Luka VUSKOVIC",
+        "player_on_name": "Marco PASALIC"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43938",
+        "id_player_off": "380005",
+        "id_player_on": "336472",
+        "player_off_name": "Mario PASALIC",
+        "player_on_name": "Andrej KRAMARIC"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43938",
+        "id_player_off": "482774",
+        "id_player_on": "409191",
+        "player_off_name": "Martin BATURINA",
+        "player_on_name": "Nikola VLASIC"
+      }
+    ]
   },
   "officials": [
     {
@@ -770,13 +878,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021507?language=en",
-  "updated_at_utc": "2026-06-17T20:57:27.919508+00:00",
-  "updated_at_poland": "2026-06-17T22:57:27.919514+02:00"
+  "updated_at_utc": "2026-06-17T22:45:24.862560+00:00",
+  "updated_at_poland": "2026-06-18T00:45:24.862565+02:00"
 }

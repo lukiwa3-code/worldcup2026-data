@@ -1059,7 +1059,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CRO",
       "is_placeholder": false
     },
-    "home_score": 2,
+    "home_score": 4,
     "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -1069,9 +1069,9 @@
       "city": "Dallas",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43942",
     "placeholder_home": "L1",
     "placeholder_away": "L2",
     "time_defined": true,
