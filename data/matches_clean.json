@@ -1059,8 +1059,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CRO",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -1069,7 +1069,7 @@
       "city": "Dallas",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "L1",
@@ -1118,8 +1118,8 @@
       "city": "Houston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "K1",
     "placeholder_away": "K2",

@@ -13,8 +13,8 @@
   "date_local": "2026-06-17T12:00:00Z",
   "date_poland": "2026-06-17T19:00:00+02:00",
   "attendance": "68777",
-  "match_time": "78'",
-  "period": 5,
+  "match_time": "95'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -400,6 +400,22 @@
         "id_team": "43963",
         "minute": "13'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "395212",
+        "id_team": "43963",
+        "minute": "88'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "492358",
+        "id_team": "43963",
+        "minute": "90'+2'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -429,6 +445,15 @@
         "id_player_on": "395212",
         "player_off_name": "NUNO MENDES",
         "player_on_name": "NELSON SEMEDO"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43963",
+        "id_player_off": "441149",
+        "id_player_on": "448081",
+        "player_off_name": "VITINHA",
+        "player_on_name": "GONCALO RAMOS"
       }
     ]
   },
@@ -828,6 +853,24 @@
         "id_player_on": "477833",
         "player_off_name": "Arthur MASUAKU",
         "player_on_name": "Joris KAYEMBE"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "20014",
+        "id_player_off": "426357",
+        "id_player_on": "477853",
+        "player_off_name": "Aaron WAN-BISSAKA",
+        "player_on_name": "Gedeon KALULU"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "20014",
+        "id_player_off": "336425",
+        "id_player_on": "477835",
+        "player_off_name": "Cedric BAKAMBU",
+        "player_on_name": "Simon BANZA"
       }
     ]
   },
@@ -841,13 +884,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021502?language=en",
-  "updated_at_utc": "2026-06-17T18:42:39.800500+00:00",
-  "updated_at_poland": "2026-06-17T20:42:39.800505+02:00"
+  "updated_at_utc": "2026-06-17T20:57:27.603366+00:00",
+  "updated_at_poland": "2026-06-17T22:57:27.603371+02:00"
 }
