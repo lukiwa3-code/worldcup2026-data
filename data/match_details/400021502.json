@@ -12,9 +12,9 @@
   "date_utc": "2026-06-17T17:00:00Z",
   "date_local": "2026-06-17T12:00:00Z",
   "date_poland": "2026-06-17T19:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "attendance": "68777",
+  "match_time": "78'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Portugal",
     "abbr": "POR",
     "country": "POR",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/POR",
     "players": [
@@ -382,9 +382,55 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "484141",
+        "minute": "6'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43963"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "395205",
+        "id_team": "43963",
+        "minute": "13'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43963",
+        "id_player_off": "395205",
+        "id_player_on": "485081",
+        "player_off_name": "BERNARDO SILVA",
+        "player_on_name": "FRANCISCO CONCEICAO"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43963",
+        "id_player_off": "418548",
+        "id_player_on": "418550",
+        "player_off_name": "PEDRO NETO",
+        "player_on_name": "RAFAEL LEAO"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43963",
+        "id_player_off": "433195",
+        "id_player_on": "395212",
+        "player_off_name": "NUNO MENDES",
+        "player_on_name": "NELSON SEMEDO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "20014",
@@ -392,7 +438,7 @@
     "short_name": "Congo DR",
     "abbr": "COD",
     "country": "COD",
-    "score": null,
+    "score": 1,
     "tactics": "5-3-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COD",
     "players": [
@@ -735,9 +781,55 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "441316",
+        "minute": "45'+5'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "20014"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "356532",
+        "id_team": "20014",
+        "minute": "32'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "57'",
+        "id_team": "20014",
+        "id_player_off": "494458",
+        "id_player_on": "486147",
+        "player_off_name": "Ngalayel MUKAU",
+        "player_on_name": "Noah SADIKI"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "20014",
+        "id_player_off": "433161",
+        "id_player_on": "448128",
+        "player_off_name": "Edo Kayembe",
+        "player_on_name": "Charles PICKEL"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "20014",
+        "id_player_off": "436572",
+        "id_player_on": "477833",
+        "player_off_name": "Arthur MASUAKU",
+        "player_on_name": "Joris KAYEMBE"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +841,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021502?language=en",
-  "updated_at_utc": "2026-06-17T16:28:15.141130+00:00",
-  "updated_at_poland": "2026-06-17T18:28:15.141136+02:00"
+  "updated_at_utc": "2026-06-17T18:42:39.800500+00:00",
+  "updated_at_poland": "2026-06-17T20:42:39.800505+02:00"
 }
