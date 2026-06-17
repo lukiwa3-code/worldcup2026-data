@@ -864,7 +864,7 @@
       "is_placeholder": false
     },
     "home_score": 1,
-    "away_score": 3,
+    "away_score": 4,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -873,9 +873,9 @@
       "city": "Boston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43961",
     "placeholder_home": "I3",
     "placeholder_away": "I4",
     "time_defined": true,
@@ -912,8 +912,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ALG",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -922,9 +922,9 @@
       "city": "Kansas City",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43922",
     "placeholder_home": "J1",
     "placeholder_away": "J2",
     "time_defined": true,
@@ -971,7 +971,7 @@
       "city": "San Francisco Bay Area",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 12,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "J3",
