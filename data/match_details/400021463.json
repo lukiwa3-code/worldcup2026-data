@@ -862,7 +862,7 @@
       "id": "360305",
       "country": "VEN",
       "name": "Jesús Valenzuela Sáez",
-      "short_name": "Jesus VALENZUELA",
+      "short_name": "J. Valenzuela",
       "type": "Referee",
       "official_type": 1
     }
@@ -874,6 +874,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021463?language=en",
-  "updated_at_utc": "2026-06-17T03:44:17.504086+00:00",
-  "updated_at_poland": "2026-06-17T05:44:17.504090+02:00"
+  "updated_at_utc": "2026-06-17T08:50:27.655085+00:00",
+  "updated_at_poland": "2026-06-17T10:50:27.655091+02:00"
 }

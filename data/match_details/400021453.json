@@ -864,6 +864,14 @@
       "short_name": "Mustapha GHORBAL",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "373845",
+      "country": "ESP",
+      "name": "Alejandro José Hernández Hernández",
+      "short_name": "Alejandro HERNANDEZ",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -873,6 +881,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021453?language=en",
-  "updated_at_utc": "2026-06-17T03:44:17.210098+00:00",
-  "updated_at_poland": "2026-06-17T05:44:17.210102+02:00"
+  "updated_at_utc": "2026-06-17T08:50:27.357191+00:00",
+  "updated_at_poland": "2026-06-17T10:50:27.357196+02:00"
 }

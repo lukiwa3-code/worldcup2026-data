@@ -12,10 +12,10 @@
   "date_utc": "2026-06-17T04:00:00Z",
   "date_local": "2026-06-16T21:00:00Z",
   "date_poland": "2026-06-17T06:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 2,
-  "winner": null,
+  "attendance": "68527",
+  "match_time": "103'",
+  "period": 10,
+  "winner": "43934",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Austria",
     "abbr": "AUT",
     "country": "AUT",
-    "score": null,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUT",
     "players": [
@@ -382,9 +382,89 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "463283",
+        "minute": "20'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43934"
+      },
+      {
+        "type": 3,
+        "id_player": "431225",
+        "minute": "76'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43934"
+      },
+      {
+        "type": 1,
+        "id_player": "299200",
+        "minute": "90'+12'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43934"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "358241",
+        "id_team": "43934",
+        "minute": "77'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43934",
+        "id_player_off": "430100",
+        "id_player_on": "299200",
+        "player_off_name": "Sasa KALAJDZIC",
+        "player_on_name": "Marko ARNAUTOVIC"
+      },
+      {
+        "period": 5,
+        "minute": "59'",
+        "id_team": "43934",
+        "id_player_off": "385531",
+        "id_player_on": "463800",
+        "player_off_name": "Xaver Schlager",
+        "player_on_name": "Carney CHUKWUEMEKA"
+      },
+      {
+        "period": 5,
+        "minute": "59'",
+        "id_team": "43934",
+        "id_player_off": "463288",
+        "id_player_on": "520036",
+        "player_off_name": "Phillip MWENE",
+        "player_on_name": "Paul WANNER"
+      },
+      {
+        "period": 5,
+        "minute": "59'",
+        "id_team": "43934",
+        "id_player_off": "316002",
+        "id_player_on": "405263",
+        "player_off_name": "David ALABA",
+        "player_on_name": "Kevin Danso"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43934",
+        "id_player_off": "463283",
+        "id_player_on": "463286",
+        "player_off_name": "Romano SCHMID",
+        "player_on_name": "Patrick WIMMER"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43820",
@@ -392,7 +472,7 @@
     "short_name": "Jordan",
     "abbr": "JOR",
     "country": "JOR",
-    "score": null,
+    "score": 1,
     "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JOR",
     "players": [
@@ -735,9 +815,64 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "431212",
+        "minute": "50'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43820"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43820",
+        "id_player_off": "489551",
+        "id_player_on": "499102",
+        "player_off_name": "MOHAMMAD ABUALNADI",
+        "player_on_name": "SALEEM OBAID"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43820",
+        "id_player_off": "433527",
+        "id_player_on": "431219",
+        "player_off_name": "ABDALLAH NASIB",
+        "player_on_name": "SAED ALROSAN"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43820",
+        "id_player_off": "389437",
+        "id_player_on": "396950",
+        "player_off_name": "EHSAN HADDAD",
+        "player_on_name": "MAHMOUD ALMARDI"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43820",
+        "id_player_off": "511875",
+        "id_player_on": "498514",
+        "player_off_name": "ODEH FAKHOURY",
+        "player_on_name": "ALI AZAIZEH"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43820",
+        "id_player_off": "431211",
+        "id_player_on": "45191",
+        "player_off_name": "MOUSA ALTAMARI",
+        "player_on_name": "MOHAMMAD ALDAOUD"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +884,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 12,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021498?language=en",
-  "updated_at_utc": "2026-06-17T03:44:20.960442+00:00",
-  "updated_at_poland": "2026-06-17T05:44:20.960447+02:00"
+  "updated_at_utc": "2026-06-17T08:50:30.996370+00:00",
+  "updated_at_poland": "2026-06-17T10:50:30.996374+02:00"
 }

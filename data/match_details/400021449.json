@@ -896,7 +896,7 @@
       "id": "416165",
       "country": "ARG",
       "name": "Facundo TELLO",
-      "short_name": "Facundo TELLO",
+      "short_name": "F. Tello",
       "type": "Referee",
       "official_type": 1
     }
@@ -908,6 +908,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021449?language=en",
-  "updated_at_utc": "2026-06-17T03:44:15.502164+00:00",
-  "updated_at_poland": "2026-06-17T05:44:15.502169+02:00"
+  "updated_at_utc": "2026-06-17T08:50:26.221658+00:00",
+  "updated_at_poland": "2026-06-17T10:50:26.221664+02:00"
 }

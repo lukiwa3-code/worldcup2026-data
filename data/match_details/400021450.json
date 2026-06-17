@@ -66,7 +66,7 @@
       "id": "416177",
       "country": "CHI",
       "name": "Cristián Marcelo Garay Reyes",
-      "short_name": "Cristian GARAY",
+      "short_name": "C. Garay",
       "type": "Referee",
       "official_type": 1
     }
@@ -78,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021450?language=en",
-  "updated_at_utc": "2026-06-17T03:44:22.909276+00:00",
-  "updated_at_poland": "2026-06-17T05:44:22.909280+02:00"
+  "updated_at_utc": "2026-06-17T08:50:32.883161+00:00",
+  "updated_at_poland": "2026-06-17T10:50:32.883165+02:00"
 }

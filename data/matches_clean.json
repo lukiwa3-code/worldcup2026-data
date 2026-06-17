@@ -961,8 +961,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JOR",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -971,9 +971,9 @@
       "city": "San Francisco Bay Area",
       "country": "USA"
     },
-    "match_status_code": 12,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43934",
     "placeholder_home": "J3",
     "placeholder_away": "J4",
     "time_defined": true,
