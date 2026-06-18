@@ -1,8 +1,8 @@
 {
-  "updated_at_utc": "2026-06-18T04:57:29.136499+00:00",
-  "updated_at_poland": "2026-06-18T06:57:29.136507+02:00",
+  "updated_at_utc": "2026-06-18T16:02:01.805773+00:00",
+  "updated_at_poland": "2026-06-18T18:02:01.805783+02:00",
   "matches_count": 104,
-  "data_hash": "487350fafed87e515c0e9602742c6036537fc31174b1b6bbe160c9d05d1ecf95",
+  "data_hash": "3774c7118e52ce2c7ebad426c5f6169b2ca60f0e3d2f565f4b5acf10014bf81d",
   "source": "FIFA",
   "source_url": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "match_details_folder": "data/match_details"
