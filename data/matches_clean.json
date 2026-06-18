@@ -1255,8 +1255,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BIH",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -1265,9 +1265,9 @@
       "city": "Los Angeles",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43971",
     "placeholder_home": "B4",
     "placeholder_away": "B2",
     "time_defined": true,

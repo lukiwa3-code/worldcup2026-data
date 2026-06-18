@@ -12,10 +12,10 @@
   "date_utc": "2026-06-18T19:00:00Z",
   "date_local": "2026-06-18T12:00:00Z",
   "date_poland": "2026-06-18T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
-  "winner": null,
+  "attendance": "70026",
+  "match_time": "98'",
+  "period": 10,
+  "winner": "43971",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Switzerland",
     "abbr": "SUI",
     "country": "SUI",
-    "score": null,
+    "score": 4,
     "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
     "players": [
@@ -369,9 +369,97 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "502727",
+        "minute": "74'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43971"
+      },
+      {
+        "type": 2,
+        "id_player": "448131",
+        "minute": "84'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43971"
+      },
+      {
+        "type": 2,
+        "id_player": "502727",
+        "minute": "90'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43971"
+      },
+      {
+        "type": 1,
+        "id_player": "311558",
+        "minute": "90'+7'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43971"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "398509",
+        "id_team": "43971",
+        "minute": "65'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43971",
+        "id_player_off": "448114",
+        "id_player_on": "502727",
+        "player_off_name": "Dan NDOYE",
+        "player_on_name": "Johan MANZAMBI"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43971",
+        "id_player_off": "433147",
+        "id_player_on": "411226",
+        "player_off_name": "Michel AEBISCHER",
+        "player_on_name": "Djibril SOW"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43971",
+        "id_player_off": "448103",
+        "id_player_on": "448131",
+        "player_off_name": "Fabian RIEDER",
+        "player_on_name": "Ruben VARGAS"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43971",
+        "id_player_off": "356412",
+        "id_player_on": "510908",
+        "player_off_name": "Silvan WIDMER",
+        "player_on_name": "Luca JAQUEZ"
+      },
+      {
+        "period": 5,
+        "minute": "89'",
+        "id_team": "43971",
+        "id_player_off": "393480",
+        "id_player_on": "448104",
+        "player_off_name": "Breel EMBOLO",
+        "player_on_name": "Cedric ITTEN"
+      }
+    ]
   },
   "away_team": {
     "id_team": "44037",
@@ -379,7 +467,7 @@
     "short_name": "Bosnia and Herzegovina",
     "abbr": "BIH",
     "country": "BIH",
-    "score": null,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BIH",
     "players": [
@@ -722,9 +810,89 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "522846",
+        "minute": "90'+3'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "44037"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "482976",
+        "id_team": "44037",
+        "minute": "59'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "300409",
+        "id_team": "44037",
+        "minute": "61'",
+        "reason": null
+      },
+      {
+        "card": 2,
+        "period": 5,
+        "id_player": "484022",
+        "id_team": "44037",
+        "minute": "80'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "44037",
+        "id_player_off": "483966",
+        "id_player_on": "482974",
+        "player_off_name": "Benjamin TAHIROVIC",
+        "player_on_name": "Ivan BASIC"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "44037",
+        "id_player_off": "300409",
+        "id_player_on": "464566",
+        "player_off_name": "Edin DZEKO",
+        "player_on_name": "Esmir BAJRAKTAREVIC"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "44037",
+        "id_player_off": "372436",
+        "id_player_on": "430196",
+        "player_off_name": "Ivan SUNJIC",
+        "player_on_name": "Amir HADZIAHMETOVIC"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "44037",
+        "id_player_off": "436743",
+        "id_player_on": "519954",
+        "player_off_name": "Ermedin DEMIROVIC",
+        "player_on_name": "Jovo LUKIC"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "44037",
+        "id_player_off": "504990",
+        "id_player_on": "522846",
+        "player_off_name": "Kerim ALAJBEGOVIC",
+        "player_on_name": "Ermin MAHMIC"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +904,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021446?language=en",
-  "updated_at_utc": "2026-06-18T18:31:55.567988+00:00",
-  "updated_at_poland": "2026-06-18T20:31:55.567993+02:00"
+  "updated_at_utc": "2026-06-18T21:05:40.615762+00:00",
+  "updated_at_poland": "2026-06-18T23:05:40.615766+02:00"
 }
