@@ -13,8 +13,8 @@
   "date_local": "2026-06-18T15:00:00Z",
   "date_poland": "2026-06-19T00:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "",
+  "period": 4,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Canada",
     "abbr": "CAN",
     "country": "CAN",
-    "score": null,
+    "score": 3,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
     "players": [
@@ -369,8 +369,42 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "390670",
+        "minute": "16'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43899"
+      },
+      {
+        "type": 2,
+        "id_player": "441257",
+        "minute": "29'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43899"
+      },
+      {
+        "type": 2,
+        "id_player": "441257",
+        "minute": "45'+3'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43899"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "371958",
+        "id_team": "43899",
+        "minute": "9'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "away_team": {
@@ -379,8 +413,8 @@
     "short_name": "Qatar",
     "abbr": "QAT",
     "country": "QAT",
-    "score": null,
-    "tactics": "4-2-3-1",
+    "score": 0,
+    "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/QAT",
     "players": [
       {
@@ -723,8 +757,27 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 2,
+        "period": 3,
+        "id_player": "419441",
+        "id_team": "43834",
+        "minute": "33'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "40'",
+        "id_team": "43834",
+        "id_player_off": "419463",
+        "id_player_on": "386387",
+        "player_off_name": "YUSUF ABDURISAG",
+        "player_on_name": "SULTAN ALBRAKE"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +789,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021450?language=en",
-  "updated_at_utc": "2026-06-18T21:05:40.844643+00:00",
-  "updated_at_poland": "2026-06-18T23:05:40.844648+02:00"
+  "updated_at_utc": "2026-06-18T23:01:31.305016+00:00",
+  "updated_at_poland": "2026-06-19T01:01:31.305020+02:00"
 }
