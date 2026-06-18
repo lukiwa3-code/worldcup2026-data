@@ -1010,7 +1010,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/PAN",
       "is_placeholder": false
     },
-    "home_score": 0,
+    "home_score": 1,
     "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -1020,9 +1020,9 @@
       "city": "Toronto",
       "country": "CAN"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43860",
     "placeholder_home": "L3",
     "placeholder_away": "L4",
     "time_defined": true,
@@ -1157,8 +1157,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COL",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 3,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -1167,9 +1167,9 @@
       "city": "Mexico City",
       "country": "MEX"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43926",
     "placeholder_home": "K3",
     "placeholder_away": "K4",
     "time_defined": true,
