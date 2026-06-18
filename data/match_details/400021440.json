@@ -12,9 +12,9 @@
   "date_utc": "2026-06-18T16:00:00Z",
   "date_local": "2026-06-18T12:00:00Z",
   "date_poland": "2026-06-18T18:00:00+02:00",
-  "attendance": null,
-  "match_time": "1'",
-  "period": 3,
+  "attendance": "67442",
+  "match_time": "98'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Czechia",
     "abbr": "CZE",
     "country": "CZE",
-    "score": 0,
-    "tactics": "5-2-3",
+    "score": 1,
+    "tactics": "3-5-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CZE",
     "players": [
       {
@@ -369,9 +369,73 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "433668",
+        "minute": "6'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43995"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "441170",
+        "id_team": "43995",
+        "minute": "75'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "55'",
+        "id_team": "43995",
+        "id_player_off": "358003",
+        "id_player_on": "486082",
+        "player_off_name": "Vladimir DARIDA",
+        "player_on_name": "Pavel SULC"
+      },
+      {
+        "period": 5,
+        "minute": "55'",
+        "id_team": "43995",
+        "id_player_off": "523097",
+        "id_player_on": "441166",
+        "player_off_name": "Alexandr SOJKA",
+        "player_on_name": "Jaroslav ZELENY"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43995",
+        "id_player_off": "433754",
+        "id_player_on": "484011",
+        "player_off_name": "Adam HLOZEK",
+        "player_on_name": "Lukas PROVOD"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43995",
+        "id_player_off": "433668",
+        "id_player_on": "404885",
+        "player_off_name": "Michal SADILEK",
+        "player_on_name": "Tomas SOUCEK"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43995",
+        "id_player_off": "486081",
+        "id_player_on": "433755",
+        "player_off_name": "Lukas CERV",
+        "player_on_name": "David Zima"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43883",
@@ -379,8 +443,8 @@
     "short_name": "South Africa",
     "abbr": "RSA",
     "country": "RSA",
-    "score": 0,
-    "tactics": "4-2-3-1",
+    "score": 1,
+    "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/RSA",
     "players": [
       {
@@ -696,9 +760,63 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 1,
+        "id_player": "403616",
+        "minute": "83'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43883"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "403616",
+        "id_team": "43883",
+        "minute": "33'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "494248",
+        "id_team": "43883",
+        "minute": "40'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43883",
+        "id_player_off": "463236",
+        "id_player_on": "486161",
+        "player_off_name": "Jayden ADAMS",
+        "player_on_name": "Relebohile MOFOKENG"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43883",
+        "id_player_off": "481242",
+        "id_player_on": "430917",
+        "player_off_name": "Iqraam RAYNERS",
+        "player_on_name": "Evidence MAKGOPA"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43883",
+        "id_player_off": "463234",
+        "id_player_on": "506038",
+        "player_off_name": "Thapelo MASEKO",
+        "player_on_name": "Kamogelo SEBELEBELE"
+      }
+    ]
   },
   "officials": [
     {
@@ -710,13 +828,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021440?language=en",
-  "updated_at_utc": "2026-06-18T16:02:09.329263+00:00",
-  "updated_at_poland": "2026-06-18T18:02:09.329267+02:00"
+  "updated_at_utc": "2026-06-18T18:31:55.222194+00:00",
+  "updated_at_poland": "2026-06-18T20:31:55.222199+02:00"
 }
