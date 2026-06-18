@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "314605",
+      "country": "ROU",
+      "name": "Istvan Kovacs",
+      "short_name": "Istvan KOVACS",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021475?language=en",
-  "updated_at_utc": "2026-06-18T04:57:40.280342+00:00",
-  "updated_at_poland": "2026-06-18T06:57:40.280346+02:00"
+  "updated_at_utc": "2026-06-18T09:15:15.660615+00:00",
+  "updated_at_poland": "2026-06-18T11:15:15.660618+02:00"
 }

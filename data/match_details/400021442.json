@@ -66,7 +66,7 @@
       "id": "408669",
       "country": "URU",
       "name": "Gustavo Tejera",
-      "short_name": "G. Tejera",
+      "short_name": "Gustavo TEJERA",
       "type": "Referee",
       "official_type": 1
     }
@@ -78,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021442?language=en",
-  "updated_at_utc": "2026-06-18T04:57:37.954399+00:00",
-  "updated_at_poland": "2026-06-18T06:57:37.954403+02:00"
+  "updated_at_utc": "2026-06-18T09:15:12.520816+00:00",
+  "updated_at_poland": "2026-06-18T11:15:12.520820+02:00"
 }

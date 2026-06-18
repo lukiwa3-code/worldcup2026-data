@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "347710",
+      "country": "ENG",
+      "name": "Michael Oliver",
+      "short_name": "Michael OLIVER",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021472?language=en",
-  "updated_at_utc": "2026-06-18T04:57:39.364302+00:00",
-  "updated_at_poland": "2026-06-18T06:57:39.364306+02:00"
+  "updated_at_utc": "2026-06-18T09:15:14.667662+00:00",
+  "updated_at_poland": "2026-06-18T11:15:14.667665+02:00"
 }

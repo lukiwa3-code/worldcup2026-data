@@ -895,7 +895,7 @@
       "id": "434995",
       "country": "ARG",
       "name": "Yael Falcón Pérez",
-      "short_name": "Y. Falcón",
+      "short_name": "Yael FALCON PEREZ",
       "type": "Referee",
       "official_type": 1
     }
@@ -907,6 +907,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021474?language=en",
-  "updated_at_utc": "2026-06-18T04:57:32.845226+00:00",
-  "updated_at_poland": "2026-06-18T06:57:32.845230+02:00"
+  "updated_at_utc": "2026-06-18T09:15:07.154946+00:00",
+  "updated_at_poland": "2026-06-18T11:15:07.154949+02:00"
 }

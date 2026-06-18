@@ -894,9 +894,17 @@
       "id": "361561",
       "country": "BRA",
       "name": "Wilton SAMPAIO",
-      "short_name": "Wilton Pereira Sampaio",
+      "short_name": "Wilton SAMPAIO",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "416159",
+      "country": "PAR",
+      "name": "Juan Gabriel Benítez",
+      "short_name": "Juan Gabriel BENITEZ",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -906,6 +914,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021443?language=en",
-  "updated_at_utc": "2026-06-18T04:57:29.276334+00:00",
-  "updated_at_poland": "2026-06-18T06:57:29.276338+02:00"
+  "updated_at_utc": "2026-06-18T09:15:03.266385+00:00",
+  "updated_at_poland": "2026-06-18T11:15:03.266390+02:00"
 }
