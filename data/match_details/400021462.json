@@ -13,8 +13,8 @@
   "date_local": "2026-06-19T12:00:00Z",
   "date_poland": "2026-06-19T21:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "46'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "USA",
     "abbr": "USA",
     "country": "USA",
-    "score": null,
-    "tactics": "4-2-3-1",
+    "score": 2,
+    "tactics": "3-5-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/USA",
     "players": [
       {
@@ -369,7 +369,24 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 3,
+        "id_player": "382312",
+        "minute": "11'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43921"
+      },
+      {
+        "type": 2,
+        "id_player": "464542",
+        "minute": "43'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43921"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -379,7 +396,7 @@
     "short_name": "Australia",
     "abbr": "AUS",
     "country": "AUS",
-    "score": null,
+    "score": 0,
     "tactics": "5-4-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUS",
     "players": [
@@ -723,8 +740,53 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "423522",
+        "id_team": "43976",
+        "minute": "16'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "448014",
+        "id_team": "43976",
+        "minute": "32'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43976",
+        "id_player_off": "382312",
+        "id_player_on": "339112",
+        "player_off_name": "Cameron BURGESS",
+        "player_on_name": "Jason GERIA"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43976",
+        "id_player_off": "491166",
+        "id_player_on": "430452",
+        "player_off_name": "Nishan VELUPILLAY",
+        "player_on_name": "Connor METCALFE"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43976",
+        "id_player_off": "498806",
+        "id_player_on": "486306",
+        "player_off_name": "Mohamed TOURE",
+        "player_on_name": "Nestory IRANKUNDA"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +798,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021462?language=en",
-  "updated_at_utc": "2026-06-19T18:23:51.832296+00:00",
-  "updated_at_poland": "2026-06-19T20:23:51.832301+02:00"
+  "updated_at_utc": "2026-06-19T20:11:49.083439+00:00",
+  "updated_at_poland": "2026-06-19T22:11:49.083444+02:00"
 }
