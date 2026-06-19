@@ -12,10 +12,10 @@
   "date_utc": "2026-06-19T01:00:00Z",
   "date_local": "2026-06-18T19:00:00Z",
   "date_poland": "2026-06-19T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "45'+3'",
-  "period": 3,
-  "winner": null,
+  "attendance": "45522",
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43911",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Mexico",
     "abbr": "MEX",
     "country": "MEX",
-    "score": 0,
+    "score": 1,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MEX",
     "players": [
@@ -369,9 +369,64 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "430763",
+        "minute": "50'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43911"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43911",
+        "id_player_off": "430763",
+        "id_player_on": "461177",
+        "player_off_name": "Luis ROMO",
+        "player_on_name": "Obed VARGAS"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43911",
+        "id_player_off": "464533",
+        "id_player_on": "372090",
+        "player_off_name": "Brian GUTIERREZ",
+        "player_on_name": "Orbelin PINEDA"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43911",
+        "id_player_off": "356731",
+        "id_player_on": "430759",
+        "player_off_name": "Raul JIMENEZ",
+        "player_on_name": "Santiago GIMENEZ"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43911",
+        "id_player_off": "403585",
+        "id_player_on": "441261",
+        "player_off_name": "Roberto ALVARADO",
+        "player_on_name": "Israel REYES"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43911",
+        "id_player_off": "429157",
+        "id_player_on": "406135",
+        "player_off_name": "Julian QUINONES",
+        "player_on_name": "Cesar HUERTA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43822",
@@ -731,9 +786,63 @@
         "id_team": "43822",
         "minute": "4'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "402817",
+        "id_team": "43822",
+        "minute": "58'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "57'",
+        "id_team": "43822",
+        "id_player_off": "390525",
+        "id_player_on": "395083",
+        "player_off_name": "LEE Jaesung",
+        "player_on_name": "HWANG Heechan"
+      },
+      {
+        "period": 5,
+        "minute": "57'",
+        "id_team": "43822",
+        "id_player_off": "307849",
+        "id_player_on": "448586",
+        "player_off_name": "SON Heungmin",
+        "player_on_name": "OH Hyeongyu"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43822",
+        "id_player_off": "448580",
+        "id_player_on": "423855",
+        "player_off_name": "KIM Moonhwan ",
+        "player_on_name": "EOM Jisung"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43822",
+        "id_player_off": "429608",
+        "id_player_on": "448585",
+        "player_off_name": "SEOL Youngwoo",
+        "player_on_name": "YANG Hyunjun "
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43822",
+        "id_player_off": "402817",
+        "id_player_on": "430387",
+        "player_off_name": "PAIK Seungho",
+        "player_on_name": "CHO Guesung"
+      }
+    ]
   },
   "officials": [
     {
@@ -745,13 +854,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021442?language=en",
-  "updated_at_utc": "2026-06-19T01:48:46.043479+00:00",
-  "updated_at_poland": "2026-06-19T03:48:46.043484+02:00"
+  "updated_at_utc": "2026-06-19T06:51:47.762102+00:00",
+  "updated_at_poland": "2026-06-19T08:51:47.762106+02:00"
 }

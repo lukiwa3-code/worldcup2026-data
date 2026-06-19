@@ -27,7 +27,20 @@
     "country": "MEX"
   },
   "weather": null,
-  "home_team": null,
+  "home_team": {
+    "id_team": "43911",
+    "name": "Mexico",
+    "short_name": "Mexico",
+    "abbr": "MEX",
+    "country": "MEX",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MEX",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "away_team": null,
   "officials": [],
   "match_status_code": 1,
@@ -37,6 +50,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021520?language=en",
-  "updated_at_utc": "2026-06-19T01:49:00.721366+00:00",
-  "updated_at_poland": "2026-06-19T03:49:00.721372+02:00"
+  "updated_at_utc": "2026-06-19T06:52:03.425989+00:00",
+  "updated_at_poland": "2026-06-19T08:52:03.425994+02:00"
 }

@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "383222",
+      "country": "BRA",
+      "name": "Raphael Claus",
+      "short_name": "Raphael CLAUS",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021483?language=en",
-  "updated_at_utc": "2026-06-19T01:48:48.499553+00:00",
-  "updated_at_poland": "2026-06-19T03:48:48.499557+02:00"
+  "updated_at_utc": "2026-06-19T06:51:50.501325+00:00",
+  "updated_at_poland": "2026-06-19T08:51:50.501329+02:00"
 }
