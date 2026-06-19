@@ -12,10 +12,10 @@
   "date_utc": "2026-06-18T22:00:00Z",
   "date_local": "2026-06-18T15:00:00Z",
   "date_poland": "2026-06-19T00:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "52497",
+  "match_time": "100'",
+  "period": 10,
+  "winner": "43899",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Canada",
     "abbr": "CAN",
     "country": "CAN",
-    "score": 3,
+    "score": 6,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
     "players": [
@@ -393,6 +393,30 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43899"
+      },
+      {
+        "type": 2,
+        "id_player": "423941",
+        "minute": "64'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43899"
+      },
+      {
+        "type": 3,
+        "id_player": "498458",
+        "minute": "75'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43899"
+      },
+      {
+        "type": 2,
+        "id_player": "441257",
+        "minute": "90'+2'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43899"
       }
     ],
     "bookings": [
@@ -405,7 +429,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43899",
+        "id_player_off": "371958",
+        "id_player_on": "466585",
+        "player_off_name": "Derek CORNELIUS",
+        "player_on_name": "Moise BOMBITO"
+      },
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43899",
+        "id_player_off": "441258",
+        "id_player_on": "423941",
+        "player_off_name": "Ismael KONE",
+        "player_on_name": "Nathan SALIBA"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43899",
+        "id_player_off": "466687",
+        "id_player_on": "486929",
+        "player_off_name": "Ali AHMED",
+        "player_on_name": "Tani OLUWASEYI"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43899",
+        "id_player_off": "480322",
+        "id_player_on": "448411",
+        "player_off_name": "Luc DE FOUGEROLLES",
+        "player_on_name": "Jacob SHAFFELBURG"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43899",
+        "id_player_off": "430138",
+        "id_player_on": "485064",
+        "player_off_name": "Tajon BUCHANAN",
+        "player_on_name": "Niko SIGUR"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43834",
@@ -765,6 +835,22 @@
         "id_team": "43834",
         "minute": "33'",
         "reason": null
+      },
+      {
+        "card": 2,
+        "period": 5,
+        "id_player": "386348",
+        "id_team": "43834",
+        "minute": "51'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "433394",
+        "id_team": "43834",
+        "minute": "62'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -776,6 +862,42 @@
         "id_player_on": "386387",
         "player_off_name": "YUSUF ABDURISAG",
         "player_on_name": "SULTAN ALBRAKE"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43834",
+        "id_player_off": "429063",
+        "id_player_on": "433394",
+        "player_off_name": "EDMILSON JUNIOR",
+        "player_on_name": "AHMED FATHY"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43834",
+        "id_player_off": "419473",
+        "id_player_on": "498458",
+        "player_off_name": "JASSEM GABER",
+        "player_on_name": "MOHAMED MANAI"
+      },
+      {
+        "period": 5,
+        "minute": "59'",
+        "id_team": "43834",
+        "id_player_off": "386347",
+        "id_player_on": "486614",
+        "player_off_name": "AKRAM AFIF",
+        "player_on_name": "ALHASHMI ALHUSSEIN"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43834",
+        "id_player_off": "433394",
+        "id_player_on": "356673",
+        "player_off_name": "AHMED FATHY",
+        "player_on_name": "LUCAS MENDES"
       }
     ]
   },
@@ -789,13 +911,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021450?language=en",
-  "updated_at_utc": "2026-06-18T23:01:31.305016+00:00",
-  "updated_at_poland": "2026-06-19T01:01:31.305020+02:00"
+  "updated_at_utc": "2026-06-19T01:48:45.781444+00:00",
+  "updated_at_poland": "2026-06-19T03:48:45.781450+02:00"
 }
