@@ -13,8 +13,8 @@
   "date_local": "2026-06-19T18:00:00Z",
   "date_poland": "2026-06-20T00:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "32'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Scotland",
     "abbr": "SCO",
     "country": "SCO",
-    "score": null,
-    "tactics": "3-5-2",
+    "score": 0,
+    "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SCO",
     "players": [
       {
@@ -392,7 +392,7 @@
     "short_name": "Morocco",
     "abbr": "MAR",
     "country": "MAR",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
     "players": [
@@ -735,8 +735,26 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "448598",
+        "minute": "2'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43872"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "403083",
+        "id_team": "43872",
+        "minute": "22'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "officials": [
@@ -749,13 +767,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021454?language=en",
-  "updated_at_utc": "2026-06-19T21:34:24.331755+00:00",
-  "updated_at_poland": "2026-06-19T23:34:24.331760+02:00"
+  "updated_at_utc": "2026-06-19T22:33:05.674070+00:00",
+  "updated_at_poland": "2026-06-20T00:33:05.674074+02:00"
 }
