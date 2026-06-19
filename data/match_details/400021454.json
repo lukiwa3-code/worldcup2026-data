@@ -12,9 +12,9 @@
   "date_utc": "2026-06-19T22:00:00Z",
   "date_local": "2026-06-19T18:00:00Z",
   "date_poland": "2026-06-20T00:00:00+02:00",
-  "attendance": null,
-  "match_time": "32'",
-  "period": 3,
+  "attendance": "64146",
+  "match_time": "80'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -383,8 +383,45 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "401339",
+        "id_team": "43967",
+        "minute": "65'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43967",
+        "id_player_off": "401712",
+        "id_player_on": "485131",
+        "player_off_name": "Kieran Tierney",
+        "player_on_name": "Ben GANNON-DOAK"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43967",
+        "id_player_off": "433191",
+        "id_player_on": "430098",
+        "player_off_name": "Che Adams",
+        "player_on_name": "Lyndon DYKES"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43967",
+        "id_player_off": "430097",
+        "id_player_on": "484051",
+        "player_off_name": "Ryan Christie",
+        "player_on_name": "Kenny McLEAN"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43872",
@@ -774,6 +811,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021454?language=en",
-  "updated_at_utc": "2026-06-19T22:33:05.674070+00:00",
-  "updated_at_poland": "2026-06-20T00:33:05.674074+02:00"
+  "updated_at_utc": "2026-06-19T23:43:04.197623+00:00",
+  "updated_at_poland": "2026-06-20T01:43:04.197627+02:00"
 }
