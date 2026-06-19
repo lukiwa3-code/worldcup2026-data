@@ -12,10 +12,10 @@
   "date_utc": "2026-06-19T19:00:00Z",
   "date_local": "2026-06-19T12:00:00Z",
   "date_poland": "2026-06-19T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "46'",
-  "period": 5,
-  "winner": null,
+  "attendance": "66925",
+  "match_time": "99'",
+  "period": 10,
+  "winner": "43921",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -387,8 +387,79 @@
         "id_team": "43921"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "441251",
+        "id_team": "43921",
+        "minute": "56'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "466624",
+        "id_team": "43921",
+        "minute": "89'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "419062",
+        "id_team": "43921",
+        "minute": "90'+3'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43921",
+        "id_player_off": "419082",
+        "id_player_on": "499912",
+        "player_off_name": "Ricardo PEPI",
+        "player_on_name": "Sebastian BERHALTER"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43921",
+        "id_player_off": "406280",
+        "id_player_on": "423700",
+        "player_off_name": "Sergino DEST",
+        "player_on_name": "Joe SCALLY"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43921",
+        "id_player_off": "441251",
+        "id_player_on": "390272",
+        "player_off_name": "Antonee ROBINSON",
+        "player_on_name": "Auston TRUSTY"
+      },
+      {
+        "period": 5,
+        "minute": "90'+6'",
+        "id_team": "43921",
+        "id_player_off": "466624",
+        "id_player_on": "390276",
+        "player_off_name": "Folarin BALOGUN",
+        "player_on_name": "Haji WRIGHT"
+      },
+      {
+        "period": 5,
+        "minute": "90'+6'",
+        "id_team": "43921",
+        "id_player_off": "390259",
+        "id_player_on": "419068",
+        "player_off_name": "Weston McKENNIE",
+        "player_on_name": "Giovanni REYNA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43976",
@@ -756,6 +827,22 @@
         "id_team": "43976",
         "minute": "32'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "430450",
+        "id_team": "43976",
+        "minute": "89'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "430442",
+        "id_team": "43976",
+        "minute": "89'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -785,6 +872,24 @@
         "id_player_on": "486306",
         "player_off_name": "Mohamed TOURE",
         "player_on_name": "Nestory IRANKUNDA"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43976",
+        "id_player_off": "321697",
+        "id_player_on": "448015",
+        "player_off_name": "Mathew LECKIE",
+        "player_on_name": "Cristian VOLPATO"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43976",
+        "id_player_off": "498421",
+        "id_player_on": "355775",
+        "player_off_name": "Paul OKON-ENGSTLER",
+        "player_on_name": "Jackson IRVINE"
       }
     ]
   },
@@ -798,13 +903,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021462?language=en",
-  "updated_at_utc": "2026-06-19T20:11:49.083439+00:00",
-  "updated_at_poland": "2026-06-19T22:11:49.083444+02:00"
+  "updated_at_utc": "2026-06-19T21:34:24.036839+00:00",
+  "updated_at_poland": "2026-06-19T23:34:24.036844+02:00"
 }

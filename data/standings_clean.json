@@ -558,9 +558,9 @@
     "away_for": 0,
     "away_against": 0,
     "away_points": 0,
-    "qualification_status": "CouldQualify",
+    "qualification_status": "ConfirmedQualified",
     "fair_play_coefficient": 0.0,
-    "is_live": true,
+    "is_live": false,
     "team": {
       "id": "43921",
       "name": "USA",
@@ -604,7 +604,7 @@
     "away_points": 0,
     "qualification_status": "CouldQualify",
     "fair_play_coefficient": 0.0,
-    "is_live": true,
+    "is_live": false,
     "team": {
       "id": "43976",
       "name": "Australia",

@@ -1559,9 +1559,9 @@
       "city": "Seattle",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43921",
     "placeholder_home": "D1",
     "placeholder_away": "D3",
     "time_defined": true,
