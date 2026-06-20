@@ -1402,8 +1402,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/HAI",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -1412,7 +1412,7 @@
       "city": "Philadelphia",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "C1",
@@ -1461,9 +1461,9 @@
       "city": "Boston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43872",
     "placeholder_home": "C4",
     "placeholder_away": "C2",
     "time_defined": true,

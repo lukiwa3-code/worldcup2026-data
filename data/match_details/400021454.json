@@ -13,9 +13,9 @@
   "date_local": "2026-06-19T18:00:00Z",
   "date_poland": "2026-06-20T00:00:00+02:00",
   "attendance": "64146",
-  "match_time": "80'",
-  "period": 5,
-  "winner": null,
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43872",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -420,6 +420,24 @@
         "id_player_on": "484051",
         "player_off_name": "Ryan Christie",
         "player_on_name": "Kenny McLEAN"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43967",
+        "id_player_off": "433694",
+        "id_player_on": "337389",
+        "player_off_name": "Nathan PATTERSON",
+        "player_on_name": "Anthony RALSTON"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43967",
+        "id_player_off": "401334",
+        "id_player_on": "442433",
+        "player_off_name": "John McGinn",
+        "player_on_name": "Ross STEWART"
       }
     ]
   },
@@ -792,7 +810,44 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43872",
+        "id_player_off": "448598",
+        "id_player_on": "433426",
+        "player_off_name": "Ismael SAIBARI",
+        "player_on_name": "Soufiane RAHIMI"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43872",
+        "id_player_off": "448612",
+        "id_player_on": "494293",
+        "player_off_name": "Bilal EL KHANNOUSS",
+        "player_on_name": "Chemsdine TALBI"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43872",
+        "id_player_off": "430740",
+        "id_player_on": "523288",
+        "player_off_name": "Brahim DIAZ",
+        "player_on_name": "Ayoube AMAIMOUNI"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43872",
+        "id_player_off": "441307",
+        "id_player_on": "505097",
+        "player_off_name": "Azzedine OUNAHI",
+        "player_on_name": "Samir EL MOURABET"
+      }
+    ]
   },
   "officials": [
     {
@@ -804,13 +859,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021454?language=en",
-  "updated_at_utc": "2026-06-19T23:43:04.197623+00:00",
-  "updated_at_poland": "2026-06-20T01:43:04.197627+02:00"
+  "updated_at_utc": "2026-06-20T01:52:19.294594+00:00",
+  "updated_at_poland": "2026-06-20T03:52:19.294599+02:00"
 }

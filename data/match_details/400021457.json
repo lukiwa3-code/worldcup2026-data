@@ -13,8 +13,8 @@
   "date_local": "2026-06-19T20:30:00Z",
   "date_poland": "2026-06-20T02:30:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "57'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Brazil",
     "abbr": "BRA",
     "country": "BRA",
-    "score": null,
-    "tactics": "4-4-2",
+    "score": 3,
+    "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA",
     "players": [
       {
@@ -369,9 +369,44 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "430609",
+        "minute": "23'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43924"
+      },
+      {
+        "type": 2,
+        "id_player": "430609",
+        "minute": "36'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43924"
+      },
+      {
+        "type": 2,
+        "id_player": "405742",
+        "minute": "45'+3'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43924"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "40'",
+        "id_team": "43924",
+        "id_player_off": "433872",
+        "id_player_on": "475036",
+        "player_off_name": "RAPHINHA",
+        "player_on_name": "RAYAN"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43908",
@@ -379,7 +414,7 @@
     "short_name": "Haiti",
     "abbr": "HAI",
     "country": "HAI",
-    "score": null,
+    "score": 0,
     "tactics": "5-4-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/HAI",
     "players": [
@@ -723,8 +758,44 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "397775",
+        "id_team": "43908",
+        "minute": "4'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "431693",
+        "id_team": "43908",
+        "minute": "45'+4'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43908",
+        "id_player_off": "397775",
+        "id_player_on": "523215",
+        "player_off_name": "Carlens ARCUS",
+        "player_on_name": "Dominique SIMON"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43908",
+        "id_player_off": "431693",
+        "id_player_on": "405879",
+        "player_off_name": "Frantzdy Pierrot",
+        "player_on_name": "Wilson Isidor"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +807,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021457?language=en",
-  "updated_at_utc": "2026-06-19T23:43:04.410038+00:00",
-  "updated_at_poland": "2026-06-20T01:43:04.410042+02:00"
+  "updated_at_utc": "2026-06-20T01:52:19.506473+00:00",
+  "updated_at_poland": "2026-06-20T03:52:19.506477+02:00"
 }
