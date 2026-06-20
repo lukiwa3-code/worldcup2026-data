@@ -12,10 +12,10 @@
   "date_utc": "2026-06-20T20:00:00Z",
   "date_local": "2026-06-20T16:00:00Z",
   "date_poland": "2026-06-20T22:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "43036",
+  "match_time": "98'",
+  "period": 10,
+  "winner": "43948",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Germany",
     "abbr": "GER",
     "country": "GER",
-    "score": 0,
+    "score": 2,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GER",
     "players": [
@@ -382,9 +382,72 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "484851",
+        "minute": "68'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43948"
+      },
+      {
+        "type": 2,
+        "id_player": "484851",
+        "minute": "90'+4'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43948"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43948",
+        "id_player_off": "430667",
+        "id_player_on": "379955",
+        "player_off_name": "Nico SCHLOTTERBECK",
+        "player_on_name": "Antonio RUEDIGER"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43948",
+        "id_player_off": "429642",
+        "id_player_on": "484851",
+        "player_off_name": "Jamal MUSIALA",
+        "player_on_name": "Deniz UNDAV"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43948",
+        "id_player_off": "484849",
+        "id_player_on": "395471",
+        "player_off_name": "Aleksandar PAVLOVIC",
+        "player_on_name": "Nadiem Amiri"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43948",
+        "id_player_off": "404353",
+        "id_player_on": "491218",
+        "player_off_name": "Leroy SANE",
+        "player_on_name": "Jamie LEWELING"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43948",
+        "id_player_off": "411367",
+        "id_player_on": "379953",
+        "player_off_name": "Kai HAVERTZ",
+        "player_on_name": "Leon GORETZKA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43854",
@@ -746,7 +809,53 @@
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43854",
+        "id_player_off": "430822",
+        "id_player_on": "477778",
+        "player_off_name": "Amad DIALLO",
+        "player_on_name": "Simon ADINGRA"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43854",
+        "id_player_off": "464103",
+        "id_player_on": "485675",
+        "player_off_name": "Ange-Yoan BONNY",
+        "player_on_name": "Evann GUESSAND"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43854",
+        "id_player_off": "430831",
+        "id_player_on": "405175",
+        "player_off_name": "Ibrahim SANGARE",
+        "player_on_name": "Seko Fofana"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43854",
+        "id_player_off": "430854",
+        "id_player_on": "486317",
+        "player_off_name": "Wilfried SINGO",
+        "player_on_name": "Guela DOUE"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43854",
+        "id_player_off": "510922",
+        "id_player_on": "402261",
+        "player_off_name": "Yan DIOMANDE",
+        "player_on_name": "Nicolas PEPE"
+      }
+    ]
   },
   "officials": [
     {
@@ -758,13 +867,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021469?language=en",
-  "updated_at_utc": "2026-06-20T20:58:56.526879+00:00",
-  "updated_at_poland": "2026-06-20T22:58:56.526889+02:00"
+  "updated_at_utc": "2026-06-20T22:14:03.269655+00:00",
+  "updated_at_poland": "2026-06-21T00:14:03.269660+02:00"
 }
