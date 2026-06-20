@@ -13,8 +13,8 @@
   "date_local": "2026-06-20T16:00:00Z",
   "date_poland": "2026-06-20T22:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "",
+  "period": 4,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Germany",
     "abbr": "GER",
     "country": "GER",
-    "score": null,
-    "tactics": "3-4-3",
+    "score": 0,
+    "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GER",
     "players": [
       {
@@ -392,8 +392,8 @@
     "short_name": "Côte d'Ivoire",
     "abbr": "CIV",
     "country": "CIV",
-    "score": null,
-    "tactics": "4-3-3",
+    "score": 1,
+    "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CIV",
     "players": [
       {
@@ -735,7 +735,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "371609",
+        "minute": "30'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43854"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -749,13 +758,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021469?language=en",
-  "updated_at_utc": "2026-06-20T19:50:43.746896+00:00",
-  "updated_at_poland": "2026-06-20T21:50:43.746901+02:00"
+  "updated_at_utc": "2026-06-20T20:58:56.526879+00:00",
+  "updated_at_poland": "2026-06-20T22:58:56.526889+02:00"
 }
