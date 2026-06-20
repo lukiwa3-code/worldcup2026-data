@@ -12,10 +12,10 @@
   "date_utc": "2026-06-20T00:30:00Z",
   "date_local": "2026-06-19T20:30:00Z",
   "date_poland": "2026-06-20T02:30:00+02:00",
-  "attendance": null,
-  "match_time": "57'",
-  "period": 5,
-  "winner": null,
+  "attendance": "68324",
+  "match_time": "96'",
+  "period": 10,
+  "winner": "43924",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -395,7 +395,16 @@
         "id_team": "43924"
       }
     ],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "367981",
+        "id_team": "43924",
+        "minute": "65'",
+        "reason": null
+      }
+    ],
     "substitutions": [
       {
         "period": 3,
@@ -405,6 +414,42 @@
         "id_player_on": "475036",
         "player_off_name": "RAPHINHA",
         "player_on_name": "RAYAN"
+      },
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43924",
+        "id_player_off": "430609",
+        "id_player_on": "463746",
+        "player_off_name": "MATHEUS CUNHA",
+        "player_on_name": "ENDRICK"
+      },
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43924",
+        "id_player_off": "411726",
+        "id_player_on": "430597",
+        "player_off_name": "LUCAS PAQUETA",
+        "player_on_name": "GABRIEL MARTINELLI"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43924",
+        "id_player_off": "405742",
+        "id_player_on": "429392",
+        "player_off_name": "VINICIUS JUNIOR",
+        "player_on_name": "DANILO SANTOS"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43924",
+        "id_player_off": "430605",
+        "id_player_on": "485069",
+        "player_off_name": "BRUNO GUIMARAES",
+        "player_on_name": "EDERSON SILVA"
       }
     ]
   },
@@ -774,6 +819,14 @@
         "id_team": "43908",
         "minute": "45'+4'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "466838",
+        "id_team": "43908",
+        "minute": "72'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -794,6 +847,33 @@
         "id_player_on": "405879",
         "player_off_name": "Frantzdy Pierrot",
         "player_on_name": "Wilson Isidor"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43908",
+        "id_player_off": "510757",
+        "id_player_on": "481027",
+        "player_off_name": "Josue CASIMIR",
+        "player_on_name": "Louicius DEEDSON"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43908",
+        "id_player_off": "485664",
+        "id_player_on": "485676",
+        "player_off_name": "Ruben PROVIDENCE",
+        "player_on_name": "Lenny JOSEPH"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43908",
+        "id_player_off": "430697",
+        "id_player_on": "466865",
+        "player_off_name": "Jean-Ricner Bellegarde",
+        "player_on_name": "Derrick ETIENNE"
       }
     ]
   },
@@ -807,13 +887,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021457?language=en",
-  "updated_at_utc": "2026-06-20T01:52:19.506473+00:00",
-  "updated_at_poland": "2026-06-20T03:52:19.506477+02:00"
+  "updated_at_utc": "2026-06-20T06:07:18.113457+00:00",
+  "updated_at_poland": "2026-06-20T08:07:18.113460+02:00"
 }

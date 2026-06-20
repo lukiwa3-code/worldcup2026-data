@@ -12,10 +12,10 @@
   "date_utc": "2026-06-20T03:00:00Z",
   "date_local": "2026-06-19T20:00:00Z",
   "date_poland": "2026-06-20T05:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
-  "winner": null,
+  "attendance": "68827",
+  "match_time": "99'",
+  "period": 10,
+  "winner": "43928",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Türkiye",
     "abbr": "TUR",
     "country": "TUR",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/TUR",
     "players": [
@@ -383,8 +383,71 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": null,
+        "id_team": "43972",
+        "minute": "63'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "484065",
+        "id_team": "43972",
+        "minute": "71'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43972",
+        "id_player_off": "441188",
+        "id_player_on": "484139",
+        "player_off_name": "Kerem AKTURKOGLU",
+        "player_on_name": "Baris Alper YILMAZ"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43972",
+        "id_player_off": "484092",
+        "id_player_on": "486074",
+        "player_off_name": "Ismail YUKSEK",
+        "player_on_name": "Can UZUN"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43972",
+        "id_player_off": "406231",
+        "id_player_on": "495347",
+        "player_off_name": "Yunus AKGUN",
+        "player_on_name": "Deniz GUL"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43972",
+        "id_player_off": "484113",
+        "id_player_on": "484065",
+        "player_off_name": "Ferdi KADIOGLU",
+        "player_on_name": "Eren ELMALI"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43972",
+        "id_player_off": "484082",
+        "id_player_on": "433118",
+        "player_off_name": "Abdulkerim BARDAKCI",
+        "player_on_name": "Orkun KOKCU"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43928",
@@ -392,7 +455,7 @@
     "short_name": "Paraguay",
     "abbr": "PAR",
     "country": "PAR",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/PAR",
     "players": [
@@ -735,9 +798,89 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "424422",
+        "minute": "2'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43928"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "424422",
+        "id_team": "43928",
+        "minute": "4'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": null,
+        "id_team": "43928",
+        "minute": "37'",
+        "reason": null
+      },
+      {
+        "card": 2,
+        "period": 3,
+        "id_player": "369761",
+        "id_team": "43928",
+        "minute": "45'+3'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43928",
+        "id_player_off": "489417",
+        "id_player_on": "476348",
+        "player_off_name": "Isidro PITTA",
+        "player_on_name": "Damian BOBADILLA"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43928",
+        "id_player_off": "463128",
+        "id_player_on": "486875",
+        "player_off_name": "Diego GOMEZ",
+        "player_on_name": "Gustavo VELAZQUEZ"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43928",
+        "id_player_off": "479601",
+        "id_player_on": "505495",
+        "player_off_name": "Juan Jose CACERES",
+        "player_on_name": "Alexandro MAIDANA"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43928",
+        "id_player_off": "441234",
+        "id_player_on": "463127",
+        "player_off_name": "Julio ENCISO",
+        "player_on_name": "Gabriel AVALOS"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43928",
+        "id_player_off": "424422",
+        "id_player_on": "520066",
+        "player_off_name": "Matias GALARZA",
+        "player_on_name": "Jose CANALE"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +892,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021460?language=en",
-  "updated_at_utc": "2026-06-20T01:52:19.739764+00:00",
-  "updated_at_poland": "2026-06-20T03:52:19.739769+02:00"
+  "updated_at_utc": "2026-06-20T06:07:18.332087+00:00",
+  "updated_at_poland": "2026-06-20T08:07:18.332091+02:00"
 }

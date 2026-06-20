@@ -1412,9 +1412,9 @@
       "city": "Philadelphia",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43924",
     "placeholder_home": "C1",
     "placeholder_away": "C3",
     "time_defined": true,
@@ -1500,8 +1500,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/PAR",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -1510,9 +1510,9 @@
       "city": "San Francisco Bay Area",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43928",
     "placeholder_home": "D4",
     "placeholder_away": "D2",
     "time_defined": true,
@@ -3935,12 +3935,12 @@
     "date_local": "2026-07-01T17:00:00Z",
     "date_poland": "2026-07-02T02:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "1D",
-      "abbr": "1D",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43921",
+      "name": "USA",
+      "abbr": "USA",
+      "country": "USA",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/USA",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
