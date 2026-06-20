@@ -13,8 +13,8 @@
   "date_local": "2026-06-20T12:00:00Z",
   "date_poland": "2026-06-20T19:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "",
+  "period": 4,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Netherlands",
     "abbr": "NED",
     "country": "NED",
-    "score": null,
+    "score": 2,
     "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NED",
     "players": [
@@ -369,7 +369,24 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "424051",
+        "minute": "5'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43960"
+      },
+      {
+        "type": 2,
+        "id_player": "424051",
+        "minute": "17'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43960"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -379,7 +396,7 @@
     "short_name": "Sweden",
     "abbr": "SWE",
     "country": "SWE",
-    "score": null,
+    "score": 0,
     "tactics": "3-5-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SWE",
     "players": [
@@ -736,13 +753,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021472?language=en",
-  "updated_at_utc": "2026-06-20T16:50:38.849456+00:00",
-  "updated_at_poland": "2026-06-20T18:50:38.849461+02:00"
+  "updated_at_utc": "2026-06-20T18:02:29.450020+00:00",
+  "updated_at_poland": "2026-06-20T20:02:29.450025+02:00"
 }
