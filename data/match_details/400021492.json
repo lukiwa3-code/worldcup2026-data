@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "372930",
+      "country": "CAN",
+      "name": "Drew Fischer",
+      "short_name": "Drew FISCHER",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021492?language=en",
-  "updated_at_utc": "2026-06-20T06:07:21.313682+00:00",
-  "updated_at_poland": "2026-06-20T08:07:21.313686+02:00"
+  "updated_at_utc": "2026-06-20T09:35:49.220003+00:00",
+  "updated_at_poland": "2026-06-20T11:35:49.220008+02:00"
 }

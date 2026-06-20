@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "315008",
+      "country": "SVN",
+      "name": "Slavko VINCIC",
+      "short_name": "Slavko VINCIC",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021499?language=en",
-  "updated_at_utc": "2026-06-20T06:07:21.873943+00:00",
-  "updated_at_poland": "2026-06-20T08:07:21.873947+02:00"
+  "updated_at_utc": "2026-06-20T09:35:49.847651+00:00",
+  "updated_at_poland": "2026-06-20T11:35:49.847655+02:00"
 }
