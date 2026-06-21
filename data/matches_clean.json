@@ -1647,8 +1647,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CUW",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -1657,8 +1657,8 @@
       "city": "Kansas City",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "E4",
     "placeholder_away": "E2",
@@ -3592,12 +3592,12 @@
     "date_local": "2026-06-29T16:30:00Z",
     "date_poland": "2026-06-29T22:30:00+02:00",
     "home": {
-      "id": null,
-      "name": "1E",
-      "abbr": "1E",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43948",
+      "name": "Germany",
+      "abbr": "GER",
+      "country": "GER",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GER",
+      "is_placeholder": false
     },
     "away": {
       "id": null,

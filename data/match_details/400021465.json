@@ -12,9 +12,9 @@
   "date_utc": "2026-06-21T00:00:00Z",
   "date_local": "2026-06-20T19:00:00Z",
   "date_poland": "2026-06-21T02:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "attendance": "68598",
+  "match_time": "96'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Ecuador",
     "abbr": "ECU",
     "country": "ECU",
-    "score": null,
+    "score": 0,
     "tactics": "3-5-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ECU",
     "players": [
@@ -383,8 +383,54 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "419005",
+        "id_team": "43927",
+        "minute": "38'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43927",
+        "id_player_off": "419005",
+        "id_player_on": "448310",
+        "player_off_name": "Jordy ALCIVAR",
+        "player_on_name": "Kevin RODRIGUEZ"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43927",
+        "id_player_off": "389782",
+        "id_player_on": "448312",
+        "player_off_name": "Pervis ESTUPINAN",
+        "player_on_name": "Nilson ANGULO"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43927",
+        "id_player_off": "389784",
+        "id_player_on": "402974",
+        "player_off_name": "Alan FRANCO",
+        "player_on_name": "Angelo PRECIADO"
+      },
+      {
+        "period": 5,
+        "minute": "89'",
+        "id_team": "43927",
+        "id_player_off": "405920",
+        "id_player_on": "402985",
+        "player_off_name": "John YEBOAH",
+        "player_on_name": "Jordy CAICEDO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "1895293",
@@ -392,7 +438,7 @@
     "short_name": "Curaçao",
     "abbr": "CUW",
     "country": "CUW",
-    "score": null,
+    "score": 0,
     "tactics": "5-3-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CUW",
     "players": [
@@ -736,8 +782,95 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "466340",
+        "id_team": "1895293",
+        "minute": "39'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "466317",
+        "id_team": "1895293",
+        "minute": "53'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "494989",
+        "id_team": "1895293",
+        "minute": "56'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "431698",
+        "id_team": "1895293",
+        "minute": "75'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "466372",
+        "id_team": "1895293",
+        "minute": "90'+1'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "1895293",
+        "id_player_off": "506471",
+        "id_player_on": "466361",
+        "player_off_name": "Deveron FONVILLE",
+        "player_on_name": "Roshon VAN EIJMA"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "1895293",
+        "id_player_off": "485347",
+        "id_player_on": "466363",
+        "player_off_name": "Tahith CHONG",
+        "player_on_name": "Jearl MARGARITHA"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "1895293",
+        "id_player_off": "466317",
+        "id_player_on": "466352",
+        "player_off_name": "Juninho BACUNA",
+        "player_on_name": "Kenji GORRE"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "1895293",
+        "id_player_off": "494989",
+        "id_player_on": "466359",
+        "player_off_name": "Livano COMENENCIA",
+        "player_on_name": "Godfried ROEMERATOE"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "1895293",
+        "id_player_off": "407680",
+        "id_player_on": "466372",
+        "player_off_name": "Juergen LOCADIA",
+        "player_on_name": "Gervane KASTANEER"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +882,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021465?language=en",
-  "updated_at_utc": "2026-06-20T23:37:16.705518+00:00",
-  "updated_at_poland": "2026-06-21T01:37:16.705522+02:00"
+  "updated_at_utc": "2026-06-21T02:02:47.774354+00:00",
+  "updated_at_poland": "2026-06-21T04:02:47.774359+02:00"
 }
