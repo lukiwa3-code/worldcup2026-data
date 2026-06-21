@@ -13,8 +13,8 @@
   "date_local": "2026-06-21T12:00:00Z",
   "date_poland": "2026-06-21T21:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "45'+6'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Belgium",
     "abbr": "BEL",
     "country": "BEL",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BEL",
     "players": [
@@ -357,7 +357,16 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "358112",
+        "id_team": "43935",
+        "minute": "3'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "away_team": {
@@ -366,8 +375,8 @@
     "short_name": "IR Iran",
     "abbr": "IRN",
     "country": "IRN",
-    "score": null,
-    "tactics": "4-3-3",
+    "score": 0,
+    "tactics": "5-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/IRN",
     "players": [
       {
@@ -710,7 +719,16 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "371736",
+        "id_team": "43817",
+        "minute": "33'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "officials": [
@@ -723,13 +741,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021477?language=en",
-  "updated_at_utc": "2026-06-21T17:59:04.034769+00:00",
-  "updated_at_poland": "2026-06-21T19:59:04.034774+02:00"
+  "updated_at_utc": "2026-06-21T19:51:04.017475+00:00",
+  "updated_at_poland": "2026-06-21T21:51:04.017480+02:00"
 }
