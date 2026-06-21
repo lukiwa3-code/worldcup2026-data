@@ -13,8 +13,8 @@
   "date_local": "2026-06-21T12:00:00Z",
   "date_poland": "2026-06-21T21:00:00+02:00",
   "attendance": "70317",
-  "match_time": "90'+5'",
-  "period": 5,
+  "match_time": "96'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -841,13 +841,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021477?language=en",
-  "updated_at_utc": "2026-06-21T21:00:09.124858+00:00",
-  "updated_at_poland": "2026-06-21T23:00:09.124861+02:00"
+  "updated_at_utc": "2026-06-21T22:20:25.139472+00:00",
+  "updated_at_poland": "2026-06-22T00:20:25.139476+02:00"
 }

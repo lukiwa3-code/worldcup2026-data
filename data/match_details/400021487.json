@@ -13,8 +13,8 @@
   "date_local": "2026-06-21T18:00:00Z",
   "date_poland": "2026-06-22T00:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "19'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Uruguay",
     "abbr": "URU",
     "country": "URU",
-    "score": null,
-    "tactics": "4-2-3-1",
+    "score": 0,
+    "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/URU",
     "players": [
       {
@@ -357,7 +357,16 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "386538",
+        "id_team": "43930",
+        "minute": "20'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "away_team": {
@@ -366,8 +375,8 @@
     "short_name": "Cabo Verde",
     "abbr": "CPV",
     "country": "CPV",
-    "score": null,
-    "tactics": "4-1-4-1",
+    "score": 0,
+    "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CPV",
     "players": [
       {
@@ -710,7 +719,16 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "477832",
+        "id_team": "43850",
+        "minute": "5'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "officials": [
@@ -723,13 +741,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021487?language=en",
-  "updated_at_utc": "2026-06-21T21:00:09.362042+00:00",
-  "updated_at_poland": "2026-06-21T23:00:09.362045+02:00"
+  "updated_at_utc": "2026-06-21T22:20:25.328371+00:00",
+  "updated_at_poland": "2026-06-22T00:20:25.328376+02:00"
 }
