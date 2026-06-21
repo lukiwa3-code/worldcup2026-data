@@ -12,9 +12,9 @@
   "date_utc": "2026-06-21T22:00:00Z",
   "date_local": "2026-06-21T18:00:00Z",
   "date_poland": "2026-06-22T00:00:00+02:00",
-  "attendance": null,
-  "match_time": "19'",
-  "period": 3,
+  "attendance": "64003",
+  "match_time": "83'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Uruguay",
     "abbr": "URU",
     "country": "URU",
-    "score": 0,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/URU",
     "players": [
@@ -356,7 +356,24 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "419100",
+        "minute": "44'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43930"
+      },
+      {
+        "type": 2,
+        "id_player": "402876",
+        "minute": "45'+6'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43930"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -365,9 +382,45 @@
         "id_team": "43930",
         "minute": "20'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "402893",
+        "id_team": "43930",
+        "minute": "58'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43930",
+        "id_player_off": "441623",
+        "id_player_on": "402898",
+        "player_off_name": "Manuel UGARTE",
+        "player_on_name": "Nicolas DE LA CRUZ"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43930",
+        "id_player_off": "477536",
+        "id_player_on": "419126",
+        "player_off_name": "Federico VINAS",
+        "player_on_name": "Darwin NUNEZ"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43930",
+        "id_player_off": "419100",
+        "id_player_on": "419132",
+        "player_off_name": "Maxi ARAUJO",
+        "player_on_name": "Brian RODRIGUEZ"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43850",
@@ -375,7 +428,7 @@
     "short_name": "Cabo Verde",
     "abbr": "CPV",
     "country": "CPV",
-    "score": 0,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CPV",
     "players": [
@@ -718,7 +771,24 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "477852",
+        "minute": "21'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43850"
+      },
+      {
+        "type": 2,
+        "id_player": "477849",
+        "minute": "61'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43850"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -729,7 +799,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43850",
+        "id_player_off": "494314",
+        "id_player_on": "477827",
+        "player_off_name": "TELMO ARCANJO",
+        "player_on_name": "DEROY DUARTE"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43850",
+        "id_player_off": "477862",
+        "id_player_on": "401893",
+        "player_off_name": "GILSON BENCHIMOL",
+        "player_on_name": "NUNO DA COSTA"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43850",
+        "id_player_off": "373344",
+        "id_player_on": "477849",
+        "player_off_name": "GARRY RODRIGUES",
+        "player_on_name": "HELIO VARELA"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43850",
+        "id_player_off": "477852",
+        "id_player_on": "480966",
+        "player_off_name": "KEVIN PINA",
+        "player_on_name": "LAROS DUARTE"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43850",
+        "id_player_off": "401894",
+        "id_player_on": "494313",
+        "player_off_name": "JAMIRO MONTEIRO",
+        "player_on_name": "YANNICK SEMEDO"
+      }
+    ]
   },
   "officials": [
     {
@@ -748,6 +864,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021487?language=en",
-  "updated_at_utc": "2026-06-21T22:20:25.328371+00:00",
-  "updated_at_poland": "2026-06-22T00:20:25.328376+02:00"
+  "updated_at_utc": "2026-06-21T23:48:51.639430+00:00",
+  "updated_at_poland": "2026-06-22T01:48:51.639435+02:00"
 }
