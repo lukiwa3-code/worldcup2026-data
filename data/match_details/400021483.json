@@ -13,8 +13,8 @@
   "date_local": "2026-06-21T12:00:00Z",
   "date_poland": "2026-06-21T18:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "20'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": null,
-    "tactics": null,
+    "score": 1,
+    "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
       {
@@ -382,7 +382,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "484320",
+        "minute": "10'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43969"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -392,8 +401,8 @@
     "short_name": "Saudi Arabia",
     "abbr": "KSA",
     "country": "KSA",
-    "score": null,
-    "tactics": null,
+    "score": 0,
+    "tactics": "5-4-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/KSA",
     "players": [
       {
@@ -749,13 +758,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021483?language=en",
-  "updated_at_utc": "2026-06-21T14:43:00.899988+00:00",
-  "updated_at_poland": "2026-06-21T16:43:00.899992+02:00"
+  "updated_at_utc": "2026-06-21T16:21:08.770470+00:00",
+  "updated_at_poland": "2026-06-21T18:21:08.770475+02:00"
 }
