@@ -12,9 +12,9 @@
   "date_utc": "2026-06-21T19:00:00Z",
   "date_local": "2026-06-21T12:00:00Z",
   "date_poland": "2026-06-21T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "45'+6'",
-  "period": 3,
+  "attendance": "70317",
+  "match_time": "90'+5'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -365,9 +365,63 @@
         "id_team": "43935",
         "minute": "3'",
         "reason": null
+      },
+      {
+        "card": 2,
+        "period": 5,
+        "id_player": "514166",
+        "id_team": "43935",
+        "minute": "66'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43935",
+        "id_player_off": "358122",
+        "id_player_on": "411443",
+        "player_off_name": "Thomas MEUNIER",
+        "player_on_name": "Timothy CASTAGNE"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43935",
+        "id_player_off": "495349",
+        "id_player_on": "448343",
+        "player_off_name": "Nicolas RASKIN",
+        "player_on_name": "Hans VANAKEN"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43935",
+        "id_player_off": "433092",
+        "id_player_on": "448377",
+        "player_off_name": "Alexis SAELEMAEKERS",
+        "player_on_name": "Dodi LUKEBAKIO"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43935",
+        "id_player_off": "358112",
+        "id_player_on": "448346",
+        "player_off_name": "Romelu LUKAKU",
+        "player_on_name": "Arthur THEATE"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43935",
+        "id_player_off": "358120",
+        "id_player_on": "494025",
+        "player_off_name": "Kevin DE BRUYNE",
+        "player_on_name": "Matias FERNANDEZ-PARDO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43817",
@@ -729,7 +783,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43817",
+        "id_player_off": "448505",
+        "id_player_on": "379886",
+        "player_off_name": "Saleh HARDANI",
+        "player_on_name": "Alireza JAHANBAKHSH"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43817",
+        "id_player_off": "448497",
+        "id_player_on": "390535",
+        "player_off_name": "Mohammad MOHEBBI",
+        "player_on_name": "Mehdi TORABI"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43817",
+        "id_player_off": "288961",
+        "id_player_on": "390537",
+        "player_off_name": "Ehsan HAJISAFI",
+        "player_on_name": "Milad MOHAMMADI"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43817",
+        "id_player_off": "411644",
+        "id_player_on": "481180",
+        "player_off_name": "Saman GHODDOS",
+        "player_on_name": "Shahriyar MOGHANLOO"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43817",
+        "id_player_off": "371736",
+        "id_player_on": "405639",
+        "player_off_name": "Saeid EZATOLAHI",
+        "player_on_name": "Amirhossein Hosseinzadeh"
+      }
+    ]
   },
   "officials": [
     {
@@ -748,6 +848,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021477?language=en",
-  "updated_at_utc": "2026-06-21T19:51:04.017475+00:00",
-  "updated_at_poland": "2026-06-21T21:51:04.017480+02:00"
+  "updated_at_utc": "2026-06-21T21:00:09.124858+00:00",
+  "updated_at_poland": "2026-06-21T23:00:09.124861+02:00"
 }
