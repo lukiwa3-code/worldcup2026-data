@@ -12,9 +12,9 @@
   "date_utc": "2026-06-21T16:00:00Z",
   "date_local": "2026-06-21T12:00:00Z",
   "date_poland": "2026-06-21T18:00:00+02:00",
-  "attendance": null,
-  "match_time": "20'",
-  "period": 3,
+  "attendance": "68239",
+  "match_time": "90'+6'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": 1,
+    "score": 4,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -390,10 +390,80 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43969"
+      },
+      {
+        "type": 2,
+        "id_player": "430751",
+        "minute": "21'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43969"
+      },
+      {
+        "type": 2,
+        "id_player": "430751",
+        "minute": "24'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43969"
+      },
+      {
+        "type": 3,
+        "id_player": "403335",
+        "minute": "49'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43969"
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43969",
+        "id_player_off": "484320",
+        "id_player_on": "423658",
+        "player_off_name": "Lamine YAMAL",
+        "player_on_name": "Yeremy PINO"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43969",
+        "id_player_off": "430751",
+        "id_player_on": "405545",
+        "player_off_name": "Mikel OYARZABAL",
+        "player_on_name": "Ferran TORRES"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43969",
+        "id_player_off": "430750",
+        "id_player_on": "430733",
+        "player_off_name": "Dani OLMO",
+        "player_on_name": "Mikel MERINO"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43969",
+        "id_player_off": "447860",
+        "id_player_on": "447855",
+        "player_off_name": "Alex BAENA",
+        "player_on_name": "Nico WILLIAMS"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43969",
+        "id_player_off": "423646",
+        "id_player_on": "430718",
+        "player_off_name": "PEDRI",
+        "player_on_name": "Fabian RUIZ"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43835",
@@ -745,8 +815,71 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "339745",
+        "id_team": "43835",
+        "minute": "30'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "407993",
+        "id_team": "43835",
+        "minute": "60'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43835",
+        "id_player_off": "436537",
+        "id_player_on": "419302",
+        "player_off_name": "MUSAB ALJUWAYR",
+        "player_on_name": "ABDULLAH ALHAMDDAN"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43835",
+        "id_player_off": "411624",
+        "id_player_on": "407993",
+        "player_off_name": "ABDULLAH ALKHAIBARI",
+        "player_on_name": "MOHAMED KANNO"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43835",
+        "id_player_off": "419291",
+        "id_player_on": "512183",
+        "player_off_name": "FERAS ALBRIKAN",
+        "player_on_name": "MOHAMMED ABU ALSHAMAT"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43835",
+        "id_player_off": "403312",
+        "id_player_on": "523333",
+        "player_off_name": "Abdulelah ALAMRI",
+        "player_on_name": "ALA ALHAJJI"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43835",
+        "id_player_off": "403319",
+        "id_player_on": "419300",
+        "player_off_name": "NASSER ALDAWSARI",
+        "player_on_name": "KHALID ALGHANNAM"
+      }
+    ]
   },
   "officials": [
     {
@@ -765,6 +898,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021483?language=en",
-  "updated_at_utc": "2026-06-21T16:21:08.770470+00:00",
-  "updated_at_poland": "2026-06-21T18:21:08.770475+02:00"
+  "updated_at_utc": "2026-06-21T17:59:03.672397+00:00",
+  "updated_at_poland": "2026-06-21T19:59:03.672402+02:00"
 }
