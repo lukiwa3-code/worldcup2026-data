@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "408417",
+      "country": "GAB",
+      "name": "Pierre Ghislain Atcho",
+      "short_name": "Pierre ATCHO",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021511?language=en",
-  "updated_at_utc": "2026-06-21T02:02:52.097772+00:00",
-  "updated_at_poland": "2026-06-21T04:02:52.097777+02:00"
+  "updated_at_utc": "2026-06-21T07:00:28.588411+00:00",
+  "updated_at_poland": "2026-06-21T09:00:28.588416+02:00"
 }

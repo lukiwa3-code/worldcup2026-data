@@ -1745,8 +1745,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JPN",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 4,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -1755,9 +1755,9 @@
       "city": "Monterrey",
       "country": "MEX"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43819",
     "placeholder_home": "F4",
     "placeholder_away": "F2",
     "time_defined": true,
