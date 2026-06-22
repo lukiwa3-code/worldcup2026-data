@@ -1804,8 +1804,8 @@
       "city": "Miami",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "H4",
     "placeholder_away": "H2",
@@ -1941,8 +1941,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/EGY",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -1951,7 +1951,7 @@
       "city": "Vancouver",
       "country": "CAN"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "G4",

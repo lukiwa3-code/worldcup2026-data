@@ -13,8 +13,8 @@
   "date_local": "2026-06-21T18:00:00Z",
   "date_poland": "2026-06-22T03:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "51'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "New Zealand",
     "abbr": "NZL",
     "country": "NZL",
-    "score": null,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NZL",
     "players": [
@@ -382,8 +382,34 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "463580",
+        "minute": "15'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43978"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "390209",
+        "id_team": "43978",
+        "minute": "20'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "390196",
+        "id_team": "43978",
+        "minute": "34'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "away_team": {
@@ -392,7 +418,7 @@
     "short_name": "Egypt",
     "abbr": "EGY",
     "country": "EGY",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/EGY",
     "players": [
@@ -736,8 +762,27 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "433469",
+        "id_team": "43855",
+        "minute": "17'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "41'",
+        "id_team": "43855",
+        "id_player_off": "429095",
+        "id_player_on": "344661",
+        "player_off_name": "HAMDY FATHY",
+        "player_on_name": "RAMY RABIA"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +794,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021480?language=en",
-  "updated_at_utc": "2026-06-21T23:48:51.932540+00:00",
-  "updated_at_poland": "2026-06-22T01:48:51.932545+02:00"
+  "updated_at_utc": "2026-06-22T02:11:53.950944+00:00",
+  "updated_at_poland": "2026-06-22T04:11:53.950949+02:00"
 }
