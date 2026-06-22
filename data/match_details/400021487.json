@@ -863,6 +863,14 @@
       "short_name": "Espen ESKAS",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "428431",
+      "country": "USA",
+      "name": "Tori Penso",
+      "short_name": "Tori PENSO",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -872,6 +880,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021487?language=en",
-  "updated_at_utc": "2026-06-22T02:11:53.691406+00:00",
-  "updated_at_poland": "2026-06-22T04:11:53.691412+02:00"
+  "updated_at_utc": "2026-06-22T07:41:18.692858+00:00",
+  "updated_at_poland": "2026-06-22T09:41:18.692862+02:00"
 }

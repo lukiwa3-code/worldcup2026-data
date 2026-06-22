@@ -61,7 +61,24 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "374810",
+      "country": "MEX",
+      "name": "César Arturo Ramos Palazuelos",
+      "short_name": "Cesar RAMOS",
+      "type": "Referee",
+      "official_type": 1
+    },
+    {
+      "id": "400227",
+      "country": "NOR",
+      "name": "Espen Eskås",
+      "short_name": "Espen ESKAS",
+      "type": "Fourth official",
+      "official_type": 4
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +86,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021455?language=en",
-  "updated_at_utc": "2026-06-22T02:11:57.918456+00:00",
-  "updated_at_poland": "2026-06-22T04:11:57.918461+02:00"
+  "updated_at_utc": "2026-06-22T07:41:22.808949+00:00",
+  "updated_at_poland": "2026-06-22T09:41:22.808953+02:00"
 }

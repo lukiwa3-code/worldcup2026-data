@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "446932",
+      "country": "BRA",
+      "name": "Ramon ABATTI",
+      "short_name": "Ramon ABATTI",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021451?language=en",
-  "updated_at_utc": "2026-06-22T02:11:57.257538+00:00",
-  "updated_at_poland": "2026-06-22T04:11:57.257543+02:00"
+  "updated_at_utc": "2026-06-22T07:41:22.155775+00:00",
+  "updated_at_poland": "2026-06-22T09:41:22.155778+02:00"
 }

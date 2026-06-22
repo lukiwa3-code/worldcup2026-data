@@ -12,10 +12,10 @@
   "date_utc": "2026-06-22T01:00:00Z",
   "date_local": "2026-06-21T18:00:00Z",
   "date_poland": "2026-06-22T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "51'",
-  "period": 5,
-  "winner": null,
+  "attendance": "52497",
+  "match_time": "101'",
+  "period": 10,
+  "winner": "43855",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -410,7 +410,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43978",
+        "id_player_off": "390196",
+        "id_player_on": "423575",
+        "player_off_name": "Callum McCOWATT",
+        "player_on_name": "Ben OLD"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43978",
+        "id_player_off": "405469",
+        "id_player_on": "416652",
+        "player_off_name": "Liberato CACACE",
+        "player_on_name": "Jesse RANDALL"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43978",
+        "id_player_off": "390209",
+        "id_player_on": "336641",
+        "player_off_name": "Sarpreet SINGH",
+        "player_on_name": "Ryan THOMAS"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43978",
+        "id_player_off": "405454",
+        "id_player_on": "440748",
+        "player_off_name": "Elijah JUST",
+        "player_on_name": "Francis DE VRIES"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43978",
+        "id_player_off": "331463",
+        "id_player_on": "482775",
+        "player_off_name": "Tim PAYNE",
+        "player_on_name": "Tyler BINDON"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43855",
@@ -418,7 +464,7 @@
     "short_name": "Egypt",
     "abbr": "EGY",
     "country": "EGY",
-    "score": 0,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/EGY",
     "players": [
@@ -761,7 +807,32 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "483161",
+        "minute": "58'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43855"
+      },
+      {
+        "type": 2,
+        "id_player": "344654",
+        "minute": "67'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43855"
+      },
+      {
+        "type": 2,
+        "id_player": "363863",
+        "minute": "82'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43855"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -781,6 +852,51 @@
         "id_player_on": "344661",
         "player_off_name": "HAMDY FATHY",
         "player_on_name": "RAMY RABIA"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43855",
+        "id_player_off": "430476",
+        "id_player_on": "363863",
+        "player_off_name": "OMAR MARMOUSH",
+        "player_on_name": "TREZEGUET"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43855",
+        "id_player_off": "483161",
+        "id_player_on": "495488",
+        "player_off_name": "MOSTAFA ZICO",
+        "player_on_name": "HAMZA ABDELKARIM"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43855",
+        "id_player_off": "344654",
+        "id_player_on": "483182",
+        "player_off_name": "MOHAMED SALAH",
+        "player_on_name": "HOSSAM ABDELMAGUID"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43855",
+        "id_player_off": "430482",
+        "id_player_on": "433461",
+        "player_off_name": "EMAM ASHOUR",
+        "player_on_name": "ZIZO"
+      },
+      {
+        "period": 5,
+        "minute": "90'+9'",
+        "id_team": "43855",
+        "id_player_off": "483182",
+        "id_player_on": "416902",
+        "player_off_name": "HOSSAM ABDELMAGUID",
+        "player_on_name": "MOHAMED ABDELMONEIM"
       }
     ]
   },
@@ -794,13 +910,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021480?language=en",
-  "updated_at_utc": "2026-06-22T02:11:53.950944+00:00",
-  "updated_at_poland": "2026-06-22T04:11:53.950949+02:00"
+  "updated_at_utc": "2026-06-22T07:41:19.003020+00:00",
+  "updated_at_poland": "2026-06-22T09:41:19.003024+02:00"
 }
