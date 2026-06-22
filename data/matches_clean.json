@@ -2088,7 +2088,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUT",
       "is_placeholder": false
     },
-    "home_score": 1,
+    "home_score": 2,
     "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -2098,9 +2098,9 @@
       "city": "Dallas",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43922",
     "placeholder_home": "J1",
     "placeholder_away": "J3",
     "time_defined": true,

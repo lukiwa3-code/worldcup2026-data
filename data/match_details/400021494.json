@@ -12,10 +12,10 @@
   "date_utc": "2026-06-22T17:00:00Z",
   "date_local": "2026-06-22T12:00:00Z",
   "date_poland": "2026-06-22T19:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "70649",
+  "match_time": "98'",
+  "period": 10,
+  "winner": "43922",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Argentina",
     "abbr": "ARG",
     "country": "ARG",
-    "score": 1,
+    "score": 2,
     "tactics": "4-1-3-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
     "players": [
@@ -390,10 +390,81 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43922"
+      },
+      {
+        "type": 2,
+        "id_player": "229397",
+        "minute": "90'+5'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43922"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "418963",
+        "id_team": "43922",
+        "minute": "76'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "332847",
+        "id_team": "43922",
+        "minute": "90'+2'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "57'",
+        "id_team": "43922",
+        "id_player_off": "431196",
+        "id_player_on": "310116",
+        "player_off_name": "Cristian ROMERO",
+        "player_on_name": "Nicolas OTAMENDI"
+      },
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43922",
+        "id_player_off": "418975",
+        "id_player_on": "416081",
+        "player_off_name": "Thiago ALMADA",
+        "player_on_name": "Julian ALVAREZ"
+      },
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43922",
+        "id_player_off": "402920",
+        "id_player_on": "430631",
+        "player_off_name": "Lautaro MARTINEZ",
+        "player_on_name": "Nico GONZALEZ"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43922",
+        "id_player_off": "428882",
+        "id_player_on": "332847",
+        "player_off_name": "Rodrigo DE PAUL",
+        "player_on_name": "Leandro PAREDES"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43922",
+        "id_player_off": "418963",
+        "id_player_on": "308322",
+        "player_off_name": "Facundo MEDINA",
+        "player_on_name": "Nicolas TAGLIAFICO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43934",
@@ -753,9 +824,63 @@
         "id_team": "43934",
         "minute": "40'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "385259",
+        "id_team": "43934",
+        "minute": "76'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43934",
+        "id_player_off": "316002",
+        "id_player_on": "463287",
+        "player_off_name": "David ALABA",
+        "player_on_name": "Marco FRIEDL"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43934",
+        "id_player_off": "520036",
+        "id_player_on": "299200",
+        "player_off_name": "Paul WANNER",
+        "player_on_name": "Marko ARNAUTOVIC"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43934",
+        "id_player_off": "441067",
+        "id_player_on": "463282",
+        "player_off_name": "Stefan POSCH",
+        "player_on_name": "Alexander PRASS"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43934",
+        "id_player_off": "463283",
+        "id_player_on": "463286",
+        "player_off_name": "Romano SCHMID",
+        "player_on_name": "Patrick WIMMER"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43934",
+        "id_player_off": "401131",
+        "id_player_on": "463800",
+        "player_off_name": "Michael Gregoritsch",
+        "player_on_name": "Carney CHUKWUEMEKA"
+      }
+    ]
   },
   "officials": [
     {
@@ -767,13 +892,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021494?language=en",
-  "updated_at_utc": "2026-06-22T17:56:27.600054+00:00",
-  "updated_at_poland": "2026-06-22T19:56:27.600060+02:00"
+  "updated_at_utc": "2026-06-22T20:45:15.239954+00:00",
+  "updated_at_poland": "2026-06-22T22:45:15.239961+02:00"
 }
