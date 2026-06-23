@@ -12,10 +12,10 @@
   "date_utc": "2026-06-23T17:00:00Z",
   "date_local": "2026-06-23T12:00:00Z",
   "date_poland": "2026-06-23T19:00:00+02:00",
-  "attendance": null,
-  "match_time": "26'",
-  "period": 3,
-  "winner": null,
+  "attendance": "68777",
+  "match_time": "96'",
+  "period": 10,
+  "winner": "43963",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Portugal",
     "abbr": "POR",
     "country": "POR",
-    "score": 2,
+    "score": 5,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/POR",
     "players": [
@@ -398,10 +398,89 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43963"
+      },
+      {
+        "type": 2,
+        "id_player": "201200",
+        "minute": "39'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43963"
+      },
+      {
+        "type": 3,
+        "id_player": "479110",
+        "minute": "60'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43963"
+      },
+      {
+        "type": 2,
+        "id_player": "418550",
+        "minute": "87'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43963"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "489704",
+        "id_team": "43963",
+        "minute": "68'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43963",
+        "id_player_off": "368649",
+        "id_player_on": "395212",
+        "player_off_name": "JOAO CANCELO",
+        "player_on_name": "NELSON SEMEDO"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43963",
+        "id_player_off": "418548",
+        "id_player_on": "485081",
+        "player_off_name": "PEDRO NETO",
+        "player_on_name": "FRANCISCO CONCEICAO"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43963",
+        "id_player_off": "418535",
+        "id_player_on": "418561",
+        "player_off_name": "JOAO FELIX",
+        "player_on_name": "FRANCISCO TRINCAO"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43963",
+        "id_player_off": "484141",
+        "id_player_on": "395205",
+        "player_off_name": "JOAO NEVES",
+        "player_on_name": "BERNARDO SILVA"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43963",
+        "id_player_off": "441149",
+        "id_player_on": "418550",
+        "player_off_name": "VITINHA",
+        "player_on_name": "RAFAEL LEAO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "44005",
@@ -763,7 +842,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "44005",
+        "id_player_off": "479075",
+        "id_player_on": "479079",
+        "player_off_name": "Sherzod NASRULLAEV",
+        "player_on_name": "Khojiakbar ALIJONOV"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "44005",
+        "id_player_off": "371345",
+        "id_player_on": "479106",
+        "player_off_name": "Odiljon XAMROBEKOV",
+        "player_on_name": "Akmal MOZGOVOY"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "44005",
+        "id_player_off": "464933",
+        "id_player_on": "368546",
+        "player_off_name": "Abbosbek FAYZULLAEV",
+        "player_on_name": "Igor Sergeev"
+      },
+      {
+        "period": 5,
+        "minute": "90'+2'",
+        "id_team": "44005",
+        "id_player_off": "475260",
+        "id_player_on": "484303",
+        "player_off_name": "Behruzjon KARIMOV",
+        "player_on_name": "Ruslanbek JIYANOV"
+      },
+      {
+        "period": 5,
+        "minute": "90'+2'",
+        "id_team": "44005",
+        "id_player_off": "371348",
+        "id_player_on": "464897",
+        "player_off_name": "Otabek Shukurov",
+        "player_on_name": "Sherzod ESANOV"
+      }
+    ]
   },
   "officials": [
     {
@@ -775,13 +900,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021503?language=en",
-  "updated_at_utc": "2026-06-23T17:26:54.372224+00:00",
-  "updated_at_poland": "2026-06-23T19:26:54.372230+02:00"
+  "updated_at_utc": "2026-06-23T19:26:26.597055+00:00",
+  "updated_at_poland": "2026-06-23T21:26:26.597061+02:00"
 }

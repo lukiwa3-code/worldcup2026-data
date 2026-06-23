@@ -2284,7 +2284,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/UZB",
       "is_placeholder": false
     },
-    "home_score": 2,
+    "home_score": 5,
     "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -2294,9 +2294,9 @@
       "city": "Houston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43963",
     "placeholder_home": "K1",
     "placeholder_away": "K3",
     "time_defined": true,
