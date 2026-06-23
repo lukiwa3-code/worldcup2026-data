@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "428431",
+      "country": "USA",
+      "name": "Tori Penso",
+      "short_name": "Tori PENSO",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021466?language=en",
-  "updated_at_utc": "2026-06-23T05:55:31.521043+00:00",
-  "updated_at_poland": "2026-06-23T07:55:31.521048+02:00"
+  "updated_at_utc": "2026-06-23T09:31:30.675080+00:00",
+  "updated_at_poland": "2026-06-23T11:31:30.675085+02:00"
 }

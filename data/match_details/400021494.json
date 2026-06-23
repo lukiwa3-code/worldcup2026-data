@@ -890,6 +890,14 @@
       "short_name": "Amin MOHAMED",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "373845",
+      "country": "ESP",
+      "name": "Alejandro José Hernández Hernández",
+      "short_name": "Alejandro HERNANDEZ",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -899,6 +907,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021494?language=en",
-  "updated_at_utc": "2026-06-23T05:55:27.924657+00:00",
-  "updated_at_poland": "2026-06-23T07:55:27.924662+02:00"
+  "updated_at_utc": "2026-06-23T09:31:25.994425+00:00",
+  "updated_at_poland": "2026-06-23T11:31:25.994431+02:00"
 }

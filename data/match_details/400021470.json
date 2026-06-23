@@ -898,6 +898,14 @@
       "short_name": "Ismail ELFATH",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "416317",
+      "country": "MEX",
+      "name": "Katia Itzel García",
+      "short_name": "Katia GARCIA",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -907,6 +915,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021470?language=en",
-  "updated_at_utc": "2026-06-23T05:55:20.339884+00:00",
-  "updated_at_poland": "2026-06-23T07:55:20.339890+02:00"
+  "updated_at_utc": "2026-06-23T09:31:16.458071+00:00",
+  "updated_at_poland": "2026-06-23T11:31:16.458076+02:00"
 }

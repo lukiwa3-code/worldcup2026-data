@@ -61,7 +61,24 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "375306",
+      "country": "ALG",
+      "name": "Mustapha Ghorbal",
+      "short_name": "Mustapha GHORBAL",
+      "type": "Referee",
+      "official_type": 1
+    },
+    {
+      "id": "383421",
+      "country": "UAE",
+      "name": "Omar Mohamed Al Ali",
+      "short_name": "Omar ALALI",
+      "type": "Fourth official",
+      "official_type": 4
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +86,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021459?language=en",
-  "updated_at_utc": "2026-06-23T05:55:32.398742+00:00",
-  "updated_at_poland": "2026-06-23T07:55:32.398748+02:00"
+  "updated_at_utc": "2026-06-23T09:31:31.916233+00:00",
+  "updated_at_poland": "2026-06-23T11:31:31.916238+02:00"
 }
