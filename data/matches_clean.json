@@ -2196,8 +2196,8 @@
       "city": "Boston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "L1",
     "placeholder_away": "L3",

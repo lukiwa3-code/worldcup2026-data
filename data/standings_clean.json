@@ -1968,7 +1968,7 @@
     "away_points": 0,
     "qualification_status": "CouldQualify",
     "fair_play_coefficient": 0.0,
-    "is_live": true,
+    "is_live": false,
     "team": {
       "id": "43942",
       "name": "England",
@@ -2012,7 +2012,7 @@
     "away_points": 0,
     "qualification_status": "CouldQualify",
     "fair_play_coefficient": 0.0,
-    "is_live": true,
+    "is_live": false,
     "team": {
       "id": "43860",
       "name": "Ghana",

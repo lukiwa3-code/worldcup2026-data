@@ -12,9 +12,9 @@
   "date_utc": "2026-06-23T20:00:00Z",
   "date_local": "2026-06-23T16:00:00Z",
   "date_poland": "2026-06-23T22:00:00+02:00",
-  "attendance": null,
-  "match_time": "50'",
-  "period": 5,
+  "attendance": "63983",
+  "match_time": "97'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -393,7 +393,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43942",
+        "id_player_off": "448189",
+        "id_player_on": "448196",
+        "player_off_name": "Anthony GORDON",
+        "player_on_name": "Bukayo SAKA"
+      },
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43942",
+        "id_player_off": "506329",
+        "id_player_on": "463780",
+        "player_off_name": "Djed SPENCE",
+        "player_on_name": "Nico OREILLY"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43942",
+        "id_player_off": "448202",
+        "id_player_on": "492716",
+        "player_off_name": "Jude BELLINGHAM",
+        "player_on_name": "Morgan ROGERS"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43942",
+        "id_player_off": "481610",
+        "id_player_on": "473113",
+        "player_off_name": "Elliot ANDERSON",
+        "player_on_name": "Eberechi EZE"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43942",
+        "id_player_off": "489732",
+        "id_player_on": "401470",
+        "player_off_name": "Noni MADUEKE",
+        "player_on_name": "Marcus RASHFORD"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43860",
@@ -745,8 +791,54 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "411376",
+        "id_team": "43860",
+        "minute": "60'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43860",
+        "id_player_off": "411376",
+        "id_player_on": "441342",
+        "player_off_name": "Inaki WILLIAMS",
+        "player_on_name": "Abdul FATAWU"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43860",
+        "id_player_off": "353235",
+        "id_player_on": "514401",
+        "player_off_name": "Jordan AYEW",
+        "player_on_name": "Prince ADU"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43860",
+        "id_player_off": "520039",
+        "id_player_on": "511022",
+        "player_off_name": "Marvin SENAYA",
+        "player_on_name": "Kojo Peprah OPPONG"
+      },
+      {
+        "period": 5,
+        "minute": "90'+5'",
+        "id_team": "43860",
+        "id_player_off": "514401",
+        "id_player_on": "367536",
+        "player_off_name": "Prince ADU",
+        "player_on_name": "Baba RAHMAN"
+      }
+    ]
   },
   "officials": [
     {
@@ -758,13 +850,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021506?language=en",
-  "updated_at_utc": "2026-06-23T21:13:56.816869+00:00",
-  "updated_at_poland": "2026-06-23T23:13:56.816873+02:00"
+  "updated_at_utc": "2026-06-23T22:39:10.693706+00:00",
+  "updated_at_poland": "2026-06-24T00:39:10.693710+02:00"
 }
