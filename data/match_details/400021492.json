@@ -13,9 +13,9 @@
   "date_local": "2026-06-22T17:00:00Z",
   "date_poland": "2026-06-22T23:00:00+02:00",
   "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "match_time": "93'",
+  "period": 10,
+  "winner": "43946",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "France",
     "abbr": "FRA",
     "country": "FRA",
-    "score": 1,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
     "players": [
@@ -390,10 +390,72 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "389867",
+        "minute": "54'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "398680",
+        "minute": "66'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "68'",
+        "id_team": "43946",
+        "id_player_off": "398680",
+        "id_player_on": "464114",
+        "player_off_name": "Ousmane DEMBELE",
+        "player_on_name": "Desire DOUE"
+      },
+      {
+        "period": 5,
+        "minute": "68'",
+        "id_team": "43946",
+        "id_player_off": "485655",
+        "id_player_on": "431861",
+        "player_off_name": "Michael OLISE",
+        "player_on_name": "Rayan CHERKI"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43946",
+        "id_player_off": "484860",
+        "id_player_on": "485666",
+        "player_off_name": "Bradley BARCOLA",
+        "player_on_name": "Maghnes AKLIOUCHE"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43946",
+        "id_player_off": "430707",
+        "id_player_on": "464055",
+        "player_off_name": "Jules KOUNDE",
+        "player_on_name": "Malo GUSTO"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43946",
+        "id_player_off": "389867",
+        "id_player_on": "403109",
+        "player_off_name": "Kylian MBAPPE",
+        "player_on_name": "Marcus THURAM"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43818",
@@ -764,6 +826,42 @@
         "id_player_on": "436628",
         "player_off_name": "AYMEN HUSSEIN",
         "player_on_name": "ALI ALHAMADI"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43818",
+        "id_player_off": "434025",
+        "id_player_on": "396158",
+        "player_off_name": "ZAID TAHSEEN",
+        "player_on_name": "REBIN SULAKA"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43818",
+        "id_player_off": "484270",
+        "id_player_on": "464458",
+        "player_off_name": "ZAID ISMAEL",
+        "player_on_name": "YOUSSEF AMYN"
+      },
+      {
+        "period": 5,
+        "minute": "68'",
+        "id_team": "43818",
+        "id_player_off": "433585",
+        "id_player_on": "484262",
+        "player_off_name": "IBRAHIM BAYESH",
+        "player_on_name": "MARKO FARJI"
+      },
+      {
+        "period": 5,
+        "minute": "68'",
+        "id_team": "43818",
+        "id_player_off": "433074",
+        "id_player_on": "493983",
+        "player_off_name": "AMIR ALAMMARI",
+        "player_on_name": "AIMAR SHER"
       }
     ]
   },
@@ -777,13 +875,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 11,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021492?language=en",
-  "updated_at_utc": "2026-06-22T23:50:32.669389+00:00",
-  "updated_at_poland": "2026-06-23T01:50:32.669392+02:00"
+  "updated_at_utc": "2026-06-23T01:51:11.160484+00:00",
+  "updated_at_poland": "2026-06-23T03:51:11.160489+02:00"
 }
