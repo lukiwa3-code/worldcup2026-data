@@ -13,8 +13,8 @@
   "date_local": "2026-06-23T16:00:00Z",
   "date_poland": "2026-06-23T22:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "50'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "England",
     "abbr": "ENG",
     "country": "ENG",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
     "players": [
@@ -383,7 +383,16 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "433097",
+        "id_team": "43942",
+        "minute": "41'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "away_team": {
@@ -392,8 +401,8 @@
     "short_name": "Ghana",
     "abbr": "GHA",
     "country": "GHA",
-    "score": null,
-    "tactics": "5-4-1",
+    "score": 0,
+    "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GHA",
     "players": [
       {
@@ -749,13 +758,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021506?language=en",
-  "updated_at_utc": "2026-06-23T19:26:26.797600+00:00",
-  "updated_at_poland": "2026-06-23T21:26:26.797607+02:00"
+  "updated_at_utc": "2026-06-23T21:13:56.816869+00:00",
+  "updated_at_poland": "2026-06-23T23:13:56.816873+02:00"
 }
