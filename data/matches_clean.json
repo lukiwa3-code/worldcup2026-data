@@ -1991,7 +1991,7 @@
       "is_placeholder": false
     },
     "home_score": 3,
-    "away_score": 1,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2000,9 +2000,9 @@
       "city": "New Jersey",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43961",
     "placeholder_home": "I4",
     "placeholder_away": "I2",
     "time_defined": true,
@@ -2137,8 +2137,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ALG",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2147,9 +2147,9 @@
       "city": "San Francisco Bay Area",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43843",
     "placeholder_home": "J4",
     "placeholder_away": "J2",
     "time_defined": true,
@@ -4180,12 +4180,12 @@
     "date_local": "2026-07-03T18:00:00Z",
     "date_poland": "2026-07-04T00:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "1J",
-      "abbr": "1J",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43922",
+      "name": "Argentina",
+      "abbr": "ARG",
+      "country": "ARG",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
+      "is_placeholder": false
     },
     "away": {
       "id": null,

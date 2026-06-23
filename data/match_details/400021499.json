@@ -12,10 +12,10 @@
   "date_utc": "2026-06-23T03:00:00Z",
   "date_local": "2026-06-22T20:00:00Z",
   "date_poland": "2026-06-23T05:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
-  "winner": null,
+  "attendance": "68371",
+  "match_time": "98'",
+  "period": 10,
+  "winner": "43843",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Jordan",
     "abbr": "JOR",
     "country": "JOR",
-    "score": null,
+    "score": 1,
     "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JOR",
     "players": [
@@ -382,9 +382,73 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "433534",
+        "minute": "36'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43820"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "489550",
+        "id_team": "43820",
+        "minute": "64'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43820",
+        "id_player_off": "396950",
+        "id_player_on": "511875",
+        "player_off_name": "MAHMOUD ALMARDI",
+        "player_on_name": "ODEH FAKHOURY"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43820",
+        "id_player_off": "431211",
+        "id_player_on": "498514",
+        "player_off_name": "MOUSA ALTAMARI",
+        "player_on_name": "ALI AZAIZEH"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43820",
+        "id_player_off": "479389",
+        "id_player_on": "433526",
+        "player_off_name": "MOHANNAD ABUTAHA",
+        "player_on_name": "MOHAMMAD ABUHASHEESH"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43820",
+        "id_player_off": "431212",
+        "id_player_on": "431208",
+        "player_off_name": "ALI OLWAN",
+        "player_on_name": "MOHAMMAD ABUZRAIQ"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43820",
+        "id_player_off": "489550",
+        "id_player_on": "499102",
+        "player_off_name": "HUSAM ABUDAHAB",
+        "player_on_name": "SALEEM OBAID"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43843",
@@ -392,8 +456,8 @@
     "short_name": "Algeria",
     "abbr": "ALG",
     "country": "ALG",
-    "score": null,
-    "tactics": "4-3-3",
+    "score": 2,
+    "tactics": "4-2-1-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ALG",
     "players": [
       {
@@ -722,9 +786,81 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "520071",
+        "minute": "69'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43843"
+      },
+      {
+        "type": 2,
+        "id_player": "405877",
+        "minute": "82'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43843"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "433679",
+        "id_team": "43843",
+        "minute": "44'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43843",
+        "id_player_off": "441350",
+        "id_player_on": "520071",
+        "player_off_name": "Hicham BOUDAOUI",
+        "player_on_name": "Nadhir BENBOUALI"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43843",
+        "id_player_off": "433679",
+        "id_player_on": "379939",
+        "player_off_name": "Ramiz ZERROUKI",
+        "player_on_name": "Nabil Bentaleb"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43843",
+        "id_player_off": "379942",
+        "id_player_on": "482874",
+        "player_off_name": "Riyad Mahrez",
+        "player_on_name": "Anis HADJ MOUSSA"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43843",
+        "id_player_off": "405877",
+        "id_player_on": "480983",
+        "player_off_name": "Amine GOUIRI",
+        "player_on_name": "Zineddine BELAID"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43843",
+        "id_player_off": "431858",
+        "id_player_on": "482869",
+        "player_off_name": "Rayan AIT-NOURI",
+        "player_on_name": "Jaouen HADJAM"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +872,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021499?language=en",
-  "updated_at_utc": "2026-06-23T01:51:11.627131+00:00",
-  "updated_at_poland": "2026-06-23T03:51:11.627136+02:00"
+  "updated_at_utc": "2026-06-23T05:55:28.623822+00:00",
+  "updated_at_poland": "2026-06-23T07:55:28.623827+02:00"
 }
