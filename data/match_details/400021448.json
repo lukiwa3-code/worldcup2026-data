@@ -13,8 +13,8 @@
   "date_local": "2026-06-24T12:00:00Z",
   "date_poland": "2026-06-24T21:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "",
+  "period": 4,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Bosnia and Herzegovina",
     "abbr": "BIH",
     "country": "BIH",
-    "score": null,
+    "score": 2,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BIH",
     "players": [
@@ -369,7 +369,24 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "504990",
+        "minute": "29'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "44037"
+      },
+      {
+        "type": 3,
+        "id_player": "386387",
+        "minute": "34'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "44037"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -379,7 +396,7 @@
     "short_name": "Qatar",
     "abbr": "QAT",
     "country": "QAT",
-    "score": null,
+    "score": 1,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/QAT",
     "players": [
@@ -696,7 +713,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "284190",
+        "minute": "42'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43834"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -710,13 +736,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021448?language=en",
-  "updated_at_utc": "2026-06-24T18:03:27.709390+00:00",
-  "updated_at_poland": "2026-06-24T20:03:27.709396+02:00"
+  "updated_at_utc": "2026-06-24T20:01:48.995040+00:00",
+  "updated_at_poland": "2026-06-24T22:01:48.995045+02:00"
 }
