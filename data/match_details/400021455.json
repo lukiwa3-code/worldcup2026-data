@@ -13,8 +13,8 @@
   "date_local": "2026-06-24T18:00:00Z",
   "date_poland": "2026-06-25T00:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "45'+5'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Scotland",
     "abbr": "SCO",
     "country": "SCO",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SCO",
     "players": [
@@ -392,7 +392,7 @@
     "short_name": "Brazil",
     "abbr": "BRA",
     "country": "BRA",
-    "score": null,
+    "score": 2,
     "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA",
     "players": [
@@ -722,7 +722,24 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "405742",
+        "minute": "7'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43924"
+      },
+      {
+        "type": 2,
+        "id_player": "405742",
+        "minute": "45'+3'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43924"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -736,13 +753,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021455?language=en",
-  "updated_at_utc": "2026-06-24T21:39:40.761945+00:00",
-  "updated_at_poland": "2026-06-24T23:39:40.761950+02:00"
+  "updated_at_utc": "2026-06-24T22:51:09.983318+00:00",
+  "updated_at_poland": "2026-06-25T00:51:09.983323+02:00"
 }

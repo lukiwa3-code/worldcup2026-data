@@ -2382,8 +2382,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2392,7 +2392,7 @@
       "city": "Miami",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "C4",
@@ -2431,8 +2431,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/HAI",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2441,7 +2441,7 @@
       "city": "Atlanta",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "C2",
