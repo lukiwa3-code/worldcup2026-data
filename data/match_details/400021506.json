@@ -848,6 +848,14 @@
       "short_name": "Said MARTINEZ",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "328495",
+      "country": "CHN",
+      "name": "Ning Ma",
+      "short_name": "MA Ning",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -857,6 +865,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021506?language=en",
-  "updated_at_utc": "2026-06-24T05:45:37.459000+00:00",
-  "updated_at_poland": "2026-06-24T07:45:37.459004+02:00"
+  "updated_at_utc": "2026-06-24T08:45:15.306064+00:00",
+  "updated_at_poland": "2026-06-24T10:45:15.306069+02:00"
 }

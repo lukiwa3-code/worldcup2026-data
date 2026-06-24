@@ -61,7 +61,16 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "399029",
+      "country": "FRA",
+      "name": "François Letexier",
+      "short_name": "Francois LETEXIER",
+      "type": "Referee",
+      "official_type": 1
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +78,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021485?language=en",
-  "updated_at_utc": "2026-06-24T05:45:42.404646+00:00",
-  "updated_at_poland": "2026-06-24T07:45:42.404649+02:00"
+  "updated_at_utc": "2026-06-24T08:45:22.504152+00:00",
+  "updated_at_poland": "2026-06-24T10:45:22.504157+02:00"
 }
