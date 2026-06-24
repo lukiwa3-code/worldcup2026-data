@@ -2480,8 +2480,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
       "is_placeholder": false
     },
-    "home_score": 0,
-    "away_score": 0,
+    "home_score": 2,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2490,9 +2490,9 @@
       "city": "Vancouver",
       "country": "CAN"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43971",
     "placeholder_home": "B4",
     "placeholder_away": "B1",
     "time_defined": true,
@@ -2529,7 +2529,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/QAT",
       "is_placeholder": false
     },
-    "home_score": 2,
+    "home_score": 3,
     "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -2539,9 +2539,9 @@
       "city": "Seattle",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "44037",
     "placeholder_home": "B2",
     "placeholder_away": "B3",
     "time_defined": true,
@@ -3551,12 +3551,12 @@
       "is_placeholder": true
     },
     "away": {
-      "id": null,
-      "name": "2B",
-      "abbr": "2B",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43899",
+      "name": "Canada",
+      "abbr": "CAN",
+      "country": "CAN",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -4131,12 +4131,12 @@
     "date_local": "2026-07-02T20:00:00Z",
     "date_poland": "2026-07-03T05:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "1B",
-      "abbr": "1B",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43971",
+      "name": "Switzerland",
+      "abbr": "SUI",
+      "country": "SUI",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
+      "is_placeholder": false
     },
     "away": {
       "id": null,

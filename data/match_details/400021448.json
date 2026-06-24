@@ -12,10 +12,10 @@
   "date_utc": "2026-06-24T19:00:00Z",
   "date_local": "2026-06-24T12:00:00Z",
   "date_poland": "2026-06-24T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "66925",
+  "match_time": "97'",
+  "period": 10,
+  "winner": "44037",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Bosnia and Herzegovina",
     "abbr": "BIH",
     "country": "BIH",
-    "score": 2,
+    "score": 3,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BIH",
     "players": [
@@ -380,15 +380,78 @@
       },
       {
         "type": 3,
-        "id_player": "386387",
+        "id_player": "419459",
         "minute": "34'",
         "id_assist_player": null,
         "period": 3,
         "id_team": "44037"
+      },
+      {
+        "type": 2,
+        "id_player": "522846",
+        "minute": "80'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "44037"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "522846",
+        "id_team": "44037",
+        "minute": "82'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "44037",
+        "id_player_off": "494639",
+        "id_player_on": "494640",
+        "player_off_name": "Arjan MALIC",
+        "player_on_name": "Amar MEMIC"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "44037",
+        "id_player_off": "372436",
+        "id_player_on": "483966",
+        "player_off_name": "Ivan SUNJIC",
+        "player_on_name": "Benjamin TAHIROVIC"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "44037",
+        "id_player_off": "489520",
+        "id_player_on": "430194",
+        "player_off_name": "Nikola KATIC",
+        "player_on_name": "Dennis HADZIKADUNIC"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "44037",
+        "id_player_off": "300409",
+        "id_player_on": "522846",
+        "player_off_name": "Edin DZEKO",
+        "player_on_name": "Ermin MAHMIC"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "44037",
+        "id_player_off": "504990",
+        "id_player_on": "389886",
+        "player_off_name": "Kerim ALAJBEGOVIC",
+        "player_on_name": "Dzenis BURNIC"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43834",
@@ -723,8 +786,63 @@
         "id_team": "43834"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "433394",
+        "id_team": "43834",
+        "minute": "78'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43834",
+        "id_player_off": "419473",
+        "id_player_on": "345059",
+        "player_off_name": "JASSEM GABER",
+        "player_on_name": "ABDULAZIZ HATEM"
+      },
+      {
+        "period": 5,
+        "minute": "55'",
+        "id_team": "43834",
+        "id_player_off": "284190",
+        "id_player_on": "419436",
+        "player_off_name": "HASSAN ALHAYDOS",
+        "player_on_name": "AHMED ALGANEHI"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43834",
+        "id_player_off": "354861",
+        "id_player_on": "386366",
+        "player_off_name": "KARIM BOUDIAF",
+        "player_on_name": "ALMOEZ ALI"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43834",
+        "id_player_off": "433394",
+        "id_player_on": "498458",
+        "player_off_name": "AHMED FATHY",
+        "player_on_name": "MOHAMED MANAI"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43834",
+        "id_player_off": "429063",
+        "id_player_on": "353251",
+        "player_off_name": "EDMILSON JUNIOR",
+        "player_on_name": "AHMED ALAAELDIN"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +854,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021448?language=en",
-  "updated_at_utc": "2026-06-24T20:01:48.995040+00:00",
-  "updated_at_poland": "2026-06-24T22:01:48.995045+02:00"
+  "updated_at_utc": "2026-06-24T21:39:40.073777+00:00",
+  "updated_at_poland": "2026-06-24T23:39:40.073782+02:00"
 }

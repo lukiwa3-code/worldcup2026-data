@@ -12,10 +12,10 @@
   "date_utc": "2026-06-24T19:00:00Z",
   "date_local": "2026-06-24T12:00:00Z",
   "date_poland": "2026-06-24T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "52497",
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43971",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Switzerland",
     "abbr": "SUI",
     "country": "SUI",
-    "score": 0,
+    "score": 2,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
     "players": [
@@ -369,7 +369,24 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "448131",
+        "minute": "46'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43971"
+      },
+      {
+        "type": 2,
+        "id_player": "502727",
+        "minute": "57'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43971"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -380,7 +397,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43971",
+        "id_player_off": "510908",
+        "id_player_on": "356412",
+        "player_off_name": "Luca JAQUEZ",
+        "player_on_name": "Silvan WIDMER"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43971",
+        "id_player_off": "411226",
+        "id_player_on": "433147",
+        "player_off_name": "Djibril SOW",
+        "player_on_name": "Michel AEBISCHER"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43971",
+        "id_player_off": "448131",
+        "id_player_on": "448114",
+        "player_off_name": "Ruben VARGAS",
+        "player_on_name": "Dan NDOYE"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43971",
+        "id_player_off": "393480",
+        "id_player_on": "448104",
+        "player_off_name": "Breel EMBOLO",
+        "player_on_name": "Cedric ITTEN"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43971",
+        "id_player_off": "502727",
+        "id_player_on": "448124",
+        "player_off_name": "Johan MANZAMBI",
+        "player_on_name": "Christian FASSNACHT"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43899",
@@ -388,7 +451,7 @@
     "short_name": "Canada",
     "abbr": "CAN",
     "country": "CAN",
-    "score": 0,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
     "players": [
@@ -705,7 +768,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "493970",
+        "minute": "76'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43899"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -714,9 +786,63 @@
         "id_team": "43899",
         "minute": "32'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "441259",
+        "id_team": "43899",
+        "minute": "87'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43899",
+        "id_player_off": "390670",
+        "id_player_on": "486929",
+        "player_off_name": "Cyle LARIN",
+        "player_on_name": "Tani OLUWASEYI"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43899",
+        "id_player_off": "448390",
+        "id_player_on": "433635",
+        "player_off_name": "Mathieu CHOINIERE",
+        "player_on_name": "Stephen EUSTAQUIO"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43899",
+        "id_player_off": "466687",
+        "id_player_on": "441259",
+        "player_off_name": "Ali AHMED",
+        "player_on_name": "Liam MILLAR"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43899",
+        "id_player_off": "430138",
+        "id_player_on": "493970",
+        "player_off_name": "Tajon BUCHANAN",
+        "player_on_name": "Promise DAVID"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43899",
+        "id_player_off": "431696",
+        "id_player_on": "448411",
+        "player_off_name": "Richie LARYEA",
+        "player_on_name": "Jacob SHAFFELBURG"
+      }
+    ]
   },
   "officials": [
     {
@@ -728,13 +854,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021451?language=en",
-  "updated_at_utc": "2026-06-24T20:01:49.335357+00:00",
-  "updated_at_poland": "2026-06-24T22:01:49.335362+02:00"
+  "updated_at_utc": "2026-06-24T21:39:40.315816+00:00",
+  "updated_at_poland": "2026-06-24T23:39:40.315820+02:00"
 }

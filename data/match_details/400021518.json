@@ -28,7 +28,20 @@
   },
   "weather": null,
   "home_team": null,
-  "away_team": null,
+  "away_team": {
+    "id_team": "43899",
+    "name": "Canada",
+    "short_name": "Canada",
+    "abbr": "CAN",
+    "country": "CAN",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -37,6 +50,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021518?language=en",
-  "updated_at_utc": "2026-06-24T20:01:56.947288+00:00",
-  "updated_at_poland": "2026-06-24T22:01:56.947293+02:00"
+  "updated_at_utc": "2026-06-24T21:39:47.223413+00:00",
+  "updated_at_poland": "2026-06-24T23:39:47.223419+02:00"
 }
