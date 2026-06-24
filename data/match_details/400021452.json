@@ -12,9 +12,9 @@
   "date_utc": "2026-06-24T22:00:00Z",
   "date_local": "2026-06-24T18:00:00Z",
   "date_poland": "2026-06-25T00:00:00+02:00",
-  "attendance": null,
-  "match_time": "45'+5'",
-  "period": 3,
+  "attendance": "68239",
+  "match_time": "90'+2'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Morocco",
     "abbr": "MAR",
     "country": "MAR",
-    "score": 2,
+    "score": 4,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
     "players": [
@@ -398,10 +398,72 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43872"
+      },
+      {
+        "type": 2,
+        "id_player": "433426",
+        "minute": "78'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43872"
+      },
+      {
+        "type": 2,
+        "id_player": "505112",
+        "minute": "89'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43872"
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43872",
+        "id_player_off": "411678",
+        "id_player_on": "505112",
+        "player_off_name": "Ayoub El Kaabi",
+        "player_on_name": "Gessime YASSINE"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43872",
+        "id_player_off": "448598",
+        "id_player_on": "433426",
+        "player_off_name": "Ismael SAIBARI",
+        "player_on_name": "Soufiane RAHIMI"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43872",
+        "id_player_off": "430740",
+        "id_player_on": "441307",
+        "player_off_name": "Brahim DIAZ",
+        "player_on_name": "Azzedine OUNAHI"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43872",
+        "id_player_off": "485740",
+        "id_player_on": "505097",
+        "player_off_name": "Neil EL AYNAOUI",
+        "player_on_name": "Samir EL MOURABET"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43872",
+        "id_player_off": "424071",
+        "id_player_on": "411680",
+        "player_off_name": "Anass SALAH EDDINE",
+        "player_on_name": "Noussair MAZRAOUI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43908",
@@ -770,8 +832,71 @@
         "id_team": "43908"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "295922",
+        "id_team": "43908",
+        "minute": "79'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "394993",
+        "id_team": "43908",
+        "minute": "79'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43908",
+        "id_player_off": "485664",
+        "id_player_on": "394993",
+        "player_off_name": "Ruben PROVIDENCE",
+        "player_on_name": "Duckens NAZON"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43908",
+        "id_player_off": "405879",
+        "id_player_on": "481027",
+        "player_off_name": "Wilson Isidor",
+        "player_on_name": "Louicius DEEDSON"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43908",
+        "id_player_off": "431781",
+        "id_player_on": "397775",
+        "player_off_name": "Jean-Kevin DUVERNE",
+        "player_on_name": "Carlens ARCUS"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43908",
+        "id_player_off": "466838",
+        "id_player_on": "523215",
+        "player_off_name": "Danley JEAN JACQUES",
+        "player_on_name": "Dominique SIMON"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43908",
+        "id_player_off": "485676",
+        "id_player_on": "431693",
+        "player_off_name": "Lenny JOSEPH",
+        "player_on_name": "Frantzdy Pierrot"
+      }
+    ]
   },
   "officials": [
     {
@@ -790,6 +915,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021452?language=en",
-  "updated_at_utc": "2026-06-24T22:51:09.731794+00:00",
-  "updated_at_poland": "2026-06-25T00:51:09.731800+02:00"
+  "updated_at_utc": "2026-06-24T23:54:15.006783+00:00",
+  "updated_at_poland": "2026-06-25T01:54:15.006788+02:00"
 }

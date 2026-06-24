@@ -12,9 +12,9 @@
   "date_utc": "2026-06-24T22:00:00Z",
   "date_local": "2026-06-24T18:00:00Z",
   "date_poland": "2026-06-25T00:00:00+02:00",
-  "attendance": null,
-  "match_time": "45'+5'",
-  "period": 3,
+  "attendance": "64478",
+  "match_time": "89'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -383,8 +383,45 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "430097",
+        "id_team": "43967",
+        "minute": "89'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43967",
+        "id_player_off": "401339",
+        "id_player_on": "401712",
+        "player_off_name": "Andy ROBERTSON",
+        "player_on_name": "Kieran Tierney"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43967",
+        "id_player_off": "433694",
+        "id_player_on": "337389",
+        "player_off_name": "Nathan PATTERSON",
+        "player_on_name": "Anthony RALSTON"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43967",
+        "id_player_off": "485131",
+        "id_player_on": "430097",
+        "player_off_name": "Ben GANNON-DOAK",
+        "player_on_name": "Ryan Christie"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43924",
@@ -392,7 +429,7 @@
     "short_name": "Brazil",
     "abbr": "BRA",
     "country": "BRA",
-    "score": 2,
+    "score": 3,
     "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA",
     "players": [
@@ -738,10 +775,81 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43924"
+      },
+      {
+        "type": 2,
+        "id_player": "430609",
+        "minute": "60'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43924"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "335656",
+        "id_team": "43924",
+        "minute": "62'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "394456",
+        "id_team": "43924",
+        "minute": "82'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43924",
+        "id_player_off": "308386",
+        "id_player_on": "394456",
+        "player_off_name": "CASEMIRO",
+        "player_on_name": "FABINHO"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43924",
+        "id_player_off": "411726",
+        "id_player_on": "430597",
+        "player_off_name": "LUCAS PAQUETA",
+        "player_on_name": "GABRIEL MARTINELLI"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43924",
+        "id_player_off": "430609",
+        "id_player_on": "314197",
+        "player_off_name": "MATHEUS CUNHA",
+        "player_on_name": "NEYMAR JR"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43924",
+        "id_player_off": "475036",
+        "id_player_on": "463746",
+        "player_off_name": "RAYAN",
+        "player_on_name": "ENDRICK"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43924",
+        "id_player_off": "367981",
+        "id_player_on": "335658",
+        "player_off_name": "DOUGLAS SANTOS",
+        "player_on_name": "ALEX SANDRO"
+      }
+    ]
   },
   "officials": [
     {
@@ -760,6 +868,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021455?language=en",
-  "updated_at_utc": "2026-06-24T22:51:09.983318+00:00",
-  "updated_at_poland": "2026-06-25T00:51:09.983323+02:00"
+  "updated_at_utc": "2026-06-24T23:54:15.312650+00:00",
+  "updated_at_poland": "2026-06-25T01:54:15.312656+02:00"
 }

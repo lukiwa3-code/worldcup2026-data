@@ -2383,7 +2383,7 @@
       "is_placeholder": false
     },
     "home_score": 0,
-    "away_score": 2,
+    "away_score": 3,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2431,7 +2431,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/HAI",
       "is_placeholder": false
     },
-    "home_score": 2,
+    "home_score": 4,
     "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
