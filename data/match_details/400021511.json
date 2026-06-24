@@ -12,10 +12,10 @@
   "date_utc": "2026-06-23T23:00:00Z",
   "date_local": "2026-06-23T19:00:00Z",
   "date_poland": "2026-06-24T01:00:00+02:00",
-  "attendance": null,
-  "match_time": "39'",
-  "period": 3,
-  "winner": null,
+  "attendance": "43036",
+  "match_time": "96'",
+  "period": 10,
+  "winner": "43938",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -383,8 +383,54 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "400416",
+        "id_team": "43914",
+        "minute": "61'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43914",
+        "id_player_off": "480310",
+        "id_player_on": "337251",
+        "player_off_name": "Jiovany RAMOS",
+        "player_on_name": "Cecilio Waterman"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43914",
+        "id_player_off": "411174",
+        "id_player_on": "466669",
+        "player_off_name": "Jose FAJARDO",
+        "player_on_name": "Azarias LONDONO"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43914",
+        "id_player_off": "441242",
+        "id_player_on": "337232",
+        "player_off_name": "Cesar BLACKMAN",
+        "player_on_name": "Eric DAVIS"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43914",
+        "id_player_off": "400416",
+        "id_player_on": "418747",
+        "player_off_name": "Edgar Yoel BARCENAS",
+        "player_on_name": "Tomas RODRIGUEZ"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43938",
@@ -392,7 +438,7 @@
     "short_name": "Croatia",
     "abbr": "CRO",
     "country": "CRO",
-    "score": 0,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CRO",
     "players": [
@@ -735,9 +781,73 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "430070",
+        "minute": "54'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43938"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "485066",
+        "id_team": "43938",
+        "minute": "90'+2'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43938",
+        "id_player_off": "389754",
+        "id_player_on": "430070",
+        "player_off_name": "Petar Musa",
+        "player_on_name": "Ante BUDIMIR"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43938",
+        "id_player_off": "448180",
+        "id_player_on": "336472",
+        "player_off_name": "Josko GVARDIOL",
+        "player_on_name": "Andrej KRAMARIC"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43938",
+        "id_player_off": "339987",
+        "id_player_on": "485066",
+        "player_off_name": "Mateo KOVACIC",
+        "player_on_name": "Petar SUCIC"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43938",
+        "id_player_off": "482931",
+        "id_player_on": "448160",
+        "player_off_name": "Marco PASALIC",
+        "player_on_name": "Luka SUCIC"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43938",
+        "id_player_off": "241559",
+        "id_player_on": "380005",
+        "player_off_name": "Luka MODRIC",
+        "player_on_name": "Mario PASALIC"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +859,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021511?language=en",
-  "updated_at_utc": "2026-06-23T23:39:53.231967+00:00",
-  "updated_at_poland": "2026-06-24T01:39:53.231971+02:00"
+  "updated_at_utc": "2026-06-24T01:30:36.681328+00:00",
+  "updated_at_poland": "2026-06-24T03:30:36.681333+02:00"
 }
