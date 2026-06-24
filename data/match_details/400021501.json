@@ -12,10 +12,10 @@
   "date_utc": "2026-06-24T02:00:00Z",
   "date_local": "2026-06-23T20:00:00Z",
   "date_poland": "2026-06-24T04:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
-  "winner": null,
+  "attendance": "45358",
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43926",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Colombia",
     "abbr": "COL",
     "country": "COL",
-    "score": null,
-    "tactics": "4-2-3-1",
+    "score": 1,
+    "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COL",
     "players": [
       {
@@ -382,9 +382,63 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "431200",
+        "minute": "76'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43926"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "441622",
+        "id_team": "43926",
+        "minute": "56'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "395550",
+        "id_team": "43926",
+        "minute": "90'+4'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43926",
+        "id_player_off": "269058",
+        "id_player_on": "356704",
+        "player_off_name": "James RODRIGUEZ",
+        "player_on_name": "Juan QUINTERO"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43926",
+        "id_player_off": "428905",
+        "id_player_on": "369530",
+        "player_off_name": "Luis SUAREZ",
+        "player_on_name": "Jhon CORDOBA"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43926",
+        "id_player_off": "470760",
+        "id_player_on": "473050",
+        "player_off_name": "Jhon ARIAS",
+        "player_on_name": "Richard RIOS"
+      }
+    ]
   },
   "away_team": {
     "id_team": "20014",
@@ -392,7 +446,7 @@
     "short_name": "Congo DR",
     "abbr": "COD",
     "country": "COD",
-    "score": null,
+    "score": 0,
     "tactics": "5-3-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COD",
     "players": [
@@ -736,8 +790,63 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "448128",
+        "id_team": "20014",
+        "minute": "90'+3'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "20014",
+        "id_player_off": "494458",
+        "id_player_on": "486147",
+        "player_off_name": "Ngalayel MUKAU",
+        "player_on_name": "Noah SADIKI"
+      },
+      {
+        "period": 5,
+        "minute": "57'",
+        "id_team": "20014",
+        "id_player_off": "336425",
+        "id_player_on": "477835",
+        "player_off_name": "Cedric BAKAMBU",
+        "player_on_name": "Simon BANZA"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "20014",
+        "id_player_off": "436572",
+        "id_player_on": "477833",
+        "player_off_name": "Arthur MASUAKU",
+        "player_on_name": "Joris KAYEMBE"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "20014",
+        "id_player_off": "433161",
+        "id_player_on": "448128",
+        "player_off_name": "Edo Kayembe",
+        "player_on_name": "Charles PICKEL"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "20014",
+        "id_player_off": "433076",
+        "id_player_on": "424119",
+        "player_off_name": "Samuel Moutoussamy",
+        "player_on_name": "Nathanael MBUKU"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +858,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021501?language=en",
-  "updated_at_utc": "2026-06-24T01:30:36.935458+00:00",
-  "updated_at_poland": "2026-06-24T03:30:36.935465+02:00"
+  "updated_at_utc": "2026-06-24T05:45:38.038900+00:00",
+  "updated_at_poland": "2026-06-24T07:45:38.038904+02:00"
 }
