@@ -13,9 +13,9 @@
   "date_local": "2026-06-24T18:00:00Z",
   "date_poland": "2026-06-25T00:00:00+02:00",
   "attendance": "64478",
-  "match_time": "89'",
-  "period": 5,
-  "winner": null,
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43924",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -420,6 +420,24 @@
         "id_player_on": "430097",
         "player_off_name": "Ben GANNON-DOAK",
         "player_on_name": "Ryan Christie"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43967",
+        "id_player_off": "401334",
+        "id_player_on": "520217",
+        "player_off_name": "John McGinn",
+        "player_on_name": "Findlay CURTIS"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43967",
+        "id_player_off": "484045",
+        "id_player_on": "433191",
+        "player_off_name": "Lawrence SHANKLAND",
+        "player_on_name": "Che Adams"
       }
     ]
   },
@@ -861,13 +879,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021455?language=en",
-  "updated_at_utc": "2026-06-24T23:54:15.312650+00:00",
-  "updated_at_poland": "2026-06-25T01:54:15.312656+02:00"
+  "updated_at_utc": "2026-06-25T02:33:28.365270+00:00",
+  "updated_at_poland": "2026-06-25T04:33:28.365274+02:00"
 }

@@ -2392,9 +2392,9 @@
       "city": "Miami",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43924",
     "placeholder_home": "C4",
     "placeholder_away": "C1",
     "time_defined": true,
@@ -2441,9 +2441,9 @@
       "city": "Atlanta",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43872",
     "placeholder_home": "C2",
     "placeholder_away": "C3",
     "time_defined": true,
@@ -2578,8 +2578,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MEX",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2588,7 +2588,7 @@
       "city": "Mexico City",
       "country": "MEX"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "A4",
@@ -2627,8 +2627,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/KOR",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2637,7 +2637,7 @@
       "city": "Monterrey",
       "country": "MEX"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "A2",
@@ -3649,12 +3649,12 @@
       "is_placeholder": true
     },
     "away": {
-      "id": null,
-      "name": "2C",
-      "abbr": "2C",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43872",
+      "name": "Morocco",
+      "abbr": "MAR",
+      "country": "MAR",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -3690,12 +3690,12 @@
     "date_local": "2026-06-29T12:00:00Z",
     "date_poland": "2026-06-29T19:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "1C",
-      "abbr": "1C",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43924",
+      "name": "Brazil",
+      "abbr": "BRA",
+      "country": "BRA",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA",
+      "is_placeholder": false
     },
     "away": {
       "id": null,

@@ -13,9 +13,9 @@
   "date_local": "2026-06-24T18:00:00Z",
   "date_poland": "2026-06-25T00:00:00+02:00",
   "attendance": "68239",
-  "match_time": "90'+2'",
-  "period": 5,
-  "winner": null,
+  "match_time": "99'",
+  "period": 10,
+  "winner": "43872",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -848,6 +848,14 @@
         "id_team": "43908",
         "minute": "79'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "510757",
+        "id_team": "43908",
+        "minute": "90'+3'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -908,13 +916,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021452?language=en",
-  "updated_at_utc": "2026-06-24T23:54:15.006783+00:00",
-  "updated_at_poland": "2026-06-25T01:54:15.006788+02:00"
+  "updated_at_utc": "2026-06-25T02:33:28.130566+00:00",
+  "updated_at_poland": "2026-06-25T04:33:28.130570+02:00"
 }

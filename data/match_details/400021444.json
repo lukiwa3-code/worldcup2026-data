@@ -12,9 +12,9 @@
   "date_utc": "2026-06-25T01:00:00Z",
   "date_local": "2026-06-24T19:00:00Z",
   "date_poland": "2026-06-25T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "attendance": "80824",
+  "match_time": "72'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Czechia",
     "abbr": "CZE",
     "country": "CZE",
-    "score": null,
+    "score": 0,
     "tactics": "5-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CZE",
     "players": [
@@ -371,7 +371,35 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43995",
+        "id_player_off": "519985",
+        "id_player_on": "484011",
+        "player_off_name": "Denis VISINSKY",
+        "player_on_name": "Lukas PROVOD"
+      },
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43995",
+        "id_player_off": "441167",
+        "id_player_on": "404885",
+        "player_off_name": "Tomas HOLES",
+        "player_on_name": "Tomas SOUCEK"
+      },
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43995",
+        "id_player_off": "433754",
+        "id_player_on": "401481",
+        "player_off_name": "Adam HLOZEK",
+        "player_on_name": "Patrik Schick"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43911",
@@ -379,7 +407,7 @@
     "short_name": "Mexico",
     "abbr": "MEX",
     "country": "MEX",
-    "score": null,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MEX",
     "players": [
@@ -722,9 +750,63 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "500038",
+        "minute": "55'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43911"
+      },
+      {
+        "type": 2,
+        "id_player": "429157",
+        "minute": "61'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43911"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "400634",
+        "id_team": "43911",
+        "minute": "63'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43911",
+        "id_player_off": "386339",
+        "id_player_on": "430759",
+        "player_off_name": "Guillermo MARTINEZ",
+        "player_on_name": "Santiago GIMENEZ"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43911",
+        "id_player_off": "430763",
+        "id_player_on": "461177",
+        "player_off_name": "Luis ROMO",
+        "player_on_name": "Obed VARGAS"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43911",
+        "id_player_off": "500037",
+        "id_player_on": "416576",
+        "player_off_name": "Gilberto MORA",
+        "player_on_name": "Alvaro FIDALGO"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +818,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021444?language=en",
-  "updated_at_utc": "2026-06-24T23:54:15.824461+00:00",
-  "updated_at_poland": "2026-06-25T01:54:15.824466+02:00"
+  "updated_at_utc": "2026-06-25T02:33:28.848198+00:00",
+  "updated_at_poland": "2026-06-25T04:33:28.848202+02:00"
 }

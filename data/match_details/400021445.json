@@ -12,9 +12,9 @@
   "date_utc": "2026-06-25T01:00:00Z",
   "date_local": "2026-06-24T19:00:00Z",
   "date_poland": "2026-06-25T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "attendance": "51243",
+  "match_time": "73'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "South Africa",
     "abbr": "RSA",
     "country": "RSA",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/RSA",
     "players": [
@@ -356,9 +356,37 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "463234",
+        "minute": "63'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43883"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "395050",
+        "id_team": "43883",
+        "minute": "73'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43883",
+        "id_player_off": "419223",
+        "id_player_on": "504193",
+        "player_off_name": "Oswin APPOLLIS",
+        "player_on_name": "Tshepang MOREMI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43822",
@@ -366,8 +394,8 @@
     "short_name": "Korea Republic",
     "abbr": "KOR",
     "country": "KOR",
-    "score": null,
-    "tactics": "3-4-1-2",
+    "score": 0,
+    "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/KOR",
     "players": [
       {
@@ -711,7 +739,44 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43822",
+        "id_player_off": "395083",
+        "id_player_on": "307849",
+        "player_off_name": "HWANG Heechan",
+        "player_on_name": "SON Heungmin"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43822",
+        "id_player_off": "402817",
+        "id_player_on": "430385",
+        "player_off_name": "PAIK Seungho",
+        "player_on_name": "KIM Jingyu"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43822",
+        "id_player_off": "423880",
+        "id_player_on": "511828",
+        "player_off_name": "LEE Taeseok",
+        "player_on_name": "CASTROP Jens"
+      },
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43822",
+        "id_player_off": "395088",
+        "id_player_on": "479316",
+        "player_off_name": "KIM Minjae",
+        "player_on_name": "PARK Jinseob"
+      }
+    ]
   },
   "officials": [
     {
@@ -723,13 +788,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021445?language=en",
-  "updated_at_utc": "2026-06-24T23:54:15.540442+00:00",
-  "updated_at_poland": "2026-06-25T01:54:15.540447+02:00"
+  "updated_at_utc": "2026-06-25T02:33:28.650295+00:00",
+  "updated_at_poland": "2026-06-25T04:33:28.650299+02:00"
 }
