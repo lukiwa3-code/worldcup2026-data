@@ -27,7 +27,20 @@
     "country": "USA"
   },
   "weather": null,
-  "home_team": null,
+  "home_team": {
+    "id_team": "43854",
+    "name": "Côte d'Ivoire",
+    "short_name": "Côte d'Ivoire",
+    "abbr": "CIV",
+    "country": "CIV",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CIV",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "away_team": null,
   "officials": [],
   "match_status_code": 1,
@@ -37,6 +50,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021514?language=en",
-  "updated_at_utc": "2026-06-25T21:09:46.367333+00:00",
-  "updated_at_poland": "2026-06-25T23:09:46.367338+02:00"
+  "updated_at_utc": "2026-06-25T22:44:42.740838+00:00",
+  "updated_at_poland": "2026-06-26T00:44:42.740843+02:00"
 }

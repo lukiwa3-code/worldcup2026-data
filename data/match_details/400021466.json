@@ -12,10 +12,10 @@
   "date_utc": "2026-06-25T20:00:00Z",
   "date_local": "2026-06-25T16:00:00Z",
   "date_poland": "2026-06-25T22:00:00+02:00",
-  "attendance": null,
-  "match_time": "48'",
-  "period": 5,
-  "winner": null,
+  "attendance": "80663",
+  "match_time": "98'",
+  "period": 10,
+  "winner": "43927",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Ecuador",
     "abbr": "ECU",
     "country": "ECU",
-    "score": 1,
+    "score": 2,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ECU",
     "players": [
@@ -390,6 +390,14 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43927"
+      },
+      {
+        "type": 2,
+        "id_player": "419020",
+        "minute": "77'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43927"
       }
     ],
     "bookings": [
@@ -400,9 +408,71 @@
         "id_team": "43927",
         "minute": "43'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "389784",
+        "id_team": "43927",
+        "minute": "50'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "419020",
+        "id_team": "43927",
+        "minute": "89'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43927",
+        "id_player_off": "389784",
+        "id_player_on": "402974",
+        "player_off_name": "Alan FRANCO",
+        "player_on_name": "Angelo PRECIADO"
+      },
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43927",
+        "id_player_off": "373400",
+        "id_player_on": "448310",
+        "player_off_name": "Enner VALENCIA",
+        "player_on_name": "Kevin RODRIGUEZ"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43927",
+        "id_player_off": "424031",
+        "id_player_on": "389782",
+        "player_off_name": "Piero HINCAPIE",
+        "player_on_name": "Pervis ESTUPINAN"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43927",
+        "id_player_off": "448312",
+        "id_player_on": "402985",
+        "player_off_name": "Nilson ANGULO",
+        "player_on_name": "Jordy CAICEDO"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43927",
+        "id_player_off": "405920",
+        "id_player_on": "402979",
+        "player_off_name": "John YEBOAH",
+        "player_on_name": "Felix TORRES"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43948",
@@ -756,6 +826,42 @@
         "id_player_on": "429640",
         "player_off_name": "Aleksandar PAVLOVIC",
         "player_on_name": "Angelo Stiller"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43948",
+        "id_player_off": "411367",
+        "id_player_on": "484851",
+        "player_off_name": "Kai HAVERTZ",
+        "player_on_name": "Deniz UNDAV"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43948",
+        "id_player_off": "386413",
+        "id_player_on": "514188",
+        "player_off_name": "Joshua KIMMICH",
+        "player_on_name": "Malick THIAW"
+      },
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43948",
+        "id_player_off": "492363",
+        "id_player_on": "484850",
+        "player_off_name": "Felix NMECHA",
+        "player_on_name": "Maximilian BEIER"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43948",
+        "id_player_off": "430669",
+        "id_player_on": "484848",
+        "player_off_name": "Florian WIRTZ",
+        "player_on_name": "Pascal GROSS"
       }
     ]
   },
@@ -769,13 +875,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021466?language=en",
-  "updated_at_utc": "2026-06-25T21:09:39.694449+00:00",
-  "updated_at_poland": "2026-06-25T23:09:39.694454+02:00"
+  "updated_at_utc": "2026-06-25T22:44:35.760882+00:00",
+  "updated_at_poland": "2026-06-26T00:44:35.760887+02:00"
 }

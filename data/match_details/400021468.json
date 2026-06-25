@@ -12,10 +12,10 @@
   "date_utc": "2026-06-25T20:00:00Z",
   "date_local": "2026-06-25T16:00:00Z",
   "date_poland": "2026-06-25T22:00:00+02:00",
-  "attendance": null,
-  "match_time": "48'",
-  "period": 5,
-  "winner": null,
+  "attendance": "68324",
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43854",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -383,8 +383,71 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "466317",
+        "id_team": "1895293",
+        "minute": "75'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "466372",
+        "id_team": "1895293",
+        "minute": "83'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "1895293",
+        "id_player_off": "494989",
+        "id_player_on": "424047",
+        "player_off_name": "Livano COMENENCIA",
+        "player_on_name": "Jeremy Antonisse"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "1895293",
+        "id_player_off": "431698",
+        "id_player_on": "466372",
+        "player_off_name": "Jurien GAARI",
+        "player_on_name": "Gervane KASTANEER"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "1895293",
+        "id_player_off": "506471",
+        "id_player_on": "506473",
+        "player_off_name": "Deveron FONVILLE",
+        "player_on_name": "Tyrese NOSLIN"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "1895293",
+        "id_player_off": "401023",
+        "id_player_on": "485379",
+        "player_off_name": "Joshua BRENET",
+        "player_on_name": "Shurandy SAMBO"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "1895293",
+        "id_player_off": "407680",
+        "id_player_on": "466346",
+        "player_off_name": "Juergen LOCADIA",
+        "player_on_name": "Brandley KUWAS"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43854",
@@ -392,7 +455,7 @@
     "short_name": "Côte d'Ivoire",
     "abbr": "CIV",
     "country": "CIV",
-    "score": 1,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CIV",
     "players": [
@@ -743,6 +806,14 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43854"
+      },
+      {
+        "type": 2,
+        "id_player": "402261",
+        "minute": "64'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43854"
       }
     ],
     "bookings": [
@@ -764,6 +835,42 @@
         "id_player_on": "514208",
         "player_off_name": "Amad DIALLO",
         "player_on_name": "Christ Inao OULAI"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43854",
+        "id_player_off": "402261",
+        "id_player_on": "464133",
+        "player_off_name": "Nicolas PEPE",
+        "player_on_name": "Elye WAHI"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43854",
+        "id_player_off": "510922",
+        "id_player_on": "506202",
+        "player_off_name": "Yan DIOMANDE",
+        "player_on_name": "Bazoumana TOURE"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43854",
+        "id_player_off": "464103",
+        "id_player_on": "477777",
+        "player_off_name": "Ange-Yoan BONNY",
+        "player_on_name": "Oumar DIAKITE"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43854",
+        "id_player_off": "371609",
+        "id_player_on": "335807",
+        "player_off_name": "Franck KESSIE",
+        "player_on_name": "Jean Michael SERI"
       }
     ]
   },
@@ -777,13 +884,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021468?language=en",
-  "updated_at_utc": "2026-06-25T21:09:39.444389+00:00",
-  "updated_at_poland": "2026-06-25T23:09:39.444395+02:00"
+  "updated_at_utc": "2026-06-25T22:44:35.474728+00:00",
+  "updated_at_poland": "2026-06-26T00:44:35.474734+02:00"
 }

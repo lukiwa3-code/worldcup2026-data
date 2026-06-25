@@ -2677,7 +2677,7 @@
       "is_placeholder": false
     },
     "home_score": 0,
-    "away_score": 1,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2686,9 +2686,9 @@
       "city": "Philadelphia",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43854",
     "placeholder_home": "E2",
     "placeholder_away": "E3",
     "time_defined": true,
@@ -2725,7 +2725,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GER",
       "is_placeholder": false
     },
-    "home_score": 1,
+    "home_score": 2,
     "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -2735,9 +2735,9 @@
       "city": "New Jersey",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43927",
     "placeholder_home": "E4",
     "placeholder_away": "E1",
     "time_defined": true,
@@ -3788,12 +3788,12 @@
     "date_local": "2026-06-30T12:00:00Z",
     "date_poland": "2026-06-30T19:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "2E",
-      "abbr": "2E",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43854",
+      "name": "Côte d'Ivoire",
+      "abbr": "CIV",
+      "country": "CIV",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CIV",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
