@@ -2676,8 +2676,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CIV",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2686,7 +2686,7 @@
       "city": "Philadelphia",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "E2",
@@ -2725,8 +2725,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GER",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2735,7 +2735,7 @@
       "city": "New Jersey",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "E4",
