@@ -13,9 +13,9 @@
   "date_local": "2026-06-24T19:00:00Z",
   "date_poland": "2026-06-25T03:00:00+02:00",
   "attendance": "51243",
-  "match_time": "73'",
-  "period": 5,
-  "winner": null,
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43883",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -372,7 +372,7 @@
         "period": 5,
         "id_player": "395050",
         "id_team": "43883",
-        "minute": "73'",
+        "minute": "72'",
         "reason": null
       }
     ],
@@ -385,6 +385,24 @@
         "id_player_on": "504193",
         "player_off_name": "Oswin APPOLLIS",
         "player_on_name": "Tshepang MOREMI"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43883",
+        "id_player_off": "463234",
+        "id_player_on": "481242",
+        "player_off_name": "Thapelo MASEKO",
+        "player_on_name": "Iqraam RAYNERS"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43883",
+        "id_player_off": "486161",
+        "id_player_on": "463236",
+        "player_off_name": "Relebohile MOFOKENG",
+        "player_on_name": "Jayden ADAMS"
       }
     ]
   },
@@ -738,7 +756,16 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "430387",
+        "id_team": "43822",
+        "minute": "78'",
+        "reason": null
+      }
+    ],
     "substitutions": [
       {
         "period": 4,
@@ -775,6 +802,15 @@
         "id_player_on": "479316",
         "player_off_name": "KIM Minjae",
         "player_on_name": "PARK Jinseob"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43822",
+        "id_player_off": "448586",
+        "id_player_on": "430387",
+        "player_off_name": "OH Hyeongyu",
+        "player_on_name": "CHO Guesung"
       }
     ]
   },
@@ -788,13 +824,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021445?language=en",
-  "updated_at_utc": "2026-06-25T02:33:28.650295+00:00",
-  "updated_at_poland": "2026-06-25T04:33:28.650299+02:00"
+  "updated_at_utc": "2026-06-25T06:33:44.193826+00:00",
+  "updated_at_poland": "2026-06-25T08:33:44.193830+02:00"
 }

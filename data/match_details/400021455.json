@@ -877,6 +877,14 @@
       "short_name": "Cesar RAMOS",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "400227",
+      "country": "NOR",
+      "name": "Espen Eskås",
+      "short_name": "Espen ESKAS",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -886,6 +894,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021455?language=en",
-  "updated_at_utc": "2026-06-25T02:33:28.365270+00:00",
-  "updated_at_poland": "2026-06-25T04:33:28.365274+02:00"
+  "updated_at_utc": "2026-06-25T06:33:43.976444+00:00",
+  "updated_at_poland": "2026-06-25T08:33:43.976448+02:00"
 }

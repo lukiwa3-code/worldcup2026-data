@@ -2579,7 +2579,7 @@
       "is_placeholder": false
     },
     "home_score": 0,
-    "away_score": 2,
+    "away_score": 3,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2588,9 +2588,9 @@
       "city": "Mexico City",
       "country": "MEX"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43911",
     "placeholder_home": "A4",
     "placeholder_away": "A1",
     "time_defined": true,
@@ -2637,9 +2637,9 @@
       "city": "Monterrey",
       "country": "MEX"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43883",
     "placeholder_home": "A2",
     "placeholder_away": "A3",
     "time_defined": true,
@@ -3543,12 +3543,12 @@
     "date_local": "2026-06-28T12:00:00Z",
     "date_poland": "2026-06-28T21:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "2A",
-      "abbr": "2A",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43883",
+      "name": "South Africa",
+      "abbr": "RSA",
+      "country": "RSA",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/RSA",
+      "is_placeholder": false
     },
     "away": {
       "id": "43899",

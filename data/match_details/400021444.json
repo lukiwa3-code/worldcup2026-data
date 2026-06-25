@@ -13,9 +13,9 @@
   "date_local": "2026-06-24T19:00:00Z",
   "date_poland": "2026-06-25T03:00:00+02:00",
   "attendance": "80824",
-  "match_time": "72'",
-  "period": 5,
-  "winner": null,
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43911",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -398,6 +398,24 @@
         "id_player_on": "401481",
         "player_off_name": "Adam HLOZEK",
         "player_on_name": "Patrik Schick"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43995",
+        "id_player_off": "486081",
+        "id_player_on": "483961",
+        "player_off_name": "Lukas CERV",
+        "player_on_name": "Tomas CHORY"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43995",
+        "id_player_off": "404885",
+        "id_player_on": "523097",
+        "player_off_name": "Tomas SOUCEK",
+        "player_on_name": "Alexandr SOJKA"
       }
     ]
   },
@@ -407,7 +425,7 @@
     "short_name": "Mexico",
     "abbr": "MEX",
     "country": "MEX",
-    "score": 2,
+    "score": 3,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MEX",
     "players": [
@@ -766,6 +784,14 @@
         "id_assist_player": null,
         "period": 5,
         "id_team": "43911"
+      },
+      {
+        "type": 2,
+        "id_player": "416576",
+        "minute": "90'+4'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43911"
       }
     ],
     "bookings": [
@@ -805,6 +831,24 @@
         "id_player_on": "416576",
         "player_off_name": "Gilberto MORA",
         "player_on_name": "Alvaro FIDALGO"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43911",
+        "id_player_off": "485070",
+        "id_player_on": "215285",
+        "player_off_name": "Raul RANGEL",
+        "player_on_name": "Guillermo OCHOA"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43911",
+        "id_player_off": "500038",
+        "id_player_on": "402772",
+        "player_off_name": "Mateo CHAVEZ",
+        "player_on_name": "Jesus GALLARDO"
       }
     ]
   },
@@ -816,15 +860,23 @@
       "short_name": "Yael FALCON PEREZ",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "416177",
+      "country": "CHI",
+      "name": "Cristián Marcelo Garay Reyes",
+      "short_name": "Cristian GARAY",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021444?language=en",
-  "updated_at_utc": "2026-06-25T02:33:28.848198+00:00",
-  "updated_at_poland": "2026-06-25T04:33:28.848202+02:00"
+  "updated_at_utc": "2026-06-25T06:33:44.433784+00:00",
+  "updated_at_poland": "2026-06-25T08:33:44.433788+02:00"
 }

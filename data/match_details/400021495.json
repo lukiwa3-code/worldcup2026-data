@@ -61,7 +61,24 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "314605",
+      "country": "ROU",
+      "name": "Istvan Kovacs",
+      "short_name": "Istvan KOVACS",
+      "type": "Referee",
+      "official_type": 1
+    },
+    {
+      "id": "408591",
+      "country": "MTN",
+      "name": "Dahane BEIDA",
+      "short_name": "Dahane BEIDA",
+      "type": "Fourth official",
+      "official_type": 4
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +86,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021495?language=en",
-  "updated_at_utc": "2026-06-25T02:33:34.170119+00:00",
-  "updated_at_poland": "2026-06-25T04:33:34.170122+02:00"
+  "updated_at_utc": "2026-06-25T06:33:50.636725+00:00",
+  "updated_at_poland": "2026-06-25T08:33:50.636729+02:00"
 }

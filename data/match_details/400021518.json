@@ -13,8 +13,8 @@
   "date_local": "2026-06-28T12:00:00Z",
   "date_poland": "2026-06-28T21:00:00+02:00",
   "attendance": null,
-  "match_time": null,
-  "period": null,
+  "match_time": "0'",
+  "period": 0,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -26,8 +26,27 @@
     "city": "Los Angeles",
     "country": "USA"
   },
-  "weather": null,
-  "home_team": null,
+  "weather": {
+    "Humidity": null,
+    "Temperature": null,
+    "WindSpeed": null,
+    "Type": null,
+    "TypeLocalized": []
+  },
+  "home_team": {
+    "id_team": "43883",
+    "name": "South Africa",
+    "short_name": "South Africa",
+    "abbr": "RSA",
+    "country": "RSA",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/RSA",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "away_team": {
     "id_team": "43899",
     "name": "Canada",
@@ -47,9 +66,9 @@
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
-  "raw_available": false,
-  "details_error": "'NoneType' object has no attribute 'get'",
+  "raw_available": true,
+  "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021518?language=en",
-  "updated_at_utc": "2026-06-25T02:33:34.408768+00:00",
-  "updated_at_poland": "2026-06-25T04:33:34.408773+02:00"
+  "updated_at_utc": "2026-06-25T06:33:51.016626+00:00",
+  "updated_at_poland": "2026-06-25T08:33:51.016630+02:00"
 }
