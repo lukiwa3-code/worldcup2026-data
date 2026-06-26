@@ -844,9 +844,17 @@
       "id": "416317",
       "country": "MEX",
       "name": "Katia Itzel García",
-      "short_name": "K. Garcia",
+      "short_name": "Katia GARCIA",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "416159",
+      "country": "PAR",
+      "name": "Juan Gabriel Benítez",
+      "short_name": "Juan Gabriel BENITEZ",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -856,6 +864,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021473?language=en",
-  "updated_at_utc": "2026-06-26T04:19:55.110879+00:00",
-  "updated_at_poland": "2026-06-26T06:19:55.110884+02:00"
+  "updated_at_utc": "2026-06-26T08:05:11.865293+00:00",
+  "updated_at_poland": "2026-06-26T10:05:11.865297+02:00"
 }

@@ -881,11 +881,11 @@
   ],
   "match_status_code": 0,
   "result_type": 1,
-  "officiality_status": 2,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021459?language=en",
-  "updated_at_utc": "2026-06-26T04:19:55.848876+00:00",
-  "updated_at_poland": "2026-06-26T06:19:55.848881+02:00"
+  "updated_at_utc": "2026-06-26T08:05:12.981167+00:00",
+  "updated_at_poland": "2026-06-26T10:05:12.981194+02:00"
 }
