@@ -2971,7 +2971,7 @@
       "is_placeholder": false
     },
     "home_score": 1,
-    "away_score": 3,
+    "away_score": 4,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2980,9 +2980,9 @@
       "city": "Boston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43946",
     "placeholder_home": "I4",
     "placeholder_away": "I1",
     "time_defined": true,
@@ -3029,9 +3029,9 @@
       "city": "Toronto",
       "country": "CAN"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43879",
     "placeholder_home": "I2",
     "placeholder_away": "I3",
     "time_defined": true,
@@ -3739,12 +3739,12 @@
     "date_local": "2026-06-30T17:00:00Z",
     "date_poland": "2026-06-30T23:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "1I",
-      "abbr": "1I",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43946",
+      "name": "France",
+      "abbr": "FRA",
+      "country": "FRA",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
@@ -3796,12 +3796,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "2I",
-      "abbr": "2I",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43961",
+      "name": "Norway",
+      "abbr": "NOR",
+      "country": "NOR",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,

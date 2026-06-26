@@ -13,9 +13,9 @@
   "date_local": "2026-06-26T15:00:00Z",
   "date_poland": "2026-06-26T21:00:00+02:00",
   "attendance": "64146",
-  "match_time": "90'+1'",
-  "period": 5,
-  "winner": null,
+  "match_time": "96'",
+  "period": 10,
+  "winner": "43946",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -456,7 +456,7 @@
     "short_name": "France",
     "abbr": "FRA",
     "country": "FRA",
-    "score": 3,
+    "score": 4,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
     "players": [
@@ -823,6 +823,14 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "464114",
+        "minute": "90'+4'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
       }
     ],
     "bookings": [
@@ -893,13 +901,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021489?language=en",
-  "updated_at_utc": "2026-06-26T20:55:09.126941+00:00",
-  "updated_at_poland": "2026-06-26T22:55:09.126945+02:00"
+  "updated_at_utc": "2026-06-26T22:07:13.952476+00:00",
+  "updated_at_poland": "2026-06-27T00:07:13.952481+02:00"
 }
