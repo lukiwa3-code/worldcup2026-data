@@ -13,8 +13,8 @@
   "date_local": "2026-06-25T18:00:00Z",
   "date_poland": "2026-06-26T01:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "",
+  "period": 4,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Japan",
     "abbr": "JPN",
     "country": "JPN",
-    "score": null,
+    "score": 0,
     "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JPN",
     "players": [
@@ -371,7 +371,17 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "39'",
+        "id_team": "43819",
+        "id_player_off": "400511",
+        "id_player_on": "390541",
+        "player_off_name": "Kou ITAKURA",
+        "player_on_name": "Shogo TANIGUCHI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43970",
@@ -379,8 +389,8 @@
     "short_name": "Sweden",
     "abbr": "SWE",
     "country": "SWE",
-    "score": null,
-    "tactics": "3-4-1-2",
+    "score": 0,
+    "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SWE",
     "players": [
       {
@@ -723,8 +733,27 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "483312",
+        "id_team": "43970",
+        "minute": "32'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "37'",
+        "id_team": "43970",
+        "id_player_off": "483312",
+        "id_player_on": "489689",
+        "player_off_name": "Isak HIEN",
+        "player_on_name": "Lucas BERGVALL"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +765,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021471?language=en",
-  "updated_at_utc": "2026-06-25T22:44:36.429514+00:00",
-  "updated_at_poland": "2026-06-26T00:44:36.429519+02:00"
+  "updated_at_utc": "2026-06-25T23:59:46.914119+00:00",
+  "updated_at_poland": "2026-06-26T01:59:46.914125+02:00"
 }
