@@ -12,10 +12,10 @@
   "date_utc": "2026-06-25T23:00:00Z",
   "date_local": "2026-06-25T18:00:00Z",
   "date_poland": "2026-06-26T01:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "68391",
+  "match_time": "96'",
+  "period": 10,
+  "winner": "43960",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Tunisia",
     "abbr": "TUN",
     "country": "TUN",
-    "score": 0,
+    "score": 1,
     "tactics": "5-4-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/TUN",
     "players": [
@@ -356,9 +356,64 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "494374",
+        "minute": "54'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43888"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43888",
+        "id_player_off": "336459",
+        "id_player_on": "479781",
+        "player_off_name": "Rani Khedira",
+        "player_on_name": "Mohamed HADJ MAHMOUD"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43888",
+        "id_player_off": "433361",
+        "id_player_on": "448662",
+        "player_off_name": "Anis SLIMANE",
+        "player_on_name": "Elias ACHOURI"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43888",
+        "id_player_off": "425607",
+        "id_player_on": "441362",
+        "player_off_name": "Mohamed Amine BEN HMIDA",
+        "player_on_name": "Mortadha BEN OUANES"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43888",
+        "id_player_off": "464484",
+        "id_player_on": "494375",
+        "player_off_name": "Ismael GHARBI",
+        "player_on_name": "Firas CHAOUAT"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43888",
+        "id_player_off": "494374",
+        "id_player_on": "504502",
+        "player_off_name": "Hazem MASTOURI",
+        "player_on_name": "Sebastian TOUNEKTI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43960",
@@ -366,7 +421,7 @@
     "short_name": "Netherlands",
     "abbr": "NED",
     "country": "NED",
-    "score": 2,
+    "score": 3,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NED",
     "players": [
@@ -725,28 +780,82 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43960"
+      },
+      {
+        "type": 2,
+        "id_player": "489517",
+        "minute": "62'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43960"
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43960",
+        "id_player_off": "422657",
+        "id_player_on": "448149",
+        "player_off_name": "Frenkie DE JONG",
+        "player_on_name": "Teun KOOPMEINERS"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43960",
+        "id_player_off": "483526",
+        "id_player_on": "478364",
+        "player_off_name": "Tijjani REIJNDERS",
+        "player_on_name": "Justin KLUIVERT"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43960",
+        "id_player_off": "433066",
+        "id_player_on": "489518",
+        "player_off_name": "Donyell Malen",
+        "player_on_name": "Crysencio SUMMERVILLE"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43960",
+        "id_player_off": "424051",
+        "id_player_on": "336098",
+        "player_off_name": "Brian BROBBEY",
+        "player_on_name": "Memphis DEPAY"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43960",
+        "id_player_off": "448152",
+        "id_player_on": "448153",
+        "player_off_name": "Cody GAKPO",
+        "player_on_name": "Noa LANG"
+      }
+    ]
   },
   "officials": [
     {
       "id": "416317",
       "country": "MEX",
       "name": "Katia Itzel García",
-      "short_name": "Katia GARCIA",
+      "short_name": "K. Garcia",
       "type": "Referee",
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021473?language=en",
-  "updated_at_utc": "2026-06-25T23:59:46.702283+00:00",
-  "updated_at_poland": "2026-06-26T01:59:46.702288+02:00"
+  "updated_at_utc": "2026-06-26T04:19:55.110879+00:00",
+  "updated_at_poland": "2026-06-26T06:19:55.110884+02:00"
 }

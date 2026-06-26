@@ -41,7 +41,20 @@
     "bookings": [],
     "substitutions": []
   },
-  "away_team": null,
+  "away_team": {
+    "id_team": "43819",
+    "name": "Japan",
+    "short_name": "Japan",
+    "abbr": "JPN",
+    "country": "JPN",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JPN",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -50,6 +63,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021516?language=en",
-  "updated_at_utc": "2026-06-25T23:59:52.229435+00:00",
-  "updated_at_poland": "2026-06-26T01:59:52.229440+02:00"
+  "updated_at_utc": "2026-06-26T04:20:00.072632+00:00",
+  "updated_at_poland": "2026-06-26T06:20:00.072637+02:00"
 }

@@ -27,7 +27,20 @@
     "country": "MEX"
   },
   "weather": null,
-  "home_team": null,
+  "home_team": {
+    "id_team": "43960",
+    "name": "Netherlands",
+    "short_name": "Netherlands",
+    "abbr": "NED",
+    "country": "NED",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NED",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "away_team": {
     "id_team": "43872",
     "name": "Morocco",
@@ -50,6 +63,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021522?language=en",
-  "updated_at_utc": "2026-06-25T23:59:52.835333+00:00",
-  "updated_at_poland": "2026-06-26T01:59:52.835338+02:00"
+  "updated_at_utc": "2026-06-26T04:20:00.682180+00:00",
+  "updated_at_poland": "2026-06-26T06:20:00.682185+02:00"
 }

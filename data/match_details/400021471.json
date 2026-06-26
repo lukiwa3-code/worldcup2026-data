@@ -12,9 +12,9 @@
   "date_utc": "2026-06-25T23:00:00Z",
   "date_local": "2026-06-25T18:00:00Z",
   "date_poland": "2026-06-26T01:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
+  "attendance": "70137",
+  "match_time": "98'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Japan",
     "abbr": "JPN",
     "country": "JPN",
-    "score": 0,
+    "score": 1,
     "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JPN",
     "players": [
@@ -369,8 +369,26 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "430407",
+        "minute": "56'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43819"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "390541",
+        "id_team": "43819",
+        "minute": "77'",
+        "reason": null
+      }
+    ],
     "substitutions": [
       {
         "period": 3,
@@ -380,6 +398,42 @@
         "id_player_on": "390541",
         "player_off_name": "Kou ITAKURA",
         "player_on_name": "Shogo TANIGUCHI"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43819",
+        "id_player_off": "430413",
+        "id_player_on": "403293",
+        "player_off_name": "Ayase UEDA",
+        "player_on_name": "Koki OGAWA"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43819",
+        "id_player_off": "391646",
+        "id_player_on": "395321",
+        "player_off_name": "Ritsu DOAN",
+        "player_on_name": "Junya ITO"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43819",
+        "id_player_off": "405522",
+        "id_player_on": "291372",
+        "player_off_name": "Keito Nakamura",
+        "player_on_name": "Yuto NAGATOMO"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43819",
+        "id_player_off": "405527",
+        "id_player_on": "430401",
+        "player_off_name": "Ayumu SEKO",
+        "player_on_name": "Tsuyoshi Watanabe"
       }
     ]
   },
@@ -389,7 +443,7 @@
     "short_name": "Sweden",
     "abbr": "SWE",
     "country": "SWE",
-    "score": 0,
+    "score": 1,
     "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SWE",
     "players": [
@@ -732,7 +786,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "441137",
+        "minute": "62'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43970"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -740,6 +803,14 @@
         "id_player": "483312",
         "id_team": "43970",
         "minute": "32'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "483327",
+        "id_team": "43970",
+        "minute": "84'",
         "reason": null
       }
     ],
@@ -752,6 +823,42 @@
         "id_player_on": "489689",
         "player_off_name": "Isak HIEN",
         "player_on_name": "Lucas BERGVALL"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43970",
+        "id_player_off": "502945",
+        "id_player_on": "491255",
+        "player_off_name": "Alexander BERNHARDSSON",
+        "player_on_name": "Daniel SVENSSON"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43970",
+        "id_player_off": "519958",
+        "id_player_on": "395286",
+        "player_off_name": "Elliot STROUD",
+        "player_on_name": "Ken SEMA"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43970",
+        "id_player_off": "395283",
+        "id_player_on": "441132",
+        "player_off_name": "Victor LINDELOF",
+        "player_on_name": "Carl STARFELT"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43970",
+        "id_player_off": "483276",
+        "id_player_on": "502946",
+        "player_off_name": "Gabriel GUDMUNDSSON",
+        "player_on_name": "Benjamin NYGREN"
       }
     ]
   },
@@ -760,18 +867,18 @@
       "id": "408378",
       "country": "SLV",
       "name": "Ivan Arcides Barton Cisneros",
-      "short_name": "Ivan BARTON",
+      "short_name": "I. Barton",
       "type": "Referee",
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021471?language=en",
-  "updated_at_utc": "2026-06-25T23:59:46.914119+00:00",
-  "updated_at_poland": "2026-06-26T01:59:46.914125+02:00"
+  "updated_at_utc": "2026-06-26T04:19:55.357168+00:00",
+  "updated_at_poland": "2026-06-26T06:19:55.357173+02:00"
 }

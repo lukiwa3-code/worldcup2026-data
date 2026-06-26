@@ -2774,8 +2774,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SWE",
       "is_placeholder": false
     },
-    "home_score": 0,
-    "away_score": 0,
+    "home_score": 1,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2784,8 +2784,8 @@
       "city": "Dallas",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "F2",
     "placeholder_away": "F3",
@@ -2823,8 +2823,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NED",
       "is_placeholder": false
     },
-    "home_score": 0,
-    "away_score": 2,
+    "home_score": 1,
+    "away_score": 3,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2833,9 +2833,9 @@
       "city": "Kansas City",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43960",
     "placeholder_home": "F4",
     "placeholder_away": "F1",
     "time_defined": true,
@@ -2872,8 +2872,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/USA",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2882,9 +2882,9 @@
       "city": "Los Angeles",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43972",
     "placeholder_home": "D4",
     "placeholder_away": "D1",
     "time_defined": true,
@@ -2921,8 +2921,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUS",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -2931,8 +2931,8 @@
       "city": "San Francisco Bay Area",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "D2",
     "placeholder_away": "D3",
@@ -3641,12 +3641,12 @@
     "date_local": "2026-06-29T19:00:00Z",
     "date_poland": "2026-06-30T03:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "1F",
-      "abbr": "1F",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43960",
+      "name": "Netherlands",
+      "abbr": "NED",
+      "country": "NED",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NED",
+      "is_placeholder": false
     },
     "away": {
       "id": "43872",
@@ -3698,12 +3698,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "2F",
-      "abbr": "2F",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43819",
+      "name": "Japan",
+      "abbr": "JPN",
+      "country": "JPN",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JPN",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -3943,12 +3943,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "3BEFIJ",
-      "abbr": "3BEFIJ",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "44037",
+      "name": "Bosnia and Herzegovina",
+      "abbr": "BIH",
+      "country": "BIH",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BIH",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -4278,12 +4278,12 @@
     "date_local": "2026-07-03T13:00:00Z",
     "date_poland": "2026-07-03T20:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "2D",
-      "abbr": "2D",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43976",
+      "name": "Australia",
+      "abbr": "AUS",
+      "country": "AUS",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUS",
+      "is_placeholder": false
     },
     "away": {
       "id": null,

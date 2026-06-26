@@ -27,7 +27,20 @@
     "country": "USA"
   },
   "weather": null,
-  "home_team": null,
+  "home_team": {
+    "id_team": "43976",
+    "name": "Australia",
+    "short_name": "Australia",
+    "abbr": "AUS",
+    "country": "AUS",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUS",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "away_team": null,
   "officials": [],
   "match_status_code": 1,
@@ -37,6 +50,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021515?language=en",
-  "updated_at_utc": "2026-06-25T23:59:55.127985+00:00",
-  "updated_at_poland": "2026-06-26T01:59:55.127990+02:00"
+  "updated_at_utc": "2026-06-26T04:20:04.064820+00:00",
+  "updated_at_poland": "2026-06-26T06:20:04.064825+02:00"
 }
