@@ -12,9 +12,9 @@
   "date_utc": "2026-06-26T19:00:00Z",
   "date_local": "2026-06-26T15:00:00Z",
   "date_poland": "2026-06-26T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "9'",
-  "period": 3,
+  "attendance": "64146",
+  "match_time": "90'+1'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Norway",
     "abbr": "NOR",
     "country": "NOR",
-    "score": 0,
+    "score": 1,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
     "players": [
@@ -382,9 +382,73 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "494627",
+        "minute": "21'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43961"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "483442",
+        "id_team": "43961",
+        "minute": "10'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43961",
+        "id_player_off": "419681",
+        "id_player_on": "433067",
+        "player_off_name": "Kristian Thorstvedt",
+        "player_on_name": "Morten Thorsby"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43961",
+        "id_player_off": "483530",
+        "id_player_on": "494625",
+        "player_off_name": "Fredrik Andre BJORKAN",
+        "player_on_name": "Marcus HOLMGREN PEDERSEN"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43961",
+        "id_player_off": "520112",
+        "id_player_on": "489696",
+        "player_off_name": "Henrik FALCHENER",
+        "player_on_name": "Sondre LANGAS"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43961",
+        "id_player_off": "494626",
+        "id_player_on": "419654",
+        "player_off_name": "Andreas SCHJELDERUP",
+        "player_on_name": "Jens Petter HAUGE"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43961",
+        "id_player_off": "477470",
+        "id_player_on": "483448",
+        "player_off_name": "Oscar BOBB",
+        "player_on_name": "Antonio NUSA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43946",
@@ -392,7 +456,7 @@
     "short_name": "France",
     "abbr": "FRA",
     "country": "FRA",
-    "score": 1,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
     "players": [
@@ -743,10 +807,81 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "398680",
+        "minute": "20'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "398680",
+        "minute": "32'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43946"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "405893",
+        "id_team": "43946",
+        "minute": "74'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43946",
+        "id_player_off": "398680",
+        "id_player_on": "484860",
+        "player_off_name": "Ousmane DEMBELE",
+        "player_on_name": "Bradley BARCOLA"
+      },
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43946",
+        "id_player_off": "485655",
+        "id_player_on": "431861",
+        "player_off_name": "Michael OLISE",
+        "player_on_name": "Rayan CHERKI"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43946",
+        "id_player_off": "389876",
+        "id_player_on": "419166",
+        "player_off_name": "Dayot UPAMECANO",
+        "player_on_name": "Ibrahima KONATE"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43946",
+        "id_player_off": "430707",
+        "id_player_on": "464055",
+        "player_off_name": "Jules KOUNDE",
+        "player_on_name": "Malo GUSTO"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43946",
+        "id_player_off": "389867",
+        "id_player_on": "403094",
+        "player_off_name": "Kylian MBAPPE",
+        "player_on_name": "Jean-Philippe MATETA"
+      }
+    ]
   },
   "officials": [
     {
@@ -765,6 +900,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021489?language=en",
-  "updated_at_utc": "2026-06-26T19:11:21.321703+00:00",
-  "updated_at_poland": "2026-06-26T21:11:21.321708+02:00"
+  "updated_at_utc": "2026-06-26T20:55:09.126941+00:00",
+  "updated_at_poland": "2026-06-26T22:55:09.126945+02:00"
 }

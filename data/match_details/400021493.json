@@ -12,9 +12,9 @@
   "date_utc": "2026-06-26T19:00:00Z",
   "date_local": "2026-06-26T15:00:00Z",
   "date_poland": "2026-06-26T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "9'",
-  "period": 3,
+  "attendance": "43036",
+  "match_time": "87'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Senegal",
     "abbr": "SEN",
     "country": "SEN",
-    "score": 1,
+    "score": 5,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SEN",
     "players": [
@@ -377,10 +377,105 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43879"
+      },
+      {
+        "type": 2,
+        "id_player": "401889",
+        "minute": "56'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43879"
+      },
+      {
+        "type": 2,
+        "id_player": "431788",
+        "minute": "59'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43879"
+      },
+      {
+        "type": 2,
+        "id_player": "431788",
+        "minute": "71'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43879"
+      },
+      {
+        "type": 2,
+        "id_player": "448815",
+        "minute": "82'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43879"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "370171",
+        "id_team": "43879",
+        "minute": "18'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "431788",
+        "id_team": "43879",
+        "minute": "81'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43879",
+        "id_player_off": "464842",
+        "id_player_on": "418795",
+        "player_off_name": "Lamine CAMARA",
+        "player_on_name": "Nicolas JACKSON"
+      },
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43879",
+        "id_player_off": "486130",
+        "id_player_on": "431788",
+        "player_off_name": "Habib DIARRA",
+        "player_on_name": "Pape GUEYE"
+      },
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43879",
+        "id_player_off": "496358",
+        "id_player_on": "448815",
+        "player_off_name": "Ibrahim MBAYE",
+        "player_on_name": "Iliman NDIAYE"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43879",
+        "id_player_off": "370171",
+        "id_player_on": "448825",
+        "player_off_name": "Abdoulaye Seck",
+        "player_on_name": "Pathe CISS"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43879",
+        "id_player_off": "401889",
+        "id_player_on": "484698",
+        "player_off_name": "Ismaila SARR",
+        "player_on_name": "Assane DIAO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43818",
@@ -732,8 +827,71 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 2,
+        "period": 3,
+        "id_player": "396158",
+        "id_team": "43818",
+        "minute": "13'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "433074",
+        "id_team": "43818",
+        "minute": "75'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "16'",
+        "id_team": "43818",
+        "id_player_off": "523236",
+        "id_player_on": "434024",
+        "player_off_name": "AHMED QASEM",
+        "player_on_name": "MUNAF YOUNUS"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43818",
+        "id_player_off": "433571",
+        "id_player_on": "347085",
+        "player_off_name": "AHMED BASIL",
+        "player_on_name": "JALAL HASSAN"
+      },
+      {
+        "period": 5,
+        "minute": "57'",
+        "id_team": "43818",
+        "id_player_off": "464457",
+        "id_player_on": "484276",
+        "player_off_name": "ALI JASIM",
+        "player_on_name": "AHMED MAKNAZI"
+      },
+      {
+        "period": 5,
+        "minute": "57'",
+        "id_team": "43818",
+        "id_player_off": "436628",
+        "id_player_on": "434029",
+        "player_off_name": "ALI ALHAMADI",
+        "player_on_name": "ALI YOUSIF"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43818",
+        "id_player_off": "434026",
+        "id_player_on": "506069",
+        "player_off_name": "ZIDANE IQBAL",
+        "player_on_name": "KEVIN YAKOB"
+      }
+    ]
   },
   "officials": [
     {
@@ -752,6 +910,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021493?language=en",
-  "updated_at_utc": "2026-06-26T19:11:21.064195+00:00",
-  "updated_at_poland": "2026-06-26T21:11:21.064201+02:00"
+  "updated_at_utc": "2026-06-26T20:55:08.883698+00:00",
+  "updated_at_poland": "2026-06-26T22:55:08.883702+02:00"
 }
