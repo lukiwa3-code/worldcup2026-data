@@ -41,7 +41,20 @@
     "bookings": [],
     "substitutions": []
   },
-  "away_team": null,
+  "away_team": {
+    "id_team": "43855",
+    "name": "Egypt",
+    "short_name": "Egypt",
+    "abbr": "EGY",
+    "country": "EGY",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/EGY",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -50,6 +63,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021515?language=en",
-  "updated_at_utc": "2026-06-27T01:26:18.386668+00:00",
-  "updated_at_poland": "2026-06-27T03:26:18.386674+02:00"
+  "updated_at_utc": "2026-06-27T05:11:36.860228+00:00",
+  "updated_at_poland": "2026-06-27T07:11:36.860259+02:00"
 }

@@ -13,8 +13,8 @@
   "date_local": "2026-06-26T19:00:00Z",
   "date_poland": "2026-06-27T02:00:00+02:00",
   "attendance": "68278",
-  "match_time": "62'",
-  "period": 5,
+  "match_time": "96'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -385,6 +385,33 @@
         "id_player_on": "401893",
         "player_off_name": "DAILON LIVRAMENTO",
         "player_on_name": "NUNO DA COSTA"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43850",
+        "id_player_off": "401894",
+        "id_player_on": "480966",
+        "player_off_name": "JAMIRO MONTEIRO",
+        "player_on_name": "LAROS DUARTE"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43850",
+        "id_player_off": "355642",
+        "id_player_on": "373344",
+        "player_off_name": "RYAN MENDES",
+        "player_on_name": "GARRY RODRIGUES"
+      },
+      {
+        "period": 5,
+        "minute": "90'+4'",
+        "id_team": "43850",
+        "id_player_off": "482783",
+        "id_player_on": "477847",
+        "player_off_name": "WAGNER PINA",
+        "player_on_name": "STEVEN MOREIRA"
       }
     ]
   },
@@ -746,6 +773,22 @@
         "id_team": "43835",
         "minute": "4'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "403319",
+        "id_team": "43835",
+        "minute": "67'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "419291",
+        "id_team": "43835",
+        "minute": "90'+3'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -766,6 +809,33 @@
         "id_player_on": "436537",
         "player_off_name": "ABDULLAH ALKHAIBARI",
         "player_on_name": "MUSAB ALJUWAYR"
+      },
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43835",
+        "id_player_off": "494800",
+        "id_player_on": "419302",
+        "player_off_name": "SULTAN MANDASH",
+        "player_on_name": "ABDULLAH ALHAMDDAN"
+      },
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43835",
+        "id_player_off": "339745",
+        "id_player_on": "512183",
+        "player_off_name": "SALEM ALDAWSARI",
+        "player_on_name": "MOHAMMED ABU ALSHAMAT"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43835",
+        "id_player_off": "430518",
+        "id_player_on": "419303",
+        "player_off_name": "NAWAF BU WASHL",
+        "player_on_name": "MOTEB ALHARBI"
       }
     ]
   },
@@ -779,13 +849,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021485?language=en",
-  "updated_at_utc": "2026-06-27T01:26:10.748836+00:00",
-  "updated_at_poland": "2026-06-27T03:26:10.748841+02:00"
+  "updated_at_utc": "2026-06-27T05:11:31.843321+00:00",
+  "updated_at_poland": "2026-06-27T07:11:31.843327+02:00"
 }

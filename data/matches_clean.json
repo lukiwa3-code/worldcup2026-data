@@ -3068,8 +3068,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/IRN",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -3078,8 +3078,8 @@
       "city": "Seattle",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "G2",
     "placeholder_away": "G3",
@@ -3117,8 +3117,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BEL",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 5,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -3127,9 +3127,9 @@
       "city": "Vancouver",
       "country": "CAN"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43935",
     "placeholder_home": "G4",
     "placeholder_away": "G1",
     "time_defined": true,
@@ -3176,8 +3176,8 @@
       "city": "Houston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "H2",
     "placeholder_away": "H3",
@@ -3225,9 +3225,9 @@
       "city": "Guadalajara",
       "country": "MEX"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43969",
     "placeholder_home": "H4",
     "placeholder_away": "H1",
     "time_defined": true,
@@ -3600,12 +3600,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "3ABCDF",
-      "abbr": "3ABCDF",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43928",
+      "name": "Paraguay",
+      "abbr": "PAR",
+      "country": "PAR",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/PAR",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -3747,12 +3747,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "3CDFGH",
-      "abbr": "3CDFGH",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43970",
+      "name": "Sweden",
+      "abbr": "SWE",
+      "country": "SWE",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SWE",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -3984,12 +3984,12 @@
     "date_local": "2026-07-01T13:00:00Z",
     "date_poland": "2026-07-01T22:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "1G",
-      "abbr": "1G",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43935",
+      "name": "Belgium",
+      "abbr": "BEL",
+      "country": "BEL",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BEL",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
@@ -4082,12 +4082,12 @@
     "date_local": "2026-07-02T12:00:00Z",
     "date_poland": "2026-07-02T21:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "1H",
-      "abbr": "1H",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43969",
+      "name": "Spain",
+      "abbr": "ESP",
+      "country": "ESP",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
@@ -4188,12 +4188,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "2H",
-      "abbr": "2H",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43850",
+      "name": "Cabo Verde",
+      "abbr": "CPV",
+      "country": "CPV",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CPV",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -4286,12 +4286,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "2G",
-      "abbr": "2G",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43855",
+      "name": "Egypt",
+      "abbr": "EGY",
+      "country": "EGY",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/EGY",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
