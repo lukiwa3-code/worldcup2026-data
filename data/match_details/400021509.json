@@ -12,9 +12,9 @@
   "date_utc": "2026-06-27T21:00:00Z",
   "date_local": "2026-06-27T17:00:00Z",
   "date_poland": "2026-06-27T23:00:00+02:00",
-  "attendance": null,
-  "match_time": "44'",
-  "period": 3,
+  "attendance": "68324",
+  "match_time": "83'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Croatia",
     "abbr": "CRO",
     "country": "CRO",
-    "score": 1,
+    "score": 2,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CRO",
     "players": [
@@ -390,10 +390,46 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43938"
+      },
+      {
+        "type": 2,
+        "id_player": "409191",
+        "minute": "83'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43938"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "359381",
+        "id_team": "43938",
+        "minute": "68'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43938",
+        "id_player_off": "430070",
+        "id_player_on": "485068",
+        "player_off_name": "Ante BUDIMIR",
+        "player_on_name": "Igor MATANOVIC"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43938",
+        "id_player_off": "339987",
+        "id_player_on": "380005",
+        "player_off_name": "Mateo KOVACIC",
+        "player_on_name": "Mario PASALIC"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43860",
@@ -401,7 +437,7 @@
     "short_name": "Ghana",
     "abbr": "GHA",
     "country": "GHA",
-    "score": 0,
+    "score": 1,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GHA",
     "players": [
@@ -744,9 +780,55 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "520037",
+        "minute": "73'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43860"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43860",
+        "id_player_off": "494351",
+        "id_player_on": "511022",
+        "player_off_name": "Jonas ADJETEY",
+        "player_on_name": "Kojo Peprah OPPONG"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43860",
+        "id_player_off": "441341",
+        "id_player_on": "441342",
+        "player_off_name": "Elisha OWUSU",
+        "player_on_name": "Abdul FATAWU"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43860",
+        "id_player_off": "353235",
+        "id_player_on": "486213",
+        "player_off_name": "Jordan AYEW",
+        "player_on_name": "Brandon THOMAS-ASANTE"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43860",
+        "id_player_off": "448523",
+        "id_player_on": "448525",
+        "player_off_name": "Kamaldeen SULEMANA",
+        "player_on_name": "Ernest NUAMAH"
+      }
+    ]
   },
   "officials": [
     {
@@ -765,6 +847,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021509?language=en",
-  "updated_at_utc": "2026-06-27T21:45:30.207434+00:00",
-  "updated_at_poland": "2026-06-27T23:45:30.207438+02:00"
+  "updated_at_utc": "2026-06-27T22:45:17.256535+00:00",
+  "updated_at_poland": "2026-06-28T00:45:17.256541+02:00"
 }

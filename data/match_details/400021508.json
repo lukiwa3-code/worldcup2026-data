@@ -12,9 +12,9 @@
   "date_utc": "2026-06-27T21:00:00Z",
   "date_local": "2026-06-27T17:00:00Z",
   "date_poland": "2026-06-27T23:00:00+02:00",
-  "attendance": null,
-  "match_time": "44'",
-  "period": 3,
+  "attendance": "80663",
+  "match_time": "86'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -383,8 +383,53 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "411174",
+        "id_team": "43914",
+        "minute": "53'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "441240",
+        "id_team": "43914",
+        "minute": "83'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43914",
+        "id_player_off": "418747",
+        "id_player_on": "411174",
+        "player_off_name": "Tomas RODRIGUEZ",
+        "player_on_name": "Jose FAJARDO"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43914",
+        "id_player_off": "400416",
+        "id_player_on": "372342",
+        "player_off_name": "Edgar Yoel BARCENAS",
+        "player_on_name": "Ismael DIAZ"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43914",
+        "id_player_off": "411176",
+        "id_player_on": "466669",
+        "player_off_name": "Jose Luis RODRIGUEZ",
+        "player_on_name": "Azarias LONDONO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43942",
@@ -392,7 +437,7 @@
     "short_name": "England",
     "abbr": "ENG",
     "country": "ENG",
-    "score": 0,
+    "score": 2,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
     "players": [
@@ -722,9 +767,81 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "448202",
+        "minute": "62'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43942"
+      },
+      {
+        "type": 2,
+        "id_player": "369419",
+        "minute": "67'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43942"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "463809",
+        "id_team": "43942",
+        "minute": "60'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43942",
+        "id_player_off": "463809",
+        "id_player_on": "506329",
+        "player_off_name": "Jarell QUANSAH",
+        "player_on_name": "Djed SPENCE"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43942",
+        "id_player_off": "448196",
+        "id_player_on": "489732",
+        "player_off_name": "Bukayo SAKA",
+        "player_on_name": "Noni MADUEKE"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43942",
+        "id_player_off": "448202",
+        "id_player_on": "473113",
+        "player_off_name": "Jude BELLINGHAM",
+        "player_on_name": "Eberechi EZE"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43942",
+        "id_player_off": "481610",
+        "id_player_on": "356189",
+        "player_off_name": "Elliot ANDERSON",
+        "player_on_name": "Jordan HENDERSON"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43942",
+        "id_player_off": "369419",
+        "id_player_on": "448203",
+        "player_off_name": "Harry KANE",
+        "player_on_name": "Ollie WATKINS"
+      }
+    ]
   },
   "officials": [
     {
@@ -743,6 +860,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021508?language=en",
-  "updated_at_utc": "2026-06-27T21:45:29.942664+00:00",
-  "updated_at_poland": "2026-06-27T23:45:29.942670+02:00"
+  "updated_at_utc": "2026-06-27T22:45:16.975917+00:00",
+  "updated_at_poland": "2026-06-28T00:45:16.975922+02:00"
 }

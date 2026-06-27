@@ -3265,7 +3265,7 @@
       "is_placeholder": false
     },
     "home_score": 0,
-    "away_score": 0,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -3313,8 +3313,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GHA",
       "is_placeholder": false
     },
-    "home_score": 1,
-    "away_score": 0,
+    "home_score": 2,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
