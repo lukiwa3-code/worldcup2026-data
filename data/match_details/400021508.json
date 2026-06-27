@@ -13,8 +13,8 @@
   "date_local": "2026-06-27T17:00:00Z",
   "date_poland": "2026-06-27T23:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "44'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Panama",
     "abbr": "PAN",
     "country": "PAN",
-    "score": null,
-    "tactics": "5-4-1",
+    "score": 0,
+    "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/PAN",
     "players": [
       {
@@ -392,7 +392,7 @@
     "short_name": "England",
     "abbr": "ENG",
     "country": "ENG",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
     "players": [
@@ -736,13 +736,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021508?language=en",
-  "updated_at_utc": "2026-06-27T20:44:51.474839+00:00",
-  "updated_at_poland": "2026-06-27T22:44:51.474844+02:00"
+  "updated_at_utc": "2026-06-27T21:45:29.942664+00:00",
+  "updated_at_poland": "2026-06-27T23:45:29.942670+02:00"
 }
