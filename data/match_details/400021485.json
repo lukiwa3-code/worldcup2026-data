@@ -12,9 +12,9 @@
   "date_utc": "2026-06-27T00:00:00Z",
   "date_local": "2026-06-26T19:00:00Z",
   "date_poland": "2026-06-27T02:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "attendance": "68278",
+  "match_time": "62'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Cabo Verde",
     "abbr": "CPV",
     "country": "CPV",
-    "score": null,
+    "score": 0,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CPV",
     "players": [
@@ -357,8 +357,36 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "482783",
+        "id_team": "43850",
+        "minute": "8'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43850",
+        "id_player_off": "433724",
+        "id_player_on": "477849",
+        "player_off_name": "WILLY SEMEDO",
+        "player_on_name": "HELIO VARELA"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43850",
+        "id_player_off": "482782",
+        "id_player_on": "401893",
+        "player_off_name": "DAILON LIVRAMENTO",
+        "player_on_name": "NUNO DA COSTA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43835",
@@ -366,7 +394,7 @@
     "short_name": "Saudi Arabia",
     "abbr": "KSA",
     "country": "KSA",
-    "score": null,
+    "score": 0,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/KSA",
     "players": [
@@ -710,8 +738,36 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "419281",
+        "id_team": "43835",
+        "minute": "4'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "33'",
+        "id_team": "43835",
+        "id_player_off": "403335",
+        "id_player_on": "433439",
+        "player_off_name": "HASSAN ALTAMBAKTI",
+        "player_on_name": "ALI LAJAMI"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43835",
+        "id_player_off": "411624",
+        "id_player_on": "436537",
+        "player_off_name": "ABDULLAH ALKHAIBARI",
+        "player_on_name": "MUSAB ALJUWAYR"
+      }
+    ]
   },
   "officials": [
     {
@@ -723,13 +779,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021485?language=en",
-  "updated_at_utc": "2026-06-26T23:21:13.440306+00:00",
-  "updated_at_poland": "2026-06-27T01:21:13.440311+02:00"
+  "updated_at_utc": "2026-06-27T01:26:10.748836+00:00",
+  "updated_at_poland": "2026-06-27T03:26:10.748841+02:00"
 }

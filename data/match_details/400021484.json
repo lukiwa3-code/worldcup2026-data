@@ -12,9 +12,9 @@
   "date_utc": "2026-06-27T00:00:00Z",
   "date_local": "2026-06-26T18:00:00Z",
   "date_poland": "2026-06-27T02:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "attendance": "45065",
+  "match_time": "61'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Uruguay",
     "abbr": "URU",
     "country": "URU",
-    "score": null,
+    "score": 0,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/URU",
     "players": [
@@ -383,8 +383,53 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "419134",
+        "id_team": "43930",
+        "minute": "54'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "368660",
+        "id_team": "43930",
+        "minute": "58'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "45'",
+        "id_team": "43930",
+        "id_player_off": "441623",
+        "id_player_on": "402898",
+        "player_off_name": "Manuel UGARTE",
+        "player_on_name": "Nicolas DE LA CRUZ"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43930",
+        "id_player_off": "229498",
+        "id_player_on": "368664",
+        "player_off_name": "Fernando MUSLERA",
+        "player_on_name": "Sergio ROCHET"
+      },
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43930",
+        "id_player_off": "402884",
+        "id_player_on": "477536",
+        "player_off_name": "Federico VALVERDE",
+        "player_on_name": "Federico VINAS"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43969",
@@ -392,7 +437,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": null,
+    "score": 1,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -735,9 +780,46 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "447860",
+        "minute": "42'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43969"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "447860",
+        "id_team": "43969",
+        "minute": "46'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43969",
+        "id_player_off": "423646",
+        "id_player_on": "430718",
+        "player_off_name": "PEDRI",
+        "player_on_name": "Fabian RUIZ"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43969",
+        "id_player_off": "430733",
+        "id_player_on": "430750",
+        "player_off_name": "Mikel MERINO",
+        "player_on_name": "Dani OLMO"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +831,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021484?language=en",
-  "updated_at_utc": "2026-06-26T23:21:13.176358+00:00",
-  "updated_at_poland": "2026-06-27T01:21:13.176362+02:00"
+  "updated_at_utc": "2026-06-27T01:26:10.421174+00:00",
+  "updated_at_poland": "2026-06-27T03:26:10.421179+02:00"
 }
