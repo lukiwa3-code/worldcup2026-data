@@ -40,7 +40,7 @@
     "abbr": "CRO",
     "country": "CRO",
     "score": null,
-    "tactics": null,
+    "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CRO",
     "players": [
       {
@@ -393,7 +393,7 @@
     "abbr": "GHA",
     "country": "GHA",
     "score": null,
-    "tactics": null,
+    "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GHA",
     "players": [
       {
@@ -756,6 +756,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021509?language=en",
-  "updated_at_utc": "2026-06-27T19:46:37.004681+00:00",
-  "updated_at_poland": "2026-06-27T21:46:37.004686+02:00"
+  "updated_at_utc": "2026-06-27T20:44:51.777708+00:00",
+  "updated_at_poland": "2026-06-27T22:44:51.777712+02:00"
 }
