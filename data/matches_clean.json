@@ -3274,9 +3274,9 @@
       "city": "New Jersey",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43942",
     "placeholder_home": "L4",
     "placeholder_away": "L1",
     "time_defined": true,
@@ -3323,9 +3323,9 @@
       "city": "Philadelphia",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43938",
     "placeholder_home": "L2",
     "placeholder_away": "L3",
     "time_defined": true,
@@ -3460,8 +3460,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/POR",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -3470,7 +3470,7 @@
       "city": "Miami",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "K4",
@@ -3509,8 +3509,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/UZB",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -3519,7 +3519,7 @@
       "city": "Atlanta",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "K2",
@@ -3845,12 +3845,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "3CEFHI",
-      "abbr": "3CEFHI",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43927",
+      "name": "Ecuador",
+      "abbr": "ECU",
+      "country": "ECU",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ECU",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -3886,12 +3886,12 @@
     "date_local": "2026-07-01T12:00:00Z",
     "date_poland": "2026-07-01T18:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "1L",
-      "abbr": "1L",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43942",
+      "name": "England",
+      "abbr": "ENG",
+      "country": "ENG",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
@@ -4041,12 +4041,12 @@
       "is_placeholder": true
     },
     "away": {
-      "id": null,
-      "name": "2L",
-      "abbr": "2L",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43938",
+      "name": "Croatia",
+      "abbr": "CRO",
+      "country": "CRO",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CRO",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -4237,12 +4237,12 @@
       "is_placeholder": true
     },
     "away": {
-      "id": null,
-      "name": "3DEIJL",
-      "abbr": "3DEIJL",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43860",
+      "name": "Ghana",
+      "abbr": "GHA",
+      "country": "GHA",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GHA",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,

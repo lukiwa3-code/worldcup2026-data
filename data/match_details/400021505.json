@@ -13,8 +13,8 @@
   "date_local": "2026-06-27T19:30:00Z",
   "date_poland": "2026-06-28T01:30:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "13'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Colombia",
     "abbr": "COL",
     "country": "COL",
-    "score": null,
+    "score": 0,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COL",
     "players": [
@@ -392,7 +392,7 @@
     "short_name": "Portugal",
     "abbr": "POR",
     "country": "POR",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/POR",
     "players": [
@@ -749,13 +749,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021505?language=en",
-  "updated_at_utc": "2026-06-27T22:45:17.932859+00:00",
-  "updated_at_poland": "2026-06-28T00:45:17.932864+02:00"
+  "updated_at_utc": "2026-06-27T23:44:14.191299+00:00",
+  "updated_at_poland": "2026-06-28T01:44:14.191308+02:00"
 }

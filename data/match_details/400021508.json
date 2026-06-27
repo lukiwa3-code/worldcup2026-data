@@ -13,9 +13,9 @@
   "date_local": "2026-06-27T17:00:00Z",
   "date_poland": "2026-06-27T23:00:00+02:00",
   "attendance": "80663",
-  "match_time": "86'",
-  "period": 5,
-  "winner": null,
+  "match_time": "98'",
+  "period": 10,
+  "winner": "43942",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -428,6 +428,24 @@
         "id_player_on": "466669",
         "player_off_name": "Jose Luis RODRIGUEZ",
         "player_on_name": "Azarias LONDONO"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43914",
+        "id_player_off": "418729",
+        "id_player_on": "271116",
+        "player_off_name": "Carlos HARVEY",
+        "player_on_name": "Alberto QUINTERO"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43914",
+        "id_player_off": "441239",
+        "id_player_on": "337232",
+        "player_off_name": "Jorge GUTIERREZ",
+        "player_on_name": "Eric DAVIS"
       }
     ]
   },
@@ -853,13 +871,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021508?language=en",
-  "updated_at_utc": "2026-06-27T22:45:16.975917+00:00",
-  "updated_at_poland": "2026-06-28T00:45:16.975922+02:00"
+  "updated_at_utc": "2026-06-27T23:44:13.459507+00:00",
+  "updated_at_poland": "2026-06-28T01:44:13.459511+02:00"
 }

@@ -28,7 +28,20 @@
   },
   "weather": null,
   "home_team": null,
-  "away_team": null,
+  "away_team": {
+    "id_team": "43938",
+    "name": "Croatia",
+    "short_name": "Croatia",
+    "abbr": "CRO",
+    "country": "CRO",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CRO",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -37,6 +50,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021526?language=en",
-  "updated_at_utc": "2026-06-27T22:45:22.977157+00:00",
-  "updated_at_poland": "2026-06-28T00:45:22.977162+02:00"
+  "updated_at_utc": "2026-06-27T23:44:18.386500+00:00",
+  "updated_at_poland": "2026-06-28T01:44:18.386504+02:00"
 }
