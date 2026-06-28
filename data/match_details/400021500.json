@@ -915,6 +915,14 @@
       "short_name": "Felix ZWAYER",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "373845",
+      "country": "ESP",
+      "name": "Alejandro José Hernández Hernández",
+      "short_name": "Alejandro HERNANDEZ",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -924,6 +932,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021500?language=en",
-  "updated_at_utc": "2026-06-28T06:08:40.905060+00:00",
-  "updated_at_poland": "2026-06-28T08:08:40.905064+02:00"
+  "updated_at_utc": "2026-06-28T09:30:41.168233+00:00",
+  "updated_at_poland": "2026-06-28T11:30:41.168239+02:00"
 }

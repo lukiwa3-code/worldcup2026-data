@@ -13,8 +13,8 @@
   "date_local": "2026-07-02T12:00:00Z",
   "date_poland": "2026-07-02T21:00:00+02:00",
   "attendance": null,
-  "match_time": null,
-  "period": null,
+  "match_time": "0'",
+  "period": 0,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -26,7 +26,13 @@
     "city": "Los Angeles",
     "country": "USA"
   },
-  "weather": null,
+  "weather": {
+    "Humidity": null,
+    "Temperature": null,
+    "WindSpeed": null,
+    "Type": null,
+    "TypeLocalized": []
+  },
   "home_team": {
     "id_team": "43969",
     "name": "Spain",
@@ -60,9 +66,9 @@
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
-  "raw_available": false,
-  "details_error": "'NoneType' object has no attribute 'get'",
+  "raw_available": true,
+  "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021519?language=en",
-  "updated_at_utc": "2026-06-28T06:08:45.295064+00:00",
-  "updated_at_poland": "2026-06-28T08:08:45.295069+02:00"
+  "updated_at_utc": "2026-06-28T09:30:44.859541+00:00",
+  "updated_at_poland": "2026-06-28T11:30:44.859545+02:00"
 }

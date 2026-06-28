@@ -628,24 +628,24 @@
     "match_number": 79,
     "file": "match_details/400021520.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021520?language=en",
-    "raw_available": false,
-    "details_error": "'NoneType' object has no attribute 'get'"
+    "raw_available": true,
+    "details_error": null
   },
   {
     "id_match": "400021512",
     "match_number": 80,
     "file": "match_details/400021512.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021512?language=en",
-    "raw_available": false,
-    "details_error": "'NoneType' object has no attribute 'get'"
+    "raw_available": true,
+    "details_error": null
   },
   {
     "id_match": "400021525",
     "match_number": 82,
     "file": "match_details/400021525.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021525?language=en",
-    "raw_available": false,
-    "details_error": "'NoneType' object has no attribute 'get'"
+    "raw_available": true,
+    "details_error": null
   },
   {
     "id_match": "400021524",
@@ -660,24 +660,24 @@
     "match_number": 84,
     "file": "match_details/400021519.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021519?language=en",
-    "raw_available": false,
-    "details_error": "'NoneType' object has no attribute 'get'"
+    "raw_available": true,
+    "details_error": null
   },
   {
     "id_match": "400021526",
     "match_number": 83,
     "file": "match_details/400021526.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021526?language=en",
-    "raw_available": false,
-    "details_error": "'NoneType' object has no attribute 'get'"
+    "raw_available": true,
+    "details_error": null
   },
   {
     "id_match": "400021527",
     "match_number": 85,
     "file": "match_details/400021527.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021527?language=en",
-    "raw_available": false,
-    "details_error": "'NoneType' object has no attribute 'get'"
+    "raw_available": true,
+    "details_error": null
   },
   {
     "id_match": "400021515",
@@ -700,8 +700,8 @@
     "match_number": 87,
     "file": "match_details/400021517.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021517?language=en",
-    "raw_available": false,
-    "details_error": "'NoneType' object has no attribute 'get'"
+    "raw_available": true,
+    "details_error": null
   },
   {
     "id_match": "400021530",
