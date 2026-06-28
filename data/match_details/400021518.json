@@ -13,8 +13,8 @@
   "date_local": "2026-06-28T12:00:00Z",
   "date_poland": "2026-06-28T21:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "23'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "South Africa",
     "abbr": "RSA",
     "country": "RSA",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/RSA",
     "players": [
@@ -379,7 +379,7 @@
     "short_name": "Canada",
     "abbr": "CAN",
     "country": "CAN",
-    "score": null,
+    "score": 0,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
     "players": [
@@ -723,13 +723,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021518?language=en",
-  "updated_at_utc": "2026-06-28T17:58:01.662277+00:00",
-  "updated_at_poland": "2026-06-28T19:58:01.662283+02:00"
+  "updated_at_utc": "2026-06-28T19:23:24.262348+00:00",
+  "updated_at_poland": "2026-06-28T21:23:24.262353+02:00"
 }
