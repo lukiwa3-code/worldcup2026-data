@@ -13,9 +13,9 @@
   "date_local": "2026-06-28T12:00:00Z",
   "date_poland": "2026-06-28T21:00:00+02:00",
   "attendance": "69237",
-  "match_time": "79'",
-  "period": 5,
-  "winner": null,
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43899",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -380,6 +380,24 @@
         "id_player_on": "494248",
         "player_off_name": "Relebohile MOFOKENG",
         "player_on_name": "Thalente MBATHA"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43883",
+        "id_player_off": "430917",
+        "id_player_on": "481242",
+        "player_off_name": "Evidence MAKGOPA",
+        "player_on_name": "Iqraam RAYNERS"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43883",
+        "id_player_off": "463234",
+        "id_player_on": "504193",
+        "player_off_name": "Thapelo MASEKO",
+        "player_on_name": "Tshepang MOREMI"
       }
     ]
   },
@@ -389,7 +407,7 @@
     "short_name": "Canada",
     "abbr": "CAN",
     "country": "CAN",
-    "score": 0,
+    "score": 1,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
     "players": [
@@ -719,7 +737,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "433635",
+        "minute": "90'+2'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43899"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -796,13 +823,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021518?language=en",
-  "updated_at_utc": "2026-06-28T20:39:30.074357+00:00",
-  "updated_at_poland": "2026-06-28T22:39:30.074362+02:00"
+  "updated_at_utc": "2026-06-28T21:45:11.522372+00:00",
+  "updated_at_poland": "2026-06-28T23:45:11.522377+02:00"
 }
