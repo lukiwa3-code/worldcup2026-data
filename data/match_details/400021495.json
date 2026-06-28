@@ -12,10 +12,10 @@
   "date_utc": "2026-06-28T02:00:00Z",
   "date_local": "2026-06-27T21:00:00Z",
   "date_poland": "2026-06-28T04:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
-  "winner": null,
+  "attendance": "70649",
+  "match_time": "96'",
+  "period": 10,
+  "winner": "43922",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Jordan",
     "abbr": "JOR",
     "country": "JOR",
-    "score": null,
+    "score": 1,
     "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JOR",
     "players": [
@@ -382,9 +382,89 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "431211",
+        "minute": "55'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43820"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "479389",
+        "id_team": "43820",
+        "minute": "17'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "431225",
+        "id_team": "43820",
+        "minute": "64'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "431208",
+        "id_team": "43820",
+        "minute": "90'+4'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43820",
+        "id_player_off": "511875",
+        "id_player_on": "396950",
+        "player_off_name": "ODEH FAKHOURY",
+        "player_on_name": "MAHMOUD ALMARDI"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43820",
+        "id_player_off": "498514",
+        "id_player_on": "431211",
+        "player_off_name": "ALI AZAIZEH",
+        "player_on_name": "MOUSA ALTAMARI"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43820",
+        "id_player_off": "433534",
+        "id_player_on": "491167",
+        "player_off_name": "NIZAR ALRASHDAN",
+        "player_on_name": "AMER JAMOUS"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43820",
+        "id_player_off": "431212",
+        "id_player_on": "431208",
+        "player_off_name": "ALI OLWAN",
+        "player_on_name": "MOHAMMAD ABUZRAIQ"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43820",
+        "id_player_off": "489550",
+        "id_player_on": "499102",
+        "player_off_name": "HUSAM ABUDAHAB",
+        "player_on_name": "SALEEM OBAID"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43922",
@@ -392,8 +472,8 @@
     "short_name": "Argentina",
     "abbr": "ARG",
     "country": "ARG",
-    "score": null,
-    "tactics": "4-4-2",
+    "score": 3,
+    "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
     "players": [
       {
@@ -735,9 +815,80 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "395414",
+        "minute": "19'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43922"
+      },
+      {
+        "type": 1,
+        "id_player": "402920",
+        "minute": "31'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43922"
+      },
+      {
+        "type": 2,
+        "id_player": "229397",
+        "minute": "80'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43922"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43922",
+        "id_player_off": "395414",
+        "id_player_on": "418975",
+        "player_off_name": "Giovani Lo Celso",
+        "player_on_name": "Thiago ALMADA"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43922",
+        "id_player_off": "402920",
+        "id_player_on": "229397",
+        "player_off_name": "Lautaro MARTINEZ",
+        "player_on_name": "Lionel MESSI"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43922",
+        "id_player_off": "441422",
+        "id_player_on": "430628",
+        "player_off_name": "Nico PAZ",
+        "player_on_name": "Alexis MAC ALLISTER"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43922",
+        "id_player_off": "485595",
+        "id_player_on": "463661",
+        "player_off_name": "Giuliano SIMEONE",
+        "player_on_name": "Valentin BARCO"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43922",
+        "id_player_off": "416081",
+        "id_player_on": "495054",
+        "player_off_name": "Julian ALVAREZ",
+        "player_on_name": "Jose Manuel LOPEZ"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +900,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021495?language=en",
-  "updated_at_utc": "2026-06-28T01:53:50.441769+00:00",
-  "updated_at_poland": "2026-06-28T03:53:50.441774+02:00"
+  "updated_at_utc": "2026-06-28T06:08:41.836764+00:00",
+  "updated_at_poland": "2026-06-28T08:08:41.836768+02:00"
 }

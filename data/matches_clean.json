@@ -3362,8 +3362,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUT",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 3,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -3372,8 +3372,8 @@
       "city": "Kansas City",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "J2",
     "placeholder_away": "J3",
@@ -3411,8 +3411,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 3,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -3421,9 +3421,9 @@
       "city": "Dallas",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43922",
     "placeholder_home": "J4",
     "placeholder_away": "J1",
     "time_defined": true,
@@ -4090,12 +4090,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "2J",
-      "abbr": "2J",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43934",
+      "name": "Austria",
+      "abbr": "AUT",
+      "country": "AUT",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUT",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -4139,12 +4139,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "3EFGIJ",
-      "abbr": "3EFGIJ",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43843",
+      "name": "Algeria",
+      "abbr": "ALG",
+      "country": "ALG",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ALG",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,

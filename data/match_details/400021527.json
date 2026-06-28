@@ -41,7 +41,20 @@
     "bookings": [],
     "substitutions": []
   },
-  "away_team": null,
+  "away_team": {
+    "id_team": "43843",
+    "name": "Algeria",
+    "short_name": "Algeria",
+    "abbr": "ALG",
+    "country": "ALG",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ALG",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -50,6 +63,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021527?language=en",
-  "updated_at_utc": "2026-06-28T01:53:54.461637+00:00",
-  "updated_at_poland": "2026-06-28T03:53:54.461643+02:00"
+  "updated_at_utc": "2026-06-28T06:08:45.931204+00:00",
+  "updated_at_poland": "2026-06-28T08:08:45.931209+02:00"
 }

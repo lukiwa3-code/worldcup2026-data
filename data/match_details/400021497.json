@@ -12,9 +12,9 @@
   "date_utc": "2026-06-28T02:00:00Z",
   "date_local": "2026-06-27T21:00:00Z",
   "date_poland": "2026-06-28T04:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "attendance": "69045",
+  "match_time": "97'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Algeria",
     "abbr": "ALG",
     "country": "ALG",
-    "score": null,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ALG",
     "players": [
@@ -369,9 +369,71 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "511009",
+        "minute": "45'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43843"
+      },
+      {
+        "type": 2,
+        "id_player": "379942",
+        "minute": "60'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43843"
+      },
+      {
+        "type": 2,
+        "id_player": "379942",
+        "minute": "90'+3'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43843"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43843",
+        "id_player_off": "482869",
+        "id_player_on": "431858",
+        "player_off_name": "Jaouen HADJAM",
+        "player_on_name": "Rayan AIT-NOURI"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43843",
+        "id_player_off": "405877",
+        "id_player_on": "480983",
+        "player_off_name": "Amine GOUIRI",
+        "player_on_name": "Zineddine BELAID"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43843",
+        "id_player_off": "511009",
+        "id_player_on": "511010",
+        "player_off_name": "Rafik BELGHALI",
+        "player_on_name": "Samir CHERGUI"
+      },
+      {
+        "period": 5,
+        "minute": "90'+4'",
+        "id_team": "43843",
+        "id_player_off": "430698",
+        "id_player_on": "520072",
+        "player_off_name": "Houssem Aouar",
+        "player_on_name": "Fares GHEDJEMIS"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43934",
@@ -379,7 +441,7 @@
     "short_name": "Austria",
     "abbr": "AUT",
     "country": "AUT",
-    "score": null,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUT",
     "players": [
@@ -722,9 +784,89 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "299200",
+        "minute": "28'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43934"
+      },
+      {
+        "type": 2,
+        "id_player": "358241",
+        "minute": "55'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43934"
+      },
+      {
+        "type": 2,
+        "id_player": "430100",
+        "minute": "90'+6'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43934"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "299200",
+        "id_team": "43934",
+        "minute": "11'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43934",
+        "id_player_off": "299200",
+        "id_player_on": "401131",
+        "player_off_name": "Marko ARNAUTOVIC",
+        "player_on_name": "Michael Gregoritsch"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43934",
+        "id_player_off": "463283",
+        "id_player_on": "520036",
+        "player_off_name": "Romano SCHMID",
+        "player_on_name": "Paul WANNER"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43934",
+        "id_player_off": "385531",
+        "id_player_on": "385248",
+        "player_off_name": "Xaver Schlager",
+        "player_on_name": "Florian GRILLITSCH"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43934",
+        "id_player_off": "316002",
+        "id_player_on": "405263",
+        "player_off_name": "David ALABA",
+        "player_on_name": "Kevin Danso"
+      },
+      {
+        "period": 5,
+        "minute": "90'+5'",
+        "id_team": "43934",
+        "id_player_off": "463288",
+        "id_player_on": "430100",
+        "player_off_name": "Phillip MWENE",
+        "player_on_name": "Sasa KALAJDZIC"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +878,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021497?language=en",
-  "updated_at_utc": "2026-06-28T01:53:50.047575+00:00",
-  "updated_at_poland": "2026-06-28T03:53:50.047580+02:00"
+  "updated_at_utc": "2026-06-28T06:08:41.533293+00:00",
+  "updated_at_poland": "2026-06-28T08:08:41.533298+02:00"
 }
