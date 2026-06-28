@@ -12,9 +12,9 @@
   "date_utc": "2026-06-28T19:00:00Z",
   "date_local": "2026-06-28T12:00:00Z",
   "date_poland": "2026-06-28T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "23'",
-  "period": 3,
+  "attendance": "69237",
+  "match_time": "79'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -371,7 +371,17 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43883",
+        "id_player_off": "486161",
+        "id_player_on": "494248",
+        "player_off_name": "Relebohile MOFOKENG",
+        "player_on_name": "Thalente MBATHA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43899",
@@ -710,8 +720,71 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "423941",
+        "id_team": "43899",
+        "minute": "54'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "485064",
+        "id_team": "43899",
+        "minute": "67'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "59'",
+        "id_team": "43899",
+        "id_player_off": "423941",
+        "id_player_on": "485064",
+        "player_off_name": "Nathan SALIBA",
+        "player_on_name": "Niko SIGUR"
+      },
+      {
+        "period": 5,
+        "minute": "59'",
+        "id_team": "43899",
+        "id_player_off": "466585",
+        "id_player_on": "480322",
+        "player_off_name": "Moise BOMBITO",
+        "player_on_name": "Luc DE FOUGEROLLES"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43899",
+        "id_player_off": "486929",
+        "id_player_on": "493970",
+        "player_off_name": "Tani OLUWASEYI",
+        "player_on_name": "Promise DAVID"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43899",
+        "id_player_off": "441259",
+        "id_player_on": "448411",
+        "player_off_name": "Liam MILLAR",
+        "player_on_name": "Jacob SHAFFELBURG"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43899",
+        "id_player_off": "430138",
+        "id_player_on": "412144",
+        "player_off_name": "Tajon BUCHANAN",
+        "player_on_name": "Alphonso DAVIES"
+      }
+    ]
   },
   "officials": [
     {
@@ -730,6 +803,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021518?language=en",
-  "updated_at_utc": "2026-06-28T19:23:24.262348+00:00",
-  "updated_at_poland": "2026-06-28T21:23:24.262353+02:00"
+  "updated_at_utc": "2026-06-28T20:39:30.074357+00:00",
+  "updated_at_poland": "2026-06-28T22:39:30.074362+02:00"
 }
