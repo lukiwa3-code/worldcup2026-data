@@ -3470,8 +3470,8 @@
       "city": "Miami",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
+    "match_status_code": 0,
+    "result_type": 1,
     "winner": null,
     "placeholder_home": "K4",
     "placeholder_away": "K1",
@@ -3509,7 +3509,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/UZB",
       "is_placeholder": false
     },
-    "home_score": 0,
+    "home_score": 3,
     "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -3519,9 +3519,9 @@
       "city": "Atlanta",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "20014",
     "placeholder_home": "K2",
     "placeholder_away": "K3",
     "time_defined": true,
@@ -3894,12 +3894,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "3EHIJK",
-      "abbr": "3EHIJK",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "20014",
+      "name": "Congo DR",
+      "abbr": "COD",
+      "country": "COD",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COD",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -3992,12 +3992,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "3AEHIJ",
-      "abbr": "3AEHIJ",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43879",
+      "name": "Senegal",
+      "abbr": "SEN",
+      "country": "SEN",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SEN",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -4033,12 +4033,12 @@
     "date_local": "2026-07-02T19:00:00Z",
     "date_poland": "2026-07-03T01:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "2K",
-      "abbr": "2K",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43963",
+      "name": "Portugal",
+      "abbr": "POR",
+      "country": "POR",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/POR",
+      "is_placeholder": false
     },
     "away": {
       "id": "43938",
@@ -4229,12 +4229,12 @@
     "date_local": "2026-07-03T20:30:00Z",
     "date_poland": "2026-07-04T03:30:00+02:00",
     "home": {
-      "id": null,
-      "name": "1K",
-      "abbr": "1K",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43926",
+      "name": "Colombia",
+      "abbr": "COL",
+      "country": "COL",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COL",
+      "is_placeholder": false
     },
     "away": {
       "id": "43860",

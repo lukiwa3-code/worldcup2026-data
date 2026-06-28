@@ -12,9 +12,9 @@
   "date_utc": "2026-06-27T23:30:00Z",
   "date_local": "2026-06-27T19:30:00Z",
   "date_poland": "2026-06-28T01:30:00+02:00",
-  "attendance": null,
-  "match_time": "13'",
-  "period": 3,
+  "attendance": "64478",
+  "match_time": "96'",
+  "period": 10,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -383,8 +383,63 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "463902",
+        "id_team": "43926",
+        "minute": "86'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43926",
+        "id_player_off": "395550",
+        "id_player_on": "473050",
+        "player_off_name": "Jefferson LERMA",
+        "player_on_name": "Richard RIOS"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43926",
+        "id_player_off": "369530",
+        "id_player_on": "428905",
+        "player_off_name": "Jhon CORDOBA",
+        "player_on_name": "Luis SUAREZ"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43926",
+        "id_player_off": "470760",
+        "id_player_on": "470759",
+        "player_off_name": "Jhon ARIAS",
+        "player_on_name": "Kevin CASTANO"
+      },
+      {
+        "period": 5,
+        "minute": "76'",
+        "id_team": "43926",
+        "id_player_off": "269058",
+        "id_player_on": "356704",
+        "player_off_name": "James RODRIGUEZ",
+        "player_on_name": "Juan QUINTERO"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43926",
+        "id_player_off": "315614",
+        "id_player_on": "431200",
+        "player_off_name": "Santiago ARIAS",
+        "player_on_name": "Daniel MUNOZ"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43963",
@@ -737,7 +792,53 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43963",
+        "id_player_off": "395216",
+        "id_player_on": "484141",
+        "player_off_name": "RUBEN NEVES",
+        "player_on_name": "JOAO NEVES"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43963",
+        "id_player_off": "368649",
+        "id_player_on": "403002",
+        "player_off_name": "JOAO CANCELO",
+        "player_on_name": "DIOGO DALOT"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43963",
+        "id_player_off": "418535",
+        "id_player_on": "418550",
+        "player_off_name": "JOAO FELIX",
+        "player_on_name": "RAFAEL LEAO"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43963",
+        "id_player_off": "441149",
+        "id_player_on": "491216",
+        "player_off_name": "VITINHA",
+        "player_on_name": "SAMU COSTA"
+      },
+      {
+        "period": 5,
+        "minute": "90'+2'",
+        "id_team": "43963",
+        "id_player_off": "433195",
+        "id_player_on": "441148",
+        "player_off_name": "NUNO MENDES",
+        "player_on_name": "MATHEUS NUNES"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +850,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021505?language=en",
-  "updated_at_utc": "2026-06-27T23:44:14.191299+00:00",
-  "updated_at_poland": "2026-06-28T01:44:14.191308+02:00"
+  "updated_at_utc": "2026-06-28T01:53:49.814679+00:00",
+  "updated_at_poland": "2026-06-28T03:53:49.814685+02:00"
 }

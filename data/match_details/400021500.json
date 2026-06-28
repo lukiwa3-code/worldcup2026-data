@@ -12,10 +12,10 @@
   "date_utc": "2026-06-27T23:30:00Z",
   "date_local": "2026-06-27T19:30:00Z",
   "date_poland": "2026-06-28T01:30:00+02:00",
-  "attendance": null,
-  "match_time": "13'",
-  "period": 3,
-  "winner": null,
+  "attendance": "68239",
+  "match_time": "99'",
+  "period": 10,
+  "winner": "20014",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Congo DR",
     "abbr": "COD",
     "country": "COD",
-    "score": 0,
+    "score": 3,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COD",
     "players": [
@@ -382,9 +382,105 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 1,
+        "id_player": "441316",
+        "minute": "68'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "20014"
+      },
+      {
+        "type": 2,
+        "id_player": "477859",
+        "minute": "78'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "20014"
+      },
+      {
+        "type": 2,
+        "id_player": "441316",
+        "minute": "90'+1'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "20014"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "486147",
+        "id_team": "20014",
+        "minute": "21'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "424119",
+        "id_team": "20014",
+        "minute": "45'+4'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "433076",
+        "id_team": "20014",
+        "minute": "62'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "51'",
+        "id_team": "20014",
+        "id_player_off": "336425",
+        "id_player_on": "477859",
+        "player_off_name": "Cedric BAKAMBU",
+        "player_on_name": "Fiston MAYELE"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "20014",
+        "id_player_off": "433076",
+        "id_player_on": "494458",
+        "player_off_name": "Samuel Moutoussamy",
+        "player_on_name": "Ngalayel MUKAU"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "20014",
+        "id_player_off": "424119",
+        "id_player_on": "426506",
+        "player_off_name": "Nathanael MBUKU",
+        "player_on_name": "Meschack ELIA"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "20014",
+        "id_player_off": "510989",
+        "id_player_on": "441317",
+        "player_off_name": "Brian CIPENGA",
+        "player_on_name": "Theo BONGONDA"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "20014",
+        "id_player_off": "436572",
+        "id_player_on": "477833",
+        "player_off_name": "Arthur MASUAKU",
+        "player_on_name": "Joris KAYEMBE"
+      }
+    ]
   },
   "away_team": {
     "id_team": "44005",
@@ -745,8 +841,71 @@
         "id_team": "44005"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "464924",
+        "id_team": "44005",
+        "minute": "43'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "479075",
+        "id_team": "44005",
+        "minute": "47'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "44005",
+        "id_player_off": "371348",
+        "id_player_on": "371345",
+        "player_off_name": "Otabek Shukurov",
+        "player_on_name": "Odiljon XAMROBEKOV"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "44005",
+        "id_player_off": "371393",
+        "id_player_on": "479086",
+        "player_off_name": "Dostonbek Khamdamov",
+        "player_on_name": "Azizjon GANIEV"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "44005",
+        "id_player_off": "464933",
+        "id_player_on": "479080",
+        "player_off_name": "Abbosbek FAYZULLAEV",
+        "player_on_name": "Oston URUNOV"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "44005",
+        "id_player_off": "479106",
+        "id_player_on": "368545",
+        "player_off_name": "Akmal MOZGOVOY",
+        "player_on_name": "Jamshid ISKANDEROV"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "44005",
+        "id_player_off": "464906",
+        "id_player_on": "368546",
+        "player_off_name": "Jakhongir UROZOV",
+        "player_on_name": "Igor Sergeev"
+      }
+    ]
   },
   "officials": [
     {
@@ -758,13 +917,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021500?language=en",
-  "updated_at_utc": "2026-06-27T23:44:13.934448+00:00",
-  "updated_at_poland": "2026-06-28T01:44:13.934452+02:00"
+  "updated_at_utc": "2026-06-28T01:53:49.441648+00:00",
+  "updated_at_poland": "2026-06-28T03:53:49.441654+02:00"
 }

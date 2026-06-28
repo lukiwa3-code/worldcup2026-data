@@ -27,7 +27,20 @@
     "country": "CAN"
   },
   "weather": null,
-  "home_team": null,
+  "home_team": {
+    "id_team": "43963",
+    "name": "Portugal",
+    "short_name": "Portugal",
+    "abbr": "POR",
+    "country": "POR",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/POR",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "away_team": {
     "id_team": "43938",
     "name": "Croatia",
@@ -50,6 +63,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021526?language=en",
-  "updated_at_utc": "2026-06-27T23:44:18.386500+00:00",
-  "updated_at_poland": "2026-06-28T01:44:18.386504+02:00"
+  "updated_at_utc": "2026-06-28T01:53:54.191441+00:00",
+  "updated_at_poland": "2026-06-28T03:53:54.191446+02:00"
 }

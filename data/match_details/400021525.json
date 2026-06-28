@@ -41,7 +41,20 @@
     "bookings": [],
     "substitutions": []
   },
-  "away_team": null,
+  "away_team": {
+    "id_team": "43879",
+    "name": "Senegal",
+    "short_name": "Senegal",
+    "abbr": "SEN",
+    "country": "SEN",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SEN",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -50,6 +63,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021525?language=en",
-  "updated_at_utc": "2026-06-27T23:44:17.403535+00:00",
-  "updated_at_poland": "2026-06-28T01:44:17.403539+02:00"
+  "updated_at_utc": "2026-06-28T01:53:52.997867+00:00",
+  "updated_at_poland": "2026-06-28T03:53:52.997872+02:00"
 }
