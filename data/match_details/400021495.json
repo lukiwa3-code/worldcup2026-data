@@ -898,6 +898,14 @@
       "short_name": "Istvan KOVACS",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "408591",
+      "country": "MTN",
+      "name": "Dahane BEIDA",
+      "short_name": "Dahane BEIDA",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -907,6 +915,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021495?language=en",
-  "updated_at_utc": "2026-06-29T01:58:56.362639+00:00",
-  "updated_at_poland": "2026-06-29T03:58:56.362644+02:00"
+  "updated_at_utc": "2026-06-29T06:54:20.222333+00:00",
+  "updated_at_poland": "2026-06-29T08:54:20.222337+02:00"
 }

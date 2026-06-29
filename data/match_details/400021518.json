@@ -821,6 +821,14 @@
       "short_name": "Joao PINHEIRO",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "383421",
+      "country": "UAE",
+      "name": "Omar Mohamed Al Ali",
+      "short_name": "Omar ALALI",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -830,6 +838,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021518?language=en",
-  "updated_at_utc": "2026-06-29T01:58:56.601372+00:00",
-  "updated_at_poland": "2026-06-29T03:58:56.601377+02:00"
+  "updated_at_utc": "2026-06-29T06:54:20.442149+00:00",
+  "updated_at_poland": "2026-06-29T08:54:20.442157+02:00"
 }
