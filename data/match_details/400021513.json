@@ -13,8 +13,8 @@
   "date_local": "2026-06-29T16:30:00Z",
   "date_poland": "2026-06-29T22:30:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "49'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Germany",
     "abbr": "GER",
     "country": "GER",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GER",
     "players": [
@@ -371,7 +371,17 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43948",
+        "id_player_off": "492363",
+        "id_player_on": "379953",
+        "player_off_name": "Felix NMECHA",
+        "player_on_name": "Leon GORETZKA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43928",
@@ -379,8 +389,8 @@
     "short_name": "Paraguay",
     "abbr": "PAR",
     "country": "PAR",
-    "score": null,
-    "tactics": "4-5-1",
+    "score": 1,
+    "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/PAR",
     "players": [
       {
@@ -709,7 +719,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "441234",
+        "minute": "42'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43928"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -723,13 +742,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021513?language=en",
-  "updated_at_utc": "2026-06-29T20:04:37.386639+00:00",
-  "updated_at_poland": "2026-06-29T22:04:37.386644+02:00"
+  "updated_at_utc": "2026-06-29T21:42:25.908379+00:00",
+  "updated_at_poland": "2026-06-29T23:42:25.908384+02:00"
 }
