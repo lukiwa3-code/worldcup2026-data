@@ -12,9 +12,9 @@
   "date_utc": "2026-06-29T20:30:00Z",
   "date_local": "2026-06-29T16:30:00Z",
   "date_poland": "2026-06-29T22:30:00+02:00",
-  "attendance": null,
-  "match_time": "49'",
-  "period": 5,
+  "attendance": "63945",
+  "match_time": "97'",
+  "period": 7,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Germany",
     "abbr": "GER",
     "country": "GER",
-    "score": 0,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GER",
     "players": [
@@ -369,7 +369,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "411367",
+        "minute": "54'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43948"
+      }
+    ],
     "bookings": [],
     "substitutions": [
       {
@@ -380,6 +389,33 @@
         "id_player_on": "379953",
         "player_off_name": "Felix NMECHA",
         "player_on_name": "Leon GORETZKA"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43948",
+        "id_player_off": "484851",
+        "id_player_on": "429642",
+        "player_off_name": "Deniz UNDAV",
+        "player_on_name": "Jamal MUSIALA"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43948",
+        "id_player_off": "484849",
+        "id_player_on": "430658",
+        "player_off_name": "Aleksandar PAVLOVIC",
+        "player_on_name": "Waldemar ANTON"
+      },
+      {
+        "period": 5,
+        "minute": "88'",
+        "id_team": "43948",
+        "id_player_off": "404353",
+        "id_player_on": "498416",
+        "player_off_name": "Leroy SANE",
+        "player_on_name": "Nick WOLTEMADE"
       }
     ]
   },
@@ -729,8 +765,45 @@
         "id_team": "43928"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "385306",
+        "id_team": "43928",
+        "minute": "65'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "55'",
+        "id_team": "43928",
+        "id_player_off": "463127",
+        "id_player_on": "485804",
+        "player_off_name": "Gabriel AVALOS",
+        "player_on_name": "Gustavo CABALLERO"
+      },
+      {
+        "period": 5,
+        "minute": "57'",
+        "id_team": "43928",
+        "id_player_off": "441234",
+        "id_player_on": "495046",
+        "player_off_name": "Julio ENCISO",
+        "player_on_name": "MAURICIO"
+      },
+      {
+        "period": 17,
+        "minute": "",
+        "id_team": "43928",
+        "id_player_off": "369761",
+        "id_player_on": "486875",
+        "player_off_name": "Miguel ALMIRON",
+        "player_on_name": "Gustavo VELAZQUEZ"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,6 +822,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021513?language=en",
-  "updated_at_utc": "2026-06-29T21:42:25.908379+00:00",
-  "updated_at_poland": "2026-06-29T23:42:25.908384+02:00"
+  "updated_at_utc": "2026-06-29T22:40:59.116376+00:00",
+  "updated_at_poland": "2026-06-30T00:40:59.116380+02:00"
 }
