@@ -13,13 +13,13 @@
   "date_local": "2026-06-29T16:30:00Z",
   "date_poland": "2026-06-29T22:30:00+02:00",
   "attendance": "63945",
-  "match_time": "97'",
-  "period": 7,
-  "winner": null,
+  "match_time": "132'",
+  "period": 10,
+  "winner": "43928",
   "home_score": null,
   "away_score": null,
-  "home_penalty_score": null,
-  "away_penalty_score": null,
+  "home_penalty_score": 3,
+  "away_penalty_score": 4,
   "stadium": {
     "id": "400248623",
     "name": "Boston Stadium",
@@ -377,9 +377,66 @@
         "id_assist_player": null,
         "period": 5,
         "id_team": "43948"
+      },
+      {
+        "type": 1,
+        "id_player": "386413",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43948"
+      },
+      {
+        "type": 1,
+        "id_player": "429642",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43948"
+      },
+      {
+        "type": 1,
+        "id_player": "395471",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43948"
       }
     ],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 7,
+        "id_player": null,
+        "id_team": "43948",
+        "minute": "105'+1'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 9,
+        "id_player": "411367",
+        "id_team": "43948",
+        "minute": "106'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 9,
+        "id_player": "429642",
+        "id_team": "43948",
+        "minute": "115'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 9,
+        "id_player": null,
+        "id_team": "43948",
+        "minute": "116'",
+        "reason": null
+      }
+    ],
     "substitutions": [
       {
         "period": 4,
@@ -416,6 +473,24 @@
         "id_player_on": "498416",
         "player_off_name": "Leroy SANE",
         "player_on_name": "Nick WOLTEMADE"
+      },
+      {
+        "period": 9,
+        "minute": "110'",
+        "id_team": "43948",
+        "id_player_off": "379955",
+        "id_player_on": "514188",
+        "player_off_name": "Antonio RUEDIGER",
+        "player_on_name": "Malick THIAW"
+      },
+      {
+        "period": 9,
+        "minute": "110'",
+        "id_team": "43948",
+        "id_player_off": "430669",
+        "id_player_on": "395471",
+        "player_off_name": "Florian WIRTZ",
+        "player_on_name": "Nadiem Amiri"
       }
     ]
   },
@@ -763,6 +838,38 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43928"
+      },
+      {
+        "type": 1,
+        "id_player": "495046",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43928"
+      },
+      {
+        "type": 1,
+        "id_player": "369744",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43928"
+      },
+      {
+        "type": 1,
+        "id_player": "424422",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43928"
+      },
+      {
+        "type": 1,
+        "id_player": "520066",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43928"
       }
     ],
     "bookings": [
@@ -772,6 +879,30 @@
         "id_player": "385306",
         "id_team": "43928",
         "minute": "65'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 7,
+        "id_player": null,
+        "id_team": "43928",
+        "minute": "105'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 9,
+        "id_player": null,
+        "id_team": "43928",
+        "minute": "117'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 9,
+        "id_player": "424422",
+        "id_team": "43928",
+        "minute": "117'",
         "reason": null
       }
     ],
@@ -802,6 +933,33 @@
         "id_player_on": "486875",
         "player_off_name": "Miguel ALMIRON",
         "player_on_name": "Gustavo VELAZQUEZ"
+      },
+      {
+        "period": 7,
+        "minute": "99'",
+        "id_team": "43928",
+        "id_player_off": "479601",
+        "id_player_on": "406205",
+        "player_off_name": "Juan Jose CACERES",
+        "player_on_name": "Braian OJEDA"
+      },
+      {
+        "period": 7,
+        "minute": "99'",
+        "id_team": "43928",
+        "id_player_off": "476348",
+        "id_player_on": "369768",
+        "player_off_name": "Damian BOBADILLA",
+        "player_on_name": "Antonio SANABRIA"
+      },
+      {
+        "period": 9,
+        "minute": "120'+2'",
+        "id_team": "43928",
+        "id_player_off": "369749",
+        "id_player_on": "394829",
+        "player_off_name": "Junior ALONSO",
+        "player_on_name": "Fabian BALBUENA"
       }
     ]
   },
@@ -815,13 +973,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 2,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021513?language=en",
-  "updated_at_utc": "2026-06-29T22:40:59.116376+00:00",
-  "updated_at_poland": "2026-06-30T00:40:59.116380+02:00"
+  "updated_at_utc": "2026-06-29T23:40:23.124006+00:00",
+  "updated_at_poland": "2026-06-30T01:40:23.124011+02:00"
 }

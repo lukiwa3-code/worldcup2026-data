@@ -3609,17 +3609,17 @@
     },
     "home_score": 1,
     "away_score": 1,
-    "home_penalty_score": null,
-    "away_penalty_score": null,
+    "home_penalty_score": 3,
+    "away_penalty_score": 4,
     "stadium": {
       "id": "400248623",
       "name": "Boston Stadium",
       "city": "Boston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 2,
+    "winner": "43928",
     "placeholder_home": "1E",
     "placeholder_away": "3ABCDF",
     "time_defined": true,
@@ -4327,12 +4327,12 @@
     "date_local": "2026-07-04T17:00:00Z",
     "date_poland": "2026-07-04T23:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "W74",
-      "abbr": "W74",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43928",
+      "name": "Paraguay",
+      "abbr": "PAR",
+      "country": "PAR",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/PAR",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
