@@ -12,10 +12,10 @@
   "date_utc": "2026-06-29T17:00:00Z",
   "date_local": "2026-06-29T12:00:00Z",
   "date_poland": "2026-06-29T19:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "68777",
+  "match_time": "101'",
+  "period": 10,
+  "winner": "43924",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Brazil",
     "abbr": "BRA",
     "country": "BRA",
-    "score": 0,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA",
     "players": [
@@ -369,7 +369,24 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "308386",
+        "minute": "56'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43924"
+      },
+      {
+        "type": 2,
+        "id_player": "430597",
+        "minute": "90'+5'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43924"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -378,9 +395,54 @@
         "id_team": "43924",
         "minute": "14'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "335656",
+        "id_team": "43924",
+        "minute": "48'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43924",
+        "id_player_off": "411726",
+        "id_player_on": "463746",
+        "player_off_name": "LUCAS PAQUETA",
+        "player_on_name": "ENDRICK"
+      },
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43924",
+        "id_player_off": "430609",
+        "id_player_on": "430597",
+        "player_off_name": "MATHEUS CUNHA",
+        "player_on_name": "GABRIEL MARTINELLI"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43924",
+        "id_player_off": "308386",
+        "id_player_on": "394456",
+        "player_off_name": "CASEMIRO",
+        "player_on_name": "FABINHO"
+      },
+      {
+        "period": 5,
+        "minute": "90'+7'",
+        "id_team": "43924",
+        "id_player_off": "430605",
+        "id_player_on": "429392",
+        "player_off_name": "BRUNO GUIMARAES",
+        "player_on_name": "DANILO SANTOS"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43819",
@@ -757,9 +819,63 @@
         "id_team": "43819",
         "minute": "45'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "498455",
+        "id_team": "43819",
+        "minute": "84'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43819",
+        "id_player_off": "405522",
+        "id_player_on": "498455",
+        "player_off_name": "Keito Nakamura",
+        "player_on_name": "Junnosuke SUZUKI"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43819",
+        "id_player_off": "391646",
+        "id_player_on": "405528",
+        "player_off_name": "Ritsu DOAN",
+        "player_on_name": "Yukinari Sugawara"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43819",
+        "id_player_off": "395321",
+        "id_player_on": "448569",
+        "player_off_name": "Junya ITO",
+        "player_on_name": "Shuto MACHINO"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43819",
+        "id_player_off": "448557",
+        "id_player_on": "400514",
+        "player_off_name": "Daichi KAMADA",
+        "player_on_name": "Ao TANAKA"
+      },
+      {
+        "period": 5,
+        "minute": "90'+7'",
+        "id_team": "43819",
+        "id_player_off": "430407",
+        "id_player_on": "403293",
+        "player_off_name": "Daizen MAEDA",
+        "player_on_name": "Koki OGAWA"
+      }
+    ]
   },
   "officials": [
     {
@@ -771,13 +887,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021516?language=en",
-  "updated_at_utc": "2026-06-29T17:59:08.190384+00:00",
-  "updated_at_poland": "2026-06-29T19:59:08.190388+02:00"
+  "updated_at_utc": "2026-06-29T20:04:37.161103+00:00",
+  "updated_at_poland": "2026-06-29T22:04:37.161107+02:00"
 }

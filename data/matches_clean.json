@@ -3705,7 +3705,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JPN",
       "is_placeholder": false
     },
-    "home_score": 0,
+    "home_score": 2,
     "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -3715,9 +3715,9 @@
       "city": "Houston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43924",
     "placeholder_home": "1C",
     "placeholder_away": "2F",
     "time_defined": true,
@@ -4425,12 +4425,12 @@
     "date_local": "2026-07-05T16:00:00Z",
     "date_poland": "2026-07-05T22:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "W76",
-      "abbr": "W76",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43924",
+      "name": "Brazil",
+      "abbr": "BRA",
+      "country": "BRA",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA",
+      "is_placeholder": false
     },
     "away": {
       "id": null,

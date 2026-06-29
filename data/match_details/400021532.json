@@ -27,7 +27,20 @@
     "country": "USA"
   },
   "weather": null,
-  "home_team": null,
+  "home_team": {
+    "id_team": "43924",
+    "name": "Brazil",
+    "short_name": "Brazil",
+    "abbr": "BRA",
+    "country": "BRA",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "away_team": null,
   "officials": [],
   "match_status_code": 1,
@@ -37,6 +50,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021532?language=en",
-  "updated_at_utc": "2026-06-29T17:59:12.568906+00:00",
-  "updated_at_poland": "2026-06-29T19:59:12.568910+02:00"
+  "updated_at_utc": "2026-06-29T20:04:42.211362+00:00",
+  "updated_at_poland": "2026-06-29T22:04:42.211367+02:00"
 }
