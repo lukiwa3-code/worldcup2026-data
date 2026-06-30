@@ -13,8 +13,8 @@
   "date_local": "2026-06-30T12:00:00Z",
   "date_poland": "2026-06-30T19:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "49'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Côte d'Ivoire",
     "abbr": "CIV",
     "country": "CIV",
-    "score": null,
+    "score": 0,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CIV",
     "players": [
@@ -392,7 +392,7 @@
     "short_name": "Norway",
     "abbr": "NOR",
     "country": "NOR",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-1-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
     "players": [
@@ -735,8 +735,26 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "483448",
+        "minute": "39'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43961"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "483448",
+        "id_team": "43961",
+        "minute": "45'+1'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "officials": [
@@ -749,13 +767,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021514?language=en",
-  "updated_at_utc": "2026-06-30T16:07:12.466472+00:00",
-  "updated_at_poland": "2026-06-30T18:07:12.466478+02:00"
+  "updated_at_utc": "2026-06-30T18:09:48.024477+00:00",
+  "updated_at_poland": "2026-06-30T20:09:48.024483+02:00"
 }
