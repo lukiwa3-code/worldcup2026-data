@@ -915,6 +915,14 @@
       "short_name": "Wilton SAMPAIO",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "416177",
+      "country": "CHI",
+      "name": "Cristián Marcelo Garay Reyes",
+      "short_name": "Cristian GARAY",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -924,6 +932,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021522?language=en",
-  "updated_at_utc": "2026-06-30T05:53:09.065597+00:00",
-  "updated_at_poland": "2026-06-30T07:53:09.065602+02:00"
+  "updated_at_utc": "2026-06-30T08:53:01.326178+00:00",
+  "updated_at_poland": "2026-06-30T10:53:01.326181+02:00"
 }
