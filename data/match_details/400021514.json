@@ -12,10 +12,10 @@
   "date_utc": "2026-06-30T17:00:00Z",
   "date_local": "2026-06-30T12:00:00Z",
   "date_poland": "2026-06-30T19:00:00+02:00",
-  "attendance": null,
-  "match_time": "49'",
-  "period": 5,
-  "winner": null,
+  "attendance": "69665",
+  "match_time": "98'",
+  "period": 10,
+  "winner": "43961",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Côte d'Ivoire",
     "abbr": "CIV",
     "country": "CIV",
-    "score": 0,
+    "score": 1,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CIV",
     "players": [
@@ -382,9 +382,64 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "430822",
+        "minute": "74'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43854"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43854",
+        "id_player_off": "514208",
+        "id_player_on": "430822",
+        "player_off_name": "Christ Inao OULAI",
+        "player_on_name": "Amad DIALLO"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43854",
+        "id_player_off": "464103",
+        "id_player_on": "464133",
+        "player_off_name": "Ange-Yoan BONNY",
+        "player_on_name": "Elye WAHI"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43854",
+        "id_player_off": "402261",
+        "id_player_on": "477777",
+        "player_off_name": "Nicolas PEPE",
+        "player_on_name": "Oumar DIAKITE"
+      },
+      {
+        "period": 5,
+        "minute": "90'+3'",
+        "id_team": "43854",
+        "id_player_off": "510922",
+        "id_player_on": "485675",
+        "player_off_name": "Yan DIOMANDE",
+        "player_on_name": "Evann GUESSAND"
+      },
+      {
+        "period": 5,
+        "minute": "90'+3'",
+        "id_team": "43854",
+        "id_player_off": "407343",
+        "id_player_on": "506202",
+        "player_off_name": "Ghislain KONAN",
+        "player_on_name": "Bazoumana TOURE"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43961",
@@ -392,7 +447,7 @@
     "short_name": "Norway",
     "abbr": "NOR",
     "country": "NOR",
-    "score": 1,
+    "score": 2,
     "tactics": "4-2-1-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
     "players": [
@@ -743,6 +798,14 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43961"
+      },
+      {
+        "type": 2,
+        "id_player": "419652",
+        "minute": "86'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43961"
       }
     ],
     "bookings": [
@@ -755,7 +818,35 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43961",
+        "id_player_off": "483448",
+        "id_player_on": "494626",
+        "player_off_name": "Antonio NUSA",
+        "player_on_name": "Andreas SCHJELDERUP"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43961",
+        "id_player_off": "398588",
+        "id_player_on": "477470",
+        "player_off_name": "Alexander SORLOTH",
+        "player_on_name": "Oscar BOBB"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43961",
+        "id_player_off": "494625",
+        "id_player_on": "483497",
+        "player_off_name": "Marcus HOLMGREN PEDERSEN",
+        "player_on_name": "Fredrik AURSNES"
+      }
+    ]
   },
   "officials": [
     {
@@ -767,13 +858,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021514?language=en",
-  "updated_at_utc": "2026-06-30T18:09:48.024477+00:00",
-  "updated_at_poland": "2026-06-30T20:09:48.024483+02:00"
+  "updated_at_utc": "2026-06-30T20:17:54.508405+00:00",
+  "updated_at_poland": "2026-06-30T22:17:54.508410+02:00"
 }

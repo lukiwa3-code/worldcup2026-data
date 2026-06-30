@@ -3803,8 +3803,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
       "is_placeholder": false
     },
-    "home_score": 0,
-    "away_score": 1,
+    "home_score": 1,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -3813,9 +3813,9 @@
       "city": "Dallas",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43961",
     "placeholder_home": "2E",
     "placeholder_away": "2I",
     "time_defined": true,
@@ -4433,12 +4433,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "W78",
-      "abbr": "W78",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43961",
+      "name": "Norway",
+      "abbr": "NOR",
+      "country": "NOR",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
