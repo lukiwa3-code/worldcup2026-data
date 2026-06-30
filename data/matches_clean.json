@@ -3754,7 +3754,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SWE",
       "is_placeholder": false
     },
-    "home_score": 1,
+    "home_score": 3,
     "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -3764,9 +3764,9 @@
       "city": "New Jersey",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43946",
     "placeholder_home": "1I",
     "placeholder_away": "3CDFGH",
     "time_defined": true,
@@ -4335,12 +4335,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "W77",
-      "abbr": "W77",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43946",
+      "name": "France",
+      "abbr": "FRA",
+      "country": "FRA",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,

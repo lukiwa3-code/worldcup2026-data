@@ -41,7 +41,20 @@
     "bookings": [],
     "substitutions": []
   },
-  "away_team": null,
+  "away_team": {
+    "id_team": "43946",
+    "name": "France",
+    "short_name": "France",
+    "abbr": "FRA",
+    "country": "FRA",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -50,6 +63,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021533?language=en",
-  "updated_at_utc": "2026-06-30T21:49:21.989058+00:00",
-  "updated_at_poland": "2026-06-30T23:49:21.989061+02:00"
+  "updated_at_utc": "2026-06-30T23:00:08.651864+00:00",
+  "updated_at_poland": "2026-07-01T01:00:08.651869+02:00"
 }

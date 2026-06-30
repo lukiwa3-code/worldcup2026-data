@@ -12,10 +12,10 @@
   "date_utc": "2026-06-30T21:00:00Z",
   "date_local": "2026-06-30T17:00:00Z",
   "date_poland": "2026-06-30T23:00:00+02:00",
-  "attendance": null,
-  "match_time": "45'+4'",
-  "period": 3,
-  "winner": null,
+  "attendance": "80663",
+  "match_time": "95'",
+  "period": 10,
+  "winner": "43946",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "France",
     "abbr": "FRA",
     "country": "FRA",
-    "score": 1,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
     "players": [
@@ -390,10 +390,72 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "484860",
+        "minute": "53'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "389867",
+        "minute": "74'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43946",
+        "id_player_off": "398680",
+        "id_player_on": "464114",
+        "player_off_name": "Ousmane DEMBELE",
+        "player_on_name": "Desire DOUE"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43946",
+        "id_player_off": "430707",
+        "id_player_on": "464055",
+        "player_off_name": "Jules KOUNDE",
+        "player_on_name": "Malo GUSTO"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43946",
+        "id_player_off": "368860",
+        "id_player_on": "408042",
+        "player_off_name": "Lucas Digne",
+        "player_on_name": "Theo HERNANDEZ"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43946",
+        "id_player_off": "389867",
+        "id_player_on": "403094",
+        "player_off_name": "Kylian MBAPPE",
+        "player_on_name": "Jean-Philippe MATETA"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43946",
+        "id_player_off": "485655",
+        "id_player_on": "431861",
+        "player_off_name": "Michael OLISE",
+        "player_on_name": "Rayan CHERKI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43970",
@@ -733,7 +795,53 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43970",
+        "id_player_off": "519958",
+        "id_player_on": "514202",
+        "player_off_name": "Elliot STROUD",
+        "player_on_name": "Taha ALI"
+      },
+      {
+        "period": 5,
+        "minute": "65'",
+        "id_team": "43970",
+        "id_player_off": "489689",
+        "id_player_on": "503047",
+        "player_off_name": "Lucas BERGVALL",
+        "player_on_name": "Besfort ZENELI"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43970",
+        "id_player_off": "491255",
+        "id_player_on": "433795",
+        "player_off_name": "Daniel SVENSSON",
+        "player_on_name": "Mattias SVANBERG"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43970",
+        "id_player_off": "489688",
+        "id_player_on": "502946",
+        "player_off_name": "Yasin AYARI",
+        "player_on_name": "Benjamin NYGREN"
+      },
+      {
+        "period": 5,
+        "minute": "89'",
+        "id_team": "43970",
+        "id_player_off": "430150",
+        "id_player_on": "489691",
+        "player_off_name": "Alexander Isak",
+        "player_on_name": "Gustaf NILSSON"
+      }
+    ]
   },
   "officials": [
     {
@@ -745,13 +853,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021523?language=en",
-  "updated_at_utc": "2026-06-30T21:49:18.352701+00:00",
-  "updated_at_poland": "2026-06-30T23:49:18.352704+02:00"
+  "updated_at_utc": "2026-06-30T23:00:05.043820+00:00",
+  "updated_at_poland": "2026-07-01T01:00:05.043827+02:00"
 }
