@@ -971,6 +971,14 @@
       "short_name": "Jalal JAYED",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "328495",
+      "country": "CHN",
+      "name": "Ning Ma",
+      "short_name": "MA Ning",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -980,6 +988,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021513?language=en",
-  "updated_at_utc": "2026-06-30T01:36:44.779569+00:00",
-  "updated_at_poland": "2026-06-30T03:36:44.779573+02:00"
+  "updated_at_utc": "2026-06-30T05:53:08.716546+00:00",
+  "updated_at_poland": "2026-06-30T07:53:08.716552+02:00"
 }

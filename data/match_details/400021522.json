@@ -12,14 +12,14 @@
   "date_utc": "2026-06-30T01:00:00Z",
   "date_local": "2026-06-29T19:00:00Z",
   "date_poland": "2026-06-30T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "37'",
-  "period": 3,
-  "winner": null,
+  "attendance": "51243",
+  "match_time": "130'",
+  "period": 10,
+  "winner": "43872",
   "home_score": null,
   "away_score": null,
-  "home_penalty_score": null,
-  "away_penalty_score": null,
+  "home_penalty_score": 2,
+  "away_penalty_score": 3,
   "stadium": {
     "id": "400238450",
     "name": "Monterrey Stadium",
@@ -39,7 +39,7 @@
     "short_name": "Netherlands",
     "abbr": "NED",
     "country": "NED",
-    "score": 0,
+    "score": 1,
     "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NED",
     "players": [
@@ -382,9 +382,89 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "448152",
+        "minute": "72'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43960"
+      },
+      {
+        "type": 1,
+        "id_player": "448149",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43960"
+      },
+      {
+        "type": 1,
+        "id_player": "448159",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43960"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43960",
+        "id_player_off": "336088",
+        "id_player_on": "448149",
+        "player_off_name": "Nathan AKE",
+        "player_on_name": "Teun KOOPMEINERS"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43960",
+        "id_player_off": "424051",
+        "id_player_on": "448159",
+        "player_off_name": "Brian BROBBEY",
+        "player_on_name": "Wout WEGHORST"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43960",
+        "id_player_off": "430176",
+        "id_player_on": "484859",
+        "player_off_name": "Ryan GRAVENBERCH",
+        "player_on_name": "Quinten TIMBER"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43960",
+        "id_player_off": "448140",
+        "id_player_on": "483512",
+        "player_off_name": "Micky VAN DE VEN",
+        "player_on_name": "Jorrel HATO"
+      },
+      {
+        "period": 9,
+        "minute": "110'",
+        "id_team": "43960",
+        "id_player_off": "422657",
+        "id_player_on": "402044",
+        "player_off_name": "Frenkie DE JONG",
+        "player_on_name": "Marten DE ROON"
+      },
+      {
+        "period": 9,
+        "minute": "113'",
+        "id_team": "43960",
+        "id_player_off": "448152",
+        "id_player_on": "478364",
+        "player_off_name": "Cody GAKPO",
+        "player_on_name": "Justin KLUIVERT"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43872",
@@ -392,7 +472,7 @@
     "short_name": "Morocco",
     "abbr": "MAR",
     "country": "MAR",
-    "score": 0,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
     "players": [
@@ -735,9 +815,97 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "403083",
+        "minute": "90'+1'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43872"
+      },
+      {
+        "type": 1,
+        "id_player": "433426",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43872"
+      },
+      {
+        "type": 1,
+        "id_player": "494293",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43872"
+      },
+      {
+        "type": 1,
+        "id_player": "448598",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43872"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "403083",
+        "id_team": "43872",
+        "minute": "47'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43872",
+        "id_player_off": "448607",
+        "id_player_on": "424071",
+        "player_off_name": "Chadi RIAD",
+        "player_on_name": "Anass SALAH EDDINE"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43872",
+        "id_player_off": "430740",
+        "id_player_on": "505112",
+        "player_off_name": "Brahim DIAZ",
+        "player_on_name": "Gessime YASSINE"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43872",
+        "id_player_off": "485760",
+        "id_player_on": "505097",
+        "player_off_name": "Ayyoub BOUADDI",
+        "player_on_name": "Samir EL MOURABET"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43872",
+        "id_player_off": "441307",
+        "id_player_on": "433426",
+        "player_off_name": "Azzedine OUNAHI",
+        "player_on_name": "Soufiane RAHIMI"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43872",
+        "id_player_off": "448612",
+        "id_player_on": "494293",
+        "player_off_name": "Bilal EL KHANNOUSS",
+        "player_on_name": "Chemsdine TALBI"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +917,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 2,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021522?language=en",
-  "updated_at_utc": "2026-06-30T01:36:45.199663+00:00",
-  "updated_at_poland": "2026-06-30T03:36:45.199667+02:00"
+  "updated_at_utc": "2026-06-30T05:53:09.065597+00:00",
+  "updated_at_poland": "2026-06-30T07:53:09.065602+02:00"
 }
