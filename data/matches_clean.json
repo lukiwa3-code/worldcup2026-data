@@ -3901,7 +3901,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COD",
       "is_placeholder": false
     },
-    "home_score": 0,
+    "home_score": 2,
     "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -3911,9 +3911,9 @@
       "city": "Atlanta",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43942",
     "placeholder_home": "1L",
     "placeholder_away": "3EHIJK",
     "time_defined": true,
@@ -4482,12 +4482,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "W80",
-      "abbr": "W80",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43942",
+      "name": "England",
+      "abbr": "ENG",
+      "country": "ENG",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
