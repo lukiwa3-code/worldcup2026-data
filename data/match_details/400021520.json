@@ -9,13 +9,13 @@
   "stage": "Round of 32",
   "group": null,
   "match_number": 79,
-  "date_utc": "2026-07-01T01:00:00Z",
-  "date_local": "2026-06-30T19:00:00Z",
-  "date_poland": "2026-07-01T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
-  "winner": null,
+  "date_utc": "2026-07-01T02:00:00Z",
+  "date_local": "2026-06-30T20:00:00Z",
+  "date_poland": "2026-07-01T04:00:00+02:00",
+  "attendance": "80824",
+  "match_time": "99'",
+  "period": 10,
+  "winner": "43911",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Mexico",
     "abbr": "MEX",
     "country": "MEX",
-    "score": null,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MEX",
     "players": [
@@ -382,9 +382,72 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "429157",
+        "minute": "22'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43911"
+      },
+      {
+        "type": 2,
+        "id_player": "356731",
+        "minute": "31'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43911"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "59'",
+        "id_team": "43911",
+        "id_player_off": "500037",
+        "id_player_on": "464533",
+        "player_off_name": "Gilberto MORA",
+        "player_on_name": "Brian GUTIERREZ"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43911",
+        "id_player_off": "356731",
+        "id_player_on": "430759",
+        "player_off_name": "Raul JIMENEZ",
+        "player_on_name": "Santiago GIMENEZ"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43911",
+        "id_player_off": "430763",
+        "id_player_on": "461177",
+        "player_off_name": "Luis ROMO",
+        "player_on_name": "Obed VARGAS"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43911",
+        "id_player_off": "429157",
+        "id_player_on": "372090",
+        "player_off_name": "Julian QUINONES",
+        "player_on_name": "Orbelin PINEDA"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43911",
+        "id_player_off": "403585",
+        "id_player_on": "441261",
+        "player_off_name": "Roberto ALVARADO",
+        "player_on_name": "Israel REYES"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43927",
@@ -392,7 +455,7 @@
     "short_name": "Ecuador",
     "abbr": "ECU",
     "country": "ECU",
-    "score": null,
+    "score": 0,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ECU",
     "players": [
@@ -736,8 +799,87 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "389784",
+        "id_team": "43927",
+        "minute": "45'+1'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "463495",
+        "id_team": "43927",
+        "minute": "90'+3'",
+        "reason": null
+      },
+      {
+        "card": 2,
+        "period": 5,
+        "id_player": "424031",
+        "id_team": "43927",
+        "minute": "90'+5'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "428885",
+        "id_team": "43927",
+        "minute": "90'+9'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43927",
+        "id_player_off": "389784",
+        "id_player_on": "463489",
+        "player_off_name": "Alan FRANCO",
+        "player_on_name": "Yaimar MEDINA"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43927",
+        "id_player_off": "463465",
+        "id_player_on": "402974",
+        "player_off_name": "Joel ORDONEZ",
+        "player_on_name": "Angelo PRECIADO"
+      },
+      {
+        "period": 5,
+        "minute": "59'",
+        "id_team": "43927",
+        "id_player_off": "373400",
+        "id_player_on": "448310",
+        "player_off_name": "Enner VALENCIA",
+        "player_on_name": "Kevin RODRIGUEZ"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43927",
+        "id_player_off": "405920",
+        "id_player_on": "402985",
+        "player_off_name": "John YEBOAH",
+        "player_on_name": "Jordy CAICEDO"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43927",
+        "id_player_off": "448312",
+        "id_player_on": "463495",
+        "player_off_name": "Nilson ANGULO",
+        "player_on_name": "Kendry PAEZ"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +891,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021520?language=en",
-  "updated_at_utc": "2026-07-01T00:15:52.675894+00:00",
-  "updated_at_poland": "2026-07-01T02:15:52.675898+02:00"
+  "updated_at_utc": "2026-07-01T04:56:06.576093+00:00",
+  "updated_at_poland": "2026-07-01T06:56:06.576097+02:00"
 }

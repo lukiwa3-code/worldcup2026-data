@@ -856,6 +856,14 @@
       "short_name": "Jesus VALENZUELA",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "416159",
+      "country": "PAR",
+      "name": "Juan Gabriel Benítez",
+      "short_name": "Juan Gabriel BENITEZ",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -865,6 +873,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021514?language=en",
-  "updated_at_utc": "2026-07-01T00:15:52.234486+00:00",
-  "updated_at_poland": "2026-07-01T02:15:52.234490+02:00"
+  "updated_at_utc": "2026-07-01T04:56:06.122900+00:00",
+  "updated_at_poland": "2026-07-01T06:56:06.122904+02:00"
 }
