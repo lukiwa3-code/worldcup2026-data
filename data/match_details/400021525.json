@@ -12,9 +12,9 @@
   "date_utc": "2026-07-01T20:00:00Z",
   "date_local": "2026-07-01T13:00:00Z",
   "date_poland": "2026-07-01T22:00:00+02:00",
-  "attendance": null,
-  "match_time": "19'",
-  "period": 3,
+  "attendance": "66925",
+  "match_time": "90'+2'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Belgium",
     "abbr": "BEL",
     "country": "BEL",
-    "score": 0,
+    "score": 2,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BEL",
     "players": [
@@ -369,9 +369,89 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "358112",
+        "minute": "86'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43935"
+      },
+      {
+        "type": 2,
+        "id_player": "401444",
+        "minute": "89'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43935"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "448360",
+        "id_team": "43935",
+        "minute": "64'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": null,
+        "id_team": "43935",
+        "minute": "90'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43935",
+        "id_player_off": "448362",
+        "id_player_on": "358112",
+        "player_off_name": "Charles DE KETELAERE",
+        "player_on_name": "Romelu LUKAKU"
+      },
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43935",
+        "id_player_off": "448341",
+        "id_player_on": "448377",
+        "player_off_name": "Jeremy DOKU",
+        "player_on_name": "Dodi LUKEBAKIO"
+      },
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43935",
+        "id_player_off": "358120",
+        "id_player_on": "495349",
+        "player_off_name": "Kevin DE BRUYNE",
+        "player_on_name": "Nicolas RASKIN"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43935",
+        "id_player_off": "448343",
+        "id_player_on": "497902",
+        "player_off_name": "Hans VANAKEN",
+        "player_on_name": "Diego MOREIRA"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43935",
+        "id_player_off": "448373",
+        "id_player_on": "358122",
+        "player_off_name": "Maxim DE CUYPER",
+        "player_on_name": "Thomas MEUNIER"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43879",
@@ -379,7 +459,7 @@
     "short_name": "Senegal",
     "abbr": "SEN",
     "country": "SEN",
-    "score": 0,
+    "score": 2,
     "tactics": "4-3-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SEN",
     "players": [
@@ -709,9 +789,63 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "486130",
+        "minute": "24'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43879"
+      },
+      {
+        "type": 2,
+        "id_player": "401889",
+        "minute": "51'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43879"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "464842",
+        "id_team": "43879",
+        "minute": "67'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43879",
+        "id_player_off": "431788",
+        "id_player_on": "464842",
+        "player_off_name": "Pape GUEYE",
+        "player_on_name": "Lamine CAMARA"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43879",
+        "id_player_off": "448815",
+        "id_player_on": "496358",
+        "player_off_name": "Iliman NDIAYE",
+        "player_on_name": "Ibrahim MBAYE"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43879",
+        "id_player_off": "486130",
+        "id_player_on": "418798",
+        "player_off_name": "Habib DIARRA",
+        "player_on_name": "Pape Matar SARR"
+      }
+    ]
   },
   "officials": [
     {
@@ -730,6 +864,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021525?language=en",
-  "updated_at_utc": "2026-07-01T20:19:59.810089+00:00",
-  "updated_at_poland": "2026-07-01T22:19:59.810093+02:00"
+  "updated_at_utc": "2026-07-01T21:54:35.114851+00:00",
+  "updated_at_poland": "2026-07-01T23:54:35.114855+02:00"
 }

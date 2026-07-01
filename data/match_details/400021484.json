@@ -424,8 +424,8 @@
         "id_team": "43930",
         "id_player_off": "441623",
         "id_player_on": "402898",
-        "player_off_name": "Manuel UGARTE",
-        "player_on_name": "Nicolas DE LA CRUZ"
+        "player_off_name": null,
+        "player_on_name": null
       },
       {
         "period": 4,
@@ -433,8 +433,8 @@
         "id_team": "43930",
         "id_player_off": "229498",
         "id_player_on": "368664",
-        "player_off_name": "Fernando MUSLERA",
-        "player_on_name": "Sergio ROCHET"
+        "player_off_name": null,
+        "player_on_name": null
       },
       {
         "period": 5,
@@ -442,8 +442,8 @@
         "id_team": "43930",
         "id_player_off": "402884",
         "id_player_on": "477536",
-        "player_off_name": "Federico VALVERDE",
-        "player_on_name": "Federico VINAS"
+        "player_off_name": null,
+        "player_on_name": null
       },
       {
         "period": 5,
@@ -451,8 +451,8 @@
         "id_team": "43930",
         "id_player_off": "419134",
         "id_player_on": "419132",
-        "player_off_name": "Juan Manuel SANABRIA",
-        "player_on_name": "Brian RODRIGUEZ"
+        "player_off_name": null,
+        "player_on_name": null
       }
     ]
   },
@@ -832,8 +832,8 @@
         "id_team": "43969",
         "id_player_off": "423646",
         "id_player_on": "430718",
-        "player_off_name": "PEDRI",
-        "player_on_name": "Fabian RUIZ"
+        "player_off_name": null,
+        "player_on_name": null
       },
       {
         "period": 5,
@@ -841,8 +841,8 @@
         "id_team": "43969",
         "id_player_off": "430733",
         "id_player_on": "430750",
-        "player_off_name": "Mikel MERINO",
-        "player_on_name": "Dani OLMO"
+        "player_off_name": null,
+        "player_on_name": null
       },
       {
         "period": 5,
@@ -850,26 +850,26 @@
         "id_team": "43969",
         "id_player_off": "447860",
         "id_player_on": "423658",
-        "player_off_name": "Alex BAENA",
-        "player_on_name": "Yeremy PINO"
+        "player_off_name": null,
+        "player_on_name": null
       },
       {
         "period": 5,
         "minute": "76'",
         "id_team": "43969",
-        "id_player_off": "430751",
-        "id_player_on": "447855",
-        "player_off_name": "Mikel OYARZABAL",
-        "player_on_name": "Nico WILLIAMS"
+        "id_player_off": "405545",
+        "id_player_on": "430751",
+        "player_off_name": null,
+        "player_on_name": null
       },
       {
         "period": 5,
         "minute": "76'",
         "id_team": "43969",
-        "id_player_off": "484320",
-        "id_player_on": "405545",
-        "player_off_name": "Lamine YAMAL",
-        "player_on_name": "Ferran TORRES"
+        "id_player_off": "447855",
+        "id_player_on": "484320",
+        "player_off_name": null,
+        "player_on_name": null
       }
     ]
   },
@@ -890,6 +890,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021484?language=en",
-  "updated_at_utc": "2026-07-01T20:19:54.528786+00:00",
-  "updated_at_poland": "2026-07-01T22:19:54.528790+02:00"
+  "updated_at_utc": "2026-07-01T21:54:29.807516+00:00",
+  "updated_at_poland": "2026-07-01T23:54:29.807519+02:00"
 }
