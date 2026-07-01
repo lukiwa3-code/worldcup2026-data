@@ -13,9 +13,9 @@
   "date_local": "2026-07-01T13:00:00Z",
   "date_poland": "2026-07-01T22:00:00+02:00",
   "attendance": "66925",
-  "match_time": "90'+2'",
-  "period": 5,
-  "winner": null,
+  "match_time": "132'",
+  "period": 10,
+  "winner": "43935",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Belgium",
     "abbr": "BEL",
     "country": "BEL",
-    "score": 2,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BEL",
     "players": [
@@ -385,6 +385,14 @@
         "id_assist_player": null,
         "period": 5,
         "id_team": "43935"
+      },
+      {
+        "type": 1,
+        "id_player": "401444",
+        "minute": "120'+5'",
+        "id_assist_player": null,
+        "period": 9,
+        "id_team": "43935"
       }
     ],
     "bookings": [
@@ -450,6 +458,15 @@
         "id_player_on": "358122",
         "player_off_name": "Maxim DE CUYPER",
         "player_on_name": "Thomas MEUNIER"
+      },
+      {
+        "period": 9,
+        "minute": "109'",
+        "id_team": "43935",
+        "id_player_off": "448355",
+        "id_player_on": "448364",
+        "player_off_name": "Leandro TROSSARD",
+        "player_on_name": "Amadou ONANA"
       }
     ]
   },
@@ -844,6 +861,33 @@
         "id_player_on": "418798",
         "player_off_name": "Habib DIARRA",
         "player_on_name": "Pape Matar SARR"
+      },
+      {
+        "period": 7,
+        "minute": "93'",
+        "id_team": "43879",
+        "id_player_off": "353790",
+        "id_player_on": "418795",
+        "player_off_name": "Sadio MANE",
+        "player_on_name": "Nicolas JACKSON"
+      },
+      {
+        "period": 7,
+        "minute": "93'",
+        "id_team": "43879",
+        "id_player_off": "430671",
+        "id_player_on": "464865",
+        "player_off_name": "Ismail JAKOBS",
+        "player_on_name": "El Hadji Malick DIOUF"
+      },
+      {
+        "period": 7,
+        "minute": "95'",
+        "id_team": "43879",
+        "id_player_off": "332314",
+        "id_player_on": "523354",
+        "player_off_name": "Idrissa Gana GUEYE",
+        "player_on_name": "Bara Sapoko NDIAYE"
       }
     ]
   },
@@ -857,13 +901,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 3,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021525?language=en",
-  "updated_at_utc": "2026-07-01T21:54:35.114851+00:00",
-  "updated_at_poland": "2026-07-01T23:54:35.114855+02:00"
+  "updated_at_utc": "2026-07-01T23:05:21.699902+00:00",
+  "updated_at_poland": "2026-07-02T01:05:21.699907+02:00"
 }

@@ -3999,7 +3999,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SEN",
       "is_placeholder": false
     },
-    "home_score": 2,
+    "home_score": 3,
     "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -4009,9 +4009,9 @@
       "city": "Seattle",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 3,
+    "winner": "43935",
     "placeholder_home": "1G",
     "placeholder_away": "3AEHIJ",
     "time_defined": true,
@@ -4580,12 +4580,12 @@
       "is_placeholder": true
     },
     "away": {
-      "id": null,
-      "name": "W82",
-      "abbr": "W82",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43935",
+      "name": "Belgium",
+      "abbr": "BEL",
+      "country": "BEL",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BEL",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,

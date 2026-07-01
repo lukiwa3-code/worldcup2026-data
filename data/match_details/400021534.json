@@ -28,7 +28,20 @@
   },
   "weather": null,
   "home_team": null,
-  "away_team": null,
+  "away_team": {
+    "id_team": "43935",
+    "name": "Belgium",
+    "short_name": "Belgium",
+    "abbr": "BEL",
+    "country": "BEL",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BEL",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -37,6 +50,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021534?language=en",
-  "updated_at_utc": "2026-07-01T21:54:38.836171+00:00",
-  "updated_at_poland": "2026-07-01T23:54:38.836174+02:00"
+  "updated_at_utc": "2026-07-01T23:05:25.990254+00:00",
+  "updated_at_poland": "2026-07-02T01:05:25.990264+02:00"
 }
