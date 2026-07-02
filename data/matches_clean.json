@@ -4097,7 +4097,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUT",
       "is_placeholder": false
     },
-    "home_score": 2,
+    "home_score": 3,
     "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -4107,9 +4107,9 @@
       "city": "Los Angeles",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43969",
     "placeholder_home": "1H",
     "placeholder_away": "2J",
     "time_defined": true,
@@ -4531,12 +4531,12 @@
       "is_placeholder": true
     },
     "away": {
-      "id": null,
-      "name": "W84",
-      "abbr": "W84",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43969",
+      "name": "Spain",
+      "abbr": "ESP",
+      "country": "ESP",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,

@@ -13,9 +13,9 @@
   "date_local": "2026-07-02T12:00:00Z",
   "date_poland": "2026-07-02T21:00:00+02:00",
   "attendance": "70492",
-  "match_time": "88'",
-  "period": 5,
-  "winner": null,
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43969",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": 2,
+    "score": 3,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -398,6 +398,14 @@
         "id_assist_player": null,
         "period": 5,
         "id_team": "43969"
+      },
+      {
+        "type": 2,
+        "id_player": "430751",
+        "minute": "89'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43969"
       }
     ],
     "bookings": [],
@@ -428,6 +436,24 @@
         "id_player_on": "447866",
         "player_off_name": "Lamine YAMAL",
         "player_on_name": "GAVI"
+      },
+      {
+        "period": 5,
+        "minute": "90'+3'",
+        "id_team": "43969",
+        "id_player_off": "335999",
+        "id_player_on": "484728",
+        "player_off_name": "Aymeric LAPORTE",
+        "player_on_name": "Marc PUBILL"
+      },
+      {
+        "period": 5,
+        "minute": "90'+3'",
+        "id_team": "43969",
+        "id_player_off": "423646",
+        "id_player_on": "430718",
+        "player_off_name": "PEDRI",
+        "player_on_name": "Fabian RUIZ"
       }
     ]
   },
@@ -849,13 +875,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021519?language=en",
-  "updated_at_utc": "2026-07-02T20:50:08.104359+00:00",
-  "updated_at_poland": "2026-07-02T22:50:08.104363+02:00"
+  "updated_at_utc": "2026-07-02T21:54:28.150964+00:00",
+  "updated_at_poland": "2026-07-02T23:54:28.150969+02:00"
 }
