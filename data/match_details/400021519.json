@@ -12,9 +12,9 @@
   "date_utc": "2026-07-02T19:00:00Z",
   "date_local": "2026-07-02T12:00:00Z",
   "date_poland": "2026-07-02T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
+  "attendance": "70492",
+  "match_time": "88'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": 1,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -390,10 +390,46 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43969"
+      },
+      {
+        "type": 2,
+        "id_player": "430144",
+        "minute": "66'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43969"
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43969",
+        "id_player_off": "447860",
+        "id_player_on": "405545",
+        "player_off_name": "Alex BAENA",
+        "player_on_name": "Ferran TORRES"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43969",
+        "id_player_off": "430750",
+        "id_player_on": "430733",
+        "player_off_name": "Dani OLMO",
+        "player_on_name": "Mikel MERINO"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43969",
+        "id_player_off": "484320",
+        "id_player_on": "447866",
+        "player_off_name": "Lamine YAMAL",
+        "player_on_name": "GAVI"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43934",
@@ -745,8 +781,63 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "441067",
+        "id_team": "43934",
+        "minute": "83'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43934",
+        "id_player_off": "385531",
+        "id_player_on": "385248",
+        "player_off_name": "Xaver Schlager",
+        "player_on_name": "Florian GRILLITSCH"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43934",
+        "id_player_off": "441088",
+        "id_player_on": "463800",
+        "player_off_name": "Nicolas SEIWALD",
+        "player_on_name": "Carney CHUKWUEMEKA"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43934",
+        "id_player_off": "401131",
+        "id_player_on": "299200",
+        "player_off_name": "Michael Gregoritsch",
+        "player_on_name": "Marko ARNAUTOVIC"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43934",
+        "id_player_off": "463283",
+        "id_player_on": "430100",
+        "player_off_name": "Romano SCHMID",
+        "player_on_name": "Sasa KALAJDZIC"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43934",
+        "id_player_off": "441067",
+        "id_player_on": "463282",
+        "player_off_name": "Stefan POSCH",
+        "player_on_name": "Alexander PRASS"
+      }
+    ]
   },
   "officials": [
     {
@@ -765,6 +856,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021519?language=en",
-  "updated_at_utc": "2026-07-02T19:52:52.573359+00:00",
-  "updated_at_poland": "2026-07-02T21:52:52.573363+02:00"
+  "updated_at_utc": "2026-07-02T20:50:08.104359+00:00",
+  "updated_at_poland": "2026-07-02T22:50:08.104363+02:00"
 }
