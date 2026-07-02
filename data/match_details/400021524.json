@@ -12,10 +12,10 @@
   "date_utc": "2026-07-02T00:00:00Z",
   "date_local": "2026-07-01T17:00:00Z",
   "date_poland": "2026-07-02T02:00:00+02:00",
-  "attendance": null,
-  "match_time": "18'",
-  "period": 3,
-  "winner": null,
+  "attendance": "68827",
+  "match_time": "101'",
+  "period": 10,
+  "winner": "43921",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "USA",
     "abbr": "USA",
     "country": "USA",
-    "score": 0,
+    "score": 2,
     "tactics": "3-5-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/USA",
     "players": [
@@ -356,9 +356,63 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "466624",
+        "minute": "45'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43921"
+      },
+      {
+        "type": 2,
+        "id_player": "448214",
+        "minute": "82'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43921"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 2,
+        "period": 5,
+        "id_player": "466624",
+        "id_team": "43921",
+        "minute": "64'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43921",
+        "id_player_off": "406280",
+        "id_player_on": "499912",
+        "player_off_name": "Sergino DEST",
+        "player_on_name": "Sebastian BERHALTER"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43921",
+        "id_player_off": "390267",
+        "id_player_on": "419082",
+        "player_off_name": "Christian PULISIC",
+        "player_on_name": "Ricardo PEPI"
+      },
+      {
+        "period": 5,
+        "minute": "90'+5'",
+        "id_team": "43921",
+        "id_player_off": "390259",
+        "id_player_on": "419068",
+        "player_off_name": "Weston McKENNIE",
+        "player_on_name": "Giovanni REYNA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "44037",
@@ -710,8 +764,71 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": null,
+        "id_team": "44037",
+        "minute": "80'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "489521",
+        "id_team": "44037",
+        "minute": "80'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "51'",
+        "id_team": "44037",
+        "id_player_off": "300409",
+        "id_player_on": "522846",
+        "player_off_name": "Edin DZEKO",
+        "player_on_name": "Ermin MAHMIC"
+      },
+      {
+        "period": 5,
+        "minute": "51'",
+        "id_team": "44037",
+        "id_player_off": "489523",
+        "id_player_on": "464566",
+        "player_off_name": "Armin GIGOVIC",
+        "player_on_name": "Esmir BAJRAKTAREVIC"
+      },
+      {
+        "period": 5,
+        "minute": "51'",
+        "id_team": "44037",
+        "id_player_off": "372436",
+        "id_player_on": "483966",
+        "player_off_name": "Ivan SUNJIC",
+        "player_on_name": "Benjamin TAHIROVIC"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "44037",
+        "id_player_off": "489520",
+        "id_player_on": "494640",
+        "player_off_name": "Nikola KATIC",
+        "player_on_name": "Amar MEMIC"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "44037",
+        "id_player_off": "376230",
+        "id_player_on": "482984",
+        "player_off_name": "Sead KOLASINAC",
+        "player_on_name": "Haris TABAKOVIC"
+      }
+    ]
   },
   "officials": [
     {
@@ -723,13 +840,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021524?language=en",
-  "updated_at_utc": "2026-07-02T00:18:21.762075+00:00",
-  "updated_at_poland": "2026-07-02T02:18:21.762101+02:00"
+  "updated_at_utc": "2026-07-02T04:34:18.449109+00:00",
+  "updated_at_poland": "2026-07-02T06:34:18.449113+02:00"
 }
