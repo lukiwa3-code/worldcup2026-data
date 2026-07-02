@@ -838,6 +838,14 @@
       "short_name": "Raphael CLAUS",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "383174",
+      "country": "ARG",
+      "name": "Darío Herrera",
+      "short_name": "Dario HERRERA",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -847,6 +855,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021524?language=en",
-  "updated_at_utc": "2026-07-02T04:34:18.449109+00:00",
-  "updated_at_poland": "2026-07-02T06:34:18.449113+02:00"
+  "updated_at_utc": "2026-07-02T07:52:46.525785+00:00",
+  "updated_at_poland": "2026-07-02T09:52:46.525789+02:00"
 }
