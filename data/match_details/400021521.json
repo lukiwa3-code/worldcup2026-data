@@ -13,8 +13,8 @@
   "date_local": "2026-07-03T18:00:00Z",
   "date_poland": "2026-07-04T00:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "29'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Argentina",
     "abbr": "ARG",
     "country": "ARG",
-    "score": null,
-    "tactics": "4-1-2-3",
+    "score": 1,
+    "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
     "players": [
       {
@@ -382,7 +382,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "229397",
+        "minute": "29'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43922"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -392,7 +401,7 @@
     "short_name": "Cabo Verde",
     "abbr": "CPV",
     "country": "CPV",
-    "score": null,
+    "score": 0,
     "tactics": "4-1-4-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CPV",
     "players": [
@@ -749,13 +758,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021521?language=en",
-  "updated_at_utc": "2026-07-03T21:22:23.613019+00:00",
-  "updated_at_poland": "2026-07-03T23:22:23.613024+02:00"
+  "updated_at_utc": "2026-07-03T22:30:12.277916+00:00",
+  "updated_at_poland": "2026-07-04T00:30:12.277920+02:00"
 }
