@@ -12,10 +12,10 @@
   "date_utc": "2026-07-03T03:00:00Z",
   "date_local": "2026-07-02T20:00:00Z",
   "date_poland": "2026-07-03T05:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "52497",
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43971",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Switzerland",
     "abbr": "SUI",
     "country": "SUI",
-    "score": 1,
+    "score": 2,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
     "players": [
@@ -377,10 +377,64 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43971"
+      },
+      {
+        "type": 2,
+        "id_player": "448114",
+        "minute": "46'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43971"
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43971",
+        "id_player_off": "448131",
+        "id_player_on": "448103",
+        "player_off_name": "Ruben VARGAS",
+        "player_on_name": "Fabian RIEDER"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43971",
+        "id_player_off": "502727",
+        "id_player_on": "448127",
+        "player_off_name": "Johan MANZAMBI",
+        "player_on_name": "Noah OKAFOR"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43971",
+        "id_player_off": "393480",
+        "id_player_on": "448112",
+        "player_off_name": "Breel EMBOLO",
+        "player_on_name": "Zeki AMDOUNI"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43971",
+        "id_player_off": "448114",
+        "id_player_on": "433147",
+        "player_off_name": "Dan NDOYE",
+        "player_on_name": "Michel AEBISCHER"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43971",
+        "id_player_off": "401448",
+        "id_player_on": "356412",
+        "player_off_name": "Denis ZAKARIA",
+        "player_on_name": "Silvan WIDMER"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43843",
@@ -714,27 +768,81 @@
         "id_team": "43843",
         "minute": "36'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "441350",
+        "id_team": "43843",
+        "minute": "72'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43843",
+        "id_player_off": "430698",
+        "id_player_on": "482869",
+        "player_off_name": "Houssem Aouar",
+        "player_on_name": "Jaouen HADJAM"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43843",
+        "id_player_off": "433679",
+        "id_player_on": "405877",
+        "player_off_name": "Ramiz ZERROUKI",
+        "player_on_name": "Amine GOUIRI"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43843",
+        "id_player_off": "379939",
+        "id_player_on": "441350",
+        "player_off_name": "Nabil Bentaleb",
+        "player_on_name": "Hicham BOUDAOUI"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43843",
+        "id_player_off": "379942",
+        "id_player_on": "482874",
+        "player_off_name": "Riyad Mahrez",
+        "player_on_name": "Anis HADJ MOUSSA"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43843",
+        "id_player_off": "511009",
+        "id_player_on": "512132",
+        "player_off_name": "Rafik BELGHALI",
+        "player_on_name": "Adil BOULBINA"
+      }
+    ]
   },
   "officials": [
     {
       "id": "434995",
       "country": "ARG",
       "name": "Yael Falcón Pérez",
-      "short_name": "Y. Falcón",
+      "short_name": "Yael FALCON PEREZ",
       "type": "Referee",
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021527?language=en",
-  "updated_at_utc": "2026-07-03T04:05:26.223685+00:00",
-  "updated_at_poland": "2026-07-03T06:05:26.223691+02:00"
+  "updated_at_utc": "2026-07-03T07:33:01.334529+00:00",
+  "updated_at_poland": "2026-07-03T09:33:01.334535+02:00"
 }

@@ -4146,7 +4146,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ALG",
       "is_placeholder": false
     },
-    "home_score": 1,
+    "home_score": 2,
     "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -4156,9 +4156,9 @@
       "city": "Vancouver",
       "country": "CAN"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43971",
     "placeholder_home": "1B",
     "placeholder_away": "3EFGIJ",
     "time_defined": true,
@@ -4670,12 +4670,12 @@
     "date_local": "2026-07-07T13:00:00Z",
     "date_poland": "2026-07-07T22:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "W85",
-      "abbr": "W85",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43971",
+      "name": "Switzerland",
+      "abbr": "SUI",
+      "country": "SUI",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
