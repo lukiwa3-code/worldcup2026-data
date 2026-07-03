@@ -4295,17 +4295,17 @@
     },
     "home_score": 1,
     "away_score": 1,
-    "home_penalty_score": null,
-    "away_penalty_score": null,
+    "home_penalty_score": 2,
+    "away_penalty_score": 4,
     "stadium": {
       "id": "400257526",
       "name": "Dallas Stadium",
       "city": "Dallas",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 2,
+    "winner": "43855",
     "placeholder_home": "2D",
     "placeholder_away": "2G",
     "time_defined": true,
@@ -4629,12 +4629,12 @@
       "is_placeholder": true
     },
     "away": {
-      "id": null,
-      "name": "W88",
-      "abbr": "W88",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43855",
+      "name": "Egypt",
+      "abbr": "EGY",
+      "country": "EGY",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/EGY",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
