@@ -4293,7 +4293,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/EGY",
       "is_placeholder": false
     },
-    "home_score": 0,
+    "home_score": 1,
     "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,

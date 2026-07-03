@@ -12,9 +12,9 @@
   "date_utc": "2026-07-03T18:00:00Z",
   "date_local": "2026-07-03T13:00:00Z",
   "date_poland": "2026-07-03T20:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
+  "attendance": "70244",
+  "match_time": "96'",
+  "period": 7,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Australia",
     "abbr": "AUS",
     "country": "AUS",
-    "score": 0,
+    "score": 1,
     "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/AUS",
     "players": [
@@ -356,9 +356,64 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 3,
+        "id_player": "408950",
+        "minute": "55'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43976"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43976",
+        "id_player_off": "423522",
+        "id_player_on": "494411",
+        "player_off_name": "Jordan BOS",
+        "player_on_name": "Kai TREWIN"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43976",
+        "id_player_off": "448015",
+        "id_player_on": "404319",
+        "player_off_name": "Cristian VOLPATO",
+        "player_on_name": "Ajdin HRUSTIC"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43976",
+        "id_player_off": "486306",
+        "id_player_on": "498806",
+        "player_off_name": "Nestory IRANKUNDA",
+        "player_on_name": "Mohamed TOURE"
+      },
+      {
+        "period": 17,
+        "minute": "",
+        "id_team": "43976",
+        "id_player_off": "430452",
+        "id_player_on": "406606",
+        "player_off_name": "Connor METCALFE",
+        "player_on_name": "Awer MABIL"
+      },
+      {
+        "period": 17,
+        "minute": "",
+        "id_team": "43976",
+        "id_player_off": "430440",
+        "id_player_on": "498421",
+        "player_off_name": "Aiden ONEILL",
+        "player_on_name": "Paul OKON-ENGSTLER"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43855",
@@ -680,8 +735,45 @@
         "id_team": "43855"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 7,
+        "id_player": null,
+        "id_team": "43855",
+        "minute": "91'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43855",
+        "id_player_off": "483161",
+        "id_player_on": "424106",
+        "player_off_name": "MOSTAFA ZICO",
+        "player_on_name": "Haissem HASSAN"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43855",
+        "id_player_off": "429095",
+        "id_player_on": "483182",
+        "player_off_name": "HAMDY FATHY",
+        "player_on_name": "HOSSAM ABDELMAGUID"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43855",
+        "id_player_off": "407022",
+        "id_player_on": "363863",
+        "player_off_name": "KARIM HAFEZ",
+        "player_on_name": "TREZEGUET"
+      }
+    ]
   },
   "officials": [
     {
@@ -700,6 +792,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021515?language=en",
-  "updated_at_utc": "2026-07-03T18:53:13.244329+00:00",
-  "updated_at_poland": "2026-07-03T20:53:13.244334+02:00"
+  "updated_at_utc": "2026-07-03T20:09:34.296122+00:00",
+  "updated_at_poland": "2026-07-03T22:09:34.296127+02:00"
 }
