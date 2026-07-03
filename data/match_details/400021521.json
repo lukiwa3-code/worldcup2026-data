@@ -12,9 +12,9 @@
   "date_utc": "2026-07-03T22:00:00Z",
   "date_local": "2026-07-03T18:00:00Z",
   "date_poland": "2026-07-04T00:00:00+02:00",
-  "attendance": null,
-  "match_time": "29'",
-  "period": 3,
+  "attendance": "64478",
+  "match_time": "76'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -393,7 +393,26 @@
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43922",
+        "id_player_off": "418975",
+        "id_player_on": "430631",
+        "player_off_name": "Thiago ALMADA",
+        "player_on_name": "Nico GONZALEZ"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43922",
+        "id_player_off": "402920",
+        "id_player_on": "416081",
+        "player_off_name": "Lautaro MARTINEZ",
+        "player_on_name": "Julian ALVAREZ"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43850",
@@ -401,7 +420,7 @@
     "short_name": "Cabo Verde",
     "abbr": "CPV",
     "country": "CPV",
-    "score": 0,
+    "score": 1,
     "tactics": "4-1-4-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CPV",
     "players": [
@@ -744,9 +763,46 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "477827",
+        "minute": "59'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43850"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "477852",
+        "id_team": "43850",
+        "minute": "68'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43850",
+        "id_player_off": "401893",
+        "id_player_on": "482782",
+        "player_off_name": "NUNO DA COSTA",
+        "player_on_name": "DAILON LIVRAMENTO"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43850",
+        "id_player_off": "480966",
+        "id_player_on": "401894",
+        "player_off_name": "LAROS DUARTE",
+        "player_on_name": "JAMIRO MONTEIRO"
+      }
+    ]
   },
   "officials": [
     {
@@ -765,6 +821,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021521?language=en",
-  "updated_at_utc": "2026-07-03T22:30:12.277916+00:00",
-  "updated_at_poland": "2026-07-04T00:30:12.277920+02:00"
+  "updated_at_utc": "2026-07-03T23:37:20.353346+00:00",
+  "updated_at_poland": "2026-07-04T01:37:20.353351+02:00"
 }
