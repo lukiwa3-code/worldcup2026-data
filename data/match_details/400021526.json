@@ -12,10 +12,10 @@
   "date_utc": "2026-07-02T23:00:00Z",
   "date_local": "2026-07-02T19:00:00Z",
   "date_poland": "2026-07-03T01:00:00+02:00",
-  "attendance": null,
-  "match_time": "48'",
-  "period": 5,
-  "winner": null,
+  "attendance": "43036",
+  "match_time": "109'",
+  "period": 10,
+  "winner": "43963",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Portugal",
     "abbr": "POR",
     "country": "POR",
-    "score": 0,
+    "score": 2,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/POR",
     "players": [
@@ -382,7 +382,24 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 1,
+        "id_player": "201200",
+        "minute": "68'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43963"
+      },
+      {
+        "type": 2,
+        "id_player": "448081",
+        "minute": "90'+4'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43963"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -393,7 +410,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43963",
+        "id_player_off": "418548",
+        "id_player_on": "485081",
+        "player_off_name": "PEDRO NETO",
+        "player_on_name": "FRANCISCO CONCEICAO"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43963",
+        "id_player_off": "441149",
+        "id_player_on": "395205",
+        "player_off_name": "VITINHA",
+        "player_on_name": "BERNARDO SILVA"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43963",
+        "id_player_off": "395206",
+        "id_player_on": "395212",
+        "player_off_name": "BRUNO FERNANDES",
+        "player_on_name": "NELSON SEMEDO"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43963",
+        "id_player_off": "368649",
+        "id_player_on": "448081",
+        "player_off_name": "JOAO CANCELO",
+        "player_on_name": "GONCALO RAMOS"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43963",
+        "id_player_off": "201200",
+        "id_player_on": "395216",
+        "player_off_name": "CRISTIANO RONALDO",
+        "player_on_name": "RUBEN NEVES"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43938",
@@ -401,7 +464,7 @@
     "short_name": "Croatia",
     "abbr": "CRO",
     "country": "CRO",
-    "score": 0,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CRO",
     "players": [
@@ -744,8 +807,34 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "359381",
+        "minute": "53'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43938"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "241559",
+        "id_team": "43938",
+        "minute": "59'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "359381",
+        "id_team": "43938",
+        "minute": "90'+8'",
+        "reason": null
+      }
+    ],
     "substitutions": [
       {
         "period": 4,
@@ -755,6 +844,33 @@
         "id_player_on": "485068",
         "player_off_name": "Ante BUDIMIR",
         "player_on_name": "Igor MATANOVIC"
+      },
+      {
+        "period": 5,
+        "minute": "68'",
+        "id_team": "43938",
+        "id_player_off": "482774",
+        "id_player_on": "380005",
+        "player_off_name": "Martin BATURINA",
+        "player_on_name": "Mario PASALIC"
+      },
+      {
+        "period": 5,
+        "minute": "90'+2'",
+        "id_team": "43938",
+        "id_player_off": "409191",
+        "id_player_on": "448180",
+        "player_off_name": "Nikola VLASIC",
+        "player_on_name": "Josko GVARDIOL"
+      },
+      {
+        "period": 5,
+        "minute": "90'+6'",
+        "id_team": "43938",
+        "id_player_off": "339987",
+        "id_player_on": "336472",
+        "player_off_name": "Mateo KOVACIC",
+        "player_on_name": "Andrej KRAMARIC"
       }
     ]
   },
@@ -763,18 +879,18 @@
       "id": "400227",
       "country": "NOR",
       "name": "Espen Eskås",
-      "short_name": "Espen ESKAS",
+      "short_name": "E. Eskås",
       "type": "Referee",
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021526?language=en",
-  "updated_at_utc": "2026-07-03T00:08:14.275895+00:00",
-  "updated_at_poland": "2026-07-03T02:08:14.275900+02:00"
+  "updated_at_utc": "2026-07-03T04:05:25.905606+00:00",
+  "updated_at_poland": "2026-07-03T06:05:25.905635+02:00"
 }

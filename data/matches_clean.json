@@ -4048,8 +4048,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CRO",
       "is_placeholder": false
     },
-    "home_score": 0,
-    "away_score": 0,
+    "home_score": 2,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -4058,9 +4058,9 @@
       "city": "Toronto",
       "country": "CAN"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43963",
     "placeholder_home": "2K",
     "placeholder_away": "2L",
     "time_defined": true,
@@ -4146,8 +4146,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ALG",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -4156,7 +4156,7 @@
       "city": "Vancouver",
       "country": "CAN"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "1B",
@@ -4523,12 +4523,12 @@
     "date_local": "2026-07-06T14:00:00Z",
     "date_poland": "2026-07-06T21:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "W83",
-      "abbr": "W83",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43963",
+      "name": "Portugal",
+      "abbr": "POR",
+      "country": "POR",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/POR",
+      "is_placeholder": false
     },
     "away": {
       "id": "43969",
