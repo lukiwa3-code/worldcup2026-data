@@ -13,9 +13,9 @@
   "date_local": "2026-07-04T17:00:00Z",
   "date_poland": "2026-07-04T23:00:00+02:00",
   "attendance": "68324",
-  "match_time": "73'",
-  "period": 5,
-  "winner": null,
+  "match_time": "101'",
+  "period": 10,
+  "winner": "43946",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -383,7 +383,16 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 10,
+        "id_player": null,
+        "id_team": "43928",
+        "minute": "90'",
+        "reason": null
+      }
+    ],
     "substitutions": [
       {
         "period": 5,
@@ -790,6 +799,22 @@
         "id_team": "43946",
         "minute": "19'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "485677",
+        "id_team": "43946",
+        "minute": "81'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "485655",
+        "id_team": "43946",
+        "minute": "90'+7'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -801,6 +826,15 @@
         "id_player_on": "464114",
         "player_off_name": "Bradley BARCOLA",
         "player_on_name": "Desire DOUE"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43946",
+        "id_player_off": "398680",
+        "id_player_on": "431861",
+        "player_off_name": "Ousmane DEMBELE",
+        "player_on_name": "Rayan CHERKI"
       }
     ]
   },
@@ -814,13 +848,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021533?language=en",
-  "updated_at_utc": "2026-07-04T22:37:27.609026+00:00",
-  "updated_at_poland": "2026-07-05T00:37:27.609031+02:00"
+  "updated_at_utc": "2026-07-04T23:40:43.104629+00:00",
+  "updated_at_poland": "2026-07-05T01:40:43.104640+02:00"
 }
