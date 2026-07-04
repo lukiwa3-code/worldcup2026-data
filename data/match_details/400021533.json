@@ -12,9 +12,9 @@
   "date_utc": "2026-07-04T21:00:00Z",
   "date_local": "2026-07-04T17:00:00Z",
   "date_poland": "2026-07-04T23:00:00+02:00",
-  "attendance": null,
-  "match_time": "34'",
-  "period": 3,
+  "attendance": "68324",
+  "match_time": "73'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -384,7 +384,44 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43928",
+        "id_player_off": "431202",
+        "id_player_on": "520066",
+        "player_off_name": "Omar ALDERETE",
+        "player_on_name": "Jose CANALE"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43928",
+        "id_player_off": "441234",
+        "id_player_on": "485804",
+        "player_off_name": "Julio ENCISO",
+        "player_on_name": "Gustavo CABALLERO"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43928",
+        "id_player_off": "369761",
+        "id_player_on": "463127",
+        "player_off_name": "Miguel ALMIRON",
+        "player_on_name": "Gabriel AVALOS"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43928",
+        "id_player_off": "463128",
+        "id_player_on": "495046",
+        "player_off_name": "Diego GOMEZ",
+        "player_on_name": "MAURICIO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43946",
@@ -392,7 +429,7 @@
     "short_name": "France",
     "abbr": "FRA",
     "country": "FRA",
-    "score": 0,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
     "players": [
@@ -735,7 +772,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 1,
+        "id_player": "389867",
+        "minute": "70'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -746,7 +792,17 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43946",
+        "id_player_off": "484860",
+        "id_player_on": "464114",
+        "player_off_name": "Bradley BARCOLA",
+        "player_on_name": "Desire DOUE"
+      }
+    ]
   },
   "officials": [
     {
@@ -765,6 +821,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021533?language=en",
-  "updated_at_utc": "2026-07-04T21:38:41.922753+00:00",
-  "updated_at_poland": "2026-07-04T23:38:41.922757+02:00"
+  "updated_at_utc": "2026-07-04T22:37:27.609026+00:00",
+  "updated_at_poland": "2026-07-05T00:37:27.609031+02:00"
 }
