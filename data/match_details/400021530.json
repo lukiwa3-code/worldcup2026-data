@@ -13,8 +13,8 @@
   "date_local": "2026-07-04T12:00:00Z",
   "date_poland": "2026-07-04T19:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "30'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Canada",
     "abbr": "CAN",
     "country": "CAN",
-    "score": null,
+    "score": 0,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CAN",
     "players": [
@@ -379,7 +379,7 @@
     "short_name": "Morocco",
     "abbr": "MAR",
     "country": "MAR",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
     "players": [
@@ -723,8 +723,27 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "485767",
+        "id_team": "43872",
+        "minute": "20'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "22'",
+        "id_team": "43872",
+        "id_player_off": "448598",
+        "id_player_on": "433426",
+        "player_off_name": "Ismael SAIBARI",
+        "player_on_name": "Soufiane RAHIMI"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +755,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021530?language=en",
-  "updated_at_utc": "2026-07-04T16:18:02.367872+00:00",
-  "updated_at_poland": "2026-07-04T18:18:02.367875+02:00"
+  "updated_at_utc": "2026-07-04T17:31:16.562413+00:00",
+  "updated_at_poland": "2026-07-04T19:31:16.562419+02:00"
 }
