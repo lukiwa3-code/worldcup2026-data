@@ -13,9 +13,9 @@
   "date_local": "2026-07-03T18:00:00Z",
   "date_poland": "2026-07-04T00:00:00+02:00",
   "attendance": "64478",
-  "match_time": "76'",
-  "period": 5,
-  "winner": null,
+  "match_time": "124'",
+  "period": 10,
+  "winner": "43922",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Argentina",
     "abbr": "ARG",
     "country": "ARG",
-    "score": 1,
+    "score": 3,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
     "players": [
@@ -390,9 +390,34 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43922"
+      },
+      {
+        "type": 2,
+        "id_player": "402921",
+        "minute": "92'",
+        "id_assist_player": null,
+        "period": 7,
+        "id_team": "43922"
+      },
+      {
+        "type": 3,
+        "id_player": "409241",
+        "minute": "111'",
+        "id_assist_player": null,
+        "period": 9,
+        "id_team": "43922"
       }
     ],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 9,
+        "id_player": "402926",
+        "id_team": "43922",
+        "minute": "115'",
+        "reason": null
+      }
+    ],
     "substitutions": [
       {
         "period": 5,
@@ -411,6 +436,33 @@
         "id_player_on": "416081",
         "player_off_name": "Lautaro MARTINEZ",
         "player_on_name": "Julian ALVAREZ"
+      },
+      {
+        "period": 5,
+        "minute": "84'",
+        "id_team": "43922",
+        "id_player_off": "428882",
+        "id_player_on": "332847",
+        "player_off_name": "Rodrigo DE PAUL",
+        "player_on_name": "Leandro PAREDES"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43922",
+        "id_player_off": "418963",
+        "id_player_on": "308322",
+        "player_off_name": "Facundo MEDINA",
+        "player_on_name": "Nicolas TAGLIAFICO"
+      },
+      {
+        "period": 7,
+        "minute": "104'",
+        "id_team": "43922",
+        "id_player_off": "402925",
+        "id_player_on": "402926",
+        "player_off_name": "Nahuel MOLINA",
+        "player_on_name": "Gonzalo MONTIEL"
       }
     ]
   },
@@ -420,7 +472,7 @@
     "short_name": "Cabo Verde",
     "abbr": "CPV",
     "country": "CPV",
-    "score": 1,
+    "score": 2,
     "tactics": "4-1-4-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/CPV",
     "players": [
@@ -771,6 +823,14 @@
         "id_assist_player": null,
         "period": 5,
         "id_team": "43850"
+      },
+      {
+        "type": 2,
+        "id_player": "477832",
+        "minute": "103'",
+        "id_assist_player": null,
+        "period": 7,
+        "id_team": "43850"
       }
     ],
     "bookings": [
@@ -801,6 +861,42 @@
         "id_player_on": "401894",
         "player_off_name": "LAROS DUARTE",
         "player_on_name": "JAMIRO MONTEIRO"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43850",
+        "id_player_off": "477856",
+        "id_player_on": "477849",
+        "player_off_name": "JOVANE CABRAL",
+        "player_on_name": "HELIO VARELA"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43850",
+        "id_player_off": "355642",
+        "id_player_on": "433724",
+        "player_off_name": "RYAN MENDES",
+        "player_on_name": "WILLY SEMEDO"
+      },
+      {
+        "period": 7,
+        "minute": "100'",
+        "id_team": "43850",
+        "id_player_off": "477852",
+        "id_player_on": "477862",
+        "player_off_name": "KEVIN PINA",
+        "player_on_name": "GILSON BENCHIMOL"
+      },
+      {
+        "period": 7,
+        "minute": "100'",
+        "id_team": "43850",
+        "id_player_off": "477827",
+        "id_player_on": "494313",
+        "player_off_name": "DEROY DUARTE",
+        "player_on_name": "YANNICK SEMEDO"
       }
     ]
   },
@@ -814,13 +910,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 3,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021521?language=en",
-  "updated_at_utc": "2026-07-03T23:37:20.353346+00:00",
-  "updated_at_poland": "2026-07-04T01:37:20.353351+02:00"
+  "updated_at_utc": "2026-07-04T01:13:27.294898+00:00",
+  "updated_at_poland": "2026-07-04T03:13:27.294904+02:00"
 }
