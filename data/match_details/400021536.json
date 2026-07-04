@@ -28,7 +28,20 @@
   },
   "weather": null,
   "home_team": null,
-  "away_team": null,
+  "away_team": {
+    "id_team": "43872",
+    "name": "Morocco",
+    "short_name": "Morocco",
+    "abbr": "MAR",
+    "country": "MAR",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -37,6 +50,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021536?language=en",
-  "updated_at_utc": "2026-07-04T18:35:11.973082+00:00",
-  "updated_at_poland": "2026-07-04T20:35:11.973086+02:00"
+  "updated_at_utc": "2026-07-04T19:49:14.836909+00:00",
+  "updated_at_poland": "2026-07-04T21:49:14.836913+02:00"
 }

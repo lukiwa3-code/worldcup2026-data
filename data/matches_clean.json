@@ -4392,7 +4392,7 @@
       "is_placeholder": false
     },
     "home_score": 0,
-    "away_score": 1,
+    "away_score": 3,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -4401,9 +4401,9 @@
       "city": "Houston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43872",
     "placeholder_home": "W73",
     "placeholder_away": "W75",
     "time_defined": true,
@@ -4727,12 +4727,12 @@
       "is_placeholder": true
     },
     "away": {
-      "id": null,
-      "name": "W90",
-      "abbr": "W90",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43872",
+      "name": "Morocco",
+      "abbr": "MAR",
+      "country": "MAR",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,

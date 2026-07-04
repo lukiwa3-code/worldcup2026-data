@@ -13,9 +13,9 @@
   "date_local": "2026-07-04T12:00:00Z",
   "date_poland": "2026-07-04T19:00:00+02:00",
   "attendance": "68777",
-  "match_time": "71'",
-  "period": 5,
-  "winner": null,
+  "match_time": "100'",
+  "period": 10,
+  "winner": "43872",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -413,6 +413,42 @@
         "id_player_on": "390670",
         "player_off_name": "Tani OLUWASEYI",
         "player_on_name": "Cyle LARIN"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43899",
+        "id_player_off": "466687",
+        "id_player_on": "493970",
+        "player_off_name": "Ali AHMED",
+        "player_on_name": "Promise DAVID"
+      },
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43899",
+        "id_player_off": "431696",
+        "id_player_on": "448411",
+        "player_off_name": "Richie LARYEA",
+        "player_on_name": "Jacob SHAFFELBURG"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43899",
+        "id_player_off": "430138",
+        "id_player_on": "423933",
+        "player_off_name": "Tajon BUCHANAN",
+        "player_on_name": "Jayden Nelson"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43899",
+        "id_player_off": "485064",
+        "id_player_on": "370986",
+        "player_off_name": "Niko SIGUR",
+        "player_on_name": "Jonathan OSORIO"
       }
     ]
   },
@@ -422,7 +458,7 @@
     "short_name": "Morocco",
     "abbr": "MAR",
     "country": "MAR",
-    "score": 1,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MAR",
     "players": [
@@ -773,6 +809,22 @@
         "id_assist_player": null,
         "period": 5,
         "id_team": "43872"
+      },
+      {
+        "type": 2,
+        "id_player": "441307",
+        "minute": "82'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43872"
+      },
+      {
+        "type": 2,
+        "id_player": "433426",
+        "minute": "90'+8'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43872"
       }
     ],
     "bookings": [
@@ -836,6 +888,24 @@
         "id_player_on": "494293",
         "player_off_name": "Bilal EL KHANNOUSS",
         "player_on_name": "Chemsdine TALBI"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43872",
+        "id_player_off": "403083",
+        "id_player_on": "395760",
+        "player_off_name": "Issa Diop",
+        "player_on_name": "Marwane SAADANE"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43872",
+        "id_player_off": "441307",
+        "id_player_on": "505097",
+        "player_off_name": "Azzedine OUNAHI",
+        "player_on_name": "Samir EL MOURABET"
       }
     ]
   },
@@ -849,13 +919,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021530?language=en",
-  "updated_at_utc": "2026-07-04T18:35:09.422565+00:00",
-  "updated_at_poland": "2026-07-04T20:35:09.422568+02:00"
+  "updated_at_utc": "2026-07-04T19:49:12.419358+00:00",
+  "updated_at_poland": "2026-07-04T21:49:12.419364+02:00"
 }
