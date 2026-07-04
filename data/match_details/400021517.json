@@ -12,10 +12,10 @@
   "date_utc": "2026-07-04T01:30:00Z",
   "date_local": "2026-07-03T20:30:00Z",
   "date_poland": "2026-07-04T03:30:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
-  "winner": null,
+  "attendance": "69045",
+  "match_time": "98'",
+  "period": 10,
+  "winner": "43926",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Colombia",
     "abbr": "COL",
     "country": "COL",
-    "score": null,
+    "score": 1,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COL",
     "players": [
@@ -382,9 +382,72 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "470760",
+        "minute": "14'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43926"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "470760",
+        "id_team": "43926",
+        "minute": "12'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "473050",
+        "id_team": "43926",
+        "minute": "78'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "8'",
+        "id_team": "43926",
+        "id_player_off": "369530",
+        "id_player_on": "428905",
+        "player_off_name": "Jhon CORDOBA",
+        "player_on_name": "Luis SUAREZ"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43926",
+        "id_player_off": "269058",
+        "id_player_on": "473050",
+        "player_off_name": "James RODRIGUEZ",
+        "player_on_name": "Richard RIOS"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43926",
+        "id_player_off": "470760",
+        "id_player_on": "356704",
+        "player_off_name": "Jhon ARIAS",
+        "player_on_name": "Juan QUINTERO"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43926",
+        "id_player_off": "428886",
+        "id_player_on": "405755",
+        "player_off_name": "Luis DIAZ",
+        "player_on_name": "Jaminton CAMPAZ"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43860",
@@ -392,7 +455,7 @@
     "short_name": "Ghana",
     "abbr": "GHA",
     "country": "GHA",
-    "score": null,
+    "score": 0,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GHA",
     "players": [
@@ -736,8 +799,79 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "506279",
+        "id_team": "43860",
+        "minute": "49'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "441342",
+        "id_team": "43860",
+        "minute": "66'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "448522",
+        "id_team": "43860",
+        "minute": "76'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "13'",
+        "id_team": "43860",
+        "id_player_off": "520039",
+        "id_player_on": "448522",
+        "player_off_name": "Marvin SENAYA",
+        "player_on_name": "Alidu SEIDU"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43860",
+        "id_player_off": "411376",
+        "id_player_on": "441342",
+        "player_off_name": "Inaki WILLIAMS",
+        "player_on_name": "Abdul FATAWU"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43860",
+        "id_player_off": "507253",
+        "id_player_on": "441341",
+        "player_off_name": "Kwasi SIBO",
+        "player_on_name": "Elisha OWUSU"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43860",
+        "id_player_off": "506279",
+        "id_player_on": "514401",
+        "player_off_name": "Caleb YIRENKYI",
+        "player_on_name": "Prince ADU"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43860",
+        "id_player_off": "353235",
+        "id_player_on": "448525",
+        "player_off_name": "Jordan AYEW",
+        "player_on_name": "Ernest NUAMAH"
+      }
+    ]
   },
   "officials": [
     {
@@ -749,13 +883,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021517?language=en",
-  "updated_at_utc": "2026-07-04T01:13:27.604966+00:00",
-  "updated_at_poland": "2026-07-04T03:13:27.604971+02:00"
+  "updated_at_utc": "2026-07-04T04:52:31.295135+00:00",
+  "updated_at_poland": "2026-07-04T06:52:31.295139+02:00"
 }

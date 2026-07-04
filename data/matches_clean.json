@@ -4244,8 +4244,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/GHA",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -4254,9 +4254,9 @@
       "city": "Kansas City",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43926",
     "placeholder_home": "1K",
     "placeholder_away": "3DEIJL",
     "time_defined": true,
@@ -4678,12 +4678,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "W87",
-      "abbr": "W87",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43926",
+      "name": "Colombia",
+      "abbr": "COL",
+      "country": "COL",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COL",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
