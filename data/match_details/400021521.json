@@ -908,6 +908,14 @@
       "short_name": "Drew FISCHER",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "416317",
+      "country": "MEX",
+      "name": "Katia Itzel García",
+      "short_name": "Katia GARCIA",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -917,6 +925,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021521?language=en",
-  "updated_at_utc": "2026-07-04T04:52:31.061018+00:00",
-  "updated_at_poland": "2026-07-04T06:52:31.061023+02:00"
+  "updated_at_utc": "2026-07-04T07:34:41.252665+00:00",
+  "updated_at_poland": "2026-07-04T09:34:41.252671+02:00"
 }
