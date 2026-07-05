@@ -579,19 +579,6 @@
         "lineup_y": null
       },
       {
-        "id_player": "494625",
-        "id_team": "43961",
-        "shirt_number": 16,
-        "status": 2,
-        "captain": false,
-        "name": "Marcus HOLMGREN PEDERSEN",
-        "short_name": "Marcus HOLMGREN PEDERSEN",
-        "position": 1,
-        "field_status": 0,
-        "lineup_x": null,
-        "lineup_y": null
-      },
-      {
         "id_player": "489696",
         "id_team": "43961",
         "shirt_number": 24,
@@ -743,6 +730,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021532?language=en",
-  "updated_at_utc": "2026-07-05T18:42:26.078491+00:00",
-  "updated_at_poland": "2026-07-05T20:42:26.078496+02:00"
+  "updated_at_utc": "2026-07-05T19:58:24.962932+00:00",
+  "updated_at_poland": "2026-07-05T21:58:24.962961+02:00"
 }
