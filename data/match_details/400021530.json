@@ -917,6 +917,14 @@
       "short_name": "Michael OLIVER",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "327159",
+      "country": "NED",
+      "name": "Danny Desmond Makkelie",
+      "short_name": "Danny MAKKELIE",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -926,6 +934,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021530?language=en",
-  "updated_at_utc": "2026-07-05T05:31:00.094317+00:00",
-  "updated_at_poland": "2026-07-05T07:31:00.094322+02:00"
+  "updated_at_utc": "2026-07-05T08:27:27.791698+00:00",
+  "updated_at_poland": "2026-07-05T10:27:27.791704+02:00"
 }

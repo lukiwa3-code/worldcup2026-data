@@ -61,7 +61,24 @@
     "bookings": [],
     "substitutions": []
   },
-  "officials": [],
+  "officials": [
+    {
+      "id": "360460",
+      "country": "ENG",
+      "name": "Anthony Taylor",
+      "short_name": "Anthony TAYLOR",
+      "type": "Referee",
+      "official_type": 1
+    },
+    {
+      "id": "348147",
+      "country": "GER",
+      "name": "Felix Zwayer",
+      "short_name": "Felix ZWAYER",
+      "type": "Fourth official",
+      "official_type": 4
+    }
+  ],
   "match_status_code": 1,
   "result_type": 0,
   "officiality_status": 0,
@@ -69,6 +86,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021529?language=en",
-  "updated_at_utc": "2026-07-05T05:31:01.129880+00:00",
-  "updated_at_poland": "2026-07-05T07:31:01.129885+02:00"
+  "updated_at_utc": "2026-07-05T08:27:28.740999+00:00",
+  "updated_at_poland": "2026-07-05T10:27:28.741004+02:00"
 }

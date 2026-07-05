@@ -772,8 +772,8 @@
     "match_number": 97,
     "file": "match_details/400021536.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021536?language=en",
-    "raw_available": false,
-    "details_error": "'NoneType' object has no attribute 'get'"
+    "raw_available": true,
+    "details_error": null
   },
   {
     "id_match": "400021538",
