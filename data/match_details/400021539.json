@@ -27,7 +27,20 @@
     "country": "USA"
   },
   "weather": null,
-  "home_team": null,
+  "home_team": {
+    "id_team": "43961",
+    "name": "Norway",
+    "short_name": "Norway",
+    "abbr": "NOR",
+    "country": "NOR",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "away_team": null,
   "officials": [],
   "match_status_code": 1,
@@ -37,6 +50,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021539?language=en",
-  "updated_at_utc": "2026-07-05T21:05:03.686619+00:00",
-  "updated_at_poland": "2026-07-05T23:05:03.686625+02:00"
+  "updated_at_utc": "2026-07-05T22:10:54.500032+00:00",
+  "updated_at_poland": "2026-07-06T00:10:54.500036+02:00"
 }

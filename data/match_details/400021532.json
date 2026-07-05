@@ -12,10 +12,10 @@
   "date_utc": "2026-07-05T20:00:00Z",
   "date_local": "2026-07-05T16:00:00Z",
   "date_poland": "2026-07-05T22:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
-  "winner": null,
+  "attendance": "80663",
+  "match_time": "102'",
+  "period": 10,
+  "winner": "43961",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Brazil",
     "abbr": "BRA",
     "country": "BRA",
-    "score": 0,
+    "score": 1,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BRA",
     "players": [
@@ -369,9 +369,64 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 1,
+        "id_player": "314197",
+        "minute": "90'+10'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43924"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "314197",
+        "id_team": "43924",
+        "minute": "90'+6'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43924",
+        "id_player_off": "430609",
+        "id_player_on": "463746",
+        "player_off_name": "MATHEUS CUNHA",
+        "player_on_name": "ENDRICK"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43924",
+        "id_player_off": "430597",
+        "id_player_on": "314197",
+        "player_off_name": "GABRIEL MARTINELLI",
+        "player_on_name": "NEYMAR JR"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43924",
+        "id_player_off": "475036",
+        "id_player_on": "429392",
+        "player_off_name": "RAYAN",
+        "player_on_name": "DANILO SANTOS"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43924",
+        "id_player_off": "430605",
+        "id_player_on": "485069",
+        "player_off_name": "BRUNO GUIMARAES",
+        "player_on_name": "EDERSON SILVA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43961",
@@ -379,7 +434,7 @@
     "short_name": "Norway",
     "abbr": "NOR",
     "country": "NOR",
-    "score": 0,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
     "players": [
@@ -709,9 +764,63 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "419652",
+        "minute": "79'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43961"
+      },
+      {
+        "type": 2,
+        "id_player": "419652",
+        "minute": "90'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43961"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43961",
+        "id_player_off": "483448",
+        "id_player_on": "494626",
+        "player_off_name": "Antonio NUSA",
+        "player_on_name": "Andreas SCHJELDERUP"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43961",
+        "id_player_off": "398588",
+        "id_player_on": "477470",
+        "player_off_name": "Alexander SORLOTH",
+        "player_on_name": "Oscar BOBB"
+      },
+      {
+        "period": 5,
+        "minute": "63'",
+        "id_team": "43961",
+        "id_player_off": "483496",
+        "id_player_on": "483497",
+        "player_off_name": "Julian RYERSON",
+        "player_on_name": "Fredrik AURSNES"
+      },
+      {
+        "period": 5,
+        "minute": "90'+5'",
+        "id_team": "43961",
+        "id_player_off": "483505",
+        "id_player_on": "419672",
+        "player_off_name": "David MOLLER WOLFE",
+        "player_on_name": "Leo OSTIGARD"
+      }
+    ]
   },
   "officials": [
     {
@@ -723,13 +832,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021532?language=en",
-  "updated_at_utc": "2026-07-05T21:05:01.004534+00:00",
-  "updated_at_poland": "2026-07-05T23:05:01.004538+02:00"
+  "updated_at_utc": "2026-07-05T22:10:52.162187+00:00",
+  "updated_at_poland": "2026-07-06T00:10:52.162191+02:00"
 }
