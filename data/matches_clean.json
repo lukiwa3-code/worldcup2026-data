@@ -4470,9 +4470,9 @@
     "stage": "Round of 16",
     "group": null,
     "is_group_stage": false,
-    "date_utc": "2026-07-06T00:00:00Z",
-    "date_local": "2026-07-05T18:00:00Z",
-    "date_poland": "2026-07-06T02:00:00+02:00",
+    "date_utc": "2026-07-06T01:00:00Z",
+    "date_local": "2026-07-05T19:00:00Z",
+    "date_poland": "2026-07-06T03:00:00+02:00",
     "home": {
       "id": "43911",
       "name": "Mexico",
@@ -4489,8 +4489,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -4499,7 +4499,7 @@
       "city": "Mexico City",
       "country": "MEX"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "W79",
