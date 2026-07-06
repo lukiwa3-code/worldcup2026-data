@@ -13,9 +13,9 @@
   "date_local": "2026-07-06T14:00:00Z",
   "date_poland": "2026-07-06T21:00:00+02:00",
   "attendance": "70649",
-  "match_time": "62'",
-  "period": 5,
-  "winner": null,
+  "match_time": "99'",
+  "period": 10,
+  "winner": "43969",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -383,7 +383,24 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "395205",
+        "id_team": "43963",
+        "minute": "89'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "489704",
+        "id_team": "43963",
+        "minute": "90'+3'",
+        "reason": null
+      }
+    ],
     "substitutions": [
       {
         "period": 5,
@@ -393,6 +410,42 @@
         "id_player_on": "395212",
         "player_off_name": "NUNO MENDES",
         "player_on_name": "NELSON SEMEDO"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43963",
+        "id_player_off": "418535",
+        "id_player_on": "418550",
+        "player_off_name": "JOAO FELIX",
+        "player_on_name": "RAFAEL LEAO"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43963",
+        "id_player_off": "368649",
+        "id_player_on": "403002",
+        "player_off_name": "JOAO CANCELO",
+        "player_on_name": "DIOGO DALOT"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43963",
+        "id_player_off": "441149",
+        "id_player_on": "395205",
+        "player_off_name": "VITINHA",
+        "player_on_name": "BERNARDO SILVA"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43963",
+        "id_player_off": "418548",
+        "id_player_on": "485081",
+        "player_off_name": "PEDRO NETO",
+        "player_on_name": "FRANCISCO CONCEICAO"
       }
     ]
   },
@@ -402,7 +455,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": 0,
+    "score": 1,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -745,9 +798,64 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "430733",
+        "minute": "90'+1'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43969"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "405545",
+        "id_team": "43969",
+        "minute": "90'+8'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43969",
+        "id_player_off": "447860",
+        "id_player_on": "405545",
+        "player_off_name": "Alex BAENA",
+        "player_on_name": "Ferran TORRES"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43969",
+        "id_player_off": "430750",
+        "id_player_on": "430733",
+        "player_off_name": "Dani OLMO",
+        "player_on_name": "Mikel MERINO"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43969",
+        "id_player_off": "423646",
+        "id_player_on": "430718",
+        "player_off_name": "PEDRI",
+        "player_on_name": "Fabian RUIZ"
+      },
+      {
+        "period": 5,
+        "minute": "90'+7'",
+        "id_team": "43969",
+        "id_player_off": "430751",
+        "id_player_on": "447864",
+        "player_off_name": "Mikel OYARZABAL",
+        "player_on_name": "Borja IGLESIAS"
+      }
+    ]
   },
   "officials": [
     {
@@ -759,13 +867,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021529?language=en",
-  "updated_at_utc": "2026-07-06T20:24:27.496088+00:00",
-  "updated_at_poland": "2026-07-06T22:24:27.496093+02:00"
+  "updated_at_utc": "2026-07-06T21:53:00.757574+00:00",
+  "updated_at_poland": "2026-07-06T23:53:00.757579+02:00"
 }
