@@ -12,10 +12,10 @@
   "date_utc": "2026-07-06T01:00:00Z",
   "date_local": "2026-07-05T19:00:00Z",
   "date_poland": "2026-07-06T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "11'",
-  "period": 3,
-  "winner": null,
+  "attendance": "80824",
+  "match_time": "103'",
+  "period": 10,
+  "winner": "43942",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Mexico",
     "abbr": "MEX",
     "country": "MEX",
-    "score": 0,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/MEX",
     "players": [
@@ -382,9 +382,89 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "429157",
+        "minute": "42'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43911"
+      },
+      {
+        "type": 1,
+        "id_player": "356731",
+        "minute": "69'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43911"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "403596",
+        "id_team": "43911",
+        "minute": "71'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "425701",
+        "id_team": "43911",
+        "minute": "90'+8'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43911",
+        "id_player_off": "395516",
+        "id_player_on": "400634",
+        "player_off_name": "Cesar MONTES",
+        "player_on_name": "Edson ALVAREZ"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43911",
+        "id_player_off": "500037",
+        "id_player_on": "430759",
+        "player_off_name": "Gilberto MORA",
+        "player_on_name": "Santiago GIMENEZ"
+      },
+      {
+        "period": 5,
+        "minute": "61'",
+        "id_team": "43911",
+        "id_player_off": "430763",
+        "id_player_on": "464533",
+        "player_off_name": "Luis ROMO",
+        "player_on_name": "Brian GUTIERREZ"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43911",
+        "id_player_off": "403596",
+        "id_player_on": "416576",
+        "player_off_name": "Jorge SANCHEZ",
+        "player_on_name": "Alvaro FIDALGO"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43911",
+        "id_player_off": "429157",
+        "id_player_on": "386339",
+        "player_off_name": "Julian QUINONES",
+        "player_on_name": "Guillermo MARTINEZ"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43942",
@@ -392,7 +472,7 @@
     "short_name": "England",
     "abbr": "ENG",
     "country": "ENG",
-    "score": 0,
+    "score": 3,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
     "players": [
@@ -735,7 +815,32 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "448202",
+        "minute": "36'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43942"
+      },
+      {
+        "type": 2,
+        "id_player": "448202",
+        "minute": "38'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43942"
+      },
+      {
+        "type": 1,
+        "id_player": "369419",
+        "minute": "60'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43942"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -744,9 +849,78 @@
         "id_team": "43942",
         "minute": "1'",
         "reason": null
+      },
+      {
+        "card": 2,
+        "period": 5,
+        "id_player": "463809",
+        "id_team": "43942",
+        "minute": "54'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "405841",
+        "id_team": "43942",
+        "minute": "68'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "463780",
+        "id_team": "43942",
+        "minute": "72'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "356189",
+        "id_team": "43942",
+        "minute": "90'+8'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "57'",
+        "id_team": "43942",
+        "id_player_off": "448196",
+        "id_player_on": "369434",
+        "player_off_name": "Bukayo SAKA",
+        "player_on_name": "John STONES"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43942",
+        "id_player_off": "481610",
+        "id_player_on": "494345",
+        "player_off_name": "Elliot ANDERSON",
+        "player_on_name": "Dan BURN"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43942",
+        "id_player_off": "463780",
+        "id_player_on": "506329",
+        "player_off_name": "Nico OREILLY",
+        "player_on_name": "Djed SPENCE"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43942",
+        "id_player_off": "369419",
+        "id_player_on": "492716",
+        "player_off_name": "Harry KANE",
+        "player_on_name": "Morgan ROGERS"
+      }
+    ]
   },
   "officials": [
     {
@@ -758,13 +932,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021531?language=en",
-  "updated_at_utc": "2026-07-06T01:11:36.776890+00:00",
-  "updated_at_poland": "2026-07-06T03:11:36.776895+02:00"
+  "updated_at_utc": "2026-07-06T05:36:04.268412+00:00",
+  "updated_at_poland": "2026-07-06T07:36:04.268416+02:00"
 }
