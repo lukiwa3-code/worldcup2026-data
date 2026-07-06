@@ -12,9 +12,9 @@
   "date_utc": "2026-07-06T19:00:00Z",
   "date_local": "2026-07-06T14:00:00Z",
   "date_poland": "2026-07-06T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "attendance": "70649",
+  "match_time": "62'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Portugal",
     "abbr": "POR",
     "country": "POR",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/POR",
     "players": [
@@ -384,7 +384,17 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "56'",
+        "id_team": "43963",
+        "id_player_off": "433195",
+        "id_player_on": "395212",
+        "player_off_name": "NUNO MENDES",
+        "player_on_name": "NELSON SEMEDO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43969",
@@ -392,7 +402,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": null,
+    "score": 0,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -749,13 +759,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021529?language=en",
-  "updated_at_utc": "2026-07-06T18:27:29.274722+00:00",
-  "updated_at_poland": "2026-07-06T20:27:29.274726+02:00"
+  "updated_at_utc": "2026-07-06T20:24:27.496088+00:00",
+  "updated_at_poland": "2026-07-06T22:24:27.496093+02:00"
 }
