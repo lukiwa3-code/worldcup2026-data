@@ -930,6 +930,14 @@
       "short_name": "Alireza FAGHANI",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "416524",
+      "country": "MAR",
+      "name": "Jalal Jayed",
+      "short_name": "Jalal JAYED",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -939,6 +947,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021531?language=en",
-  "updated_at_utc": "2026-07-06T05:36:04.268412+00:00",
-  "updated_at_poland": "2026-07-06T07:36:04.268416+02:00"
+  "updated_at_utc": "2026-07-06T09:38:55.332677+00:00",
+  "updated_at_poland": "2026-07-06T11:38:55.332682+02:00"
 }
