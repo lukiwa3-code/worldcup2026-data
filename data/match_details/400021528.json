@@ -12,9 +12,9 @@
   "date_utc": "2026-07-07T16:00:00Z",
   "date_local": "2026-07-07T12:00:00Z",
   "date_poland": "2026-07-07T18:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "attendance": "68239",
+  "match_time": "83'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Argentina",
     "abbr": "ARG",
     "country": "ARG",
-    "score": null,
+    "score": 1,
     "tactics": "4-1-3-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
     "players": [
@@ -382,9 +382,46 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "431196",
+        "minute": "79'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43922"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43922",
+        "id_player_off": "428882",
+        "id_player_on": "402920",
+        "player_off_name": "Rodrigo DE PAUL",
+        "player_on_name": "Lautaro MARTINEZ"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43922",
+        "id_player_off": "308322",
+        "id_player_on": "430631",
+        "player_off_name": "Nicolas TAGLIAFICO",
+        "player_on_name": "Nico GONZALEZ"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43922",
+        "id_player_off": "402925",
+        "id_player_on": "402926",
+        "player_off_name": "Nahuel MOLINA",
+        "player_on_name": "Gonzalo MONTIEL"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43855",
@@ -392,7 +429,7 @@
     "short_name": "Egypt",
     "abbr": "EGY",
     "country": "EGY",
-    "score": null,
+    "score": 2,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/EGY",
     "players": [
@@ -709,9 +746,63 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "369267",
+        "minute": "15'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43855"
+      },
+      {
+        "type": 2,
+        "id_player": "483161",
+        "minute": "67'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43855"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": null,
+        "id_team": "43855",
+        "minute": "21'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43855",
+        "id_player_off": "430482",
+        "id_player_on": "429095",
+        "player_off_name": "EMAM ASHOUR",
+        "player_on_name": "HAMDY FATHY"
+      },
+      {
+        "period": 5,
+        "minute": "73'",
+        "id_team": "43855",
+        "id_player_off": "424106",
+        "id_player_on": "363863",
+        "player_off_name": "Haissem HASSAN",
+        "player_on_name": "TREZEGUET"
+      },
+      {
+        "period": 5,
+        "minute": "80'",
+        "id_team": "43855",
+        "id_player_off": "483161",
+        "id_player_on": "430476",
+        "player_off_name": "MOSTAFA ZICO",
+        "player_on_name": "OMAR MARMOUSH"
+      }
+    ]
   },
   "officials": [
     {
@@ -723,13 +814,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021528?language=en",
-  "updated_at_utc": "2026-07-07T15:49:07.849564+00:00",
-  "updated_at_poland": "2026-07-07T17:49:07.849569+02:00"
+  "updated_at_utc": "2026-07-07T17:47:51.565328+00:00",
+  "updated_at_poland": "2026-07-07T19:47:51.565333+02:00"
 }
