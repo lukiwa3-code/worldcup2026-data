@@ -4636,7 +4636,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/EGY",
       "is_placeholder": false
     },
-    "home_score": 1,
+    "home_score": 3,
     "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -4646,9 +4646,9 @@
       "city": "Atlanta",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43922",
     "placeholder_home": "W86",
     "placeholder_away": "W88",
     "time_defined": true,
@@ -4866,12 +4866,12 @@
     "date_local": "2026-07-11T20:00:00Z",
     "date_poland": "2026-07-12T03:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "W95",
-      "abbr": "W95",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43922",
+      "name": "Argentina",
+      "abbr": "ARG",
+      "country": "ARG",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
+      "is_placeholder": false
     },
     "away": {
       "id": null,

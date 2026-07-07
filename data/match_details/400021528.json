@@ -13,9 +13,9 @@
   "date_local": "2026-07-07T12:00:00Z",
   "date_poland": "2026-07-07T18:00:00+02:00",
   "attendance": "68239",
-  "match_time": "83'",
-  "period": 5,
-  "winner": null,
+  "match_time": "102'",
+  "period": 10,
+  "winner": "43922",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Argentina",
     "abbr": "ARG",
     "country": "ARG",
-    "score": 1,
+    "score": 3,
     "tactics": "4-1-3-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
     "players": [
@@ -390,6 +390,22 @@
         "id_assist_player": null,
         "period": 5,
         "id_team": "43922"
+      },
+      {
+        "type": 2,
+        "id_player": "229397",
+        "minute": "83'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43922"
+      },
+      {
+        "type": 2,
+        "id_player": "448252",
+        "minute": "90'+2'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43922"
       }
     ],
     "bookings": [],
@@ -420,6 +436,24 @@
         "id_player_on": "402926",
         "player_off_name": "Nahuel MOLINA",
         "player_on_name": "Gonzalo MONTIEL"
+      },
+      {
+        "period": 5,
+        "minute": "90'+5'",
+        "id_team": "43922",
+        "id_player_off": "431196",
+        "id_player_on": "310116",
+        "player_off_name": "Cristian ROMERO",
+        "player_on_name": "Nicolas OTAMENDI"
+      },
+      {
+        "period": 5,
+        "minute": "90'+5'",
+        "id_team": "43922",
+        "id_player_off": "416081",
+        "id_player_on": "418963",
+        "player_off_name": "Julian ALVAREZ",
+        "player_on_name": "Facundo MEDINA"
       }
     ]
   },
@@ -772,6 +806,54 @@
         "id_team": "43855",
         "minute": "21'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "416906",
+        "id_team": "43855",
+        "minute": "90'+3'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "429095",
+        "id_team": "43855",
+        "minute": "90'+4'",
+        "reason": null
+      },
+      {
+        "card": 2,
+        "period": 5,
+        "id_player": null,
+        "id_team": "43855",
+        "minute": "90'+4'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "461788",
+        "id_team": "43855",
+        "minute": "90'+8'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": null,
+        "id_team": "43855",
+        "minute": "90'+9'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 10,
+        "id_player": "424106",
+        "id_team": "43855",
+        "minute": "90'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -801,6 +883,15 @@
         "id_player_on": "430476",
         "player_off_name": "MOSTAFA ZICO",
         "player_on_name": "OMAR MARMOUSH"
+      },
+      {
+        "period": 5,
+        "minute": "90'+6'",
+        "id_team": "43855",
+        "id_player_off": "433469",
+        "id_player_on": "433461",
+        "player_off_name": "MOHANAD LASHIN",
+        "player_on_name": "ZIZO"
       }
     ]
   },
@@ -814,13 +905,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021528?language=en",
-  "updated_at_utc": "2026-07-07T17:47:51.565328+00:00",
-  "updated_at_poland": "2026-07-07T19:47:51.565333+02:00"
+  "updated_at_utc": "2026-07-07T19:27:30.692082+00:00",
+  "updated_at_poland": "2026-07-07T21:27:30.692087+02:00"
 }
