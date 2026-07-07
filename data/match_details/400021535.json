@@ -13,13 +13,13 @@
   "date_local": "2026-07-07T13:00:00Z",
   "date_poland": "2026-07-07T22:00:00+02:00",
   "attendance": "52497",
-  "match_time": "106'",
-  "period": 9,
-  "winner": null,
+  "match_time": "130'",
+  "period": 10,
+  "winner": "43971",
   "home_score": null,
   "away_score": null,
-  "home_penalty_score": null,
-  "away_penalty_score": null,
+  "home_penalty_score": 4,
+  "away_penalty_score": 3,
   "stadium": {
     "id": "400248370",
     "name": "BC Place Vancouver",
@@ -343,7 +343,40 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 1,
+        "id_player": "311558",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43971"
+      },
+      {
+        "type": 1,
+        "id_player": "448112",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43971"
+      },
+      {
+        "type": 1,
+        "id_player": "448104",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43971"
+      },
+      {
+        "type": 1,
+        "id_player": "448131",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43971"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -776,7 +809,32 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 1,
+        "id_player": "356704",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43926"
+      },
+      {
+        "type": 1,
+        "id_player": "405755",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43926"
+      },
+      {
+        "type": 1,
+        "id_player": "428886",
+        "minute": "",
+        "id_assist_player": null,
+        "period": 11,
+        "id_team": "43926"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -839,6 +897,15 @@
         "id_player_on": "418881",
         "player_off_name": "Luis SUAREZ",
         "player_on_name": "Cucho HERNANDEZ"
+      },
+      {
+        "period": 9,
+        "minute": "118'",
+        "id_team": "43926",
+        "id_player_off": "441622",
+        "id_player_on": "395552",
+        "player_off_name": "Jhon LUCUMI",
+        "player_on_name": "Yerry MINA"
       }
     ]
   },
@@ -852,13 +919,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 2,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021535?language=en",
-  "updated_at_utc": "2026-07-07T22:20:40.293478+00:00",
-  "updated_at_poland": "2026-07-08T00:20:40.293482+02:00"
+  "updated_at_utc": "2026-07-07T23:26:23.893198+00:00",
+  "updated_at_poland": "2026-07-08T01:26:23.893203+02:00"
 }

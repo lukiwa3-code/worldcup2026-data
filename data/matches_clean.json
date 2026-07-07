@@ -4687,17 +4687,17 @@
     },
     "home_score": 0,
     "away_score": 0,
-    "home_penalty_score": null,
-    "away_penalty_score": null,
+    "home_penalty_score": 4,
+    "away_penalty_score": 3,
     "stadium": {
       "id": "400248370",
       "name": "BC Place Vancouver",
       "city": "Vancouver",
       "country": "CAN"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 2,
+    "winner": "43971",
     "placeholder_home": "W85",
     "placeholder_away": "W87",
     "time_defined": true,
@@ -4874,12 +4874,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "W96",
-      "abbr": "W96",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43971",
+      "name": "Switzerland",
+      "abbr": "SUI",
+      "country": "SUI",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
