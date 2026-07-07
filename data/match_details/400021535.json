@@ -12,9 +12,9 @@
   "date_utc": "2026-07-07T20:00:00Z",
   "date_local": "2026-07-07T13:00:00Z",
   "date_poland": "2026-07-07T22:00:00+02:00",
-  "attendance": null,
-  "match_time": "47'",
-  "period": 5,
+  "attendance": "52497",
+  "match_time": "106'",
+  "period": 9,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -344,7 +344,32 @@
       }
     ],
     "goals": [],
-    "bookings": [],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "311558",
+        "id_team": "43971",
+        "minute": "51'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "401448",
+        "id_team": "43971",
+        "minute": "59'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 7,
+        "id_player": "493221",
+        "id_team": "43971",
+        "minute": "105'",
+        "reason": null
+      }
+    ],
     "substitutions": [
       {
         "period": 4,
@@ -354,6 +379,51 @@
         "id_player_on": "411226",
         "player_off_name": "Ardon JASHARI",
         "player_on_name": "Djibril SOW"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43971",
+        "id_player_off": "313559",
+        "id_player_on": "493221",
+        "player_off_name": "Ricardo RODRIGUEZ",
+        "player_on_name": "Miro MUHEIM"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43971",
+        "id_player_off": "393480",
+        "id_player_on": "448104",
+        "player_off_name": "Breel EMBOLO",
+        "player_on_name": "Cedric ITTEN"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43971",
+        "id_player_off": "401448",
+        "id_player_on": "356412",
+        "player_off_name": "Denis ZAKARIA",
+        "player_on_name": "Silvan WIDMER"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43971",
+        "id_player_off": "448114",
+        "id_player_on": "448131",
+        "player_off_name": "Dan NDOYE",
+        "player_on_name": "Ruben VARGAS"
+      },
+      {
+        "period": 7,
+        "minute": "103'",
+        "id_team": "43971",
+        "id_player_off": "448103",
+        "id_player_on": "448112",
+        "player_off_name": "Fabian RIEDER",
+        "player_on_name": "Zeki AMDOUNI"
       }
     ]
   },
@@ -707,8 +777,70 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "428905",
+        "id_team": "43926",
+        "minute": "60'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 7,
+        "id_player": "386013",
+        "id_team": "43926",
+        "minute": "94'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 7,
+        "id_player": null,
+        "id_team": "43926",
+        "minute": "95'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43926",
+        "id_player_off": "470760",
+        "id_player_on": "405755",
+        "player_off_name": "Jhon ARIAS",
+        "player_on_name": "Jaminton CAMPAZ"
+      },
+      {
+        "period": 5,
+        "minute": "66'",
+        "id_team": "43926",
+        "id_player_off": "269058",
+        "id_player_on": "356704",
+        "player_off_name": "James RODRIGUEZ",
+        "player_on_name": "Juan QUINTERO"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43926",
+        "id_player_off": "395550",
+        "id_player_on": "473050",
+        "player_off_name": "Jefferson LERMA",
+        "player_on_name": "Richard RIOS"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43926",
+        "id_player_off": "428905",
+        "id_player_on": "418881",
+        "player_off_name": "Luis SUAREZ",
+        "player_on_name": "Cucho HERNANDEZ"
+      }
+    ]
   },
   "officials": [
     {
@@ -727,6 +859,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021535?language=en",
-  "updated_at_utc": "2026-07-07T21:06:10.320061+00:00",
-  "updated_at_poland": "2026-07-07T23:06:10.320066+02:00"
+  "updated_at_utc": "2026-07-07T22:20:40.293478+00:00",
+  "updated_at_poland": "2026-07-08T00:20:40.293482+02:00"
 }
