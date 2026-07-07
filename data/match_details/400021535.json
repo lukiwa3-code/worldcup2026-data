@@ -13,8 +13,8 @@
   "date_local": "2026-07-07T13:00:00Z",
   "date_poland": "2026-07-07T22:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "47'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,8 +39,8 @@
     "short_name": "Switzerland",
     "abbr": "SUI",
     "country": "SUI",
-    "score": null,
-    "tactics": "4-3-3",
+    "score": 0,
+    "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
     "players": [
       {
@@ -345,7 +345,17 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43971",
+        "id_player_off": "448120",
+        "id_player_on": "411226",
+        "player_off_name": "Ardon JASHARI",
+        "player_on_name": "Djibril SOW"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43926",
@@ -353,7 +363,7 @@
     "short_name": "Colombia",
     "abbr": "COL",
     "country": "COL",
-    "score": null,
+    "score": 0,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/COL",
     "players": [
@@ -710,13 +720,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021535?language=en",
-  "updated_at_utc": "2026-07-07T19:27:30.951088+00:00",
-  "updated_at_poland": "2026-07-07T21:27:30.951092+02:00"
+  "updated_at_utc": "2026-07-07T21:06:10.320061+00:00",
+  "updated_at_poland": "2026-07-07T23:06:10.320066+02:00"
 }

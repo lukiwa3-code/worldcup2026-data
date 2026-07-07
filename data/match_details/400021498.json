@@ -387,7 +387,7 @@
         "type": 2,
         "id_player": "463283",
         "minute": "20'",
-        "id_assist_player": null,
+        "id_assist_player": "385531",
         "period": 3,
         "id_team": "43934"
       },
@@ -397,7 +397,7 @@
         "minute": "76'",
         "id_assist_player": null,
         "period": 5,
-        "id_team": "43934"
+        "id_team": "43820"
       },
       {
         "type": 1,
@@ -472,7 +472,7 @@
     "short_name": "Jordan",
     "abbr": "JOR",
     "country": "JOR",
-    "score": 1,
+    "score": 2,
     "tactics": "3-4-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/JOR",
     "players": [
@@ -823,6 +823,14 @@
         "id_assist_player": null,
         "period": 5,
         "id_team": "43820"
+      },
+      {
+        "type": 2,
+        "id_player": "431212",
+        "minute": "50'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43820"
       }
     ],
     "bookings": [],
@@ -891,6 +899,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021498?language=en",
-  "updated_at_utc": "2026-07-07T19:27:05.259020+00:00",
-  "updated_at_poland": "2026-07-07T21:27:05.259026+02:00"
+  "updated_at_utc": "2026-07-07T21:05:44.561322+00:00",
+  "updated_at_poland": "2026-07-07T23:05:44.561328+02:00"
 }
