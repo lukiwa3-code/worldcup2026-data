@@ -807,7 +807,7 @@
         "type": 2,
         "id_player": "448362",
         "minute": "33'",
-        "id_assist_player": "448355",
+        "id_assist_player": null,
         "period": 3,
         "id_team": "43935"
       },
@@ -815,7 +815,7 @@
         "type": 2,
         "id_player": "448343",
         "minute": "57'",
-        "id_assist_player": "448362",
+        "id_assist_player": null,
         "period": 5,
         "id_team": "43935"
       },
@@ -823,7 +823,7 @@
         "type": 2,
         "id_player": "358112",
         "minute": "90'+3'",
-        "id_assist_player": "448343",
+        "id_assist_player": null,
         "period": 5,
         "id_team": "43935"
       }
@@ -902,6 +902,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021534?language=en",
-  "updated_at_utc": "2026-07-08T04:17:02.037864+00:00",
-  "updated_at_poland": "2026-07-08T06:17:02.037869+02:00"
+  "updated_at_utc": "2026-07-08T06:40:49.024635+00:00",
+  "updated_at_poland": "2026-07-08T08:40:49.024641+02:00"
 }

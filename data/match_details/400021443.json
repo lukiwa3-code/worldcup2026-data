@@ -395,7 +395,7 @@
         "type": 2,
         "id_player": "356731",
         "minute": "67'",
-        "id_assist_player": "403585",
+        "id_assist_player": null,
         "period": 5,
         "id_team": "43911"
       }
@@ -914,6 +914,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021443?language=en",
-  "updated_at_utc": "2026-07-08T04:16:25.810471+00:00",
-  "updated_at_poland": "2026-07-08T06:16:25.810476+02:00"
+  "updated_at_utc": "2026-07-08T06:40:18.514831+00:00",
+  "updated_at_poland": "2026-07-08T08:40:18.514836+02:00"
 }
