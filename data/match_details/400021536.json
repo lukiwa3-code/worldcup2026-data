@@ -13,9 +13,9 @@
   "date_local": "2026-07-09T16:00:00Z",
   "date_poland": "2026-07-09T22:00:00+02:00",
   "attendance": "63811",
-  "match_time": "84'",
-  "period": 5,
-  "winner": null,
+  "match_time": "97'",
+  "period": 10,
+  "winner": "43946",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -428,6 +428,15 @@
         "id_player_on": "484860",
         "player_off_name": "Desire DOUE",
         "player_on_name": "Bradley BARCOLA"
+      },
+      {
+        "period": 5,
+        "minute": "87'",
+        "id_team": "43946",
+        "id_player_off": "430707",
+        "id_player_on": "464055",
+        "player_off_name": "Jules KOUNDE",
+        "player_on_name": "Malo GUSTO"
       }
     ]
   },
@@ -827,6 +836,15 @@
         "id_player_on": "505112",
         "player_off_name": "Brahim DIAZ",
         "player_on_name": "Gessime YASSINE"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43872",
+        "id_player_off": "494293",
+        "id_player_on": "524320",
+        "player_off_name": "Chemsdine TALBI",
+        "player_on_name": "Amine SBAI"
       }
     ]
   },
@@ -840,13 +858,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021536?language=en",
-  "updated_at_utc": "2026-07-09T21:48:50.424358+00:00",
-  "updated_at_poland": "2026-07-09T23:48:50.424362+02:00"
+  "updated_at_utc": "2026-07-09T22:58:52.557721+00:00",
+  "updated_at_poland": "2026-07-10T00:58:52.557725+02:00"
 }

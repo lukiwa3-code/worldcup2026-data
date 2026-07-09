@@ -4744,9 +4744,9 @@
       "city": "Boston",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43946",
     "placeholder_home": "W89",
     "placeholder_away": "W90",
     "time_defined": true,
@@ -4915,12 +4915,12 @@
     "date_local": "2026-07-14T14:00:00Z",
     "date_poland": "2026-07-14T21:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "W97",
-      "abbr": "W97",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43946",
+      "name": "France",
+      "abbr": "FRA",
+      "country": "FRA",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
