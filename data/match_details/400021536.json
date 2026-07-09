@@ -12,9 +12,9 @@
   "date_utc": "2026-07-09T20:00:00Z",
   "date_local": "2026-07-09T16:00:00Z",
   "date_poland": "2026-07-09T22:00:00+02:00",
-  "attendance": null,
-  "match_time": "15'",
-  "period": 3,
+  "attendance": "63811",
+  "match_time": "84'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "France",
     "abbr": "FRA",
     "country": "FRA",
-    "score": 0,
+    "score": 2,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
     "players": [
@@ -382,9 +382,54 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "389867",
+        "minute": "60'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "398680",
+        "minute": "66'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43946",
+        "id_player_off": "485677",
+        "id_player_on": "483549",
+        "player_off_name": "Manu KONE",
+        "player_on_name": "Warren ZAIRE-EMERY"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43946",
+        "id_player_off": "389867",
+        "id_player_on": "403094",
+        "player_off_name": "Kylian MBAPPE",
+        "player_on_name": "Jean-Philippe MATETA"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43946",
+        "id_player_off": "464114",
+        "id_player_on": "484860",
+        "player_off_name": "Desire DOUE",
+        "player_on_name": "Bradley BARCOLA"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43872",
@@ -736,8 +781,54 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "403083",
+        "id_team": "43872",
+        "minute": "63'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43872",
+        "id_player_off": "485760",
+        "id_player_on": "372266",
+        "player_off_name": "Ayyoub BOUADDI",
+        "player_on_name": "Sofyan AMRABAT"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43872",
+        "id_player_off": "448612",
+        "id_player_on": "433426",
+        "player_off_name": "Bilal EL KHANNOUSS",
+        "player_on_name": "Soufiane RAHIMI"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43872",
+        "id_player_off": "424071",
+        "id_player_on": "485756",
+        "player_off_name": "Anass SALAH EDDINE",
+        "player_on_name": "Zakaria EL OUAHDI"
+      },
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43872",
+        "id_player_off": "430740",
+        "id_player_on": "505112",
+        "player_off_name": "Brahim DIAZ",
+        "player_on_name": "Gessime YASSINE"
+      }
+    ]
   },
   "officials": [
     {
@@ -756,6 +847,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021536?language=en",
-  "updated_at_utc": "2026-07-09T20:15:51.220139+00:00",
-  "updated_at_poland": "2026-07-09T22:15:51.220144+02:00"
+  "updated_at_utc": "2026-07-09T21:48:50.424358+00:00",
+  "updated_at_poland": "2026-07-09T23:48:50.424362+02:00"
 }
