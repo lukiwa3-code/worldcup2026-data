@@ -13,8 +13,8 @@
   "date_local": "2026-07-10T12:00:00Z",
   "date_poland": "2026-07-10T21:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "51'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -382,8 +382,26 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "430718",
+        "minute": "30'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43969"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "474973",
+        "id_team": "43969",
+        "minute": "43'",
+        "reason": null
+      }
+    ],
     "substitutions": []
   },
   "away_team": {
@@ -392,7 +410,7 @@
     "short_name": "Belgium",
     "abbr": "BEL",
     "country": "BEL",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BEL",
     "players": [
@@ -696,7 +714,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "448362",
+        "minute": "41'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43935"
+      }
+    ],
     "bookings": [],
     "substitutions": []
   },
@@ -710,13 +737,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021538?language=en",
-  "updated_at_utc": "2026-07-10T18:53:42.225491+00:00",
-  "updated_at_poland": "2026-07-10T20:53:42.225498+02:00"
+  "updated_at_utc": "2026-07-10T20:13:31.046226+00:00",
+  "updated_at_poland": "2026-07-10T22:13:31.046231+02:00"
 }
