@@ -41,7 +41,20 @@
     "bookings": [],
     "substitutions": []
   },
-  "away_team": null,
+  "away_team": {
+    "id_team": "43969",
+    "name": "Spain",
+    "short_name": "Spain",
+    "abbr": "ESP",
+    "country": "ESP",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -50,6 +63,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289290/400021541?language=en",
-  "updated_at_utc": "2026-07-10T20:13:32.008896+00:00",
-  "updated_at_poland": "2026-07-10T22:13:32.008901+02:00"
+  "updated_at_utc": "2026-07-10T21:28:39.857571+00:00",
+  "updated_at_poland": "2026-07-10T23:28:39.857576+02:00"
 }

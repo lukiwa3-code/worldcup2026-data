@@ -12,10 +12,10 @@
   "date_utc": "2026-07-10T19:00:00Z",
   "date_local": "2026-07-10T12:00:00Z",
   "date_poland": "2026-07-10T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "51'",
-  "period": 5,
-  "winner": null,
+  "attendance": "70492",
+  "match_time": "98'",
+  "period": 10,
+  "winner": "43969",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": 1,
+    "score": 2,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -390,6 +390,14 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43969"
+      },
+      {
+        "type": 2,
+        "id_player": "430733",
+        "minute": "88'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43969"
       }
     ],
     "bookings": [
@@ -400,9 +408,54 @@
         "id_team": "43969",
         "minute": "43'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "335999",
+        "id_team": "43969",
+        "minute": "90'+3'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "55'",
+        "id_team": "43969",
+        "id_player_off": "447860",
+        "id_player_on": "405545",
+        "player_off_name": "Alex BAENA",
+        "player_on_name": "Ferran TORRES"
+      },
+      {
+        "period": 5,
+        "minute": "55'",
+        "id_team": "43969",
+        "id_player_off": "430718",
+        "id_player_on": "423646",
+        "player_off_name": "Fabian RUIZ",
+        "player_on_name": "PEDRI"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43969",
+        "id_player_off": "430751",
+        "id_player_on": "447855",
+        "player_off_name": "Mikel OYARZABAL",
+        "player_on_name": "Nico WILLIAMS"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43969",
+        "id_player_off": "430750",
+        "id_player_on": "430733",
+        "player_off_name": "Dani OLMO",
+        "player_on_name": "Mikel MERINO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43935",
@@ -724,8 +777,71 @@
         "id_team": "43935"
       }
     ],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "358120",
+        "id_team": "43935",
+        "minute": "85'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "290821",
+        "id_team": "43935",
+        "minute": "90'+5'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43935",
+        "id_player_off": "448343",
+        "id_player_on": "358112",
+        "player_off_name": "Hans VANAKEN",
+        "player_on_name": "Romelu LUKAKU"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43935",
+        "id_player_off": "448355",
+        "id_player_on": "290821",
+        "player_off_name": "Leandro TROSSARD",
+        "player_on_name": "Axel WITSEL"
+      },
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43935",
+        "id_player_off": "448373",
+        "id_player_on": "506088",
+        "player_off_name": "Maxim DE CUYPER",
+        "player_on_name": "Joaquin SEYS"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43935",
+        "id_player_off": "358106",
+        "id_player_on": "495348",
+        "player_off_name": "Thibaut COURTOIS",
+        "player_on_name": "Senne LAMMENS"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43935",
+        "id_player_off": "358120",
+        "id_player_on": "433092",
+        "player_off_name": "Kevin DE BRUYNE",
+        "player_on_name": "Alexis SAELEMAEKERS"
+      }
+    ]
   },
   "officials": [
     {
@@ -737,13 +853,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021538?language=en",
-  "updated_at_utc": "2026-07-10T20:13:31.046226+00:00",
-  "updated_at_poland": "2026-07-10T22:13:31.046231+02:00"
+  "updated_at_utc": "2026-07-10T21:28:38.887979+00:00",
+  "updated_at_poland": "2026-07-10T23:28:38.887984+02:00"
 }

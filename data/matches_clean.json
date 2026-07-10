@@ -4783,7 +4783,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/BEL",
       "is_placeholder": false
     },
-    "home_score": 1,
+    "home_score": 2,
     "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -4793,9 +4793,9 @@
       "city": "Los Angeles",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43969",
     "placeholder_home": "W93",
     "placeholder_away": "W94",
     "time_defined": true,
@@ -4923,12 +4923,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "W98",
-      "abbr": "W98",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43969",
+      "name": "Spain",
+      "abbr": "ESP",
+      "country": "ESP",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
