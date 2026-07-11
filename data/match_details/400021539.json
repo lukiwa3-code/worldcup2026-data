@@ -13,8 +13,8 @@
   "date_local": "2026-07-11T17:00:00Z",
   "date_poland": "2026-07-11T23:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "11'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Norway",
     "abbr": "NOR",
     "country": "NOR",
-    "score": null,
+    "score": 0,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/NOR",
     "players": [
@@ -392,7 +392,7 @@
     "short_name": "England",
     "abbr": "ENG",
     "country": "ENG",
-    "score": null,
+    "score": 0,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
     "players": [
@@ -736,13 +736,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021539?language=en",
-  "updated_at_utc": "2026-07-11T20:24:33.797849+00:00",
-  "updated_at_poland": "2026-07-11T22:24:33.797854+02:00"
+  "updated_at_utc": "2026-07-11T21:12:18.807437+00:00",
+  "updated_at_poland": "2026-07-11T23:12:18.807443+02:00"
 }
