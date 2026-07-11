@@ -12,9 +12,9 @@
   "date_utc": "2026-07-11T21:00:00Z",
   "date_local": "2026-07-11T17:00:00Z",
   "date_poland": "2026-07-11T23:00:00+02:00",
-  "attendance": null,
-  "match_time": "46'",
-  "period": 5,
+  "attendance": "64478",
+  "match_time": "90'",
+  "period": 7,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -393,7 +393,53 @@
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "60'",
+        "id_team": "43961",
+        "id_player_off": "483496",
+        "id_player_on": "483497",
+        "player_off_name": "Julian RYERSON",
+        "player_on_name": "Fredrik AURSNES"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43961",
+        "id_player_off": "398588",
+        "id_player_on": "477470",
+        "player_off_name": "Alexander SORLOTH",
+        "player_on_name": "Oscar BOBB"
+      },
+      {
+        "period": 5,
+        "minute": "67'",
+        "id_team": "43961",
+        "id_player_off": "494626",
+        "id_player_on": "483448",
+        "player_off_name": "Andreas SCHJELDERUP",
+        "player_on_name": "Antonio NUSA"
+      },
+      {
+        "period": 5,
+        "minute": "90'",
+        "id_team": "43961",
+        "id_player_off": "483505",
+        "id_player_on": "494625",
+        "player_off_name": "David MOLLER WOLFE",
+        "player_on_name": "Marcus HOLMGREN PEDERSEN"
+      },
+      {
+        "period": 17,
+        "minute": "",
+        "id_team": "43961",
+        "id_player_off": "491244",
+        "id_player_on": "419672",
+        "player_off_name": "Torbjorn HEGGEM",
+        "player_on_name": "Leo OSTIGARD"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43942",
@@ -760,6 +806,33 @@
         "id_player_on": "448196",
         "player_off_name": "Noni MADUEKE",
         "player_on_name": "Bukayo SAKA"
+      },
+      {
+        "period": 5,
+        "minute": "71'",
+        "id_team": "43942",
+        "id_player_off": "448189",
+        "id_player_on": "439641",
+        "player_off_name": "Anthony GORDON",
+        "player_on_name": "Reece JAMES"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43942",
+        "id_player_off": "463780",
+        "id_player_on": "506329",
+        "player_off_name": "Nico OREILLY",
+        "player_on_name": "Djed SPENCE"
+      },
+      {
+        "period": 5,
+        "minute": "89'",
+        "id_team": "43942",
+        "id_player_off": "403049",
+        "id_player_on": "492716",
+        "player_off_name": "Ezri KONSA",
+        "player_on_name": "Morgan ROGERS"
       }
     ]
   },
@@ -780,6 +853,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021539?language=en",
-  "updated_at_utc": "2026-07-11T22:08:35.365323+00:00",
-  "updated_at_poland": "2026-07-12T00:08:35.365327+02:00"
+  "updated_at_utc": "2026-07-11T23:07:55.500479+00:00",
+  "updated_at_poland": "2026-07-12T01:07:55.500483+02:00"
 }
