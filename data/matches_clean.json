@@ -4833,7 +4833,7 @@
       "is_placeholder": false
     },
     "home_score": 1,
-    "away_score": 1,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -4842,9 +4842,9 @@
       "city": "Miami",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 3,
+    "winner": "43942",
     "placeholder_home": "W91",
     "placeholder_away": "W92",
     "time_defined": true,
@@ -4964,12 +4964,12 @@
     "date_local": "2026-07-15T15:00:00Z",
     "date_poland": "2026-07-15T21:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "W99",
-      "abbr": "W99",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43942",
+      "name": "England",
+      "abbr": "ENG",
+      "country": "ENG",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
