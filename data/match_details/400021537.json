@@ -920,15 +920,23 @@
       "short_name": "Joao PINHEIRO",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "372930",
+      "country": "CAN",
+      "name": "Drew Fischer",
+      "short_name": "Drew FISCHER",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
   "result_type": 3,
-  "officiality_status": 2,
+  "officiality_status": 1,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021537?language=en",
-  "updated_at_utc": "2026-07-12T03:51:44.746998+00:00",
-  "updated_at_poland": "2026-07-12T05:51:44.747002+02:00"
+  "updated_at_utc": "2026-07-12T06:23:03.754988+00:00",
+  "updated_at_poland": "2026-07-12T08:23:03.754993+02:00"
 }
