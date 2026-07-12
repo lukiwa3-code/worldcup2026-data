@@ -12,10 +12,10 @@
   "date_utc": "2026-07-12T01:00:00Z",
   "date_local": "2026-07-11T20:00:00Z",
   "date_poland": "2026-07-12T03:00:00+02:00",
-  "attendance": null,
-  "match_time": "0'",
-  "period": 0,
-  "winner": null,
+  "attendance": "69045",
+  "match_time": "125'",
+  "period": 10,
+  "winner": "43922",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Argentina",
     "abbr": "ARG",
     "country": "ARG",
-    "score": null,
+    "score": 3,
     "tactics": "4-1-3-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
     "players": [
@@ -382,9 +382,114 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "430628",
+        "minute": "10'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43922"
+      },
+      {
+        "type": 2,
+        "id_player": "416081",
+        "minute": "112'",
+        "id_assist_player": null,
+        "period": 9,
+        "id_team": "43922"
+      },
+      {
+        "type": 2,
+        "id_player": "402920",
+        "minute": "120'+1'",
+        "id_assist_player": null,
+        "period": 9,
+        "id_team": "43922"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 7,
+        "id_player": "418975",
+        "id_team": "43922",
+        "minute": "97'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 7,
+        "id_player": "402920",
+        "id_team": "43922",
+        "minute": "98'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 9,
+        "id_player": "495054",
+        "id_team": "43922",
+        "minute": "114'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "78'",
+        "id_team": "43922",
+        "id_player_off": "308322",
+        "id_player_on": "430631",
+        "player_off_name": "Nicolas TAGLIAFICO",
+        "player_on_name": "Nico GONZALEZ"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43922",
+        "id_player_off": "428882",
+        "id_player_on": "402920",
+        "player_off_name": "Rodrigo DE PAUL",
+        "player_on_name": "Lautaro MARTINEZ"
+      },
+      {
+        "period": 5,
+        "minute": "85'",
+        "id_team": "43922",
+        "id_player_off": "402925",
+        "id_player_on": "402926",
+        "player_off_name": "Nahuel MOLINA",
+        "player_on_name": "Gonzalo MONTIEL"
+      },
+      {
+        "period": 17,
+        "minute": "",
+        "id_team": "43922",
+        "id_player_off": "448252",
+        "id_player_on": "418975",
+        "player_off_name": "Enzo FERNANDEZ",
+        "player_on_name": "Thiago ALMADA"
+      },
+      {
+        "period": 8,
+        "minute": "",
+        "id_team": "43922",
+        "id_player_off": "431196",
+        "id_player_on": "310116",
+        "player_off_name": "Cristian ROMERO",
+        "player_on_name": "Nicolas OTAMENDI"
+      },
+      {
+        "period": 9,
+        "minute": "110'",
+        "id_team": "43922",
+        "id_player_off": "332847",
+        "id_player_on": "495054",
+        "player_off_name": "Leandro PAREDES",
+        "player_on_name": "Jose Manuel LOPEZ"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43971",
@@ -392,7 +497,7 @@
     "short_name": "Switzerland",
     "abbr": "SUI",
     "country": "SUI",
-    "score": null,
+    "score": 1,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
     "players": [
@@ -722,9 +827,90 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "448114",
+        "minute": "67'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43971"
+      }
+    ],
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "393480",
+        "id_team": "43971",
+        "minute": "44'",
+        "reason": null
+      },
+      {
+        "card": 3,
+        "period": 5,
+        "id_player": "393480",
+        "id_team": "43971",
+        "minute": "72'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43971",
+        "id_player_off": "448103",
+        "id_player_on": "493221",
+        "player_off_name": "Fabian RIEDER",
+        "player_on_name": "Miro MUHEIM"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43971",
+        "id_player_off": "411226",
+        "id_player_on": "356412",
+        "player_off_name": "Djibril SOW",
+        "player_on_name": "Silvan WIDMER"
+      },
+      {
+        "period": 5,
+        "minute": "86'",
+        "id_team": "43971",
+        "id_player_off": "448114",
+        "id_player_on": "448112",
+        "player_off_name": "Dan NDOYE",
+        "player_on_name": "Zeki AMDOUNI"
+      },
+      {
+        "period": 5,
+        "minute": "90'+5'",
+        "id_team": "43971",
+        "id_player_off": "313559",
+        "id_player_on": "448136",
+        "player_off_name": "Ricardo RODRIGUEZ",
+        "player_on_name": "Eray COEMERT"
+      },
+      {
+        "period": 7,
+        "minute": "96'",
+        "id_team": "43971",
+        "id_player_off": "401448",
+        "id_player_on": "448120",
+        "player_off_name": "Denis ZAKARIA",
+        "player_on_name": "Ardon JASHARI"
+      },
+      {
+        "period": 9,
+        "minute": "115'",
+        "id_team": "43971",
+        "id_player_off": "402021",
+        "id_player_on": "448131",
+        "player_off_name": "Remo FREULER",
+        "player_on_name": "Ruben VARGAS"
+      }
+    ]
   },
   "officials": [
     {
@@ -736,13 +922,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 3,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021537?language=en",
-  "updated_at_utc": "2026-07-12T00:07:52.287382+00:00",
-  "updated_at_poland": "2026-07-12T02:07:52.287388+02:00"
+  "updated_at_utc": "2026-07-12T03:51:44.746998+00:00",
+  "updated_at_poland": "2026-07-12T05:51:44.747002+02:00"
 }

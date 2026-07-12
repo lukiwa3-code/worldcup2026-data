@@ -4881,8 +4881,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/SUI",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -4891,9 +4891,9 @@
       "city": "Kansas City",
       "country": "USA"
     },
-    "match_status_code": 1,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 3,
+    "winner": "43922",
     "placeholder_home": "W95",
     "placeholder_away": "W96",
     "time_defined": true,
@@ -4972,12 +4972,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "W100",
-      "abbr": "W100",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43922",
+      "name": "Argentina",
+      "abbr": "ARG",
+      "country": "ARG",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
