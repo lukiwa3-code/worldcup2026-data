@@ -4940,9 +4940,9 @@
       "city": "Dallas",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43969",
     "placeholder_home": "W97",
     "placeholder_away": "W98",
     "time_defined": true,
@@ -5013,12 +5013,12 @@
     "date_local": "2026-07-18T17:00:00Z",
     "date_poland": "2026-07-18T23:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "RU101",
-      "abbr": "RU101",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43946",
+      "name": "France",
+      "abbr": "FRA",
+      "country": "FRA",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
@@ -5062,12 +5062,12 @@
     "date_local": "2026-07-19T15:00:00Z",
     "date_poland": "2026-07-19T21:00:00+02:00",
     "home": {
-      "id": null,
-      "name": "W101",
-      "abbr": "W101",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43969",
+      "name": "Spain",
+      "abbr": "ESP",
+      "country": "ESP",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
+      "is_placeholder": false
     },
     "away": {
       "id": null,
