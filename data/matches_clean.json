@@ -4930,8 +4930,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
       "is_placeholder": false
     },
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 1,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -4940,7 +4940,7 @@
       "city": "Dallas",
       "country": "USA"
     },
-    "match_status_code": 1,
+    "match_status_code": 3,
     "result_type": 0,
     "winner": null,
     "placeholder_home": "W97",
@@ -5006,7 +5006,7 @@
     "id_group": null,
     "competition": "FIFA World Cup™",
     "season": "FIFA World Cup 2026™",
-    "stage": "Play-off for third place",
+    "stage": "Bronze final",
     "group": null,
     "is_group_stage": false,
     "date_utc": "2026-07-18T21:00:00Z",

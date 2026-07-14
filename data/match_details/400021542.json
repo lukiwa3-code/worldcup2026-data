@@ -6,7 +6,7 @@
   "id_group": null,
   "competition": "FIFA World Cup™",
   "season": "FIFA World Cup 2026™",
-  "stage": "Play-off for third place",
+  "stage": "Bronze final",
   "group": null,
   "match_number": 103,
   "date_utc": "2026-07-18T21:00:00Z",
@@ -37,6 +37,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289291/400021542?language=en",
-  "updated_at_utc": "2026-07-14T18:17:16.266870+00:00",
-  "updated_at_poland": "2026-07-14T20:17:16.266875+02:00"
+  "updated_at_utc": "2026-07-14T19:47:27.210839+00:00",
+  "updated_at_poland": "2026-07-14T21:47:27.210843+02:00"
 }
