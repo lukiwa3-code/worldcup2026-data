@@ -12,9 +12,9 @@
   "date_utc": "2026-07-14T19:00:00Z",
   "date_local": "2026-07-14T14:00:00Z",
   "date_poland": "2026-07-14T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "45'+2'",
-  "period": 3,
+  "attendance": "70176",
+  "match_time": "84'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -402,6 +402,42 @@
         "id_player_on": "405881",
         "player_off_name": "William SALIBA",
         "player_on_name": "Maxence Lacroix"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43946",
+        "id_player_off": "402047",
+        "id_player_on": "485677",
+        "player_off_name": "Adrien RABIOT",
+        "player_on_name": "Manu KONE"
+      },
+      {
+        "period": 5,
+        "minute": "57'",
+        "id_team": "43946",
+        "id_player_off": "484860",
+        "id_player_on": "464114",
+        "player_off_name": "Bradley BARCOLA",
+        "player_on_name": "Desire DOUE"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43946",
+        "id_player_off": "485655",
+        "id_player_on": "431861",
+        "player_off_name": "Michael OLISE",
+        "player_on_name": "Rayan CHERKI"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43946",
+        "id_player_off": "368860",
+        "id_player_on": "408042",
+        "player_off_name": "Lucas Digne",
+        "player_on_name": "Theo HERNANDEZ"
       }
     ]
   },
@@ -411,7 +447,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": 1,
+    "score": 2,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -762,6 +798,14 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43969"
+      },
+      {
+        "type": 2,
+        "id_player": "430144",
+        "minute": "58'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43969"
       }
     ],
     "bookings": [
@@ -774,7 +818,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "74'",
+        "id_team": "43969",
+        "id_player_off": "430751",
+        "id_player_on": "405545",
+        "player_off_name": "Mikel OYARZABAL",
+        "player_on_name": "Ferran TORRES"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43969",
+        "id_player_off": "430718",
+        "id_player_on": "423646",
+        "player_off_name": "Fabian RUIZ",
+        "player_on_name": "PEDRI"
+      },
+      {
+        "period": 5,
+        "minute": "77'",
+        "id_team": "43969",
+        "id_player_off": "430750",
+        "id_player_on": "430733",
+        "player_off_name": "Dani OLMO",
+        "player_on_name": "Mikel MERINO"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43969",
+        "id_player_off": "447860",
+        "id_player_on": "447855",
+        "player_off_name": "Alex BAENA",
+        "player_on_name": "Nico WILLIAMS"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43969",
+        "id_player_off": "430144",
+        "id_player_on": "382739",
+        "player_off_name": "Pedro PORRO",
+        "player_on_name": "Marcos LLORENTE"
+      }
+    ]
   },
   "officials": [
     {
@@ -793,6 +883,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289290/400021541?language=en",
-  "updated_at_utc": "2026-07-14T19:47:26.545406+00:00",
-  "updated_at_poland": "2026-07-14T21:47:26.545410+02:00"
+  "updated_at_utc": "2026-07-14T20:45:42.587629+00:00",
+  "updated_at_poland": "2026-07-14T22:45:42.587632+02:00"
 }
