@@ -41,7 +41,20 @@
     "bookings": [],
     "substitutions": []
   },
-  "away_team": null,
+  "away_team": {
+    "id_team": "43922",
+    "name": "Argentina",
+    "short_name": "Argentina",
+    "abbr": "ARG",
+    "country": "ARG",
+    "score": null,
+    "tactics": null,
+    "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
+    "players": [],
+    "goals": [],
+    "bookings": [],
+    "substitutions": []
+  },
   "officials": [],
   "match_status_code": 1,
   "result_type": 0,
@@ -50,6 +63,6 @@
   "raw_available": false,
   "details_error": "'NoneType' object has no attribute 'get'",
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289292/400021543?language=en",
-  "updated_at_utc": "2026-07-15T20:15:58.930480+00:00",
-  "updated_at_poland": "2026-07-15T22:15:58.930485+02:00"
+  "updated_at_utc": "2026-07-15T21:16:40.328737+00:00",
+  "updated_at_poland": "2026-07-15T23:16:40.328743+02:00"
 }

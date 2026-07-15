@@ -4979,8 +4979,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
       "is_placeholder": false
     },
-    "home_score": 0,
-    "away_score": 0,
+    "home_score": 1,
+    "away_score": 2,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -4989,9 +4989,9 @@
       "city": "Atlanta",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43922",
     "placeholder_home": "W99",
     "placeholder_away": "W100",
     "time_defined": true,
@@ -5021,12 +5021,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "RU102",
-      "abbr": "RU102",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43942",
+      "name": "England",
+      "abbr": "ENG",
+      "country": "ENG",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,
@@ -5070,12 +5070,12 @@
       "is_placeholder": false
     },
     "away": {
-      "id": null,
-      "name": "W102",
-      "abbr": "W102",
-      "country": null,
-      "flag": null,
-      "is_placeholder": true
+      "id": "43922",
+      "name": "Argentina",
+      "abbr": "ARG",
+      "country": "ARG",
+      "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
+      "is_placeholder": false
     },
     "home_score": null,
     "away_score": null,

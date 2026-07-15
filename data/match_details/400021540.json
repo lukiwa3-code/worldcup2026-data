@@ -13,9 +13,9 @@
   "date_local": "2026-07-15T15:00:00Z",
   "date_poland": "2026-07-15T21:00:00+02:00",
   "attendance": null,
-  "match_time": "55'",
-  "period": 5,
-  "winner": null,
+  "match_time": "102'",
+  "period": 10,
+  "winner": "43922",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -389,7 +389,53 @@
         "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43942",
+        "id_player_off": "448189",
+        "id_player_on": "403049",
+        "player_off_name": "Anthony GORDON",
+        "player_on_name": "Ezri KONSA"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43942",
+        "id_player_off": "439641",
+        "id_player_on": "494345",
+        "player_off_name": "Reece JAMES",
+        "player_on_name": "Dan BURN"
+      },
+      {
+        "period": 5,
+        "minute": "82'",
+        "id_team": "43942",
+        "id_player_off": "433097",
+        "id_player_on": "463780",
+        "player_off_name": "Declan RICE",
+        "player_on_name": "Nico OREILLY"
+      },
+      {
+        "period": 5,
+        "minute": "90'+6'",
+        "id_team": "43942",
+        "id_player_off": "369434",
+        "id_player_on": "448198",
+        "player_off_name": "John STONES",
+        "player_on_name": "Ivan TONEY"
+      },
+      {
+        "period": 5,
+        "minute": "90'+6'",
+        "id_team": "43942",
+        "id_player_off": "506329",
+        "id_player_on": "401470",
+        "player_off_name": "Djed SPENCE",
+        "player_on_name": "Marcus RASHFORD"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43922",
@@ -397,7 +443,7 @@
     "short_name": "Argentina",
     "abbr": "ARG",
     "country": "ARG",
-    "score": 0,
+    "score": 2,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
     "players": [
@@ -740,7 +786,24 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "448252",
+        "minute": "85'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43922"
+      },
+      {
+        "type": 2,
+        "id_player": "402920",
+        "minute": "90'+2'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43922"
+      }
+    ],
     "bookings": [
       {
         "card": 1,
@@ -757,9 +820,63 @@
         "id_team": "43922",
         "minute": "51'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "428882",
+        "id_team": "43922",
+        "minute": "90'+4'",
+        "reason": null
       }
     ],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "64'",
+        "id_team": "43922",
+        "id_player_off": "332847",
+        "id_player_on": "430631",
+        "player_off_name": "Leandro PAREDES",
+        "player_on_name": "Nico GONZALEZ"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43922",
+        "id_player_off": "402921",
+        "id_player_on": "310116",
+        "player_off_name": "Lisandro MARTINEZ",
+        "player_on_name": "Nicolas OTAMENDI"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43922",
+        "id_player_off": "402925",
+        "id_player_on": "402926",
+        "player_off_name": "Nahuel MOLINA",
+        "player_on_name": "Gonzalo MONTIEL"
+      },
+      {
+        "period": 5,
+        "minute": "72'",
+        "id_team": "43922",
+        "id_player_off": "485595",
+        "id_player_on": "428882",
+        "player_off_name": "Giuliano SIMEONE",
+        "player_on_name": "Rodrigo DE PAUL"
+      },
+      {
+        "period": 5,
+        "minute": "81'",
+        "id_team": "43922",
+        "id_player_off": "308322",
+        "id_player_on": "402920",
+        "player_off_name": "Nicolas TAGLIAFICO",
+        "player_on_name": "Lautaro MARTINEZ"
+      }
+    ]
   },
   "officials": [
     {
@@ -771,13 +888,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289290/400021540?language=en",
-  "updated_at_utc": "2026-07-15T20:15:58.212404+00:00",
-  "updated_at_poland": "2026-07-15T22:15:58.212409+02:00"
+  "updated_at_utc": "2026-07-15T21:16:39.742878+00:00",
+  "updated_at_poland": "2026-07-15T23:16:39.742884+02:00"
 }
