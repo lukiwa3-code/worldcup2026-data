@@ -13,8 +13,8 @@
   "date_local": "2026-07-18T17:00:00Z",
   "date_poland": "2026-07-18T23:00:00+02:00",
   "attendance": null,
-  "match_time": "29'",
-  "period": 3,
+  "match_time": "62'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "France",
     "abbr": "FRA",
     "country": "FRA",
-    "score": 0,
+    "score": 2,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
     "players": [
@@ -382,9 +382,63 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "389867",
+        "minute": "48'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "484860",
+        "minute": "54'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      }
+    ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43946",
+        "id_player_off": "419166",
+        "id_player_on": "389876",
+        "player_off_name": "Ibrahima KONATE",
+        "player_on_name": "Dayot UPAMECANO"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43946",
+        "id_player_off": "464114",
+        "id_player_on": "484860",
+        "player_off_name": "Desire DOUE",
+        "player_on_name": "Bradley BARCOLA"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43946",
+        "id_player_off": "408042",
+        "id_player_on": "368860",
+        "player_off_name": "Theo HERNANDEZ",
+        "player_on_name": "Lucas Digne"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43946",
+        "id_player_off": "431861",
+        "id_player_on": "398680",
+        "player_off_name": "Rayan CHERKI",
+        "player_on_name": "Ousmane DEMBELE"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43942",
@@ -392,7 +446,7 @@
     "short_name": "England",
     "abbr": "ENG",
     "country": "ENG",
-    "score": 2,
+    "score": 4,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
     "players": [
@@ -738,10 +792,36 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43942"
+      },
+      {
+        "type": 2,
+        "id_player": "448196",
+        "minute": "37'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43942"
+      },
+      {
+        "type": 2,
+        "id_player": "448196",
+        "minute": "45'+1'",
+        "id_assist_player": null,
+        "period": 3,
+        "id_team": "43942"
       }
     ],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43942",
+        "id_player_off": "401470",
+        "id_player_on": "448203",
+        "player_off_name": "Marcus RASHFORD",
+        "player_on_name": "Ollie WATKINS"
+      }
+    ]
   },
   "officials": [
     {
@@ -760,6 +840,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289291/400021542?language=en",
-  "updated_at_utc": "2026-07-18T21:28:58.511247+00:00",
-  "updated_at_poland": "2026-07-18T23:28:58.511252+02:00"
+  "updated_at_utc": "2026-07-18T22:25:03.600285+00:00",
+  "updated_at_poland": "2026-07-19T00:25:03.600290+02:00"
 }
