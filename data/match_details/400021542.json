@@ -12,10 +12,10 @@
   "date_utc": "2026-07-18T21:00:00Z",
   "date_local": "2026-07-18T17:00:00Z",
   "date_poland": "2026-07-18T23:00:00+02:00",
-  "attendance": null,
-  "match_time": "62'",
-  "period": 5,
-  "winner": null,
+  "attendance": "64478",
+  "match_time": "99'",
+  "period": 10,
+  "winner": "43942",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "France",
     "abbr": "FRA",
     "country": "FRA",
-    "score": 2,
+    "score": 4,
     "tactics": "4-2-3-1",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/FRA",
     "players": [
@@ -398,6 +398,22 @@
         "id_assist_player": null,
         "period": 5,
         "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "389867",
+        "minute": "66'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
+      },
+      {
+        "type": 2,
+        "id_player": "398680",
+        "minute": "90'+6'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43946"
       }
     ],
     "bookings": [],
@@ -437,6 +453,15 @@
         "id_player_on": "398680",
         "player_off_name": "Rayan CHERKI",
         "player_on_name": "Ousmane DEMBELE"
+      },
+      {
+        "period": 5,
+        "minute": "90'+1'",
+        "id_team": "43946",
+        "id_player_off": "464055",
+        "id_player_on": "430707",
+        "player_off_name": "Malo GUSTO",
+        "player_on_name": "Jules KOUNDE"
       }
     ]
   },
@@ -446,7 +471,7 @@
     "short_name": "England",
     "abbr": "ENG",
     "country": "ENG",
-    "score": 4,
+    "score": 6,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
     "players": [
@@ -808,6 +833,22 @@
         "id_assist_player": null,
         "period": 3,
         "id_team": "43942"
+      },
+      {
+        "type": 1,
+        "id_player": "448196",
+        "minute": "87'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43942"
+      },
+      {
+        "type": 2,
+        "id_player": "448202",
+        "minute": "90'+8'",
+        "id_assist_player": null,
+        "period": 5,
+        "id_team": "43942"
       }
     ],
     "bookings": [],
@@ -820,6 +861,42 @@
         "id_player_on": "448203",
         "player_off_name": "Marcus RASHFORD",
         "player_on_name": "Ollie WATKINS"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43942",
+        "id_player_off": "448198",
+        "id_player_on": "481610",
+        "player_off_name": "Ivan TONEY",
+        "player_on_name": "Elliot ANDERSON"
+      },
+      {
+        "period": 5,
+        "minute": "79'",
+        "id_team": "43942",
+        "id_player_off": "473113",
+        "id_player_on": "448202",
+        "player_off_name": "Eberechi EZE",
+        "player_on_name": "Jude BELLINGHAM"
+      },
+      {
+        "period": 5,
+        "minute": "83'",
+        "id_team": "43942",
+        "id_player_off": "463809",
+        "id_player_on": "439641",
+        "player_off_name": "Jarell QUANSAH",
+        "player_on_name": "Reece JAMES"
+      },
+      {
+        "period": 5,
+        "minute": "90'+2'",
+        "id_team": "43942",
+        "id_player_off": "405841",
+        "id_player_on": "439691",
+        "player_off_name": "Marc GUEHI",
+        "player_on_name": "Trevoh CHALOBAH"
       }
     ]
   },
@@ -833,13 +910,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
-  "officiality_status": 0,
+  "match_status_code": 0,
+  "result_type": 1,
+  "officiality_status": 2,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289291/400021542?language=en",
-  "updated_at_utc": "2026-07-18T22:25:03.600285+00:00",
-  "updated_at_poland": "2026-07-19T00:25:03.600290+02:00"
+  "updated_at_utc": "2026-07-18T23:24:34.805883+00:00",
+  "updated_at_poland": "2026-07-19T01:24:34.805887+02:00"
 }

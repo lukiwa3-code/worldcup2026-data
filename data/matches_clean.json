@@ -5028,8 +5028,8 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ENG",
       "is_placeholder": false
     },
-    "home_score": 2,
-    "away_score": 4,
+    "home_score": 4,
+    "away_score": 6,
     "home_penalty_score": null,
     "away_penalty_score": null,
     "stadium": {
@@ -5038,9 +5038,9 @@
       "city": "Miami",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 1,
+    "winner": "43942",
     "placeholder_home": "RU101",
     "placeholder_away": "RU102",
     "time_defined": true,
