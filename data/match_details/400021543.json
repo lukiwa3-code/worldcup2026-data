@@ -13,8 +13,8 @@
   "date_local": "2026-07-19T15:00:00Z",
   "date_poland": "2026-07-19T21:00:00+02:00",
   "attendance": null,
-  "match_time": "0'",
-  "period": 0,
+  "match_time": "17'",
+  "period": 3,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": null,
+    "score": 0,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -392,7 +392,7 @@
     "short_name": "Argentina",
     "abbr": "ARG",
     "country": "ARG",
-    "score": null,
+    "score": 0,
     "tactics": "4-4-2",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
     "players": [
@@ -749,13 +749,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 1,
+  "match_status_code": 3,
   "result_type": 0,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289292/400021543?language=en",
-  "updated_at_utc": "2026-07-19T18:08:29.201859+00:00",
-  "updated_at_poland": "2026-07-19T20:08:29.201863+02:00"
+  "updated_at_utc": "2026-07-19T19:23:00.020263+00:00",
+  "updated_at_poland": "2026-07-19T21:23:00.020269+02:00"
 }
