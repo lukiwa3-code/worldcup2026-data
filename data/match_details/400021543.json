@@ -13,9 +13,9 @@
   "date_local": "2026-07-19T15:00:00Z",
   "date_poland": "2026-07-19T21:00:00+02:00",
   "attendance": "80663",
-  "match_time": "90'+1'",
-  "period": 5,
-  "winner": null,
+  "match_time": "126'",
+  "period": 10,
+  "winner": "43969",
   "home_score": null,
   "away_score": null,
   "home_penalty_score": null,
@@ -39,7 +39,7 @@
     "short_name": "Spain",
     "abbr": "ESP",
     "country": "ESP",
-    "score": 0,
+    "score": 1,
     "tactics": "4-1-2-3",
     "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ESP",
     "players": [
@@ -382,7 +382,16 @@
         "lineup_y": null
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "type": 2,
+        "id_player": "405545",
+        "minute": "106'",
+        "id_assist_player": null,
+        "period": 9,
+        "id_team": "43969"
+      }
+    ],
     "bookings": [],
     "substitutions": [
       {
@@ -420,6 +429,24 @@
         "id_player_on": "430733",
         "player_off_name": "Dani OLMO",
         "player_on_name": "Mikel MERINO"
+      },
+      {
+        "period": 7,
+        "minute": "99'",
+        "id_team": "43969",
+        "id_player_off": "411375",
+        "id_player_on": "430754",
+        "player_off_name": "RODRI",
+        "player_on_name": "Martin ZUBIMENDI"
+      },
+      {
+        "period": 7,
+        "minute": "99'",
+        "id_team": "43969",
+        "id_player_off": "335999",
+        "id_player_on": "405562",
+        "player_off_name": "Aymeric LAPORTE",
+        "player_on_name": "Eric GARCIA"
       }
     ]
   },
@@ -797,6 +824,38 @@
         "id_team": "43922",
         "minute": "82'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "431196",
+        "id_team": "43922",
+        "minute": "90'+2'",
+        "reason": null
+      },
+      {
+        "card": 3,
+        "period": 5,
+        "id_player": "448252",
+        "id_team": "43922",
+        "minute": "90'+3'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 7,
+        "id_player": null,
+        "id_team": "43922",
+        "minute": "105'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 9,
+        "id_player": "430628",
+        "id_team": "43922",
+        "minute": "111'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -844,6 +903,15 @@
         "id_player_on": "485595",
         "player_off_name": "Rodrigo DE PAUL",
         "player_on_name": "Giuliano SIMEONE"
+      },
+      {
+        "period": 7,
+        "minute": "102'",
+        "id_team": "43922",
+        "id_player_off": "416081",
+        "id_player_on": "402934",
+        "player_off_name": "Julian ALVAREZ",
+        "player_on_name": "Marcos SENESI"
       }
     ]
   },
@@ -857,13 +925,13 @@
       "official_type": 1
     }
   ],
-  "match_status_code": 3,
-  "result_type": 0,
+  "match_status_code": 0,
+  "result_type": 3,
   "officiality_status": 0,
   "time_defined": true,
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289292/400021543?language=en",
-  "updated_at_utc": "2026-07-19T21:08:33.661106+00:00",
-  "updated_at_poland": "2026-07-19T23:08:33.661111+02:00"
+  "updated_at_utc": "2026-07-19T22:07:06.042052+00:00",
+  "updated_at_poland": "2026-07-20T00:07:06.042056+02:00"
 }

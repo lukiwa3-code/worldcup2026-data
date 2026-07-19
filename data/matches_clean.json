@@ -5077,7 +5077,7 @@
       "flag": "https://api.fifa.com/api/v3/picture/flags-sq-3/ARG",
       "is_placeholder": false
     },
-    "home_score": 0,
+    "home_score": 1,
     "away_score": 0,
     "home_penalty_score": null,
     "away_penalty_score": null,
@@ -5087,9 +5087,9 @@
       "city": "New Jersey",
       "country": "USA"
     },
-    "match_status_code": 3,
-    "result_type": 0,
-    "winner": null,
+    "match_status_code": 0,
+    "result_type": 3,
+    "winner": "43969",
     "placeholder_home": "W101",
     "placeholder_away": "W102",
     "time_defined": true,
