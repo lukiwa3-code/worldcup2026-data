@@ -908,6 +908,14 @@
       "short_name": "Jesus VALENZUELA",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "416524",
+      "country": "MAR",
+      "name": "Jalal Jayed",
+      "short_name": "Jalal JAYED",
+      "type": "Fourth official",
+      "official_type": 4
     }
   ],
   "match_status_code": 0,
@@ -917,6 +925,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289291/400021542?language=en",
-  "updated_at_utc": "2026-07-19T03:56:40.059588+00:00",
-  "updated_at_poland": "2026-07-19T05:56:40.059592+02:00"
+  "updated_at_utc": "2026-07-19T06:28:07.051761+00:00",
+  "updated_at_poland": "2026-07-19T08:28:07.051764+02:00"
 }
