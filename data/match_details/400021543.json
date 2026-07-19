@@ -13,8 +13,8 @@
   "date_local": "2026-07-19T15:00:00Z",
   "date_poland": "2026-07-19T21:00:00+02:00",
   "attendance": null,
-  "match_time": "17'",
-  "period": 3,
+  "match_time": "",
+  "period": 4,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -736,8 +736,27 @@
       }
     ],
     "goals": [],
-    "bookings": [],
-    "substitutions": []
+    "bookings": [
+      {
+        "card": 1,
+        "period": 3,
+        "id_player": "402921",
+        "id_team": "43922",
+        "minute": "41'",
+        "reason": null
+      }
+    ],
+    "substitutions": [
+      {
+        "period": 3,
+        "minute": "44'",
+        "id_team": "43922",
+        "id_player_off": "402921",
+        "id_player_on": "310116",
+        "player_off_name": "Lisandro MARTINEZ",
+        "player_on_name": "Nicolas OTAMENDI"
+      }
+    ]
   },
   "officials": [
     {
@@ -756,6 +775,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289292/400021543?language=en",
-  "updated_at_utc": "2026-07-19T19:23:00.020263+00:00",
-  "updated_at_poland": "2026-07-19T21:23:00.020269+02:00"
+  "updated_at_utc": "2026-07-19T20:13:44.098005+00:00",
+  "updated_at_poland": "2026-07-19T22:13:44.098011+02:00"
 }
