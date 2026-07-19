@@ -12,9 +12,9 @@
   "date_utc": "2026-07-19T19:00:00Z",
   "date_local": "2026-07-19T15:00:00Z",
   "date_poland": "2026-07-19T21:00:00+02:00",
-  "attendance": null,
-  "match_time": "",
-  "period": 4,
+  "attendance": "80663",
+  "match_time": "90'+1'",
+  "period": 5,
   "winner": null,
   "home_score": null,
   "away_score": null,
@@ -384,7 +384,44 @@
     ],
     "goals": [],
     "bookings": [],
-    "substitutions": []
+    "substitutions": [
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43969",
+        "id_player_off": "430751",
+        "id_player_on": "405545",
+        "player_off_name": "Mikel OYARZABAL",
+        "player_on_name": "Ferran TORRES"
+      },
+      {
+        "period": 5,
+        "minute": "62'",
+        "id_team": "43969",
+        "id_player_off": "430718",
+        "id_player_on": "423646",
+        "player_off_name": "Fabian RUIZ",
+        "player_on_name": "PEDRI"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43969",
+        "id_player_off": "447860",
+        "id_player_on": "447855",
+        "player_off_name": "Alex BAENA",
+        "player_on_name": "Nico WILLIAMS"
+      },
+      {
+        "period": 5,
+        "minute": "75'",
+        "id_team": "43969",
+        "id_player_off": "430750",
+        "id_player_on": "430733",
+        "player_off_name": "Dani OLMO",
+        "player_on_name": "Mikel MERINO"
+      }
+    ]
   },
   "away_team": {
     "id_team": "43922",
@@ -744,6 +781,22 @@
         "id_team": "43922",
         "minute": "41'",
         "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "332847",
+        "id_team": "43922",
+        "minute": "52'",
+        "reason": null
+      },
+      {
+        "card": 1,
+        "period": 5,
+        "id_player": "448252",
+        "id_team": "43922",
+        "minute": "82'",
+        "reason": null
       }
     ],
     "substitutions": [
@@ -755,6 +808,42 @@
         "id_player_on": "310116",
         "player_off_name": "Lisandro MARTINEZ",
         "player_on_name": "Nicolas OTAMENDI"
+      },
+      {
+        "period": 4,
+        "minute": "",
+        "id_team": "43922",
+        "id_player_off": "430631",
+        "id_player_on": "332847",
+        "player_off_name": "Nico GONZALEZ",
+        "player_on_name": "Leandro PAREDES"
+      },
+      {
+        "period": 5,
+        "minute": "58'",
+        "id_team": "43922",
+        "id_player_off": "402926",
+        "id_player_on": "402925",
+        "player_off_name": "Gonzalo MONTIEL",
+        "player_on_name": "Nahuel MOLINA"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43922",
+        "id_player_off": "431196",
+        "id_player_on": "418963",
+        "player_off_name": "Cristian ROMERO",
+        "player_on_name": "Facundo MEDINA"
+      },
+      {
+        "period": 5,
+        "minute": "70'",
+        "id_team": "43922",
+        "id_player_off": "428882",
+        "id_player_on": "485595",
+        "player_off_name": "Rodrigo DE PAUL",
+        "player_on_name": "Giuliano SIMEONE"
       }
     ]
   },
@@ -775,6 +864,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289292/400021543?language=en",
-  "updated_at_utc": "2026-07-19T20:13:44.098005+00:00",
-  "updated_at_poland": "2026-07-19T22:13:44.098011+02:00"
+  "updated_at_utc": "2026-07-19T21:08:33.661106+00:00",
+  "updated_at_poland": "2026-07-19T23:08:33.661111+02:00"
 }
