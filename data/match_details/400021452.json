@@ -916,12 +916,60 @@
       "official_type": 1
     },
     {
+      "id": "363986",
+      "country": "NED",
+      "name": "Hessel Steegstra",
+      "short_name": "Hessel STEEGSTRA",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "400210",
+      "country": "NED",
+      "name": "Jan de Vries",
+      "short_name": "Jan DE VRIES",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "392268",
       "country": "POR",
       "name": "João Pedro Silva Pinheiro",
       "short_name": "Joao PINHEIRO",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "400325",
+      "country": "NED",
+      "name": "Dennis Johan Higler",
+      "short_name": "Dennis HIGLER",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "425445",
+      "country": "POR",
+      "name": "Bruno Miguel Alves Jesus",
+      "short_name": "Bruno JESUS",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "378759",
+      "country": "SUI",
+      "name": "Fedayi San",
+      "short_name": "Fedayi SAN",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "417087",
+      "country": "BEL",
+      "name": "Bram Van Driessche",
+      "short_name": "Bram VAN DRIESSCHE",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -931,6 +979,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021452?language=en",
-  "updated_at_utc": "2026-07-30T12:22:45.928337+00:00",
-  "updated_at_poland": "2026-07-30T14:22:45.928342+02:00"
+  "updated_at_utc": "2026-07-30T14:37:57.291655+00:00",
+  "updated_at_poland": "2026-07-30T16:37:57.291660+02:00"
 }

@@ -880,6 +880,62 @@
       "short_name": "Adham MAKHADMEH",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "327165",
+      "country": "JOR",
+      "name": "Mohammad Mustafa Hassan Al Kalaf",
+      "short_name": "Mohammad ALKALAF",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "314242",
+      "country": "JOR",
+      "name": "Ahmad ALROALLE",
+      "short_name": "Ahmad ALROALLE",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "416161",
+      "country": "PER",
+      "name": "Kevin Ortega",
+      "short_name": "Kevin ORTEGA",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "221377",
+      "country": "VEN",
+      "name": "Juan SOTO",
+      "short_name": "Juan SOTO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "374831",
+      "country": "PER",
+      "name": "Michael Orué",
+      "short_name": "Michael ORUE",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "392188",
+      "country": "MEX",
+      "name": "Erick MIRANDA",
+      "short_name": "Erick MIRANDA",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "446925",
+      "country": "URU",
+      "name": "Antonio GARCIA",
+      "short_name": "Antonio GARCIA",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -889,6 +945,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021481?language=en",
-  "updated_at_utc": "2026-07-30T12:22:50.867796+00:00",
-  "updated_at_poland": "2026-07-30T14:22:50.867802+02:00"
+  "updated_at_utc": "2026-07-30T14:38:00.301726+00:00",
+  "updated_at_poland": "2026-07-30T16:38:00.301732+02:00"
 }

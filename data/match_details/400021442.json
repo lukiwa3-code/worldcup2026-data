@@ -852,62 +852,6 @@
       "short_name": "Gustavo TEJERA",
       "type": "Referee",
       "official_type": 1
-    },
-    {
-      "id": "408670",
-      "country": "URU",
-      "name": "Carlos BARREIRO",
-      "short_name": "Carlos BARREIRO",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "348552",
-      "country": "URU",
-      "name": "Nicolás Taran",
-      "short_name": "Nicolas TARAN",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
-      "id": "400324",
-      "country": "COL",
-      "name": "Andrés José Rojas Noguera",
-      "short_name": "Andres ROJAS",
-      "type": "Fourth official",
-      "official_type": 4
-    },
-    {
-      "id": "394562",
-      "country": "URU",
-      "name": "Leodan GONZALEZ",
-      "short_name": "Leodan GONZALEZ",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "349161",
-      "country": "COL",
-      "name": "Alexander Guzmán Bonilla",
-      "short_name": "Alexander GUZMAN",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "446925",
-      "country": "URU",
-      "name": "Antonio GARCIA",
-      "short_name": "Antonio GARCIA",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "408611",
-      "country": "FRA",
-      "name": "Jerome BRISARD",
-      "short_name": "Jerome BRISARD",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -917,6 +861,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021442?language=en",
-  "updated_at_utc": "2026-07-30T12:22:37.438060+00:00",
-  "updated_at_poland": "2026-07-30T14:22:37.438065+02:00"
+  "updated_at_utc": "2026-07-30T14:37:52.000689+00:00",
+  "updated_at_poland": "2026-07-30T16:37:52.000695+02:00"
 }

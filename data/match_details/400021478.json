@@ -878,6 +878,62 @@
       "short_name": "Ramon ABATTI",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "400042",
+      "country": "BRA",
+      "name": "Danilo SIMON",
+      "short_name": "Danilo MANIS",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "424921",
+      "country": "BRA",
+      "name": "Rafael da Silva Alves",
+      "short_name": "Rafael ALVES",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "416161",
+      "country": "PER",
+      "name": "Kevin Ortega",
+      "short_name": "Kevin ORTEGA",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "221377",
+      "country": "VEN",
+      "name": "Juan SOTO",
+      "short_name": "Juan SOTO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "374831",
+      "country": "PER",
+      "name": "Michael Orué",
+      "short_name": "Michael ORUE",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "394562",
+      "country": "URU",
+      "name": "Leodan GONZALEZ",
+      "short_name": "Leodan GONZALEZ",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "360808",
+      "country": "ESP",
+      "name": "Carlos del Cerro Grande",
+      "short_name": "Carlos DEL CERRO GRANDE",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -887,6 +943,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021478?language=en",
-  "updated_at_utc": "2026-07-30T12:22:32.148947+00:00",
-  "updated_at_poland": "2026-07-30T14:22:32.148953+02:00"
+  "updated_at_utc": "2026-07-30T14:37:48.743192+00:00",
+  "updated_at_poland": "2026-07-30T16:37:48.743196+02:00"
 }

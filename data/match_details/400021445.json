@@ -822,6 +822,62 @@
       "short_name": "Facundo TELLO",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "328260",
+      "country": "ARG",
+      "name": "Juan Pablo Belatti",
+      "short_name": "Juan Pablo BELATTI",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "391866",
+      "country": "ARG",
+      "name": "Gabriel CHADE",
+      "short_name": "Gabriel CHADE",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "400324",
+      "country": "COL",
+      "name": "Andrés José Rojas Noguera",
+      "short_name": "Andres ROJAS",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "434969",
+      "country": "ARG",
+      "name": "Hernán Mastrángelo",
+      "short_name": "Hernan MASTRANGELO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "349161",
+      "country": "COL",
+      "name": "Alexander Guzmán Bonilla",
+      "short_name": "Alexander GUZMAN",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "408580",
+      "country": "COL",
+      "name": "Nicolás Gallo Barragán",
+      "short_name": "Nicolas GALLO",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "373388",
+      "country": "GER",
+      "name": "Bastian Dankert",
+      "short_name": "Bastian DANKERT",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -831,6 +887,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021445?language=en",
-  "updated_at_utc": "2026-07-30T12:22:46.571817+00:00",
-  "updated_at_poland": "2026-07-30T14:22:46.571823+02:00"
+  "updated_at_utc": "2026-07-30T14:37:57.714606+00:00",
+  "updated_at_poland": "2026-07-30T16:37:57.714610+02:00"
 }

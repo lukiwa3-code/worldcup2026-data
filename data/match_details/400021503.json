@@ -898,6 +898,62 @@
       "short_name": "Jalal JAYED",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "416532",
+      "country": "MAR",
+      "name": "Zakaria Brinsi",
+      "short_name": "Zakaria BRINSI",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "408335",
+      "country": "MAR",
+      "name": "Mostafa Akarkad",
+      "short_name": "Mostafa AKARKAD",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "425145",
+      "country": "RSA",
+      "name": "Abongile TOM",
+      "short_name": "Abongile TOM",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "394562",
+      "country": "URU",
+      "name": "Leodan GONZALEZ",
+      "short_name": "Leodan GONZALEZ",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "316321",
+      "country": "RSA",
+      "name": "Zakhele SIWELA",
+      "short_name": "Zakhele SIWELA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "428822",
+      "country": "MAR",
+      "name": "Hamza EL FARIQ",
+      "short_name": "Hamza EL FARIQ",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "434969",
+      "country": "ARG",
+      "name": "Hernán Mastrángelo",
+      "short_name": "Hernan MASTRANGELO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -907,6 +963,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021503?language=en",
-  "updated_at_utc": "2026-07-30T12:22:44.144609+00:00",
-  "updated_at_poland": "2026-07-30T14:22:44.144614+02:00"
+  "updated_at_utc": "2026-07-30T14:37:55.922207+00:00",
+  "updated_at_poland": "2026-07-30T16:37:55.922212+02:00"
 }

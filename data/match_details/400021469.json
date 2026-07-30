@@ -865,62 +865,6 @@
       "short_name": "Juan Gabriel BENITEZ",
       "type": "Referee",
       "official_type": 1
-    },
-    {
-      "id": "360921",
-      "country": "PAR",
-      "name": "Eduardo Cardozo",
-      "short_name": "Eduardo CARDOZO",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "301816",
-      "country": "PAR",
-      "name": "Milcíades Saldívar",
-      "short_name": "Milciades SALDIVAR",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
-      "id": "392293",
-      "country": "KSA",
-      "name": "Khalid Saleh Alturais",
-      "short_name": "Khalid ALTURAIS",
-      "type": "Fourth official",
-      "official_type": 4
-    },
-    {
-      "id": "446925",
-      "country": "URU",
-      "name": "Antonio GARCIA",
-      "short_name": "Antonio GARCIA",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "373831",
-      "country": "KSA",
-      "name": "Mohammed Maki Al Abakry",
-      "short_name": "Mohammed ALABAKRY",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "446883",
-      "country": "MEX",
-      "name": "Guillermo PACHECO",
-      "short_name": "Guillermo PACHECO",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "221377",
-      "country": "VEN",
-      "name": "Juan SOTO",
-      "short_name": "Juan SOTO",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -930,6 +874,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021469?language=en",
-  "updated_at_utc": "2026-07-30T12:22:40.479269+00:00",
-  "updated_at_poland": "2026-07-30T14:22:40.479274+02:00"
+  "updated_at_utc": "2026-07-30T14:37:53.332414+00:00",
+  "updated_at_poland": "2026-07-30T16:37:53.332418+02:00"
 }
