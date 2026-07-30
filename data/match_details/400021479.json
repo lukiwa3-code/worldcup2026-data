@@ -871,6 +871,62 @@
       "short_name": "Szymon MARCINIAK",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "327977",
+      "country": "POL",
+      "name": "Tomasz LISTKIEWICZ",
+      "short_name": "Tomasz LISTKIEWICZ",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "425192",
+      "country": "POL",
+      "name": "Adam Kupsik",
+      "short_name": "Adam KUPSIK",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "400040",
+      "country": "JPN",
+      "name": "Yusuke Araki",
+      "short_name": "Yusuke ARAKI",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "428417",
+      "country": "POL",
+      "name": "Tomasz KWIATKOWSKI",
+      "short_name": "Tomasz KWIATKOWSKI",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "400157",
+      "country": "JPN",
+      "name": "Jun MIHARA",
+      "short_name": "Jun MIHARA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "400325",
+      "country": "NED",
+      "name": "Dennis Johan Higler",
+      "short_name": "Dennis HIGLER",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "400266",
+      "country": "AUS",
+      "name": "Shaun EVANS",
+      "short_name": "Shaun EVANS",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -880,6 +936,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021479?language=en",
-  "updated_at_utc": "2026-07-30T08:46:09.796936+00:00",
-  "updated_at_poland": "2026-07-30T10:46:09.796944+02:00"
+  "updated_at_utc": "2026-07-30T10:53:22.570580+00:00",
+  "updated_at_poland": "2026-07-30T12:53:22.570583+02:00"
 }

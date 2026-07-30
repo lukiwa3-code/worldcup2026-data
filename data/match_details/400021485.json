@@ -847,62 +847,6 @@
       "short_name": "Francois LETEXIER",
       "type": "Referee",
       "official_type": 1
-    },
-    {
-      "id": "401107",
-      "country": "FRA",
-      "name": "Cyril Mugnier",
-      "short_name": "Cyril MUGNIER",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "408615",
-      "country": "FRA",
-      "name": "Mehdi Rahmouni",
-      "short_name": "Mehdi RAHMOUNI",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
-      "id": "425145",
-      "country": "RSA",
-      "name": "Abongile TOM",
-      "short_name": "Abongile TOM",
-      "type": "Fourth official",
-      "official_type": 4
-    },
-    {
-      "id": "408210",
-      "country": "ITA",
-      "name": "Marco Di Bello",
-      "short_name": "Marco DI BELLO",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "316321",
-      "country": "RSA",
-      "name": "Zakhele SIWELA",
-      "short_name": "Zakhele SIWELA",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "425061",
-      "country": "FRA",
-      "name": "Willy DELAJOD",
-      "short_name": "Willy DELAJOD",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "434155",
-      "country": "USA",
-      "name": "Joseph Dickerson",
-      "short_name": "Joe DICKERSON",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -912,6 +856,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021485?language=en",
-  "updated_at_utc": "2026-07-30T08:46:09.167253+00:00",
-  "updated_at_poland": "2026-07-30T10:46:09.167260+02:00"
+  "updated_at_utc": "2026-07-30T10:53:22.170769+00:00",
+  "updated_at_poland": "2026-07-30T12:53:22.170773+02:00"
 }

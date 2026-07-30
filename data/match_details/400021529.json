@@ -867,12 +867,60 @@
       "official_type": 1
     },
     {
+      "id": "378788",
+      "country": "ENG",
+      "name": "Gary Beswick",
+      "short_name": "Gary BESWICK",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "400069",
+      "country": "ENG",
+      "name": "Adam Nunn",
+      "short_name": "Adam NUNN",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "348147",
       "country": "GER",
       "name": "Felix Zwayer",
       "short_name": "Felix ZWAYER",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "373388",
+      "country": "GER",
+      "name": "Bastian Dankert",
+      "short_name": "Bastian DANKERT",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "435941",
+      "country": "GER",
+      "name": "Robert KEMPTER",
+      "short_name": "Robert KEMPTER",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "446925",
+      "country": "URU",
+      "name": "Antonio GARCIA",
+      "short_name": "Antonio GARCIA",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "408210",
+      "country": "ITA",
+      "name": "Marco Di Bello",
+      "short_name": "Marco DI BELLO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -882,6 +930,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021529?language=en",
-  "updated_at_utc": "2026-07-30T08:46:20.761573+00:00",
-  "updated_at_poland": "2026-07-30T10:46:20.761578+02:00"
+  "updated_at_utc": "2026-07-30T10:53:28.093494+00:00",
+  "updated_at_poland": "2026-07-30T12:53:28.093498+02:00"
 }

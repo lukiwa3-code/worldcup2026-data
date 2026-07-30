@@ -875,12 +875,60 @@
       "official_type": 1
     },
     {
+      "id": "415979",
+      "country": "SWE",
+      "name": "Mahbod Beigi",
+      "short_name": "Mahbod BEIGI",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "415978",
+      "country": "SWE",
+      "name": "Andreas Söderkvist",
+      "short_name": "Andreas SODERKVIST",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "408591",
       "country": "MTN",
       "name": "Dahane BEIDA",
       "short_name": "Dahane BEIDA",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "428417",
+      "country": "POL",
+      "name": "Tomasz KWIATKOWSKI",
+      "short_name": "Tomasz KWIATKOWSKI",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "240345",
+      "country": "CMR",
+      "name": "Elvis NOUPUE",
+      "short_name": "Elvis NOUPUE",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "378759",
+      "country": "SUI",
+      "name": "Fedayi San",
+      "short_name": "Fedayi SAN",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "400266",
+      "country": "AUS",
+      "name": "Shaun EVANS",
+      "short_name": "Shaun EVANS",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -890,6 +938,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021519?language=en",
-  "updated_at_utc": "2026-07-30T08:46:17.734448+00:00",
-  "updated_at_poland": "2026-07-30T10:46:17.734453+02:00"
+  "updated_at_utc": "2026-07-30T10:53:26.094161+00:00",
+  "updated_at_poland": "2026-07-30T12:53:26.094166+02:00"
 }

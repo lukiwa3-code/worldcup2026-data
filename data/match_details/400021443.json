@@ -899,12 +899,60 @@
       "official_type": 1
     },
     {
+      "id": "391903",
+      "country": "BRA",
+      "name": "Bruno PIRES",
+      "short_name": "Bruno PIRES",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "374168",
+      "country": "BRA",
+      "name": "Bruno Boschilia",
+      "short_name": "Bruno BOSCHILIA",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "416159",
       "country": "PAR",
       "name": "Juan Gabriel Benítez",
       "short_name": "Juan Gabriel BENITEZ",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "408580",
+      "country": "COL",
+      "name": "Nicolás Gallo Barragán",
+      "short_name": "Nicolas GALLO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "360921",
+      "country": "PAR",
+      "name": "Eduardo Cardozo",
+      "short_name": "Eduardo CARDOZO",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "428539",
+      "country": "CHI",
+      "name": "Juan Lara",
+      "short_name": "Juan LARA",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "408611",
+      "country": "FRA",
+      "name": "Jerome BRISARD",
+      "short_name": "Jerome BRISARD",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -914,6 +962,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021443?language=en",
-  "updated_at_utc": "2026-07-30T08:45:50.581699+00:00",
-  "updated_at_poland": "2026-07-30T10:45:50.581705+02:00"
+  "updated_at_utc": "2026-07-30T10:53:08.595912+00:00",
+  "updated_at_poland": "2026-07-30T12:53:08.595917+02:00"
 }

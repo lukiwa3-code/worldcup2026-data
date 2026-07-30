@@ -905,12 +905,60 @@
       "official_type": 1
     },
     {
+      "id": "401107",
+      "country": "FRA",
+      "name": "Cyril Mugnier",
+      "short_name": "Cyril MUGNIER",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "408615",
+      "country": "FRA",
+      "name": "Mehdi Rahmouni",
+      "short_name": "Mehdi RAHMOUNI",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "400227",
       "country": "NOR",
       "name": "Espen Eskås",
       "short_name": "Espen ESKAS",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "408611",
+      "country": "FRA",
+      "name": "Jerome BRISARD",
+      "short_name": "Jerome BRISARD",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "408225",
+      "country": "NOR",
+      "name": "Isaak Elias S. BASHEVKIN",
+      "short_name": "Isaak BASHEVKIN",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "425061",
+      "country": "FRA",
+      "name": "Willy DELAJOD",
+      "short_name": "Willy DELAJOD",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "417087",
+      "country": "BEL",
+      "name": "Bram Van Driessche",
+      "short_name": "Bram VAN DRIESSCHE",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -920,6 +968,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021528?language=en",
-  "updated_at_utc": "2026-07-30T08:46:21.332526+00:00",
-  "updated_at_poland": "2026-07-30T10:46:21.332531+02:00"
+  "updated_at_utc": "2026-07-30T10:53:28.511341+00:00",
+  "updated_at_poland": "2026-07-30T12:53:28.511345+02:00"
 }

@@ -874,6 +874,62 @@
       "short_name": "Gustavo TEJERA",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "408670",
+      "country": "URU",
+      "name": "Carlos BARREIRO",
+      "short_name": "Carlos BARREIRO",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "348552",
+      "country": "URU",
+      "name": "Nicolás Taran",
+      "short_name": "Nicolas TARAN",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "383265",
+      "country": "SUI",
+      "name": "Sandro Schärer",
+      "short_name": "Sandro SCHAERER",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "394562",
+      "country": "URU",
+      "name": "Leodan GONZALEZ",
+      "short_name": "Leodan GONZALEZ",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "383264",
+      "country": "SUI",
+      "name": "Stéphane De Almeida",
+      "short_name": "Stephane DE ALMEIDA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "446925",
+      "country": "URU",
+      "name": "Antonio GARCIA",
+      "short_name": "Antonio GARCIA",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "373388",
+      "country": "GER",
+      "name": "Bastian Dankert",
+      "short_name": "Bastian DANKERT",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -883,6 +939,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021515?language=en",
-  "updated_at_utc": "2026-07-30T08:46:18.684710+00:00",
-  "updated_at_poland": "2026-07-30T10:46:18.684716+02:00"
+  "updated_at_utc": "2026-07-30T10:53:26.699603+00:00",
+  "updated_at_poland": "2026-07-30T12:53:26.699607+02:00"
 }

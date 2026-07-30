@@ -865,60 +865,12 @@
       "official_type": 1
     },
     {
-      "id": "348661",
-      "country": "NOR",
-      "name": "Jan Erik Engan",
-      "short_name": "Jan Erik ENGAN",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "408225",
-      "country": "NOR",
-      "name": "Isaak Elias S. BASHEVKIN",
-      "short_name": "Isaak BASHEVKIN",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
       "id": "428431",
       "country": "USA",
       "name": "Tori Penso",
       "short_name": "Tori PENSO",
       "type": "Fourth official",
       "official_type": 4
-    },
-    {
-      "id": "425061",
-      "country": "FRA",
-      "name": "Willy DELAJOD",
-      "short_name": "Willy DELAJOD",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "408398",
-      "country": "USA",
-      "name": "Brooke Mayo",
-      "short_name": "Brooke MAYO",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "408611",
-      "country": "FRA",
-      "name": "Jerome BRISARD",
-      "short_name": "Jerome BRISARD",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "400325",
-      "country": "NED",
-      "name": "Dennis Johan Higler",
-      "short_name": "Dennis HIGLER",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -928,6 +880,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021487?language=en",
-  "updated_at_utc": "2026-07-30T08:46:01.857951+00:00",
-  "updated_at_poland": "2026-07-30T10:46:01.857955+02:00"
+  "updated_at_utc": "2026-07-30T10:53:16.782934+00:00",
+  "updated_at_poland": "2026-07-30T12:53:16.782939+02:00"
 }

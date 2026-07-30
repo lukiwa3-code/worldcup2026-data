@@ -899,6 +899,62 @@
       "short_name": "Said MARTINEZ",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "361341",
+      "country": "HON",
+      "name": "Walter LOPEZ",
+      "short_name": "Walter LOPEZ",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "348332",
+      "country": "HON",
+      "name": "Christian RAMIREZ",
+      "short_name": "Christian RAMIREZ",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "400324",
+      "country": "COL",
+      "name": "Andrés José Rojas Noguera",
+      "short_name": "Andres ROJAS",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "446883",
+      "country": "MEX",
+      "name": "Guillermo PACHECO",
+      "short_name": "Guillermo PACHECO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "349161",
+      "country": "COL",
+      "name": "Alexander Guzmán Bonilla",
+      "short_name": "Alexander GUZMAN",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "400013",
+      "country": "BRA",
+      "name": "Rodolpho Toski Marques",
+      "short_name": "Rodolpho TOSKI",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "360808",
+      "country": "ESP",
+      "name": "Carlos del Cerro Grande",
+      "short_name": "Carlos DEL CERRO GRANDE",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -908,6 +964,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021525?language=en",
-  "updated_at_utc": "2026-07-30T08:46:14.491531+00:00",
-  "updated_at_poland": "2026-07-30T10:46:14.491536+02:00"
+  "updated_at_utc": "2026-07-30T10:53:25.701503+00:00",
+  "updated_at_poland": "2026-07-30T12:53:25.701507+02:00"
 }

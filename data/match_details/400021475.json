@@ -846,6 +846,62 @@
       "short_name": "Istvan KOVACS",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "435713",
+      "country": "ROU",
+      "name": "Mihai MARICA",
+      "short_name": "Mihai MARICA",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "447272",
+      "country": "ROU",
+      "name": "Ferencz TUNYOGI",
+      "short_name": "Ferencz TUNYOGI",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "400250",
+      "country": "CRC",
+      "name": "Juan Gabriel Calderón Perez",
+      "short_name": "Juan CALDERON",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "378759",
+      "country": "SUI",
+      "name": "Fedayi San",
+      "short_name": "Fedayi SAN",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "383469",
+      "country": "CRC",
+      "name": "Juan Carlos Mora",
+      "short_name": "Juan Carlos MORA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "434155",
+      "country": "USA",
+      "name": "Joseph Dickerson",
+      "short_name": "Joe DICKERSON",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "373388",
+      "country": "GER",
+      "name": "Bastian Dankert",
+      "short_name": "Bastian DANKERT",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -855,6 +911,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021475?language=en",
-  "updated_at_utc": "2026-07-30T08:46:01.017835+00:00",
-  "updated_at_poland": "2026-07-30T10:46:01.017840+02:00"
+  "updated_at_utc": "2026-07-30T10:53:16.141981+00:00",
+  "updated_at_poland": "2026-07-30T12:53:16.141984+02:00"
 }

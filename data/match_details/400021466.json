@@ -873,6 +873,62 @@
       "short_name": "Tori PENSO",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "408398",
+      "country": "USA",
+      "name": "Brooke Mayo",
+      "short_name": "Brooke MAYO",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "392425",
+      "country": "USA",
+      "name": "Katie Nesbitt",
+      "short_name": "Kathryn NESBITT",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "408438",
+      "country": "NZL",
+      "name": "Campbell-Kirk Waugh",
+      "short_name": "Campbell-Kirk KAWANA-WAUGH",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "434155",
+      "country": "USA",
+      "name": "Joseph Dickerson",
+      "short_name": "Joe DICKERSON",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "400287",
+      "country": "NZL",
+      "name": "Isaac Trevis",
+      "short_name": "Isaac TREVIS",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "374457",
+      "country": "CHN",
+      "name": "Ming Fu",
+      "short_name": "FU Ming",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "315190",
+      "country": "QAT",
+      "name": "Khamis AL MARRI",
+      "short_name": "Khamis ALMARRI",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -882,6 +938,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021466?language=en",
-  "updated_at_utc": "2026-07-30T08:46:06.722533+00:00",
-  "updated_at_poland": "2026-07-30T10:46:06.722538+02:00"
+  "updated_at_utc": "2026-07-30T10:53:20.397580+00:00",
+  "updated_at_poland": "2026-07-30T12:53:20.397584+02:00"
 }

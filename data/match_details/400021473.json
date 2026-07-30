@@ -849,12 +849,60 @@
       "official_type": 1
     },
     {
+      "id": "416319",
+      "country": "MEX",
+      "name": "Sandra RAMIREZ",
+      "short_name": "Sandra RAMIREZ",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "425311",
+      "country": "ESP",
+      "name": "José Enrique Naranjo Pérez",
+      "short_name": "Jose Enrique NARANJO",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "416159",
       "country": "PAR",
       "name": "Juan Gabriel Benítez",
       "short_name": "Juan Gabriel BENITEZ",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "392188",
+      "country": "MEX",
+      "name": "Erick MIRANDA",
+      "short_name": "Erick MIRANDA",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "301816",
+      "country": "PAR",
+      "name": "Milcíades Saldívar",
+      "short_name": "Milciades SALDIVAR",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "428512",
+      "country": "UAE",
+      "name": "Mohammed Obaid KHADIM",
+      "short_name": "Mohammed Obaid KHADIM",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "434969",
+      "country": "ARG",
+      "name": "Hernán Mastrángelo",
+      "short_name": "Hernan MASTRANGELO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -864,6 +912,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021473?language=en",
-  "updated_at_utc": "2026-07-30T08:46:06.977264+00:00",
-  "updated_at_poland": "2026-07-30T10:46:06.977269+02:00"
+  "updated_at_utc": "2026-07-30T10:53:20.620817+00:00",
+  "updated_at_poland": "2026-07-30T12:53:20.620823+02:00"
 }

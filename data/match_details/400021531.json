@@ -932,12 +932,60 @@
       "official_type": 1
     },
     {
+      "id": "391848",
+      "country": "AUS",
+      "name": "George Lakrindis",
+      "short_name": "George LAKRINDIS",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "416197",
+      "country": "AUS",
+      "name": "James Andrew LINDSAY",
+      "short_name": "Andrew LINDSAY",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "416524",
       "country": "MAR",
       "name": "Jalal Jayed",
       "short_name": "Jalal JAYED",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "408580",
+      "country": "COL",
+      "name": "Nicolás Gallo Barragán",
+      "short_name": "Nicolas GALLO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "416532",
+      "country": "MAR",
+      "name": "Zakaria Brinsi",
+      "short_name": "Zakaria BRINSI",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "428539",
+      "country": "CHI",
+      "name": "Juan Lara",
+      "short_name": "Juan LARA",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "221377",
+      "country": "VEN",
+      "name": "Juan SOTO",
+      "short_name": "Juan SOTO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -947,6 +995,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021531?language=en",
-  "updated_at_utc": "2026-07-30T08:46:20.501743+00:00",
-  "updated_at_poland": "2026-07-30T10:46:20.501748+02:00"
+  "updated_at_utc": "2026-07-30T10:53:27.894644+00:00",
+  "updated_at_poland": "2026-07-30T12:53:27.894649+02:00"
 }

@@ -900,12 +900,60 @@
       "official_type": 1
     },
     {
+      "id": "435713",
+      "country": "ROU",
+      "name": "Mihai MARICA",
+      "short_name": "Mihai MARICA",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "447272",
+      "country": "ROU",
+      "name": "Ferencz TUNYOGI",
+      "short_name": "Ferencz TUNYOGI",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "408591",
       "country": "MTN",
       "name": "Dahane BEIDA",
       "short_name": "Dahane BEIDA",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "417087",
+      "country": "BEL",
+      "name": "Bram Van Driessche",
+      "short_name": "Bram VAN DRIESSCHE",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "302677",
+      "country": "ANG",
+      "name": "Jerson DOS SANTOS",
+      "short_name": "Jerson SANTOS",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "378759",
+      "country": "SUI",
+      "name": "Fedayi San",
+      "short_name": "Fedayi SAN",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "408210",
+      "country": "ITA",
+      "name": "Marco Di Bello",
+      "short_name": "Marco DI BELLO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -915,6 +963,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021495?language=en",
-  "updated_at_utc": "2026-07-30T08:46:11.652383+00:00",
-  "updated_at_poland": "2026-07-30T10:46:11.652387+02:00"
+  "updated_at_utc": "2026-07-30T10:53:23.892786+00:00",
+  "updated_at_poland": "2026-07-30T12:53:23.892791+02:00"
 }

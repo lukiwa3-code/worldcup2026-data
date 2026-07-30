@@ -890,62 +890,6 @@
       "short_name": "Ivan BARTON",
       "type": "Referee",
       "official_type": 1
-    },
-    {
-      "id": "360681",
-      "country": "SLV",
-      "name": "David Jonathan Morán Santos",
-      "short_name": "David MORAN",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "373119",
-      "country": "NCA",
-      "name": "Henri Antonio Pupiro Esquivel",
-      "short_name": "Antonio PUPIRO",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
-      "id": "408303",
-      "country": "JAM",
-      "name": "Oshane Nation",
-      "short_name": "Oshane NATION",
-      "type": "Fourth official",
-      "official_type": 4
-    },
-    {
-      "id": "315190",
-      "country": "QAT",
-      "name": "Khamis AL MARRI",
-      "short_name": "Khamis ALMARRI",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "360677",
-      "country": "TRI",
-      "name": "Caleb Wales",
-      "short_name": "Caleb WALES",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "373123",
-      "country": "NCA",
-      "name": "Tatiana GUZMAN",
-      "short_name": "Tatiana GUZMAN",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "436278",
-      "country": "KSA",
-      "name": "Abdullah ALSHEHRI",
-      "short_name": "Abdullah ALSHEHRI",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -955,6 +899,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021460?language=en",
-  "updated_at_utc": "2026-07-30T08:45:59.867490+00:00",
-  "updated_at_poland": "2026-07-30T10:45:59.867495+02:00"
+  "updated_at_utc": "2026-07-30T10:53:15.320045+00:00",
+  "updated_at_poland": "2026-07-30T12:53:15.320049+02:00"
 }

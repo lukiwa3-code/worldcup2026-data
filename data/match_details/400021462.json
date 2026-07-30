@@ -903,12 +903,60 @@
       "official_type": 1
     },
     {
+      "id": "435941",
+      "country": "GER",
+      "name": "Robert KEMPTER",
+      "short_name": "Robert KEMPTER",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "428266",
+      "country": "GER",
+      "name": "Christian Dietz",
+      "short_name": "Christian DIETZ",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "416317",
       "country": "MEX",
       "name": "Katia Itzel García",
       "short_name": "Katia GARCIA",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "373388",
+      "country": "GER",
+      "name": "Bastian Dankert",
+      "short_name": "Bastian DANKERT",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "416319",
+      "country": "MEX",
+      "name": "Sandra RAMIREZ",
+      "short_name": "Sandra RAMIREZ",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "428822",
+      "country": "MAR",
+      "name": "Hamza EL FARIQ",
+      "short_name": "Hamza EL FARIQ",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "417087",
+      "country": "BEL",
+      "name": "Bram Van Driessche",
+      "short_name": "Bram VAN DRIESSCHE",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -918,6 +966,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021462?language=en",
-  "updated_at_utc": "2026-07-30T08:45:59.057856+00:00",
-  "updated_at_poland": "2026-07-30T10:45:59.057861+02:00"
+  "updated_at_utc": "2026-07-30T10:53:14.604680+00:00",
+  "updated_at_poland": "2026-07-30T12:53:14.604684+02:00"
 }

@@ -881,12 +881,60 @@
       "official_type": 1
     },
     {
+      "id": "361836",
+      "country": "FRA",
+      "name": "Nicolas Danos",
+      "short_name": "Nicolas DANOS",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "408612",
+      "country": "FRA",
+      "name": "Benjamin Pages",
+      "short_name": "Benjamin PAGES",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "373845",
       "country": "ESP",
       "name": "Alejandro José Hernández Hernández",
       "short_name": "Alejandro HERNANDEZ",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "408611",
+      "country": "FRA",
+      "name": "Jerome BRISARD",
+      "short_name": "Jerome BRISARD",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "425311",
+      "country": "ESP",
+      "name": "José Enrique Naranjo Pérez",
+      "short_name": "Jose Enrique NARANJO",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "383463",
+      "country": "USA",
+      "name": "Armando Villarreal",
+      "short_name": "Armando VILLARREAL",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "360808",
+      "country": "ESP",
+      "name": "Carlos del Cerro Grande",
+      "short_name": "Carlos DEL CERRO GRANDE",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -896,6 +944,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021539?language=en",
-  "updated_at_utc": "2026-07-30T08:46:22.577518+00:00",
-  "updated_at_poland": "2026-07-30T10:46:22.577523+02:00"
+  "updated_at_utc": "2026-07-30T10:53:29.329363+00:00",
+  "updated_at_poland": "2026-07-30T12:53:29.329367+02:00"
 }

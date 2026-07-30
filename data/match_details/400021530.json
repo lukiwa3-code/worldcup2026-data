@@ -919,60 +919,12 @@
       "official_type": 1
     },
     {
-      "id": "327555",
-      "country": "ENG",
-      "name": "Stuart Burt",
-      "short_name": "Stuart BURT",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "407736",
-      "country": "ENG",
-      "name": "James MAINWARING",
-      "short_name": "James MAINWARING",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
       "id": "327159",
       "country": "NED",
       "name": "Danny Desmond Makkelie",
       "short_name": "Danny MAKKELIE",
       "type": "Fourth official",
       "official_type": 4
-    },
-    {
-      "id": "359472",
-      "country": "ENG",
-      "name": "Jarred Gillett",
-      "short_name": "Jarred GILLETT",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "363986",
-      "country": "NED",
-      "name": "Hessel Steegstra",
-      "short_name": "Hessel STEEGSTRA",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "400325",
-      "country": "NED",
-      "name": "Dennis Johan Higler",
-      "short_name": "Dennis HIGLER",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "428417",
-      "country": "POL",
-      "name": "Tomasz KWIATKOWSKI",
-      "short_name": "Tomasz KWIATKOWSKI",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -982,6 +934,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021530?language=en",
-  "updated_at_utc": "2026-07-30T08:46:19.627321+00:00",
-  "updated_at_poland": "2026-07-30T10:46:19.627326+02:00"
+  "updated_at_utc": "2026-07-30T10:53:27.281467+00:00",
+  "updated_at_poland": "2026-07-30T12:53:27.281471+02:00"
 }

@@ -917,12 +917,60 @@
       "official_type": 1
     },
     {
+      "id": "391903",
+      "country": "BRA",
+      "name": "Bruno PIRES",
+      "short_name": "Bruno PIRES",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "374168",
+      "country": "BRA",
+      "name": "Bruno Boschilia",
+      "short_name": "Bruno BOSCHILIA",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "416177",
       "country": "CHI",
       "name": "Cristián Marcelo Garay Reyes",
       "short_name": "Cristian GARAY",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "408580",
+      "country": "COL",
+      "name": "Nicolás Gallo Barragán",
+      "short_name": "Nicolas GALLO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "383452",
+      "country": "CHI",
+      "name": "José Francisco Retamal Silva",
+      "short_name": "Jose RETAMAL",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "394562",
+      "country": "URU",
+      "name": "Leodan GONZALEZ",
+      "short_name": "Leodan GONZALEZ",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "383463",
+      "country": "USA",
+      "name": "Armando Villarreal",
+      "short_name": "Armando VILLARREAL",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -932,6 +980,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021522?language=en",
-  "updated_at_utc": "2026-07-30T08:46:12.922488+00:00",
-  "updated_at_poland": "2026-07-30T10:46:12.922493+02:00"
+  "updated_at_utc": "2026-07-30T10:53:24.674671+00:00",
+  "updated_at_poland": "2026-07-30T12:53:24.674675+02:00"
 }

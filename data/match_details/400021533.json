@@ -848,60 +848,12 @@
       "official_type": 1
     },
     {
-      "id": "348253",
-      "country": "UZB",
-      "name": "Andrey Tsapenko",
-      "short_name": "Andrey TSAPENKO",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "374281",
-      "country": "UZB",
-      "name": "Timur Gaynulin",
-      "short_name": "Timur GAYNULLIN",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
       "id": "361083",
       "country": "QAT",
       "name": "Abdulrahman AL JASSIM",
       "short_name": "Abdulrahman ALJASSIM",
       "type": "Fourth official",
       "official_type": 4
-    },
-    {
-      "id": "428539",
-      "country": "CHI",
-      "name": "Juan Lara",
-      "short_name": "Juan LARA",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "349025",
-      "country": "QAT",
-      "name": "Taleb AL MARRI",
-      "short_name": "Taleb ALMARRI",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "408210",
-      "country": "ITA",
-      "name": "Marco Di Bello",
-      "short_name": "Marco DI BELLO",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "434155",
-      "country": "USA",
-      "name": "Joseph Dickerson",
-      "short_name": "Joe DICKERSON",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -911,6 +863,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021533?language=en",
-  "updated_at_utc": "2026-07-30T08:46:19.934059+00:00",
-  "updated_at_poland": "2026-07-30T10:46:19.934064+02:00"
+  "updated_at_utc": "2026-07-30T10:53:27.477017+00:00",
+  "updated_at_poland": "2026-07-30T12:53:27.477021+02:00"
 }

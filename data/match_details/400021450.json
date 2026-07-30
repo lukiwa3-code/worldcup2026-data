@@ -909,6 +909,62 @@
       "short_name": "Cristian GARAY",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "383452",
+      "country": "CHI",
+      "name": "José Francisco Retamal Silva",
+      "short_name": "Jose RETAMAL",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "428533",
+      "country": "CHI",
+      "name": "Miguel ROCHA",
+      "short_name": "Miguel ROCHA",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "416161",
+      "country": "PER",
+      "name": "Kevin Ortega",
+      "short_name": "Kevin ORTEGA",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "428539",
+      "country": "CHI",
+      "name": "Juan Lara",
+      "short_name": "Juan LARA",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "374831",
+      "country": "PER",
+      "name": "Michael Orué",
+      "short_name": "Michael ORUE",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "400013",
+      "country": "BRA",
+      "name": "Rodolpho Toski Marques",
+      "short_name": "Rodolpho TOSKI",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "408580",
+      "country": "COL",
+      "name": "Nicolás Gallo Barragán",
+      "short_name": "Nicolas GALLO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -918,6 +974,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021450?language=en",
-  "updated_at_utc": "2026-07-30T08:45:58.512245+00:00",
-  "updated_at_poland": "2026-07-30T10:45:58.512250+02:00"
+  "updated_at_utc": "2026-07-30T10:53:14.198246+00:00",
+  "updated_at_poland": "2026-07-30T12:53:14.198250+02:00"
 }

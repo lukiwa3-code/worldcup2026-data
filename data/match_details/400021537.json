@@ -922,12 +922,60 @@
       "official_type": 1
     },
     {
+      "id": "425445",
+      "country": "POR",
+      "name": "Bruno Miguel Alves Jesus",
+      "short_name": "Bruno JESUS",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "447216",
+      "country": "POR",
+      "name": "Luciano MAIA",
+      "short_name": "Luciano MAIA",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "372930",
       "country": "CAN",
       "name": "Drew Fischer",
       "short_name": "Drew FISCHER",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "446883",
+      "country": "MEX",
+      "name": "Guillermo PACHECO",
+      "short_name": "Guillermo PACHECO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "408505",
+      "country": "CAN",
+      "name": "Micheal BARWEGEN",
+      "short_name": "Micheal BARWEGEN",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "428539",
+      "country": "CHI",
+      "name": "Juan Lara",
+      "short_name": "Juan LARA",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "408210",
+      "country": "ITA",
+      "name": "Marco Di Bello",
+      "short_name": "Marco DI BELLO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -937,6 +985,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289289/400021537?language=en",
-  "updated_at_utc": "2026-07-30T08:46:22.835770+00:00",
-  "updated_at_poland": "2026-07-30T10:46:22.835776+02:00"
+  "updated_at_utc": "2026-07-30T10:53:29.525892+00:00",
+  "updated_at_poland": "2026-07-30T12:53:29.525897+02:00"
 }
