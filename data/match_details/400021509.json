@@ -874,6 +874,62 @@
       "short_name": "Drew FISCHER",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "408505",
+      "country": "CAN",
+      "name": "Micheal BARWEGEN",
+      "short_name": "Micheal BARWEGEN",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "425172",
+      "country": "CAN",
+      "name": "Lyes ARFA",
+      "short_name": "Lyes ARFA",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "408438",
+      "country": "NZL",
+      "name": "Campbell-Kirk Waugh",
+      "short_name": "Campbell-Kirk KAWANA-WAUGH",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "446883",
+      "country": "MEX",
+      "name": "Guillermo PACHECO",
+      "short_name": "Guillermo PACHECO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "400287",
+      "country": "NZL",
+      "name": "Isaac Trevis",
+      "short_name": "Isaac TREVIS",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "400013",
+      "country": "BRA",
+      "name": "Rodolpho Toski Marques",
+      "short_name": "Rodolpho TOSKI",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "428417",
+      "country": "POL",
+      "name": "Tomasz KWIATKOWSKI",
+      "short_name": "Tomasz KWIATKOWSKI",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -883,6 +939,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021509?language=en",
-  "updated_at_utc": "2026-07-30T10:53:23.018417+00:00",
-  "updated_at_poland": "2026-07-30T12:53:23.018421+02:00"
+  "updated_at_utc": "2026-07-30T12:22:52.126982+00:00",
+  "updated_at_poland": "2026-07-30T14:22:52.126987+02:00"
 }

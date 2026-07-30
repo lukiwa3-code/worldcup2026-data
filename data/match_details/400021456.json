@@ -861,6 +861,62 @@
       "short_name": "Slavko VINCIC",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "374790",
+      "country": "SVN",
+      "name": "Tomaz KLANCNIK",
+      "short_name": "Tomaz KLANCNIK",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "383670",
+      "country": "SVN",
+      "name": "Andraz KOVACIC",
+      "short_name": "Andraz KOVACIC",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "383265",
+      "country": "SUI",
+      "name": "Sandro Schärer",
+      "short_name": "Sandro SCHAERER",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "373388",
+      "country": "GER",
+      "name": "Bastian Dankert",
+      "short_name": "Bastian DANKERT",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "383264",
+      "country": "SUI",
+      "name": "Stéphane De Almeida",
+      "short_name": "Stephane DE ALMEIDA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "425061",
+      "country": "FRA",
+      "name": "Willy DELAJOD",
+      "short_name": "Willy DELAJOD",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "196025",
+      "country": "CRO",
+      "name": "Ivan Bebek",
+      "short_name": "Ivan BEBEK",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -870,6 +926,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021456?language=en",
-  "updated_at_utc": "2026-07-30T10:53:09.680381+00:00",
-  "updated_at_poland": "2026-07-30T12:53:09.680385+02:00"
+  "updated_at_utc": "2026-07-30T12:22:29.488310+00:00",
+  "updated_at_poland": "2026-07-30T14:22:29.488315+02:00"
 }

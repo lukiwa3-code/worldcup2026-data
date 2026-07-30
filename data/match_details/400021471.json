@@ -872,12 +872,60 @@
       "official_type": 1
     },
     {
+      "id": "360681",
+      "country": "SLV",
+      "name": "David Jonathan Morán Santos",
+      "short_name": "David MORAN",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "373119",
+      "country": "NCA",
+      "name": "Henri Antonio Pupiro Esquivel",
+      "short_name": "Antonio PUPIRO",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "408591",
       "country": "MTN",
       "name": "Dahane BEIDA",
       "short_name": "Dahane BEIDA",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "408580",
+      "country": "COL",
+      "name": "Nicolás Gallo Barragán",
+      "short_name": "Nicolas GALLO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "302677",
+      "country": "ANG",
+      "name": "Jerson DOS SANTOS",
+      "short_name": "Jerson SANTOS",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "446883",
+      "country": "MEX",
+      "name": "Guillermo PACHECO",
+      "short_name": "Guillermo PACHECO",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "400013",
+      "country": "BRA",
+      "name": "Rodolpho Toski Marques",
+      "short_name": "Rodolpho TOSKI",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -887,6 +935,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021471?language=en",
-  "updated_at_utc": "2026-07-30T10:53:20.822933+00:00",
-  "updated_at_poland": "2026-07-30T12:53:20.822937+02:00"
+  "updated_at_utc": "2026-07-30T12:22:48.965581+00:00",
+  "updated_at_poland": "2026-07-30T14:22:48.965586+02:00"
 }

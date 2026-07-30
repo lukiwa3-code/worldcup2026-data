@@ -840,12 +840,60 @@
       "official_type": 1
     },
     {
+      "id": "400042",
+      "country": "BRA",
+      "name": "Danilo SIMON",
+      "short_name": "Danilo MANIS",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "361589",
+      "country": "BRA",
+      "name": "Rodrigo Figueiredo Henrique Correa",
+      "short_name": "Rodrigo FIGUEIREDO",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "383174",
       "country": "ARG",
       "name": "Darío Herrera",
       "short_name": "Dario HERRERA",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "221377",
+      "country": "VEN",
+      "name": "Juan SOTO",
+      "short_name": "Juan SOTO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "374187",
+      "country": "ARG",
+      "name": "Cristian Navarro",
+      "short_name": "Cristian NAVARRO",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "408580",
+      "country": "COL",
+      "name": "Nicolás Gallo Barragán",
+      "short_name": "Nicolas GALLO",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "408611",
+      "country": "FRA",
+      "name": "Jerome BRISARD",
+      "short_name": "Jerome BRISARD",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -855,6 +903,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021524?language=en",
-  "updated_at_utc": "2026-07-30T10:53:25.898047+00:00",
-  "updated_at_poland": "2026-07-30T12:53:25.898052+02:00"
+  "updated_at_utc": "2026-07-30T12:22:57.120963+00:00",
+  "updated_at_poland": "2026-07-30T14:22:57.120969+02:00"
 }

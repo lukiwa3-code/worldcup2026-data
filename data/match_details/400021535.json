@@ -919,12 +919,60 @@
       "official_type": 1
     },
     {
+      "id": "360681",
+      "country": "SLV",
+      "name": "David Jonathan Morán Santos",
+      "short_name": "David MORAN",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "373119",
+      "country": "NCA",
+      "name": "Henri Antonio Pupiro Esquivel",
+      "short_name": "Antonio PUPIRO",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "416317",
       "country": "MEX",
       "name": "Katia Itzel García",
       "short_name": "Katia GARCIA",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "446883",
+      "country": "MEX",
+      "name": "Guillermo PACHECO",
+      "short_name": "Guillermo PACHECO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "416319",
+      "country": "MEX",
+      "name": "Sandra RAMIREZ",
+      "short_name": "Sandra RAMIREZ",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "383463",
+      "country": "USA",
+      "name": "Armando Villarreal",
+      "short_name": "Armando VILLARREAL",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "196025",
+      "country": "CRO",
+      "name": "Ivan Bebek",
+      "short_name": "Ivan BEBEK",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -934,6 +982,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021535?language=en",
-  "updated_at_utc": "2026-07-30T10:53:28.737802+00:00",
-  "updated_at_poland": "2026-07-30T12:53:28.737808+02:00"
+  "updated_at_utc": "2026-07-30T12:23:01.723314+00:00",
+  "updated_at_poland": "2026-07-30T14:23:01.723319+02:00"
 }

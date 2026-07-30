@@ -823,12 +823,60 @@
       "official_type": 1
     },
     {
+      "id": "425445",
+      "country": "POR",
+      "name": "Bruno Miguel Alves Jesus",
+      "short_name": "Bruno JESUS",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "447216",
+      "country": "POR",
+      "name": "Luciano MAIA",
+      "short_name": "Luciano MAIA",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "383421",
       "country": "UAE",
       "name": "Omar Mohamed Al Ali",
       "short_name": "Omar ALALI",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "360808",
+      "country": "ESP",
+      "name": "Carlos del Cerro Grande",
+      "short_name": "Carlos DEL CERRO GRANDE",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "348536",
+      "country": "UAE",
+      "name": "Mohamed AL HAMMADI",
+      "short_name": "Mohamed ALHAMMADI",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "400013",
+      "country": "BRA",
+      "name": "Rodolpho Toski Marques",
+      "short_name": "Rodolpho TOSKI",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "434969",
+      "country": "ARG",
+      "name": "Hernán Mastrángelo",
+      "short_name": "Hernan MASTRANGELO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -838,6 +886,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021518?language=en",
-  "updated_at_utc": "2026-07-30T10:53:24.086315+00:00",
-  "updated_at_poland": "2026-07-30T12:53:24.086319+02:00"
+  "updated_at_utc": "2026-07-30T12:22:54.109121+00:00",
+  "updated_at_poland": "2026-07-30T14:22:54.109130+02:00"
 }

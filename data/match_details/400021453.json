@@ -866,60 +866,12 @@
       "official_type": 1
     },
     {
-      "id": "375314",
-      "country": "ALG",
-      "name": "Mokrane Gourari",
-      "short_name": "Mokrane GOURARI",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "400115",
-      "country": "ALG",
-      "name": "Abbes Zerhouni",
-      "short_name": "Abbes Akram ZERHOUNI",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
       "id": "373845",
       "country": "ESP",
       "name": "Alejandro José Hernández Hernández",
       "short_name": "Alejandro HERNANDEZ",
       "type": "Fourth official",
       "official_type": 4
-    },
-    {
-      "id": "436278",
-      "country": "KSA",
-      "name": "Abdullah ALSHEHRI",
-      "short_name": "Abdullah ALSHEHRI",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "425311",
-      "country": "ESP",
-      "name": "José Enrique Naranjo Pérez",
-      "short_name": "Jose Enrique NARANJO",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "428512",
-      "country": "UAE",
-      "name": "Mohammed Obaid KHADIM",
-      "short_name": "Mohammed Obaid KHADIM",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "378759",
-      "country": "SUI",
-      "name": "Fedayi San",
-      "short_name": "Fedayi SAN",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -929,6 +881,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021453?language=en",
-  "updated_at_utc": "2026-07-30T10:53:09.898009+00:00",
-  "updated_at_poland": "2026-07-30T12:53:09.898013+02:00"
+  "updated_at_utc": "2026-07-30T12:22:29.745896+00:00",
+  "updated_at_poland": "2026-07-30T14:22:29.745901+02:00"
 }

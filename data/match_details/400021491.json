@@ -881,62 +881,6 @@
       "short_name": "Wilton SAMPAIO",
       "type": "Referee",
       "official_type": 1
-    },
-    {
-      "id": "391903",
-      "country": "BRA",
-      "name": "Bruno PIRES",
-      "short_name": "Bruno PIRES",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "374168",
-      "country": "BRA",
-      "name": "Bruno Boschilia",
-      "short_name": "Bruno BOSCHILIA",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
-      "id": "408438",
-      "country": "NZL",
-      "name": "Campbell-Kirk Waugh",
-      "short_name": "Campbell-Kirk KAWANA-WAUGH",
-      "type": "Fourth official",
-      "official_type": 4
-    },
-    {
-      "id": "400013",
-      "country": "BRA",
-      "name": "Rodolpho Toski Marques",
-      "short_name": "Rodolpho TOSKI",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "400287",
-      "country": "NZL",
-      "name": "Isaac Trevis",
-      "short_name": "Isaac TREVIS",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "428539",
-      "country": "CHI",
-      "name": "Juan Lara",
-      "short_name": "Juan LARA",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "428417",
-      "country": "POL",
-      "name": "Tomasz KWIATKOWSKI",
-      "short_name": "Tomasz KWIATKOWSKI",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -946,6 +890,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021491?language=en",
-  "updated_at_utc": "2026-07-30T10:53:17.617036+00:00",
-  "updated_at_poland": "2026-07-30T12:53:17.617040+02:00"
+  "updated_at_utc": "2026-07-30T12:22:43.580552+00:00",
+  "updated_at_poland": "2026-07-30T14:22:43.580557+02:00"
 }
