@@ -869,62 +869,6 @@
       "short_name": "Abdulrahman ALJASSIM",
       "type": "Referee",
       "official_type": 1
-    },
-    {
-      "id": "349025",
-      "country": "QAT",
-      "name": "Taleb AL MARRI",
-      "short_name": "Taleb ALMARRI",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "374031",
-      "country": "QAT",
-      "name": "Saoud AL MAQALEH",
-      "short_name": "Saoud ALMAQALEH",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
-      "id": "383265",
-      "country": "SUI",
-      "name": "Sandro Schärer",
-      "short_name": "Sandro SCHAERER",
-      "type": "Fourth official",
-      "official_type": 4
-    },
-    {
-      "id": "428539",
-      "country": "CHI",
-      "name": "Juan Lara",
-      "short_name": "Juan LARA",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "383264",
-      "country": "SUI",
-      "name": "Stéphane De Almeida",
-      "short_name": "Stephane DE ALMEIDA",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "315190",
-      "country": "QAT",
-      "name": "Khamis AL MARRI",
-      "short_name": "Khamis ALMARRI",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "436278",
-      "country": "KSA",
-      "name": "Abdullah ALSHEHRI",
-      "short_name": "Abdullah ALSHEHRI",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -934,6 +878,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021508?language=en",
-  "updated_at_utc": "2026-07-30T17:49:01.791215+00:00",
-  "updated_at_poland": "2026-07-30T19:49:01.791243+02:00"
+  "updated_at_utc": "2026-07-30T19:03:25.071318+00:00",
+  "updated_at_poland": "2026-07-30T21:03:25.071323+02:00"
 }
