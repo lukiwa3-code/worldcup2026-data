@@ -891,6 +891,62 @@
       "short_name": "Anthony TAYLOR",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "378788",
+      "country": "ENG",
+      "name": "Gary Beswick",
+      "short_name": "Gary BESWICK",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "400069",
+      "country": "ENG",
+      "name": "Adam Nunn",
+      "short_name": "Adam NUNN",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "400250",
+      "country": "CRC",
+      "name": "Juan Gabriel Calderón Perez",
+      "short_name": "Juan CALDERON",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "196025",
+      "country": "CRO",
+      "name": "Ivan Bebek",
+      "short_name": "Ivan BEBEK",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "383469",
+      "country": "CRC",
+      "name": "Juan Carlos Mora",
+      "short_name": "Juan Carlos MORA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "359472",
+      "country": "ENG",
+      "name": "Jarred Gillett",
+      "short_name": "Jarred GILLETT",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "360808",
+      "country": "ESP",
+      "name": "Carlos del Cerro Grande",
+      "short_name": "Carlos DEL CERRO GRANDE",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -900,6 +956,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021504?language=en",
-  "updated_at_utc": "2026-07-30T06:08:09.884529+00:00",
-  "updated_at_poland": "2026-07-30T08:08:09.884534+02:00"
+  "updated_at_utc": "2026-07-30T08:45:57.625281+00:00",
+  "updated_at_poland": "2026-07-30T10:45:57.625286+02:00"
 }

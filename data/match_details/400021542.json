@@ -910,12 +910,60 @@
       "official_type": 1
     },
     {
+      "id": "262055",
+      "country": "VEN",
+      "name": "Jorge Urrego Martínez",
+      "short_name": "Jorge URREGO",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "349171",
+      "country": "VEN",
+      "name": "Tulio Moreno",
+      "short_name": "Tulio MORENO",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "416524",
       "country": "MAR",
       "name": "Jalal Jayed",
       "short_name": "Jalal JAYED",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "394562",
+      "country": "URU",
+      "name": "Leodan GONZALEZ",
+      "short_name": "Leodan GONZALEZ",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "416532",
+      "country": "MAR",
+      "name": "Zakaria Brinsi",
+      "short_name": "Zakaria BRINSI",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "383463",
+      "country": "USA",
+      "name": "Armando Villarreal",
+      "short_name": "Armando VILLARREAL",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "360808",
+      "country": "ESP",
+      "name": "Carlos del Cerro Grande",
+      "short_name": "Carlos DEL CERRO GRANDE",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -925,6 +973,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289291/400021542?language=en",
-  "updated_at_utc": "2026-07-30T06:08:25.630875+00:00",
-  "updated_at_poland": "2026-07-30T08:08:25.630880+02:00"
+  "updated_at_utc": "2026-07-30T08:46:23.804715+00:00",
+  "updated_at_poland": "2026-07-30T10:46:23.804721+02:00"
 }

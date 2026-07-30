@@ -898,6 +898,62 @@
       "short_name": "Yael FALCON PEREZ",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "408238",
+      "country": "ARG",
+      "name": "Maximiliano Del Yesso",
+      "short_name": "Maximiliano DEL YESSO",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "424966",
+      "country": "ARG",
+      "name": "Facundo Rodríguez",
+      "short_name": "Facundo RODRIGUEZ",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "400250",
+      "country": "CRC",
+      "name": "Juan Gabriel Calderón Perez",
+      "short_name": "Juan CALDERON",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "428539",
+      "country": "CHI",
+      "name": "Juan Lara",
+      "short_name": "Juan LARA",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "383469",
+      "country": "CRC",
+      "name": "Juan Carlos Mora",
+      "short_name": "Juan Carlos MORA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "446925",
+      "country": "URU",
+      "name": "Antonio GARCIA",
+      "short_name": "Antonio GARCIA",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "434969",
+      "country": "ARG",
+      "name": "Hernán Mastrángelo",
+      "short_name": "Hernan MASTRANGELO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -907,6 +963,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021474?language=en",
-  "updated_at_utc": "2026-07-30T06:08:07.492194+00:00",
-  "updated_at_poland": "2026-07-30T08:08:07.492200+02:00"
+  "updated_at_utc": "2026-07-30T08:45:53.897803+00:00",
+  "updated_at_poland": "2026-07-30T10:45:53.897808+02:00"
 }

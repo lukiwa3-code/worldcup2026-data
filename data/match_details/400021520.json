@@ -891,12 +891,60 @@
       "official_type": 1
     },
     {
+      "id": "374790",
+      "country": "SVN",
+      "name": "Tomaz KLANCNIK",
+      "short_name": "Tomaz KLANCNIK",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "383670",
+      "country": "SVN",
+      "name": "Andraz KOVACIC",
+      "short_name": "Andraz KOVACIC",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "375306",
       "country": "ALG",
       "name": "Mustapha Ghorbal",
       "short_name": "Mustapha GHORBAL",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "373388",
+      "country": "GER",
+      "name": "Bastian Dankert",
+      "short_name": "Bastian DANKERT",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "375314",
+      "country": "ALG",
+      "name": "Mokrane Gourari",
+      "short_name": "Mokrane GOURARI",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "425061",
+      "country": "FRA",
+      "name": "Willy DELAJOD",
+      "short_name": "Willy DELAJOD",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "327641",
+      "country": "EGY",
+      "name": "Mahmoud Mohamed Ashour",
+      "short_name": "Mahmoud ASHOUR",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -906,6 +954,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021520?language=en",
-  "updated_at_utc": "2026-07-30T06:08:20.755413+00:00",
-  "updated_at_poland": "2026-07-30T08:08:20.755418+02:00"
+  "updated_at_utc": "2026-07-30T08:46:13.831223+00:00",
+  "updated_at_poland": "2026-07-30T10:46:13.831229+02:00"
 }

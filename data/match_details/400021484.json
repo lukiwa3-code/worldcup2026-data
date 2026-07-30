@@ -881,6 +881,62 @@
       "short_name": "Ismail ELFATH",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "383462",
+      "country": "USA",
+      "name": "Corey Parker",
+      "short_name": "Corey PARKER",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "408396",
+      "country": "USA",
+      "name": "Kyle Atkins",
+      "short_name": "Kyle ATKINS",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "400250",
+      "country": "CRC",
+      "name": "Juan Gabriel Calderón Perez",
+      "short_name": "Juan CALDERON",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "373123",
+      "country": "NCA",
+      "name": "Tatiana GUZMAN",
+      "short_name": "Tatiana GUZMAN",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "383469",
+      "country": "CRC",
+      "name": "Juan Carlos Mora",
+      "short_name": "Juan Carlos MORA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "383463",
+      "country": "USA",
+      "name": "Armando Villarreal",
+      "short_name": "Armando VILLARREAL",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "315190",
+      "country": "QAT",
+      "name": "Khamis AL MARRI",
+      "short_name": "Khamis ALMARRI",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -890,6 +946,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021484?language=en",
-  "updated_at_utc": "2026-07-30T06:08:17.594277+00:00",
-  "updated_at_poland": "2026-07-30T08:08:17.594283+02:00"
+  "updated_at_utc": "2026-07-30T08:46:08.898611+00:00",
+  "updated_at_poland": "2026-07-30T10:46:08.898616+02:00"
 }

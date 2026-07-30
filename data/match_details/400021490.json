@@ -846,6 +846,62 @@
       "short_name": "Alireza FAGHANI",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "391848",
+      "country": "AUS",
+      "name": "George Lakrindis",
+      "short_name": "George LAKRINDIS",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "416197",
+      "country": "AUS",
+      "name": "James Andrew LINDSAY",
+      "short_name": "Andrew LINDSAY",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "383265",
+      "country": "SUI",
+      "name": "Sandro Schärer",
+      "short_name": "Sandro SCHAERER",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "436278",
+      "country": "KSA",
+      "name": "Abdullah ALSHEHRI",
+      "short_name": "Abdullah ALSHEHRI",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "383264",
+      "country": "SUI",
+      "name": "Stéphane De Almeida",
+      "short_name": "Stephane DE ALMEIDA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "383463",
+      "country": "USA",
+      "name": "Armando Villarreal",
+      "short_name": "Armando VILLARREAL",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "373123",
+      "country": "NCA",
+      "name": "Tatiana GUZMAN",
+      "short_name": "Tatiana GUZMAN",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -855,6 +911,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021490?language=en",
-  "updated_at_utc": "2026-07-30T06:08:08.481517+00:00",
-  "updated_at_poland": "2026-07-30T08:08:08.481522+02:00"
+  "updated_at_utc": "2026-07-30T08:45:55.479376+00:00",
+  "updated_at_poland": "2026-07-30T10:45:55.479380+02:00"
 }

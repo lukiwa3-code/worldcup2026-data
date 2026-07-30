@@ -880,6 +880,62 @@
       "short_name": "MA Ning",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "383331",
+      "country": "CHN",
+      "name": "Fei Zhou",
+      "short_name": "ZHOU Fei",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "374031",
+      "country": "QAT",
+      "name": "Saoud AL MAQALEH",
+      "short_name": "Saoud ALMAQALEH",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "408438",
+      "country": "NZL",
+      "name": "Campbell-Kirk Waugh",
+      "short_name": "Campbell-Kirk KAWANA-WAUGH",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "374457",
+      "country": "CHN",
+      "name": "Ming Fu",
+      "short_name": "FU Ming",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "400287",
+      "country": "NZL",
+      "name": "Isaac Trevis",
+      "short_name": "Isaac TREVIS",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "408210",
+      "country": "ITA",
+      "name": "Marco Di Bello",
+      "short_name": "Marco DI BELLO",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "428417",
+      "country": "POL",
+      "name": "Tomasz KWIATKOWSKI",
+      "short_name": "Tomasz KWIATKOWSKI",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -889,6 +945,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021465?language=en",
-  "updated_at_utc": "2026-07-30T06:08:12.064387+00:00",
-  "updated_at_poland": "2026-07-30T08:08:12.064392+02:00"
+  "updated_at_utc": "2026-07-30T08:46:00.764329+00:00",
+  "updated_at_poland": "2026-07-30T10:46:00.764334+02:00"
 }

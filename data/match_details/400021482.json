@@ -848,6 +848,62 @@
       "short_name": "Adham MAKHADMEH",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "327165",
+      "country": "JOR",
+      "name": "Mohammad Mustafa Hassan Al Kalaf",
+      "short_name": "Mohammad ALKALAF",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "314242",
+      "country": "JOR",
+      "name": "Ahmad ALROALLE",
+      "short_name": "Ahmad ALROALLE",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "400324",
+      "country": "COL",
+      "name": "Andrés José Rojas Noguera",
+      "short_name": "Andres ROJAS",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "434155",
+      "country": "USA",
+      "name": "Joseph Dickerson",
+      "short_name": "Joe DICKERSON",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "349161",
+      "country": "COL",
+      "name": "Alexander Guzmán Bonilla",
+      "short_name": "Alexander GUZMAN",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "315190",
+      "country": "QAT",
+      "name": "Khamis AL MARRI",
+      "short_name": "Khamis ALMARRI",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "374457",
+      "country": "CHN",
+      "name": "Ming Fu",
+      "short_name": "FU Ming",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -857,6 +913,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021482?language=en",
-  "updated_at_utc": "2026-07-30T06:08:07.690299+00:00",
-  "updated_at_poland": "2026-07-30T08:08:07.690304+02:00"
+  "updated_at_utc": "2026-07-30T08:45:54.169671+00:00",
+  "updated_at_poland": "2026-07-30T10:45:54.169677+02:00"
 }

@@ -889,6 +889,62 @@
       "short_name": "Raphael CLAUS",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "400042",
+      "country": "BRA",
+      "name": "Danilo SIMON",
+      "short_name": "Danilo MANIS",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "361589",
+      "country": "BRA",
+      "name": "Rodrigo Figueiredo Henrique Correa",
+      "short_name": "Rodrigo FIGUEIREDO",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "400324",
+      "country": "COL",
+      "name": "Andrés José Rojas Noguera",
+      "short_name": "Andres ROJAS",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "408580",
+      "country": "COL",
+      "name": "Nicolás Gallo Barragán",
+      "short_name": "Nicolas GALLO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "349161",
+      "country": "COL",
+      "name": "Alexander Guzmán Bonilla",
+      "short_name": "Alexander GUZMAN",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "392188",
+      "country": "MEX",
+      "name": "Erick MIRANDA",
+      "short_name": "Erick MIRANDA",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "446883",
+      "country": "MEX",
+      "name": "Guillermo PACHECO",
+      "short_name": "Guillermo PACHECO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -898,6 +954,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021483?language=en",
-  "updated_at_utc": "2026-07-30T06:08:12.464277+00:00",
-  "updated_at_poland": "2026-07-30T08:08:12.464283+02:00"
+  "updated_at_utc": "2026-07-30T08:46:01.310053+00:00",
+  "updated_at_poland": "2026-07-30T10:46:01.310058+02:00"
 }

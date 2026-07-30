@@ -892,12 +892,60 @@
       "official_type": 1
     },
     {
+      "id": "374527",
+      "country": "EGY",
+      "name": "Mahmoud Ahmed Kamel Abo El Regal",
+      "short_name": "Mahmoud ABOUELREGAL",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "374447",
+      "country": "EGY",
+      "name": "HOSSAM ELDIN Ahmed",
+      "short_name": "Ahmed HOSSAM TAHA",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "373845",
       "country": "ESP",
       "name": "Alejandro José Hernández Hernández",
       "short_name": "Alejandro HERNANDEZ",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "315190",
+      "country": "QAT",
+      "name": "Khamis AL MARRI",
+      "short_name": "Khamis ALMARRI",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "447210",
+      "country": "ESP",
+      "name": "Diego SANCHEZ",
+      "short_name": "Diego SANCHEZ",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "327641",
+      "country": "EGY",
+      "name": "Mahmoud Mohamed Ashour",
+      "short_name": "Mahmoud ASHOUR",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "373123",
+      "country": "NCA",
+      "name": "Tatiana GUZMAN",
+      "short_name": "Tatiana GUZMAN",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -907,6 +955,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021494?language=en",
-  "updated_at_utc": "2026-07-30T06:08:13.266903+00:00",
-  "updated_at_poland": "2026-07-30T08:08:13.266923+02:00"
+  "updated_at_utc": "2026-07-30T08:46:02.430091+00:00",
+  "updated_at_poland": "2026-07-30T10:46:02.430096+02:00"
 }

@@ -852,6 +852,62 @@
       "short_name": "Jesus VALENZUELA",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "262055",
+      "country": "VEN",
+      "name": "Jorge Urrego Martínez",
+      "short_name": "Jorge URREGO",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "349171",
+      "country": "VEN",
+      "name": "Tulio Moreno",
+      "short_name": "Tulio MORENO",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "400040",
+      "country": "JPN",
+      "name": "Yusuke Araki",
+      "short_name": "Yusuke ARAKI",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "373123",
+      "country": "NCA",
+      "name": "Tatiana GUZMAN",
+      "short_name": "Tatiana GUZMAN",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "400157",
+      "country": "JPN",
+      "name": "Jun MIHARA",
+      "short_name": "Jun MIHARA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "394562",
+      "country": "URU",
+      "name": "Leodan GONZALEZ",
+      "short_name": "Leodan GONZALEZ",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "400266",
+      "country": "AUS",
+      "name": "Shaun EVANS",
+      "short_name": "Shaun EVANS",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -861,6 +917,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021448?language=en",
-  "updated_at_utc": "2026-07-30T06:08:14.841487+00:00",
-  "updated_at_poland": "2026-07-30T08:08:14.841493+02:00"
+  "updated_at_utc": "2026-07-30T08:46:04.699073+00:00",
+  "updated_at_poland": "2026-07-30T10:46:04.699077+02:00"
 }
