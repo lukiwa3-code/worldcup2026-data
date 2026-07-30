@@ -885,6 +885,62 @@
       "short_name": "Maurizio MARIANI",
       "type": "Referee",
       "official_type": 1
+    },
+    {
+      "id": "428275",
+      "country": "ITA",
+      "name": "Daniele Bindoni",
+      "short_name": "Daniele BINDONI",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "415969",
+      "country": "ITA",
+      "name": "Alberto Tegoni",
+      "short_name": "Alberto TEGONI",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
+      "id": "383265",
+      "country": "SUI",
+      "name": "Sandro Schärer",
+      "short_name": "Sandro SCHAERER",
+      "type": "Fourth official",
+      "official_type": 4
+    },
+    {
+      "id": "408210",
+      "country": "ITA",
+      "name": "Marco Di Bello",
+      "short_name": "Marco DI BELLO",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "383264",
+      "country": "SUI",
+      "name": "Stéphane De Almeida",
+      "short_name": "Stephane DE ALMEIDA",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "196025",
+      "country": "CRO",
+      "name": "Ivan Bebek",
+      "short_name": "Ivan BEBEK",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "434155",
+      "country": "USA",
+      "name": "Joseph Dickerson",
+      "short_name": "Joe DICKERSON",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -894,6 +950,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289287/400021516?language=en",
-  "updated_at_utc": "2026-07-30T16:12:54.274388+00:00",
-  "updated_at_poland": "2026-07-30T18:12:54.274394+02:00"
+  "updated_at_utc": "2026-07-30T17:49:04.205457+00:00",
+  "updated_at_poland": "2026-07-30T19:49:04.205462+02:00"
 }
