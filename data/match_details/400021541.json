@@ -884,60 +884,12 @@
       "official_type": 1
     },
     {
-      "id": "360681",
-      "country": "SLV",
-      "name": "David Jonathan Morán Santos",
-      "short_name": "David MORAN",
-      "type": "Assistant Referee 1",
-      "official_type": 2
-    },
-    {
-      "id": "373119",
-      "country": "NCA",
-      "name": "Henri Antonio Pupiro Esquivel",
-      "short_name": "Antonio PUPIRO",
-      "type": "Assistant Referee 2",
-      "official_type": 3
-    },
-    {
       "id": "392336",
       "country": "SWE",
       "name": "Glenn Nyberg",
       "short_name": "Glenn NYBERG",
       "type": "Fourth official",
       "official_type": 4
-    },
-    {
-      "id": "428417",
-      "country": "POL",
-      "name": "Tomasz KWIATKOWSKI",
-      "short_name": "Tomasz KWIATKOWSKI",
-      "type": "Video Assistant Referee (VAR)",
-      "official_type": 5
-    },
-    {
-      "id": "415979",
-      "country": "SWE",
-      "name": "Mahbod Beigi",
-      "short_name": "Mahbod BEIGI",
-      "type": "Reserve referee",
-      "official_type": 6
-    },
-    {
-      "id": "400325",
-      "country": "NED",
-      "name": "Dennis Johan Higler",
-      "short_name": "Dennis HIGLER",
-      "type": "Assistant VAR",
-      "official_type": 8
-    },
-    {
-      "id": "446883",
-      "country": "MEX",
-      "name": "Guillermo PACHECO",
-      "short_name": "Guillermo PACHECO",
-      "type": "Support VAR",
-      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -947,6 +899,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289290/400021541?language=en",
-  "updated_at_utc": "2026-07-30T14:38:08.171180+00:00",
-  "updated_at_poland": "2026-07-30T16:38:08.171186+02:00"
+  "updated_at_utc": "2026-07-30T16:13:01.880638+00:00",
+  "updated_at_poland": "2026-07-30T18:13:01.880642+02:00"
 }

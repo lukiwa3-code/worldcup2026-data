@@ -859,12 +859,60 @@
       "official_type": 1
     },
     {
+      "id": "348253",
+      "country": "UZB",
+      "name": "Andrey Tsapenko",
+      "short_name": "Andrey TSAPENKO",
+      "type": "Assistant Referee 1",
+      "official_type": 2
+    },
+    {
+      "id": "374281",
+      "country": "UZB",
+      "name": "Timur Gaynulin",
+      "short_name": "Timur GAYNULLIN",
+      "type": "Assistant Referee 2",
+      "official_type": 3
+    },
+    {
       "id": "361034",
       "country": "JOR",
       "name": "Adham Mohammad Tumah Makhadmeh",
       "short_name": "Adham MAKHADMEH",
       "type": "Fourth official",
       "official_type": 4
+    },
+    {
+      "id": "383463",
+      "country": "USA",
+      "name": "Armando Villarreal",
+      "short_name": "Armando VILLARREAL",
+      "type": "Video Assistant Referee (VAR)",
+      "official_type": 5
+    },
+    {
+      "id": "327165",
+      "country": "JOR",
+      "name": "Mohammad Mustafa Hassan Al Kalaf",
+      "short_name": "Mohammad ALKALAF",
+      "type": "Reserve referee",
+      "official_type": 6
+    },
+    {
+      "id": "392188",
+      "country": "MEX",
+      "name": "Erick MIRANDA",
+      "short_name": "Erick MIRANDA",
+      "type": "Assistant VAR",
+      "official_type": 8
+    },
+    {
+      "id": "434969",
+      "country": "ARG",
+      "name": "Hernán Mastrángelo",
+      "short_name": "Hernan MASTRANGELO",
+      "type": "Support VAR",
+      "official_type": 9
     }
   ],
   "match_status_code": 0,
@@ -874,6 +922,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021454?language=en",
-  "updated_at_utc": "2026-07-30T14:37:52.431130+00:00",
-  "updated_at_poland": "2026-07-30T16:37:52.431134+02:00"
+  "updated_at_utc": "2026-07-30T16:12:43.215893+00:00",
+  "updated_at_poland": "2026-07-30T18:12:43.215898+02:00"
 }
