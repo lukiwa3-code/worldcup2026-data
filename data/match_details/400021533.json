@@ -911,6 +911,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289288/400021533?language=en",
-  "updated_at_utc": "2026-08-04T21:56:18.504971+00:00",
-  "updated_at_poland": "2026-08-04T23:56:18.504976+02:00"
+  "updated_at_utc": "2026-08-04T23:00:02.010670+00:00",
+  "updated_at_poland": "2026-08-05T01:00:02.010675+02:00"
 }
