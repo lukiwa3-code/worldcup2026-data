@@ -885,7 +885,7 @@
       "id": "408210",
       "country": "ITA",
       "name": "Marco Di Bello",
-      "short_name": "Marco DI BELLO",
+      "short_name": "M. Di Bello",
       "type": "Video Assistant Referee (VAR)",
       "official_type": 5
     },
@@ -921,6 +921,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021501?language=en",
-  "updated_at_utc": "2026-08-14T10:18:57.166170+00:00",
-  "updated_at_poland": "2026-08-14T12:18:57.166175+02:00"
+  "updated_at_utc": "2026-08-14T11:11:33.215776+00:00",
+  "updated_at_poland": "2026-08-14T13:11:33.215781+02:00"
 }
