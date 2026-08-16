@@ -925,7 +925,7 @@
       "id": "408210",
       "country": "ITA",
       "name": "Marco Di Bello",
-      "short_name": "M. Di Bello",
+      "short_name": "Marco DI BELLO",
       "type": "Assistant VAR",
       "official_type": 8
     },
@@ -945,6 +945,6 @@
   "raw_available": true,
   "details_error": null,
   "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021465?language=en",
-  "updated_at_utc": "2026-08-16T10:09:25.522582+00:00",
-  "updated_at_poland": "2026-08-16T12:09:25.522587+02:00"
+  "updated_at_utc": "2026-08-16T10:37:22.486307+00:00",
+  "updated_at_poland": "2026-08-16T12:37:22.486311+02:00"
 }
