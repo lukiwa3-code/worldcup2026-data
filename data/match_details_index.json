@@ -372,8 +372,8 @@
     "match_number": 46,
     "file": "match_details/400021511.json",
     "source_url": "https://api.fifa.com/api/v3/live/football/17/285023/289273/400021511?language=en",
-    "raw_available": true,
-    "details_error": null
+    "raw_available": false,
+    "details_error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   {
     "id_match": "400021501",
